@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo de Farmacologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tela Inicial -->
+        <div id="start-screen" class="screen active">
+            <h1>🎓 Quiz Interativo de Farmacologia</h1>
+            <p class="subtitle">Sistema Respiratório e Gastrointestinal</p>
+            
+            <div class="mode-selection">
+                <div class="mode-card" onclick="startQuiz('quick')">
+                    <div class="mode-icon">⚡</div>
+                    <h2>Perguntas Rápidas</h2>
+                    <p>Teste seus conhecimentos com perguntas aleatórias de todas as categorias</p>
+                    <button class="btn btn-primary">Começar</button>
+                </div>
+                
+                <div class="mode-card" onclick="startQuiz('clinical')">
+                    <div class="mode-icon">🏥</div>
+                    <h2>Casos Clínicos</h2>
+                    <p>Mergulhe em simulações de casos clínicos reais e tome decisões práticas</p>
+                    <button class="btn btn-primary">Começar</button>
+                </div>
+            </div>
+            
+            <div class="stats-info">
+                <p>📊 <span id="total-questions">0</span> perguntas disponíveis</p>
+            </div>
+        </div>
+        
+        <!-- Tela do Quiz -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <div class="quiz-info">
+                    <span id="question-counter">Pergunta 1 de 10</span>
+                    <span id="score-display">Pontuação: 0</span>
+                </div>
+            </div>
+            
+            <div class="question-container">
+                <div class="category-badge" id="category-badge">Categoria</div>
+                <h2 id="question-text">Carregando pergunta...</h2>
+                
+                <div id="options-container" class="options-container">
+                    <!-- Opções serão inseridas aqui dinamicamente -->
+                </div>
+                
+                <div class="hint-container" id="hint-container" style="display: none;">
+                    <div class="hint-icon">💡</div>
+                    <p id="hint-text"></p>
+                </div>
+                
+                <div class="feedback-container" id="feedback-container" style="display: none;">
+                    <div class="feedback-icon" id="feedback-icon"></div>
+                    <h3 id="feedback-title"></h3>
+                    <p id="feedback-text"></p>
+                </div>
+                
+                <div class="button-group">
+                    <button id="hint-btn" class="btn btn-secondary" onclick="showHint()">
+                        💡 Ver Dica
+                    </button>
+                    <button id="next-btn" class="btn btn-primary" onclick="nextQuestion()" style="display: none;">
+                        Próxima Pergunta →
+                    </button>
+                    <button id="finish-btn" class="btn btn-success" onclick="finishQuiz()" style="display: none;">
+                        🎯 Ver Resultado Final
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tela de Resultado -->
+        <div id="result-screen" class="screen">
+            <div class="result-container">
+                <h1>🎉 Quiz Concluído!</h1>
+                
+                <div class="result-score">
+                    <div class="score-circle">
+                        <span id="final-score">0</span>
+                        <span class="score-label">pontos</span>
+                    </div>
+                </div>
+                
+                <div class="result-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="correct-answers">0</span>
+                        <span class="stat-label">Corretas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="incorrect-answers">0</span>
+                        <span class="stat-label">Incorretas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="accuracy">0%</span>
+                        <span class="stat-label">Precisão</span>
+                    </div>
+                </div>
+                
+                <div class="performance-message" id="performance-message"></div>
+                
+                <div class="button-group">
+                    <button class="btn btn-primary" onclick="restartQuiz()">
+                        🔄 Fazer Outro Quiz
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

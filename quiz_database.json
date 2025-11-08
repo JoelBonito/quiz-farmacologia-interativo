@@ -1,0 +1,1349 @@
+{
+  "quiz_title": "Quiz Interativo de Farmacologia Respiratória e Gastrointestinal",
+  "description": "Simulador completo com 138 perguntas sobre farmacologia do sistema respiratório e gastrointestinal",
+  "total_questions": 101,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "Que tipo de célula é responsável por iniciar a cascata inflamatória na asma ao captar um alérgeno e apresentá-lo aos linfócitos TH2?",
+      "options": [
+        "Eosinófilo",
+        "Mastócito",
+        "Célula dendrítica",
+        "Macrófago"
+      ],
+      "correct": 2,
+      "justification": "A cascata inflamatória se inicia na interface da via aérea. São as células dendríticas, como células apresentadoras de antígenos profissionais, que capturam o alérgeno e o apresentam aos linfócitos TH2, atuando como o interruptor principal da resposta imune adaptativa na asma alérgica.",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Fisiopatologia"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Na resposta inflamatória da asma, qual é o papel específico da Interleucina 5 (IL-5)?",
+      "options": [
+        "Estimular a produção de Imunoglobulina E (IgE).",
+        "Recrutar e ativar os eosinófilos.",
+        "Promover a hipersecreção de muco.",
+        "Ativar diretamente os mastócitos."
+      ],
+      "correct": 1,
+      "justification": "A interleucina 5 (IL-5) é uma citocina chave liberada pelos linfócitos TH2, cuja função principal nesta cascata é o recrutamento e a ativação dos eosinófilos, células efetoras centrais na inflamação asmática.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Fisiopatologia"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "A cascata inflamatória da asma culmina em três processos patológicos principais. Quais são?",
+      "options": [
+        "Fibrose, enfisema e bronquiolite.",
+        "Vasoconstrição, secura de mucosas e tosse crônica.",
+        "Broncoespasmo, hipersecreção de muco e inflamação da parede brônquica.",
+        "Infiltração de neutrófilos, edema pulmonar e disfunção ciliar."
+      ],
+      "correct": 2,
+      "justification": "A resposta inflamatória conduz a três consequências fisiopatológicas diretas que definem clinicamente a asma: o broncoespasmo (contração do músculo liso), a hipersecreção de muco que obstrui a via aérea, e a inflamação da parede brônquica com edema e infiltração celular.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Fisiopatologia"
+    },
+    {
+      "id": 4,
+      "type": "true_false",
+      "question": "Verdadeiro ou Falso: A infiltração celular que predomina na DPOC é dominada por eosinófilos, assim como na asma.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 1,
+      "justification": "Existe uma diferença citológica fundamental entre ambas as patologias. Enquanto a asma se caracteriza por uma inflamação predominantemente eosinofílica, a DPOC apresenta uma infiltração celular dominada por macrófagos e neutrófilos, o que reflete um processo inflamatório distinto associado a um dano estrutural irreversível.",
+      "hint": "A DPOC tem um perfil inflamatório diferente da asma, com células mais associadas à resposta inata.",
+      "category": "Fisiopatologia"
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "question": "A estratégia farmacológica para o tratamento da asma se baseia em um enfoque dual. Quais são os dois componentes centrais que busca tratar?",
+      "options": [
+        "A tosse crônica e a produção de escarro.",
+        "A broncoconstrição e a inflamação crônica.",
+        "A hiperreatividade brônquica e a dispneia de esforço.",
+        "A fibrose pulmonar e o dano alveolar."
+      ],
+      "correct": 1,
+      "justification": "A estratégia terapêutica racional na asma deve refletir sua fisiopatologia. Por isso, aborda-se tanto a broncoconstrição, responsável pelos sintomas agudos, como a inflamação crônica, que é a causa subjacente da doença e da hiperreatividade brônquica. ## SEÇÃO 2: AGONISTAS BETA-2 ADRENÉRGICOS",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Fisiopatologia"
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "Um paciente apresenta uma crise aguda de asma com sibilâncias e dificuldade respiratória severa. Qual é o tratamento de escolha para esta situação?",
+      "options": [
+        "Um agonista Beta-2 de ação longa (LABA) por via oral.",
+        "Um corticoide inalado em doses altas.",
+        "Um agonista Beta-2 de ação curta (SABA) por via inalatória.",
+        "Um anticolinérgico de ação longa (LAMA)."
+      ],
+      "correct": 2,
+      "justification": "Em uma crise asmática, o objetivo primordial é reverter o broncoespasmo agudo da forma mais rápida possível. Os SABA, como o salbutamol, estão desenhados para este fim, com um início de ação de minutos que os converte no tratamento de escolha indiscutível para situações de resgate.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "question": "Qual dos seguintes grupos de fármacos está classificado como agonistas Beta-2 de ação ultra-longa (>24h)?",
+      "options": [
+        "Salbutamol, Fenoterol, Terbutalina.",
+        "Salmeterol, Formoterol.",
+        "Indacaterol, Vilanterol, Olodaterol.",
+        "Brometo de Ipratrópio, Brometo de Tiotrópio."
+      ],
+      "correct": 2,
+      "justification": "A farmacologia moderna desenvolveu agonistas Beta-2 com uma duração de efeito superior a 24 horas, permitindo uma dosificação única diária. A este grupo pertencem o Indacaterol, o Vilanterol e o Olodaterol, especialmente úteis no manejo da DPOC.",
+      "hint": "Estes medicamentos permitem dosagem uma vez ao dia, com duração superior a 24 horas.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 8,
+      "type": "true_false",
+      "question": "Verdadeiro ou Falso: No tratamento da asma, os LABA podem ser utilizados como monoterapia para o controle a longo prazo.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 1,
+      "justification": "Na asma, os LABA nunca devem ser utilizados sozinhos. Seu uso como monoterapia alivia os sintomas de broncoconstrição, mas mascara a inflamação crônica subjacente, o que pode levar a uma deterioração silenciosa da doença e aumentar o risco de exacerbações graves. Por isso, devem sempre ser combinados com um corticoide inalado.",
+      "hint": "Na asma, tratar apenas o sintoma sem tratar a causa pode ser perigoso.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "question": "Qual é o principal mecanismo de ação molecular dos agonistas Beta-2 adrenérgicos para produzir broncodilatação?",
+      "options": [
+        "Bloqueio dos receptores muscarínicos M3.",
+        "Inibição da enzima fosfodiesterase 4 (PDE4).",
+        "Ativação da adenilil-ciclase e aumento dos níveis de AMP cíclico (AMPc).",
+        "Antagonismo dos receptores de leucotrienos CysLT1."
+      ],
+      "correct": 2,
+      "justification": "O mecanismo molecular fundamental implica a estimulação dos receptores Beta-2 no músculo liso brônquico. Isto ativa a proteína Gs, que por sua vez ativa a enzima adenilil-ciclase, catalisando a conversão de ATP em AMPc. O aumento de AMPc ativa a Proteína Quinase A (PKA), que finalmente fosforila diversas proteínas para induzir o relaxamento muscular.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "A ativação dos receptores beta-adrenérgicos produz quatro efeitos chave. Qual das seguintes opções NÃO é um deles?",
+      "options": [
+        "Broncodilatação.",
+        "Aumento da secreção de muco.",
+        "Inibição da liberação de mediadores inflamatórios.",
+        "Aumento da depuração mucociliar."
+      ],
+      "correct": 1,
+      "justification": "A ativação de receptores B2 não aumenta a secreção de muco; pelo contrário, um de seus quatro efeitos chave é o aumento da depuração mucociliar, o que melhora a eliminação do muco existente. Os outros efeitos corretos são a broncodilatação, a inibição de mediadores e a prevenção do edema.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "question": "Qual dos seguintes é um efeito adverso característico dos agonistas Beta-2, especialmente quando administrados por via sistêmica?",
+      "options": [
+        "Hiperpotassemia.",
+        "Bradicardia.",
+        "Sonolência.",
+        "Tremor muscular."
+      ],
+      "correct": 3,
+      "justification": "O tremor muscular é um efeito adverso comum, resultado da estimulação direta dos receptores B2 no músculo esquelético. A taquicardia e a hipopotassemia também são efeitos adversos característicos desta classe farmacológica.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 12,
+      "type": "multiple_choice",
+      "question": "Que combinação farmacológica é mencionada como uma opção profilática para a asma induzida pelo exercício?",
+      "options": [
+        "SABA + Anticolinérgico.",
+        "LABA + Cromoglicato sódico.",
+        "LAMA + Corticoide inalado.",
+        "Teofilina + Antileucotrieno."
+      ],
+      "correct": 1,
+      "justification": "Para a profilaxia da asma induzida pelo exercício ou pela exposição a um alérgeno conhecido, descreve-se a associação de um LABA com Cromoglicato sódico como uma estratégia preventiva eficaz.",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "question": "Qual é a diferença fundamental no uso de LABA no tratamento da asma em comparação com a DPOC?",
+      "options": [
+        "Na DPOC, os LABA sempre devem ser combinados com corticoides, enquanto na asma podem ser usados sozinhos.",
+        "Na asma, os LABA sempre devem ser combinados com corticoides, enquanto na DPOC podem ser usados sozinhos.",
+        "Os LABA são ineficazes na DPOC.",
+        "Os LABA só são usados para crises agudas na DPOC."
+      ],
+      "correct": 1,
+      "justification": "Esta diferença deriva diretamente da fisiopatologia. Na asma, a inflamação é central, por isso um LABA deve ser acompanhado de um anti-inflamatório (corticoide). Na DPOC, embora a inflamação exista, a broncodilatação sustentada é um objetivo primário por si só, por isso os LABA podem ser usados como monoterapia ou em combinação com outros broncodilatadores.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 14,
+      "type": "multiple_choice",
+      "question": "Por que se prefere a via inalatória para a administração de SABA em uma crise asmática?",
+      "options": [
+        "Porque tem um início de ação mais lento mas mais sustentado.",
+        "Para maximizar os efeitos cardiovasculares.",
+        "Para reduzir os efeitos adversos sistêmicos.",
+        "Porque é a única via de administração possível."
+      ],
+      "correct": 2,
+      "justification": "A via inalatória é preferencial porque maximiza a concentração do fármaco no órgão alvo—o pulmão—enquanto minimiza a exposição sistêmica. Isto permite alcançar uma broncodilatação eficaz com uma dose significativamente menor que a requerida por via oral ou parenteral, reduzindo drasticamente o risco de efeitos adversos sistêmicos como o tremor muscular e a taquicardia.",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 15,
+      "type": "multiple_choice",
+      "question": "Comparando um SABA como o Salbutamol com um LABA como o Salmeterol, qual é a diferença principal em sua duração de efeito?",
+      "options": [
+        "O Salbutamol dura mais de 24 horas e o Salmeterol dura 1-2 horas.",
+        "Ambos têm uma duração de efeito de aproximadamente 8 horas.",
+        "O Salbutamol dura de 3 a 6 horas, enquanto o Salmeterol dura 12 horas ou mais.",
+        "O Salmeterol tem um início de ação mais rápido mas uma duração mais curta."
+      ],
+      "correct": 2,
+      "justification": "A classificação SABA vs. LABA se define precisamente pela duração de sua ação broncodilatadora. Os SABA, como o Salbutamol, oferecem um alívio rápido mas de curta duração (3-6 horas), enquanto os LABA, como o Salmeterol, proporcionam um controle sustentado durante 12 horas ou mais. ## SEÇÃO 3: ANTICOLINÉRGICOS",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Agonistas Beta-2"
+    },
+    {
+      "id": 16,
+      "type": "multiple_choice",
+      "question": "Qual é o mecanismo de ação principal dos fármacos anticolinérgicos para produzir broncodilatação?",
+      "options": [
+        "Aumentam os níveis de AMPc no músculo liso.",
+        "Antagonizam os efeitos da acetilcolina nos receptores muscarínicos M3.",
+        "Inibem a liberação de histamina dos mastócitos.",
+        "Bloqueiam os receptores de adenosina nas vias respiratórias."
+      ],
+      "correct": 1,
+      "justification": "Estes fármacos são antagonistas competitivos dos receptores muscarínicos M3. Ao bloquear estes receptores no músculo liso brônquico, impedem a broncoconstrição mediada pela acetilcolina liberada das terminações do nervo vago.",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 17,
+      "type": "multiple_choice",
+      "question": "A que classe de fármaco anticolinérgico pertence o Brometo de Tiotrópio?",
+      "options": [
+        "SAMA (Anticolinérgico de Ação Curta).",
+        "LAMA (Anticolinérgico de Ação Longa).",
+        "SABA (Agonista Beta-2 de Ação Curta).",
+        "LABA (Agonista Beta-2 de Ação Longa)."
+      ],
+      "correct": 1,
+      "justification": "O Brometo de Tiotrópio é o protótipo dos Anticolinérgicos Muscarínicos de Ação Longa (LAMA), caracterizado por uma duração de efeito prolongada que permite uma dosificação única diária.",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 18,
+      "type": "multiple_choice",
+      "question": "Por que os anticolinérgicos podem ser mais eficazes que os agonistas Beta-2 no tratamento da DPOC?",
+      "options": [
+        "Porque a inflamação na DPOC é mediada principalmente por acetilcolina.",
+        "Porque o tônus vagal (colinérgico) é um componente reversível significativo da obstrução na DPOC.",
+        "Porque os agonistas Beta-2 estão contraindicados em pacientes com DPOC.",
+        "Porque os anticolinérgicos têm um efeito anti-inflamatório mais potente."
+      ],
+      "correct": 1,
+      "justification": "A DPOC se caracteriza por um aumento do tônus colinérgico basal (vagal), que contribui de forma significativa e reversível para a obstrução da via aérea. Os anticolinérgicos atuam bloqueando diretamente esta via mediada por acetilcolina nos receptores M3. Por isso, em muitos pacientes com DPOC, seu efeito pode ser igual ou superior ao dos agonistas B2, que atuam sobre uma via simpaticomiética que pode não ser o principal fator reversível da broncoconstrição nesta patologia.",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 19,
+      "type": "multiple_choice",
+      "question": "Qual é o principal benefício das combinações fixas LABA/LAMA no tratamento da DPOC?",
+      "options": [
+        "Reduzem o custo do tratamento.",
+        "Minimizam os efeitos adversos de ambos os fármacos.",
+        "Produzem efeitos broncodilatadores aditivos ao atuar sobre duas vias distintas.",
+        "Tratam a inflamação subjacente da doença."
+      ],
+      "correct": 2,
+      "justification": "A combinação de um LABA e um LAMA ataca a broncoconstrição de duas frentes farmacológicas complementares: a via simpaticomiética (B2) e a parassimpaticolítica (M3). Este duplo mecanismo de ação resulta em uma broncodilatação aditiva e frequentemente superior à obtida com cada fármaco separadamente.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 20,
+      "type": "multiple_choice",
+      "question": "Em que condição devem ser usados com precaução os fármacos anticolinérgicos?",
+      "options": [
+        "Diabetes mellitus.",
+        "Asma induzida por exercício.",
+        "Hipertrofia prostática.",
+        "Insuficiência renal."
+      ],
+      "correct": 2,
+      "justification": "Dado seu mecanismo antimuscarínico, estes fármacos podem piorar os sintomas da hipertrofia prostática (retenção urinária) e do glaucoma de ângulo estreito, por isso seu uso em pacientes com estas condições requer uma cuidadosa avaliação do risco-benefício. ## SEÇÃO 4: METILXANTINAS (TEOFILINA)",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 21,
+      "type": "multiple_choice",
+      "question": "A teofilina (uma xantina) exerce seu efeito broncodilatador através de vários mecanismos. Qual das seguintes opções inclui três de seus mecanismos de ação propostos?",
+      "options": [
+        "Ativação de receptores B2, inibição de PDE e antagonismo de histamina.",
+        "Inibição da Fosfodiesterase (PDE), antagonismo de receptores de adenosina e liberação de Interleucina-10 (IL-10).",
+        "Antagonismo de receptores M3, inibição da 5-lipoxigenase e estabilização de mastócitos.",
+        "Ativação da adenilil-ciclase, antagonismo de leucotrienos e liberação de IL-4."
+      ],
+      "correct": 1,
+      "justification": "A teofilina possui um mecanismo de ação pleiotrópico. Entre os mais relevantes encontram-se a inibição não seletiva da fosfodiesterase (aumentando o AMPc), o antagonismo dos receptores de adenosina (que medeia broncoconstrição) e a promoção da liberação de IL-10, uma citocina com efeitos anti-inflamatórios.",
+      "hint": "Este medicamento pertence à família das metilxantinas e tem uma janela terapêutica estreita.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 22,
+      "type": "true_false",
+      "question": "Verdadeiro ou Falso: A teofilina é considerada um fármaco de primeira linha para o tratamento da asma devido à sua ampla margem terapêutica.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 1,
+      "justification": "Tudo ao contrário. A teofilina se caracteriza por uma estreita margem terapêutica, o que significa que a diferença entre a dose terapêutica e a dose tóxica é pequena. Isto, junto ao seu perfil de efeitos adversos, a relega a uma terapia de segunda ou terceira linha.",
+      "hint": "Este medicamento pertence à família das metilxantinas e tem uma janela terapêutica estreita.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 23,
+      "type": "multiple_choice",
+      "question": "Em doses altas, que efeito farmacológico significativo produz a teofilina sobre o Sistema Nervoso Central (SNC)?",
+      "options": [
+        "Sedação e sonolência.",
+        "Analgesia potente.",
+        "Nervosismo, tremor e convulsões.",
+        "Melhora da memória a curto prazo."
+      ],
+      "correct": 2,
+      "justification": "As xantinas são estimulantes do SNC. Em doses terapêuticas podem causar insônia e nervosismo, mas em doses altas ou tóxicas, esta estimulação pode progredir para tremor, agitação e até convulsões, o que representa um dos seus efeitos adversos mais graves.",
+      "hint": "Este medicamento pertence à família das metilxantinas e tem uma janela terapêutica estreita.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 24,
+      "type": "multiple_choice",
+      "question": "Qual é um efeito adverso gastrointestinal comum associado ao início do tratamento com teofilina?",
+      "options": [
+        "Constipação.",
+        "Aumento do apetite.",
+        "Náuseas e vômito.",
+        "Boca seca."
+      ],
+      "correct": 2,
+      "justification": "A irritação gastrointestinal, manifestada como náuseas e vômitos, é um efeito adverso frequente, especialmente no início do tratamento. Este efeito se relaciona com a inibição da PDE4.",
+      "hint": "Este medicamento pertence à família das metilxantinas e tem uma janela terapêutica estreita.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 25,
+      "type": "multiple_choice",
+      "question": "Qual é o propósito dos preparados “retard” (de liberação lenta) de teofilina?",
+      "options": [
+        "Acelerar o início da ação broncodilatadora.",
+        "Reduzir a velocidade de absorção para prolongar a duração do efeito.",
+        "Diminuir seu sabor amargo.",
+        "Permitir a administração por via intravenosa."
+      ],
+      "correct": 1,
+      "justification": "As formulações de liberação lenta ou “retard” estão desenhadas para reduzir a velocidade de absorção do fármaco no trato gastrointestinal. Isto permite manter concentrações plasmáticas estáveis durante um período mais longo, prolongando o efeito farmacológico e permitindo uma menor frequência de dosificação. ## SEÇÃO 5: ANTI-INFLAMATÓRIOS (CORTICOIDES, CROMONAS, ANTILEUCOTRIENOS)",
+      "hint": "Este medicamento pertence à família das metilxantinas e tem uma janela terapêutica estreita.",
+      "category": "Anticolinérgicos"
+    },
+    {
+      "id": 26,
+      "type": "multiple_choice",
+      "question": "Que classe de fármacos constitui a terapia anti-inflamatória de primeira linha para o tratamento de controle da asma persistente?",
+      "options": [
+        "Antileucotrienos.",
+        "Glicocorticoides Inalados (ICS).",
+        "Inibidores da PDE4.",
+        "Cromonas (Cromoglicato dissódico)."
+      ],
+      "correct": 1,
+      "justification": "Os glicocorticoides inalados são os fármacos anti-inflamatórios mais potentes e eficazes para a asma. Constituem a terapia de primeira linha e a pedra angular do tratamento de controle para todos os níveis de asma persistente, devido à sua capacidade para suprimir a produção de múltiplos mediadores pró-inflamatórios.",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 27,
+      "type": "multiple_choice",
+      "question": "Qual é o efeito sinérgico chave que têm os glicocorticoides quando combinados com os LABA?",
+      "options": [
+        "Aumentam a absorção sistêmica dos LABA.",
+        "Diminuem os efeitos adversos cardiovasculares dos LABA.",
+        "Aumentam a expressão de receptores Beta-2, potencializando o efeito broncodilatador dos LABA.",
+        "Reduzem a necessidade de usar um dispositivo inalador."
+      ],
+      "correct": 2,
+      "justification": "Existe uma sinergia molecular fundamental entre estas duas classes. Os glicocorticoides, a nível genômico, aumentam a transcrição do gene do receptor Beta-2, o que resulta em uma maior densidade de receptores na superfície celular. Isto não só potencializa o efeito broncodilatador do LABA, como também previne a dessensibilização (“down-regulation”) dos receptores com o uso crônico.",
+      "hint": "Estes medicamentos atuam diretamente no núcleo celular, modulando a transcrição gênica.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 28,
+      "type": "multiple_choice",
+      "question": "O mecanismo de ação das cromonas (Cromoglicato dissódico, Nedocromil) é principalmente:",
+      "options": [
+        "Broncodilatador.",
+        "Antagonista de receptores.",
+        "Enzimático.",
+        "Preventivo (estabilização de mastócitos)."
+      ],
+      "correct": 3,
+      "justification": "A ação das cromonas é eminentemente preventiva. Atuam como estabilizadores da membrana dos mastócitos, impedindo sua degranulação e a consequente liberação de mediadores pró-inflamatórios como a histamina e os leucotrienos.",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 29,
+      "type": "true_false",
+      "question": "Verdadeiro ou Falso: O Cromoglicato dissódico é um potente broncodilatador útil para tratar uma crise aguda de asma.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 1,
+      "justification": "As cromonas carecem de efeito broncodilatador. Seu mecanismo é puramente profilático, por isso não têm nenhuma utilidade no tratamento de um broncoespasmo agudo já estabelecido.",
+      "hint": "Pense se a afirmação é sempre verdadeira ou se há exceções importantes.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 30,
+      "type": "multiple_choice",
+      "question": "Qual dos seguintes fármacos é um inibidor seletivo da PDE4 indicado para pacientes com DPOC grave?",
+      "options": [
+        "Montelucaste.",
+        "Salmeterol.",
+        "Roflumilaste.",
+        "Omalizumabe."
+      ],
+      "correct": 2,
+      "justification": "Roflumilaste é o inibidor seletivo da fosfodiesterase 4 (PDE4) aprovado para o tratamento de pacientes com DPOC grave associada a bronquite crônica e um histórico de exacerbações frequentes.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 31,
+      "type": "multiple_choice",
+      "question": "Como atuam os inibidores da PDE4 para exercer seu efeito anti-inflamatório?",
+      "options": [
+        "Bloqueiam a síntese de prostaglandinas.",
+        "Aumentam os níveis intracelulares de cAMP nas células inflamatórias.",
+        "Antagonizam diretamente os receptores de histamina H1.",
+        "Impedem a união da IgE aos mastócitos."
+      ],
+      "correct": 1,
+      "justification": "A enzima PDE4 é a isoforma predominante nas células inflamatórias. Ao inibi-la, reduz-se a degradação de AMPc, o que aumenta seus níveis intracelulares. O AMPc elevado suprime a atividade destas células, resultando em um efeito anti-inflamatório.",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 32,
+      "type": "multiple_choice",
+      "question": "Qual é o mecanismo de ação do Montelucaste?",
+      "options": [
+        "Inibe a enzima 5-lipoxigenase.",
+        "É um antagonista do receptor CysLT1 dos leucotrienos.",
+        "Estabiliza a membrana dos eosinófilos.",
+        "Bloqueia a produção de interleucinas."
+      ],
+      "correct": 1,
+      "justification": "O Montelucaste pertence à classe de antagonistas dos receptores de cisteinil-leucotrienos. Atua bloqueando de forma competitiva o receptor CysLT1, impedindo assim que os leucotrienos C4, D4 e E4 exerçam seus potentes efeitos pró-inflamatórios e broncoconstritores.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 33,
+      "type": "multiple_choice",
+      "question": "Qual é o papel clínico principal dos antileucotrienos no tratamento da asma?",
+      "options": [
+        "Terapia de primeira linha para a asma persistente.",
+        "Tratamento de resgate em crises agudas.",
+        "Terapia complementar em pacientes não controlados com corticoides inalados.",
+        "Único tratamento necessário para a asma induzida por exercício."
+      ],
+      "correct": 2,
+      "justification": "Os antileucotrienos não são considerados terapia de primeira linha. Seu papel é o de ser uma terapia adjuvante (“add-on”) em pacientes cuja asma não está adequadamente controlada com doses baixas ou médias de corticoides inalados, ou como uma alternativa em certos fenótipos de asma.",
+      "hint": "Estes mediadores lipídicos são produzidos pela via da 5-lipoxigenase.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 34,
+      "type": "true_false",
+      "question": "Verdadeiro ou Falso: Os antagonistas dos receptores de Cys-LT1, como o Montelucaste, são uma terapia eficaz e recomendada para a DPOC.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 1,
+      "justification": "A via dos leucotrienos não parece jogar um papel central na fisiopatologia da DPOC. Em consequência, os antagonistas dos receptores de Cys-LT1 não têm nenhum papel no tratamento desta doença.",
+      "hint": "Pense se a afirmação é sempre verdadeira ou se há exceções importantes.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 35,
+      "type": "multiple_choice",
+      "question": "O uso de Zafirlucaste e Montelucaste tem sido associado com casos raros de uma reação adversa grave. Qual é?",
+      "options": [
+        "Hipopotassemia severa.",
+        "Arritmias cardíacas.",
+        "Insuficiência renal aguda.",
+        "Disfunção hepática ou síndrome de Churg-Strauss."
+      ],
+      "correct": 3,
+      "justification": "Embora geralmente sejam bem tolerados, estes fármacos têm sido associados com casos raros de disfunção hepática e com a síndrome de Churg-Strauss, uma vasculite sistêmica eosinofílica. Requer-se vigilância ante o aparecimento de sintomas sugestivos. ## SEÇÃO 6: TERAPIAS BIOLÓGICAS E OUTRAS",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Corticoides"
+    },
+    {
+      "id": 36,
+      "type": "multiple_choice",
+      "question": "Qual é o mecanismo de ação específico do Omalizumabe?",
+      "options": [
+        "Bloqueia os receptores da Interleucina-5.",
+        "Une-se à Imunoglobulina E (IgE) circulante, impedindo sua união aos mastócitos.",
+        "Inibe seletivamente a enzima PDE4.",
+        "É um antagonista do receptor muscarínico M3 de ação ultra-longa."
+      ],
+      "correct": 1,
+      "justification": "O Omalizumabe é um anticorpo monoclonal humanizado que atua como um “sequestrador” da IgE livre no soro. Ao unir-se à IgE, impede que esta se fixe a seus receptores de alta afinidade na superfície de mastócitos e basófilos, bloqueando assim o passo inicial da cascata alérgica.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 37,
+      "type": "multiple_choice",
+      "question": "Para que população de pacientes está principalmente indicado um agente biológico como o Omalizumabe?",
+      "options": [
+        "Todos os pacientes com asma intermitente.",
+        "Pacientes com DPOC leve a moderada.",
+        "Pacientes com asma grave de base alérgica não controlada com outras terapias.",
+        "Como tratamento de primeira linha para a asma induzida por exercício."
+      ],
+      "correct": 2,
+      "justification": "O Omalizumabe é um anticorpo monoclonal desenhado especificamente para unir-se à IgE circulante. Dado que a IgE é a imunoglobulina central na cascata alérgica que inicia a inflamação em muitos fenótipos de asma, este fármaco está indicado para pacientes com asma grave de base alérgica. Seu uso se reserva para casos não controlados com terapias padrão, como os corticoides inalados, posicionando-o como uma terapia de precisão para um subgrupo específico de pacientes.",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 38,
+      "type": "multiple_choice",
+      "question": "Qual é o mecanismo de ação proposto para o Sulfato de Magnésio como broncodilatador?",
+      "options": [
+        "Aumenta a produção de AMPc.",
+        "Reduz as concentrações citosólicas de cálcio (Ca2+) no músculo liso brônquico.",
+        "Antagoniza os receptores de adenosina.",
+        "Estimula diretamente os receptores Beta-2 adrenérgicos."
+      ],
+      "correct": 1,
+      "justification": "Embora não esteja completamente elucidado, acredita-se que o magnésio atua como um antagonista fisiológico do cálcio. Ao reduzir a entrada ou disponibilidade de cálcio intracelular nas células do músculo liso das vias respiratórias, interfere com a maquinaria contrátil dependente de cálcio, promovendo assim o relaxamento e a broncodilatação.",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 39,
+      "type": "multiple_choice",
+      "question": "Em que contexto clínico é utilizado principalmente o Sulfato de Magnésio?",
+      "options": [
+        "Como terapia de manutenção a longo prazo na DPOC.",
+        "Para a profilaxia da asma noturna.",
+        "Como broncodilatador adicional no tratamento da asma aguda grave.",
+        "Como tratamento de primeira linha para a bronquite crônica."
+      ],
+      "correct": 2,
+      "justification": "O sulfato de magnésio se reserva para o âmbito hospitalar como um broncodilatador coadjuvante no manejo de exacerbações de asma aguda grave, particularmente em pacientes que não respondem adequadamente à terapia inicial com SABA e corticoides sistêmicos.",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 40,
+      "type": "true_false",
+      "question": "Verdadeiro ou Falso: Os agentes biológicos, como o Omalizumabe, são fármacos de amplo espectro que atuam de forma não específica sobre múltiplas vias inflamatórias.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 1,
+      "justification": "Os agentes biológicos são o epítome da terapia dirigida. São anticorpos monoclonais desenhados com altíssima especificidade para reconhecer e neutralizar uma única molécula alvo (como a IgE, IL-5, etc.) dentro da cascata imunológica. Sua ação é precisa e seletiva, não de amplo espectro. ## SEÇÃO 7: CONCEITOS IMPORTANTES CITADOS",
+      "hint": "Pense se a afirmação é sempre verdadeira ou se há exceções importantes.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 41,
+      "type": "multiple_choice",
+      "question": "Os broncodilatadores (são os mais potentes) que podemos usar na asma:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 42,
+      "type": "multiple_choice",
+      "question": "Os medicamentos do sistema respiratório:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 43,
+      "type": "multiple_choice",
+      "question": "A ativação dos agonistas β2 adrenérgicos produz:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 44,
+      "type": "multiple_choice",
+      "question": "Os efeitos secundários dos agonistas β2 adrenérgicos:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 45,
+      "type": "multiple_choice",
+      "question": "Indicações dos agonistas β2 adrenérgicos:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Outros Antiasmáticos"
+    },
+    {
+      "id": 46,
+      "type": "multiple_choice",
+      "question": "Contraindicações dos agonistas β2 adrenérgicos:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 47,
+      "type": "multiple_choice",
+      "question": "Mecanismo de ação das metilxantinas:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 48,
+      "type": "multiple_choice",
+      "question": "Efeitos brônquicos das metilxantinas:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 49,
+      "type": "true_false",
+      "question": "É dependente da dose: Em doses baixas, as xantinas reduzem a sensação de cansaço, aumentam a capacidade de manter um esforço intelectual, e tendem a produzir insônia. Com doses altas aparecem nervosismo, tremor, hiperestesia, hiporreflexia, alterações maníacas e convulsões.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Este efeito ocorre porque os receptores Beta-2 não estão apenas nos brônquios.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 50,
+      "type": "multiple_choice",
+      "question": "Efeitos adversos das metilxantinas:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 51,
+      "type": "multiple_choice",
+      "question": "Composto da aminofilina que pode causar hipersensibilidade:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 52,
+      "type": "multiple_choice",
+      "question": "Efeitos secundários da teofilina e seu mecanismo:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Este medicamento pertence à família das metilxantinas e tem uma janela terapêutica estreita.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 53,
+      "type": "true_false",
+      "question": "Os fármacos antimuscarínicos antagonizam estes efeitos de ACh, o que resulta em broncoconstrição e secreção de muco reduzida.",
+      "options": [
+        "Verdadeiro",
+        "Falso: broncodilatação"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense nos dois alvos principais: o sintoma agudo (estreitamento) e a causa subjacente (processo inflamatório).",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 54,
+      "type": "true_false",
+      "question": "Os fármacos anticolinérgicos somente inibem a broncoconstrição reflexa mediada por ACh e não terão efeito bloqueador sobre os efeitos diretos dos mediadores inflamatórios, como a histamina e os leucotrienos, no músculo liso brônquico.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense nos dois alvos principais: o sintoma agudo (estreitamento) e a causa subjacente (processo inflamatório).",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 55,
+      "type": "multiple_choice",
+      "question": "Contraindicações dos anticolinérgicos:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 56,
+      "type": "multiple_choice",
+      "question": "Reações secundárias e adversas dos anticolinérgicos:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 57,
+      "type": "multiple_choice",
+      "question": "Antagonistas competitivos da ACh endógena nos receptores muscarínicos:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 58,
+      "type": "multiple_choice",
+      "question": "Sobre o uso clínico dos anticolinérgicos:",
+      "options": [
+        "Em pacientes asmáticos, os fármacos anticolinérgicos são menos efetivos como broncodilatadores que os agonistas β2 e oferecem uma proteção menos eficiente contra os fatores desencadeantes brônquicos",
+        "Os anticolinérgicos são usados atualmente como um broncodilatador adicional em pacientes asmáticos não controlados com LABA",
+        "Emprega-se antagonistas muscarínicos quando há problemas com a teofilina ou quando os agonistas β2 inalados causam um tremor problemático em pessoas de idade avançada",
+        "Na DPOC, os agonistas β2 podem ser tão eficazes como, ou até superiores aos, fármacos anticolinérgicos. **(CORRETO: Na DPOC, os fármacos anticolinérgicos podem ser tão eficazes como, ou até superiores aos, agonistas β2.)**"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 59,
+      "type": "true_false",
+      "question": "Os fármacos anticolinérgicos reduzem o aprisionamento de ar e melhoram a tolerância ao esforço em pacientes com DPOC.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 60,
+      "type": "multiple_choice",
+      "question": "Sobre os anticolinérgicos LAMA:",
+      "options": [
+        "São os broncodilatadores de eleição para pacientes com DPOC. Os LAMA também são efetivos como broncodilatadores adicionais em pacientes com asma que não se controlam adequadamente com a terapia ICS/LABA máxima.",
+        "Inaladores combinados: existem efeitos broncodilatadores aditivos entre anticolinérgicos e agonistas β2 em pacientes com DPOC.",
+        "Todos produzem melhores benefícios sobre a função pulmonar em comparação com o uso não combinado de LABA ou LAMA.",
+        "Todas as anteriores corretas"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Sistema Gastrointestinal"
+    },
+    {
+      "id": 61,
+      "type": "true_false",
+      "question": "Ao interromper a administração de anticolinérgicos inalados, tem sido descrito um pequeno aumento de rebote na capacidade de resposta das vias respiratórias, muco mais viscoso, sabor amargo do ipratrópio.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 62,
+      "type": "true_false",
+      "question": "Atualmente, os broncodilatadores mais efetivos são os LAMA para a asma e LABA para a DPOC. É provável que os inaladores de combinação fixa LABA/LAMA se convertam nos broncodilatadores de eleição em pacientes com DPOC e os LAMA se agreguem às combinações de ICS/LABA na asma grave.",
+      "options": [
+        "Verdadeiro",
+        "Falso: LABA para a asma e LAMA para a DPOC"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 63,
+      "type": "multiple_choice",
+      "question": "É útil como broncodilatador adicional em crianças e adultos com asma aguda grave:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 64,
+      "type": "multiple_choice",
+      "question": "Efeitos do cromoglicato dissódico:",
+      "options": [
+        "Inibem a resposta broncoconstritora imediata desencadeada por alérgenos e frio. Propôs-se sua capacidade para inibir a liberação de mediadores por parte dos mastócitos.",
+        "Inibem a resposta inflamatória tardia e a consequente hiperreatividade brônquica, o que implica uma ação adicional sobre outras células inflamatórias, como eosinófilos, neutrófilos, macrófagos, monócitos e plaquetas.",
+        "Inibem a liberação de histamina, leucotrieno C4 e prostaglandina D2, fatores quimiotáticos."
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 65,
+      "type": "multiple_choice",
+      "question": "Ambos os fármacos são capazes de inibir a broncoconstrição provocada por bradicinina, a qual está mediada por reflexos neurais desencadeados após a ativação de fibras sensitivas C brônquicas:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense nos dois alvos principais: o sintoma agudo (estreitamento) e a causa subjacente (processo inflamatório).",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 66,
+      "type": "true_false",
+      "question": "Estes fármacos não exercem efeitos broncodilatadores e sua ação antiasmática é eminentemente preventiva, protegendo os pacientes suscetíveis frente a diversos estímulos provocadores de asma. Não se absorvem no tubo digestivo, por isso sua administração deve fazer-se por via inalatória.",
+      "options": [
+        "Verdadeiro",
+        "Falso: Não se absorvem tudo e se administram por via inalatória"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 67,
+      "type": "multiple_choice",
+      "question": "Relaxam o músculo liso e inibem as células inflamatórias através de um aumento no cAMP celular:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 68,
+      "type": "multiple_choice",
+      "question": "Foi aprovado um inibidor oral de PDE4, Roflumilaste, para pacientes com DPOC com doença grave (FEV1 <50%, exacerbações frequentes).",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 69,
+      "type": "multiple_choice",
+      "question": "Fenômenos nos quais os leucotrienos participam muito ativamente:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Estes mediadores lipídicos são produzidos pela via da 5-lipoxigenase.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 70,
+      "type": "multiple_choice",
+      "question": "Estes fármacos reduzem a hiperreatividade brônquica e melhoram as manifestações clínicas da asma:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 71,
+      "type": "multiple_choice",
+      "question": "Primeiro agente biológico imunoterapêutico aprovado para o tratamento da asma:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 72,
+      "type": "multiple_choice",
+      "question": "Reações secundárias das cromonas:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 73,
+      "type": "multiple_choice",
+      "question": "Reações adversas das cromonas:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 74,
+      "type": "multiple_choice",
+      "question": "Fármacos antileucotrienos:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Estes mediadores lipídicos são produzidos pela via da 5-lipoxigenase.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 75,
+      "type": "multiple_choice",
+      "question": "Esquema de terapia erradicadora de H. pylori:",
+      "options": [
+        "IBP + Claritromicina + Amoxicilina",
+        "IBP + Tetraciclina + Metronidazol + Bismuto"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 76,
+      "type": "multiple_choice",
+      "question": "Reações adversas das xantinas:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 77,
+      "type": "multiple_choice",
+      "question": "Anticolinérgicos:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 78,
+      "type": "multiple_choice",
+      "question": "Indicação terapêutica do IBP:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 79,
+      "type": "multiple_choice",
+      "question": "O mecanismo principal de ação do Sucralfato é:",
+      "options": [
+        "Neutralização direta do ácido clorídrico.",
+        "Inibição competitiva da pepsina.",
+        "Formação de um polímero viscoso que se adere à cratera ulcerosa, protegendo contra o ácido e a pepsina.",
+        "Bloqueio dos receptores H2 de histamina."
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 80,
+      "type": "multiple_choice",
+      "question": "Para que o Sucralfato se ative e forme sua barreira protetora, é necessário um meio gástrico com:",
+      "options": [
+        "pH neutro",
+        "pH maior que 4",
+        "pH alcalino",
+        "pH menor que 4"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 81,
+      "type": "multiple_choice",
+      "question": "Qual dos seguintes NÃO é um efeito adverso comum dos agonistas β₂-adrenérgicos (SABA/LABA)?",
+      "options": [
+        "Tremor fino em extremidades",
+        "Taquicardia",
+        "Hipopotassemia",
+        "Bradicardia sinusal"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Releia a pergunta com atenção e elimine as opções que você sabe que estão incorretas.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 82,
+      "type": "multiple_choice",
+      "question": "O Omeprazol e outros IBP atuam mediante que mecanismo?",
+      "options": [
+        "Bloqueio competitivo dos receptores H2.",
+        "Neutralização química do ácido gástrico.",
+        "Inibição irreversível da H+/K+ ATPase (bomba de prótons).",
+        "Revestimento da mucosa gástrica."
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 83,
+      "type": "multiple_choice",
+      "question": "A interação farmacológica clinicamente significativa entre o Omeprazol e o Clopidogrel ocorre porque o Omeprazol:",
+      "options": [
+        "Aumenta a absorção do Clopidogrel.",
+        "Inibe a isoenzima CYP2C19, necessária para ativar o Clopidogrel.",
+        "Compete pela mesma proteína plasmática.",
+        "Induz o metabolismo do Clopidogrel."
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 84,
+      "type": "multiple_choice",
+      "question": "Qual dos seguintes fármacos é um antagonista de leucotrienos usado na asma?",
+      "options": [
+        "Salbutamol",
+        "Teofilina",
+        "Montelucaste",
+        "Ipratrópio"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Estes mediadores lipídicos são produzidos pela via da 5-lipoxigenase.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 85,
+      "type": "multiple_choice",
+      "question": "O efeito anti-inflamatório da Teofilina está PRINCIPALMENTE relacionado com:",
+      "options": [
+        "Inibição da Fosfodiesterase (PDE) e aumento do AMPc intracelular.",
+        "Bloqueio dos receptores muscarínicos.",
+        "Estimulação direta dos receptores β₂-adrenérgicos.",
+        "Neutralização de radicais livres."
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Este medicamento pertence à família das metilxantinas e tem uma janela terapêutica estreita.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 86,
+      "type": "multiple_choice",
+      "question": "Que mineralocorticoide sintético é usado comumente na insuficiência suprarrenal?",
+      "options": [
+        "Dexametasona",
+        "Prednisona",
+        "Fludrocortisona",
+        "Hidrocortisona"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Estes medicamentos atuam diretamente no núcleo celular, modulando a transcrição gênica.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 87,
+      "type": "multiple_choice",
+      "question": "O Roflumilaste, usado na DPOC, é um:",
+      "options": [
+        "Agonista β₂ de ação ultralonga.",
+        "Antagonista colinérgico.",
+        "Inibidor seletivo da Fosfodiesterase-4 (PDE4).",
+        "Antagonista de leucotrienos."
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 88,
+      "type": "multiple_choice",
+      "question": "O Omalizumabe, utilizado no tratamento da asma alérgica grave, é um:",
+      "options": [
+        "Corticoide inalado.",
+        "Broncodilatador de ação prolongada.",
+        "Anticorpo monoclonal anti-IgE.",
+        "Inibidor da 5-lipoxigenase."
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 89,
+      "type": "multiple_choice",
+      "question": "Os antagonistas dos receptores H2 (como a Ranitidina) são mais potentes que os IBP na supressão ácida.",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 90,
+      "type": "multiple_choice",
+      "question": "O Misoprostol é um análogo da prostaglandina E1 e está formalmente contraindicado na gravidez devido a seu efeito uterotônico.",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 91,
+      "type": "multiple_choice",
+      "question": "A administração de IBP deve realizar-se preferencialmente depois das refeições para uma melhor eficácia.",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 92,
+      "type": "multiple_choice",
+      "question": "A via de administração preferida para os SABA (como o Salbutamol) no alívio de uma crise aguda de asma é a oral.",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 93,
+      "type": "multiple_choice",
+      "question": "O uso prolongado de glicocorticoides pode levar à supressão do eixo hipotálamo-hipófise-suprarrenal, osteoporose e hiperglicemia.",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Estes medicamentos atuam diretamente no núcleo celular, modulando a transcrição gênica.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 94,
+      "type": "multiple_choice",
+      "question": "O Tiotrópio é um anticolinérgico de longa ação (LAMA) e é uma das drogas de eleição para a manutenção da DPOC.",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Pense no sistema nervoso que causa broncoconstrição quando ativado.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 95,
+      "type": "multiple_choice",
+      "question": "O Zileutona atua inibindo a enzima 5-lipoxigenase, reduzindo a síntese de leucotrienos.",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Estes mediadores lipídicos são produzidos pela via da 5-lipoxigenase.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 96,
+      "type": "multiple_choice",
+      "question": "O Sulfato de Magnésio (MgSO4) atua como broncodilatador em crises de asma grave ao estimular diretamente os receptores β₂.",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 97,
+      "type": "multiple_choice",
+      "question": "Cite os quatro fármacos que compõem um esquema de primeira linha para a erradicação de H. pylori:",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 98,
+      "type": "multiple_choice",
+      "question": "Cite dois exemplos de cada classe de broncodilatador:",
+      "options": [
+        "**SABA:** Salbutamol e Terbutalina.",
+        "**LABA:** Salmeterol e Formoterol.",
+        "**LAMA:** Tiotrópio e Glicopirrônio."
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 99,
+      "type": "multiple_choice",
+      "question": "Explique, de forma resumida, por que o uso crônico de glicocorticoides (ex: Prednisona) pode levar à perda de massa muscular (miopatia).",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Estes medicamentos atuam diretamente no núcleo celular, modulando a transcrição gênica.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 100,
+      "type": "multiple_choice",
+      "question": "Além de sua ação de barreira física, cite dois mecanismos citoprotetores adicionais do Sucralfato.",
+      "options": [],
+      "correct": 0,
+      "justification": "",
+      "hint": "Revise os conceitos fundamentais relacionados a esta pergunta.",
+      "category": "Casos Clínicos"
+    },
+    {
+      "id": 101,
+      "type": "multiple_choice",
+      "question": "Qual é a principal diferença, em termos de mecanismo de ação, entre os antagonistas de leucotrienos (ex: Montelucaste) e o Zileutona?",
+      "options": [
+        "**Tema:** Cite quais as indicações/aplicação terapêutica para o uso de glucocorticoides?",
+        "Reemplazo hormonal (ou Terapia de substituição).",
+        "Anti-inflamatório.",
+        "Imunossupressor (ou Imunosupresa).",
+        "**Tema:** Cite os broncodilatadores.",
+        "Agonistas beta-2 adrenérgicos (ou Agonistas $\\beta_2$).",
+        "Anticolinérgicos (ou Inibidores da atividade parassimpática).",
+        "Metil-xantinas/Xantinas (ou Relaxantes diretos da fibra muscular).",
+        "**Tema:** De citar sobre o Roflumilast, que era inibidor da PDE4.",
+        "**Tema:** Citar $\\beta_2$ de larga ação.",
+        "**Tema:** E os anticolinérgicos foi de citar os medicamentos?",
+        "**Tema:** Aberta sobre esquema de erradicação de H. pylori / H. Pyloro sobre o esquema? / Esquema da medicação para erradicar a bacteria",
+        "Um **Inibidor da Bomba de Prótons (IBP)**.",
+        "**Claritromicina**.",
+        "**Amoxicilina**.",
+        "**Tema:** marque o correto sobre glucocorticoide afetar os ossos",
+        "**Tema:** marque o correto sobre a síndrome de Cushing / Tinha uma sobre síndrome de Cushing",
+        "**Tema:** Marque o correto sobre os glucocorticoides",
+        "**Tema:** Marcar qual fármaco fazia parte dos mineralocorticoides",
+        "**Tema:** Marque um medicamento que serve para crises asmáticas (alternativa tinha um SABA)",
+        "**Tema:** Marcar sobre o anticorpo monoclonales (resposta era omalizumab) que bloqueava a imunoglobulina E / Sobre omalizumab",
+        "**Tema:** Marcar o correto sobre os inibidores da bomba de protones",
+        "**Tema:** Caiu alguma de marcar sobre bismuto, que ele tinha ação bactericida frente ao H. Pylori",
+        "**Tema:** Aberta sobre qual fármaco está totalmente contraindicado no embarazo (misoprostol)",
+        "**Tema:** Sobre anticolinérgicos",
+        "**Tema:** Marque o correto sobre os glucocorticoides (interrupção)",
+        "**Tema:** completar, acetilcoa",
+        "**Tema:** Completar por que a hipertensão ocorre com o uso de prednisona",
+        "**Tema:** Porque perde músculo com o uso do corticoide",
+        "**Tema:** Caso clínico sobre um senhor que tinha problemas cardíacos, e no atendimento anterior o médico passou um fármaco pq ele sentia pirosis, mas aí ele usava clopidogrel e retornou pq estava dando efeitos. A pergunta era: Qual o provável fármaco que foi receitado? (Omeprazol era a resposta). Depois no caso clínico perguntava qual era a enzima que o suposto fármaco inibia (CYP2C19 a resposta) Eram abertas.",
+        "**Tema:** Mediadores Anticolinérgicos",
+        "**Tema:** Roflumilast Inibidor Seletivo",
+        "**Tema:** Esquema de Erradicação de *H. pylori*",
+        "**Tema:** Os Anticolinérgicos",
+        "**Tema:** Indicações Terapêuticas do IBP",
+        "**Doença por Refluxo Gastroesofágico (ERGE)**.",
+        "**Tratamento e prevenção de Úlceras Pépticas (gástricas e duodenais)**.",
+        "**Síndrome de Zollinger-Ellison** (condição de hipersecreção ácida patológica).",
+        "**Profilaxia de Úlceras induzidas por AINEs**.",
+        "**Erradicação de *Helicobacter pylori***.",
+        "**Tema:** Mecanismo de Sucralfato",
+        "**Tema:** Efeitos Citoprotetor / Bismuto",
+        "**Tema:** Mineralocorticoide / Fludrocortisona",
+        "**Tema:** Adenosina A1",
+        "**Tema:** Antagonista H-2",
+        "**Tema:** Tratamento de Asma / ACMO",
+        "**Tema:** Hueso (Ossos) / Glucocorticoide",
+        "**Tema:** Prednisona / Diminua a AMPc",
+        "**Tema:** Meio Gástrico / pH",
+        "**Tema:** Tratamento de Asma (Tto Asma)",
+        "**Tema:** Sucralfato"
+      ],
+      "correct": 0,
+      "justification": "",
+      "hint": "Estes mediadores lipídicos são produzidos pela via da 5-lipoxigenase.",
+      "category": "Casos Clínicos"
+    }
+  ]
+}

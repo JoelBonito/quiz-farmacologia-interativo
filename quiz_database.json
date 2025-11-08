@@ -1342,5 +1342,95 @@
     "category": "Perguntas Adicionais",
     "hint": "Pense nos mecanismos anti-inflamatórios e nos efeitos sistêmicos dos corticoides.",
     "type": "multiple_choice"
+  },
+  {
+    "id": 113,
+    "question": "**CASO CLÍNICO: Sr. Roberto**\n\nO Sr. Roberto, 70 anos, possui histórico de doença arterial coronariana e utiliza o antiagregante plaquetário Clopidogrel para prevenir eventos trombóticos. Ele procurou o médico anteriormente devido a episódios de pirose (azia) e foi prescrito um Inibidor da Bomba de Prótons (IBP) para aliviar os sintomas. No retorno, o cardiologista identificou que o IBP prescrito poderia estar reduzindo o efeito protetor do Clopidogrel, o que aumentaria o risco de trombose, recomendando uma troca de medicação.\n\n**Pergunta A:** Qual é o IBP mais provável que foi inicialmente receitado, conhecido por causar essa interação clinicamente relevante?",
+    "options": [
+      "a) Pantoprazol",
+      "b) Omeprazol",
+      "c) Lansoprazol",
+      "d) Esomeprazol"
+    ],
+    "correct_answer": "b) Omeprazol",
+    "justification": "O Omeprazol é o IBP mais conhecido por inibir a enzima CYP2C19, que é essencial para converter o Clopidogrel (pró-fármaco) em sua forma ativa. Esta interação farmacológica reduz significativamente a eficácia antiagregante do Clopidogrel, aumentando o risco de eventos trombóticos.",
+    "category": "Caso Clínico",
+    "hint": "Pense em qual IBP tem maior interação com o citocromo P450 CYP2C19.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 114,
+    "question": "**CASO CLÍNICO: Sr. Roberto (continuação)**\n\nO Sr. Roberto, 70 anos, possui histórico de doença arterial coronariana e utiliza o antiagregante plaquetário Clopidogrel para prevenir eventos trombóticos. Ele procurou o médico anteriormente devido a episódios de pirose (azia) e foi prescrito um Inibidor da Bomba de Prótons (IBP) para aliviar os sintomas. No retorno, o cardiologista identificou que o IBP prescrito poderia estar reduzindo o efeito protetor do Clopidogrel, o que aumentaria o risco de trombose, recomendando uma troca de medicação.\n\n**Pergunta B:** Qual é a enzima do Citocromo P450 que é inibida por este IBP, comprometendo a conversão do Clopidogrel à sua forma ativa?",
+    "options": [
+      "a) CYP3A4",
+      "b) CYP2D6",
+      "c) CYP2C19",
+      "d) CYP1A2"
+    ],
+    "correct_answer": "c) CYP2C19",
+    "justification": "A enzima CYP2C19 é responsável pela biotransformação do Clopidogrel em seu metabólito ativo. O Omeprazol, ao inibir esta enzima, compromete a ativação do Clopidogrel, reduzindo sua eficácia terapêutica e aumentando o risco cardiovascular.",
+    "category": "Caso Clínico",
+    "hint": "Esta enzima é específica para a metabolização de vários fármacos, incluindo IBPs e antiplaquetários.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 115,
+    "question": "**CASO CLÍNICO: Sr. Roberto (conclusão)**\n\nO Sr. Roberto, 70 anos, possui histórico de doença arterial coronariana e utiliza o antiagregante plaquetário Clopidogrel para prevenir eventos trombóticos. Ele procurou o médico anteriormente devido a episódios de pirose (azia) e foi prescrito um Inibidor da Bomba de Prótons (IBP) para aliviar os sintomas. No retorno, o cardiologista identificou que o IBP prescrito poderia estar reduzindo o efeito protetor do Clopidogrel, o que aumentaria o risco de trombose, recomendando uma troca de medicação.\n\n**Pergunta C:** Qual IBP é recomendado como alternativa mais segura para o Sr. Roberto, devido à sua menor interferência com o Clopidogrel?",
+    "options": [
+      "a) Esomeprazol",
+      "b) Lansoprazol",
+      "c) Pantoprazol",
+      "d) Rabeprazol"
+    ],
+    "correct_answer": "c) Pantoprazol",
+    "justification": "O Pantoprazol apresenta menor afinidade pela enzima CYP2C19 em comparação com o Omeprazol, resultando em menor interferência na ativação do Clopidogrel. Por isso, é considerado uma alternativa mais segura para pacientes que necessitam de terapia concomitante com IBP e Clopidogrel.",
+    "category": "Caso Clínico",
+    "hint": "Procure o IBP com menor interação com a enzima CYP2C19.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 116,
+    "question": "**CASO CLÍNICO: Sr. Roberto**\n\nO Sr. Roberto, 70 anos, possui histórico de doença arterial coronariana e utiliza o antiagregante plaquetário Clopidogrel para prevenir eventos trombóticos. Ele procurou o médico anteriormente devido a episódios de pirose (azia) e foi prescrito um Inibidor da Bomba de Prótons (IBP) para aliviar os sintomas. No retorno, o cardiologista identificou que o IBP prescrito poderia estar reduzindo o efeito protetor do Clopidogrel, o que aumentaria o risco de trombose, recomendando uma troca de medicação.\n\n**Pergunta A:** Qual é o IBP mais provável que foi inicialmente receitado, conhecido por causar essa interação clinicamente relevante?",
+    "options": [
+      "a) Pantoprazol",
+      "b) Omeprazol",
+      "c) Lansoprazol",
+      "d) Esomeprazol"
+    ],
+    "correct_answer": "b) Omeprazol",
+    "justification": "O Omeprazol é o IBP mais conhecido por inibir a enzima CYP2C19, que é essencial para converter o Clopidogrel (pró-fármaco) em sua forma ativa. Esta interação farmacológica reduz significativamente a eficácia antiagregante do Clopidogrel, aumentando o risco de eventos trombóticos.",
+    "category": "Caso Clínico",
+    "hint": "Pense em qual IBP tem maior interação com o citocromo P450 CYP2C19.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 117,
+    "question": "**CASO CLÍNICO: Sr. Roberto (continuação)**\n\nO Sr. Roberto, 70 anos, possui histórico de doença arterial coronariana e utiliza o antiagregante plaquetário Clopidogrel para prevenir eventos trombóticos. Ele procurou o médico anteriormente devido a episódios de pirose (azia) e foi prescrito um Inibidor da Bomba de Prótons (IBP) para aliviar os sintomas. No retorno, o cardiologista identificou que o IBP prescrito poderia estar reduzindo o efeito protetor do Clopidogrel, o que aumentaria o risco de trombose, recomendando uma troca de medicação.\n\n**Pergunta B:** Qual é a enzima do Citocromo P450 que é inibida por este IBP, comprometendo a conversão do Clopidogrel à sua forma ativa?",
+    "options": [
+      "a) CYP3A4",
+      "b) CYP2D6",
+      "c) CYP2C19",
+      "d) CYP1A2"
+    ],
+    "correct_answer": "c) CYP2C19",
+    "justification": "A enzima CYP2C19 é responsável pela biotransformação do Clopidogrel em seu metabólito ativo. O Omeprazol, ao inibir esta enzima, compromete a ativação do Clopidogrel, reduzindo sua eficácia terapêutica e aumentando o risco cardiovascular.",
+    "category": "Caso Clínico",
+    "hint": "Esta enzima é específica para a metabolização de vários fármacos, incluindo IBPs e antiplaquetários.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 118,
+    "question": "**CASO CLÍNICO: Sr. Roberto (conclusão)**\n\nO Sr. Roberto, 70 anos, possui histórico de doença arterial coronariana e utiliza o antiagregante plaquetário Clopidogrel para prevenir eventos trombóticos. Ele procurou o médico anteriormente devido a episódios de pirose (azia) e foi prescrito um Inibidor da Bomba de Prótons (IBP) para aliviar os sintomas. No retorno, o cardiologista identificou que o IBP prescrito poderia estar reduzindo o efeito protetor do Clopidogrel, o que aumentaria o risco de trombose, recomendando uma troca de medicação.\n\n**Pergunta C:** Qual IBP é recomendado como alternativa mais segura para o Sr. Roberto, devido à sua menor interferência com o Clopidogrel?",
+    "options": [
+      "a) Esomeprazol",
+      "b) Lansoprazol",
+      "c) Pantoprazol",
+      "d) Rabeprazol"
+    ],
+    "correct_answer": "c) Pantoprazol",
+    "justification": "O Pantoprazol apresenta menor afinidade pela enzima CYP2C19 em comparação com o Omeprazol, resultando em menor interferência na ativação do Clopidogrel. Por isso, é considerado uma alternativa mais segura para pacientes que necessitam de terapia concomitante com IBP e Clopidogrel.",
+    "category": "Caso Clínico",
+    "hint": "Procure o IBP com menor interação com a enzima CYP2C19.",
+    "type": "clinical_case"
   }
 ]

@@ -35,9 +35,9 @@ function startQuiz(mode) {
     } else if (mode === 'clinical') {
         // Modo clínico: filtrar perguntas de casos clínicos
         const clinicalQuestions = quizData.questions.filter(q => 
-            q.category === 'Casos Clínicos' || 
-            q.question.toLowerCase().includes('caso') ||
-            q.question.toLowerCase().includes('paciente')
+            q.type === 'clinical_case' || 
+            q.category === 'Caso Clínico' || 
+            q.category === 'Casos Clínicos'
         );
         currentQuestions = clinicalQuestions.length > 0 ? 
             shuffleArray(clinicalQuestions).slice(0, 15) : 
@@ -74,8 +74,22 @@ function loadQuestion() {
     // Atualizar categoria
     document.getElementById('category-badge').textContent = question.category;
     
-    // Atualizar pergunta
-    document.getElementById('question-text').textContent = question.question;
+    // Atualizar pergunta (com formatação especial para casos clínicos)
+    const questionText = document.getElementById('question-text');
+    if (question.type === 'clinical_case') {
+        // Formatar caso clínico com destaque
+        questionText.innerHTML = question.question.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+        questionText.style.backgroundColor = '#fff3cd';
+        questionText.style.padding = '20px';
+        questionText.style.borderLeft = '4px solid #ffc107';
+        questionText.style.borderRadius = '8px';
+    } else {
+        questionText.textContent = question.question;
+        questionText.style.backgroundColor = '';
+        questionText.style.padding = '';
+        questionText.style.borderLeft = '';
+        questionText.style.borderRadius = '';
+    }
     
     // Limpar e criar opções
     const optionsContainer = document.getElementById('options-container');

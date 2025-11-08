@@ -64,6 +64,21 @@ function loadQuestion() {
     hintUsed = false;
     const question = currentQuestions[currentQuestionIndex];
     
+    // Extrair índice correto da resposta se ainda não existir
+    if (question.correct === undefined && question.correct_answer) {
+        // Tentar extrair letra da resposta (a), b), c), d))
+        const match = question.correct_answer.match(/^([a-d])\)/i);
+        if (match) {
+            const letter = match[1].toLowerCase();
+            question.correct = {'a': 0, 'b': 1, 'c': 2, 'd': 3}[letter];
+        } else {
+            // Se não tiver letra, tentar encontrar a resposta nas opções
+            question.correct = question.options.findIndex(opt => 
+                question.correct_answer.toLowerCase().includes(opt.toLowerCase())
+            );
+        }
+    }
+    
     // Atualizar contador e progresso
     document.getElementById('question-counter').textContent = 
         `Pergunta ${currentQuestionIndex + 1} de ${currentQuestions.length}`;

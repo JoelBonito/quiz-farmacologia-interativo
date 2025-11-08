@@ -92,17 +92,40 @@ function loadQuestion() {
         questionText.style.borderRadius = '';
     }
     
-    // Limpar e criar opções
+    // Limpar e criar opções ou campo de texto
     const optionsContainer = document.getElementById('options-container');
     optionsContainer.innerHTML = '';
     
-    question.options.forEach((option, index) => {
-        const optionDiv = document.createElement('div');
-        optionDiv.className = 'option';
-        optionDiv.textContent = option;
-        optionDiv.onclick = () => selectOption(index);
-        optionsContainer.appendChild(optionDiv);
-    });
+    // Verificar se é pergunta de completar/listar (sem opções)
+    if (question.type === 'fill_in' || question.type === 'list' || question.options.length === 0) {
+        // Criar campo de texto para resposta aberta
+        const textareaDiv = document.createElement('div');
+        textareaDiv.style.width = '100%';
+        textareaDiv.innerHTML = `
+            <textarea id="open-answer" 
+                      placeholder="Digite sua resposta aqui..."
+                      style="width: 100%; min-height: 120px; padding: 15px; 
+                             border: 2px solid #ddd; border-radius: 8px; 
+                             font-size: 16px; font-family: inherit; resize: vertical;">
+            </textarea>
+            <button onclick="submitOpenAnswer()" 
+                    style="margin-top: 15px; padding: 12px 30px; background: #4a69bd; 
+                           color: white; border: none; border-radius: 8px; 
+                           font-size: 16px; cursor: pointer; font-weight: 600;">
+                Enviar Resposta
+            </button>
+        `;
+        optionsContainer.appendChild(textareaDiv);
+    } else {
+        // Criar opções de múltipla escolha
+        question.options.forEach((option, index) => {
+            const optionDiv = document.createElement('div');
+            optionDiv.className = 'option';
+            optionDiv.textContent = option;
+            optionDiv.onclick = () => selectOption(index);
+            optionsContainer.appendChild(optionDiv);
+        });
+    }
     
     // Resetar UI
     document.getElementById('hint-container').style.display = 'none';
@@ -160,6 +183,70 @@ function selectOption(selectedIndex) {
             document.getElementById('finish-btn').style.display = 'inline-block';
         }
     }, 500);
+}
+
+// Submeter resposta aberta
+function submitOpenAnswer() {
+    const question = currentQuestions[currentQuestionIndex];
+    const userAnswer = document.getElementById('open-answer').value.trim();
+    
+    if (!userAnswer) {
+        alert('Por favor, digite sua resposta antes de enviar.');
+        return;
+    }
+    
+    // Desabilitar textarea e botão
+    document.getElementById('open-answer').disabled = true;
+    document.querySelector('button[onclick="submitOpenAnswer()"]').disabled = true;
+    document.querySelector('button[onclick="submitOpenAnswer()"]').style.opacity = '0.5';
+    
+    // Mostrar resposta esperada
+    const feedbackContainer = document.getElementById('feedback-container');
+    const feedbackIcon = document.getElementById('feedback-icon');
+    const feedbackTitle = document.getElementById('feedback-title');
+    const feedbackText = document.getElementById('feedback-text');
+    
+    feedbackContainer.className = 'feedback-container';
+    feedbackIcon.textContent = '📝';
+    feedbackTitle.textContent = 'Resposta Esperada:';
+    feedbackText.innerHTML = `<strong>Sua resposta:</strong><br>${userAnswer}<br><br><strong>Resposta esperada:</strong><br>${question.correct_answer}`;
+    feedbackContainer.style.display = 'block';
+    
+    // Ocultar botão de dica
+    document.getElementById('hint-btn').style.display = 'none';
+    
+    // Mostrar botão de próxima pergunta
+    if (currentQuestionIndex < currentQuestions.length - 1) {
+        document.getElementById('next-btn').style.display = 'inline-block';
+    } else {
+        document.getElementById('finish-btn').style.display = 'inline-block';
+    }
+    
+    // Pontuar (sempre 5 pontos para resposta aberta)
+    score += 5;
+    correctAnswers++;
+    document.getElementById('score-display').textContent = `Pontuação: ${score}`;
+}
+
+// Voltar pergunta anterior
+function previousQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        loadQuestion();
+    }
+}
+
+// Voltar para home
+function goHome() {
+    if (confirm('Deseja realmente voltar ao início? Seu progresso será perdido.')) {
+        showScreen('home-screen');
+        currentMode = null;
+        currentQuestions = [];
+        currentQuestionIndex = 0;
+        score = 0;
+        correctAnswers = 0;
+        incorrectAnswers = 0;
+    }
 }
 
 // Mostrar dica

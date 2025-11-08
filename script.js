@@ -12,8 +12,9 @@ let hintUsed = false;
 async function loadQuizData() {
     try {
         const response = await fetch('quiz_database.json');
-        quizData = await response.json();
-        document.getElementById('total-questions').textContent = quizData.total_questions;
+        const questions = await response.json();
+        quizData = { questions: questions };
+        document.getElementById('total-questions').textContent = questions.length;
     } catch (error) {
         console.error('Erro ao carregar dados do quiz:', error);
         alert('Erro ao carregar o quiz. Por favor, recarregue a página.');

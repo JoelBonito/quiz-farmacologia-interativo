@@ -608,8 +608,8 @@
       "Ação anti-IgE, bloqueio muscarínico e inibição da PDE",
       "Aumento da secreção de muco, tosse e antagonismo da adenosina"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) Broncodilatação, inibição da liberação de mediadores e aumento da depuração mucociliar",
+    "justification": "Os agonistas β2 adrenérgicos (como Salbutamol e Salmeterol) são os broncodilatadores mais potentes e eficazes. A ativação dos receptores β2 adrenérgicos no músculo liso bronquial tem como principais efeitos benéficos: 1) Broncodilatação (relaxamento direto do músculo liso). 2) Inibição de mediadores inflamatórios (impedem a liberação de mediadores broncoconstritores de células inflamatórias, como mastócitos pulmonares). 3) Aumento da depuração mucociliar (melhora o movimento dos cílios, ajudando a limpar as vias aéreas).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -623,8 +623,8 @@
       "Boca seca, retenção urinária e glaucoma",
       "Náusea, vômito e convulsões"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) Tremor muscular, taquicardia e hipopotassemia",
+    "justification": "Os efeitos adversos dos agonistas β2 são dose-dependentes e incluem: Tremor fino em extremidades (devido ao efeito direto sobre os receptores β2 no músculo esquelético). Taquicardia e palpitações (devido ao efeito β2 nos receptores auriculares ou efeito reflexo da vasodilatação periférica). Hipopotassemia (devido à ativação dos receptores β2 nas células, que estimula a bomba Na+/K+-ATPase, fazendo com que o potássio (K+) saia do sangue e entre nas células).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -638,8 +638,8 @@
       "Glicocorticoides Inalados (ICS)",
       "Agonistas 2 adrenérgicos"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Agonistas β2 adrenérgicos",
+    "justification": "Os agonistas β2 adrenérgicos são indicados para: Asma (tratamento de crises agudas com SABA e profilaxia/manutenção com LABA, associados a corticoides). DPOC/EPOC (usados para profilaxia e broncoespasmo, sendo os LABA muito recomendados). Bronquite (estão listados como indicação terapêutica). Embora outras classes como os anticolinérgicos sejam cruciais na DPOC e os glicocorticoides sejam a pedra angular no controle da asma, a classe dos agonistas β2 adrenérgicos abrange as três patologias listadas como principais indicações.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -653,8 +653,8 @@
       "Úlcera péptica e DRGE",
       "Diabetes e Insuficiência renal"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) Hipertensão arterial e doenças cardiovasculares",
+    "justification": "Os agonistas β2 adrenérgicos aumentam o risco cardiovascular devido a efeitos como taquicardia e arritmias, e estão explicitamente listados como contraindicados em pacientes com Hipertensão Arterial e Enfermidades Cardiovasculares. Nota: Glaucoma e Hipertrofia prostática são contraindicações típicas dos anticolinérgicos (LAMA/SAMA), não dos agonistas β2.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -668,8 +668,8 @@
       "Inibição da PDE e Antagonismo dos recetores de adenosina",
       "Bloqueio dos recetores H1 e inibição da 5-LOX"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Inibição da PDE e Antagonismo dos recetores de adenosina",
+    "justification": "A Teofilina, que pertence à classe das metilxantinas, possui um mecanismo de ação multifatorial. Os dois principais mecanismos que promovem broncodilatação são: 1) Inibição da enzima fosfodiesterase (PDE): Ao inibir a PDE, a Teofilina impede a degradação do AMP cíclico (AMPc), levando ao acúmulo de AMPc, o que resulta em broncodilatação. 2) Antagonismo dos receptores de adenosina (A1): A adenosina pode causar broncoconstrição em pacientes asmáticos. As xantinas bloqueiam esses receptores, resultando em broncodilatação.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"

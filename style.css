@@ -315,6 +315,12 @@ body {
     margin-bottom: 20px;
 }
 
+.badges-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .category-badge {
     display: inline-block;
     background: linear-gradient(135deg, var(--info), var(--success));
@@ -323,6 +329,44 @@ body {
     border-radius: 20px;
     font-size: 0.9em;
     font-weight: 600;
+}
+
+.difficulty-badge {
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.difficulty-baixo {
+    background: linear-gradient(135deg, #4caf50, #66bb6a);
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+}
+
+.difficulty-médio {
+    background: linear-gradient(135deg, #ff9800, #ffa726);
+    box-shadow: 0 2px 8px rgba(255, 152, 0, 0.3);
+}
+
+.difficulty-difícil {
+    background: linear-gradient(135deg, #f44336, #ef5350);
+    box-shadow: 0 2px 8px rgba(244, 67, 54, 0.3);
+}
+
+/* Barras de preenchimento para estatísticas de dificuldade */
+.difficulty-fill-baixo {
+    background: linear-gradient(90deg, #4caf50, #66bb6a) !important;
+}
+
+.difficulty-fill-médio {
+    background: linear-gradient(90deg, #ff9800, #ffa726) !important;
+}
+
+.difficulty-fill-difícil {
+    background: linear-gradient(90deg, #f44336, #ef5350) !important;
 }
 
 .bookmark-btn {
@@ -641,6 +685,19 @@ body {
 }
 
 .category-performance h3 {
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+
+/* ===== DIFFICULTY PERFORMANCE ===== */
+.difficulty-performance {
+    margin: 30px 0;
+    padding: 25px;
+    background: var(--border-color);
+    border-radius: 15px;
+}
+
+.difficulty-performance h3 {
     color: var(--text-primary);
     margin-bottom: 20px;
 }

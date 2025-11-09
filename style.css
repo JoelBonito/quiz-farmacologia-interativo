@@ -1391,9 +1391,11 @@ body {
     }
 
     .finish-button-container button {
-        width: 100%;
+        width: calc(100% - 10px);
+        max-width: 100%;
+        margin: 0 5px;
         font-size: 1rem;
-        padding: 16px 24px;
+        padding: 16px 20px;
         min-height: 52px;
         font-weight: 600;
     }

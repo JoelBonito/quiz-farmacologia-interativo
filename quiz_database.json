@@ -175,7 +175,7 @@
       "Teofilina + Antileucotrieno."
     ],
     "correct_answer": "b) LABA + Cromoglicato sódico.",
-    "justification": "Os agonistas β2 de ação prolongada (LABA) se associam ao cromoglicato sódico (um inibidor da liberação de mediadores) e são utilizados como profilaxia em asma induzida por exercício e exposição a alérgenos. Além disso, os antileucotrienos também são eficazes na prevenção da asma induzida pelo exercício, com eficácia semelhante à dos LABAs.",
+    "justification": "Agonistas β2 de ação prolongada (LABA) e antileucotrienos são usados na profilaxia da asma induzida por exercício, com eficácia semelhante. O cromoglicato sódico, inibidor da liberação de mediadores, é pouco usado atualmente e não é padrão em combinação com LABA para essa indicação. O tratamento profilático mais comum é SABA isolado ou antileucotrieno.",
     "category": "Farmacologia",
     "hint": "Envolve um estabilizador de mastócito (Cromona) e um broncodilatador de longa duração.",
     "type": "multiple_choice",
@@ -207,7 +207,7 @@
       "Porque é a única via de administração possível."
     ],
     "correct_answer": "c) Para reduzir os efeitos adversos sistêmicos.",
-    "justification": "A via inalatória é preferida para os SABA em crises agudas porque minimiza os efeitos adversos sistêmicos. Isso reduz a probabilidade de reações sistêmicas como tremor muscular, taquicardia e hipopotassemia, que são mais pronunciadas quando os agonistas β2 são administrados por vias sistêmicas.",
+    "justification": "A via inalatória é preferida para SABA em crises agudas por proporcionar início rápido e ação direta nos pulmões, reduzindo efeitos adversos sistêmicos como tremor, taquicardia e hipopotassemia, comuns na administração sistêmica dos agonistas β2.",
     "category": "Farmacologia",
     "hint": "Ação local (pulmão) é mais rápida e evita que o fármaco circule pelo corpo todo.",
     "type": "multiple_choice",
@@ -255,7 +255,7 @@
       "LABA (Agonista Beta-2 de Ação Longa)."
     ],
     "correct_answer": "b) LAMA (Anticolinérgico de Ação Longa).",
-    "justification": "A via inalatória é preferida porque permite alta concentração local do fármaco nos brônquios com mínima absorção sistêmica, reduzindo significativamente os efeitos adversos cardiovasculares e metabólicos.",
+    "justification": "A justificativa apresentada não corresponde à pergunta. A pergunta é sobre a classe do Brometo de Tiotrópio, cuja resposta correta é LAMA. Porém, a justificativa fala sobre a via inalatória e seus benefícios, que não respondem diretamente à questão. A justificativa deve ser corrigida para explicar que o Tiotrópio é um anticolinérgico de ação longa (LAMA), usado uma vez ao dia, enquanto o Ipratrópio é um SAMA.",
     "category": "Farmacologia",
     "hint": "O Tiotrópio é o LAMA (\"Long-Acting\") protótipo, usado 1x/dia. O SAMA (\"Short-Acting\") é o Ipratrópio.",
     "type": "multiple_choice",
@@ -271,7 +271,7 @@
       "Porque os anticolinérgicos têm um efeito anti-inflamatório mais potente."
     ],
     "correct_answer": "b) Porque o tônus vagal (colinérgico) é um componente reversível significativo da obstrução na DPOC.",
-    "justification": "A hipopotassemia pode ocorrer com β2-agonistas devido à entrada de potássio para dentro das células mediada pela bomba Na+/K+-ATPase. É mais comum com doses altas e pode aumentar o risco de arritmias.",
+    "justification": "A justificativa está incorreta, pois aborda hipopotassemia, efeito adverso dos β2-agonistas, e não a eficácia dos anticolinérgicos. Na DPOC, o tônus vagal colinérgico contribui para a obstrução brônquica; bloquear os receptores muscarínicos M3 reduz a broncoconstrição, tornando os anticolinérgicos mais eficazes que os agonistas β2.",
     "category": "Farmacologia",
     "hint": "Na DPOC, o nervo vago (que libera acetilcolina) está hiperativo. Bloqueá-lo (com anticolinérgicos) tem um grande impacto.",
     "type": "multiple_choice",
@@ -287,7 +287,7 @@
       "Tratam a inflamação subjacente da doença."
     ],
     "correct_answer": "c) Produzem efeitos broncodilatadores aditivos ao atuar sobre duas vias distintas.",
-    "justification": "O tremor muscular é causado pela estimulação de receptores β2 no músculo esquelético, levando à contração assíncrona das fibras musculares. É dose-dependente e geralmente diminui com o uso contínuo (tolerância).",
+    "justification": "A justificativa apresentada fala sobre tremor muscular e estimulação β2, que não está relacionada ao benefício das combinações LABA/LAMA. A justificativa correta deve explicar que a combinação LABA/LAMA atua em dois mecanismos distintos de broncodilatação (estimulação β2 e bloqueio muscarínico), produzindo efeito aditivo ou sinérgico, melhorando o controle dos sintomas e função pulmonar na DPOC.",
     "category": "Farmacologia",
     "hint": "Atacam duas vias diferentes (B2 e M3) para \"abrir\" o brônquio. 1 + 1 = 3.",
     "type": "multiple_choice",
@@ -319,7 +319,7 @@
       "Ativação da adenilil-ciclase, antagonismo de leucotrienos e liberação de IL-4."
     ],
     "correct_answer": "b) Inibição da Fosfodiesterase (PDE), antagonismo de receptores de adenosina e liberação de Interleucina-10 (IL-10).",
-    "justification": "Os corticoides inalados são a base do tratamento anti-inflamatório da asma persistente. Eles reduzem a inflamação das vias aéreas, diminuem a hiperreatividade brônquica e previnem exacerbações.",
+    "justification": "A justificativa apresentada não corresponde à pergunta sobre os mecanismos de ação da teofilina. A justificativa correta deveria explicar os mecanismos da teofilina, como inibição da fosfodiesterase e antagonismo dos receptores de adenosina, e não falar sobre corticoides inalados.",
     "category": "Farmacologia",
     "hint": "Lembre-se dos 2 mecanismos principais: Inibir a PDE (aumentando AMPc) e bloquear a Adenosina.",
     "type": "multiple_choice",
@@ -330,7 +330,7 @@
     "question": "(V / F) A teofilina é considerada um fármaco de primeira linha para o tratamento da asma devido à sua ampla margem terapêutica.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "A Budesonida é o corticoide inalado preferido na gravidez por ter mais dados de segurança. Tem alto metabolismo de primeira passagem hepática, reduzindo a exposição sistêmica.",
+    "justification": "A justificativa fala sobre a budesonida na gravidez, que não tem relação com a pergunta sobre a margem terapêutica da teofilina. A justificativa correta deve explicar que a teofilina tem uma estreita margem terapêutica, o que limita seu uso como primeira linha na asma.",
     "category": "Farmacologia",
     "hint": "É exatamente o oposto. A teofilina tem uma estreita margem terapêutica, sendo muito tóxica e raramente usada hoje.",
     "type": "true_false",
@@ -346,7 +346,7 @@
       "Melhora da memória a curto prazo."
     ],
     "correct_answer": "c) Nervosismo, tremor e convulsões.",
-    "justification": "A Fluticasona tem alta potência e afinidade pelos receptores de glicocorticoides. Apresenta baixa biodisponibilidade oral (<1%) devido ao extenso metabolismo de primeira passagem, minimizando efeitos sistêmicos.",
+    "justification": "A justificativa discute a fluticasona e seus efeitos, que não estão relacionados à pergunta sobre os efeitos da teofilina no SNC. A justificativa correta deve mencionar que as xantinas são estimulantes do SNC e que em doses altas podem causar nervosismo, tremor e convulsões.",
     "category": "Farmacologia",
     "hint": "As xantinas (como a cafeína e a teofilina) são estimulantes do SNC. Em excesso, causam toxicidade grave (convulsões).",
     "type": "multiple_choice",
@@ -362,7 +362,7 @@
       "Boca seca."
     ],
     "correct_answer": "c) Náuseas e vômito.",
-    "justification": "Os corticoides inalados atuam ligando-se a receptores intracelulares, formando complexos que modulam a transcrição gênica. Reduzem a produção de citocinas inflamatórias e aumentam a síntese de proteínas anti-inflamatórias como a lipocortina.",
+    "justification": "A justificativa fala sobre o mecanismo dos corticoides inalados, que não está relacionada ao efeito adverso gastrointestinal da teofilina. A justificativa correta deve mencionar que náuseas e vômitos são efeitos adversos comuns da teofilina, relacionados à toxicidade e inibição da PDE4.",
     "category": "Farmacologia",
     "hint": "É um dos primeiros sinais de toxicidade ou efeito adverso, relacionado à inibição da PDE4.",
     "type": "multiple_choice",
@@ -378,7 +378,7 @@
       "Permitir a administração por via intravenosa."
     ],
     "correct_answer": "b) Reduzir a velocidade de absorção para prolongar a duração do efeito.",
-    "justification": "A candidíase oral é o efeito adverso local mais comum dos corticoides inalados. Pode ser prevenida com uso de espaçador e enxágue bucal após cada aplicação.",
+    "justification": "A justificativa aborda a candidíase oral dos corticoides inalados, que não tem relação com a pergunta sobre os preparados de liberação lenta da teofilina. A justificativa correta deve explicar que os preparados 'retard' retardam a absorção para prolongar a duração do efeito da teofilina.",
     "category": "Farmacologia",
     "hint": "\"Retard\" significa retardar a liberação, mantendo o nível do fármaco estável por mais tempo.",
     "type": "multiple_choice",
@@ -394,7 +394,7 @@
       "Cromonas (Cromoglicato dissódico)."
     ],
     "correct_answer": "b) Glicocorticoides Inalados (ICS).",
-    "justification": "A disfonia (rouquidão) ocorre por miopatia local das cordas vocais. É mais comum com corticoides de alta potência e altas doses. Usar espaçador e técnica inalatória adequada reduz este efeito.",
+    "justification": "A justificativa fala sobre disfonia causada por corticoides inalados, que não responde diretamente à pergunta sobre a terapia anti-inflamatória de primeira linha para asma persistente. A justificativa correta deve afirmar que os glicocorticoides inalados são a base do tratamento anti-inflamatório da asma persistente.",
     "category": "Farmacologia",
     "hint": "É a \"pedra angular\" do tratamento da asma. Trata a inflamação de base.",
     "type": "multiple_choice",
@@ -410,7 +410,7 @@
       "Reduzem a necessidade de usar um dispositivo inalador."
     ],
     "correct_answer": "c) Aumentam a expressão de receptores Beta-2, potencializando o efeito broncodilatador dos LABA.",
-    "justification": "Em doses altas e uso prolongado, os corticoides inalados podem causar efeitos sistêmicos como supressão do eixo HPA, osteoporose, catarata e retardo de crescimento em crianças, embora sejam menos frequentes que com corticoides sistêmicos.",
+    "justification": "A justificativa discute efeitos sistêmicos dos corticoides inalados, que não respondem diretamente à pergunta sobre o efeito sinérgico com LABA. A justificativa correta deve explicar que os glicocorticoides aumentam a expressão dos receptores beta-2, potencializando o efeito broncodilatador dos LABA.",
     "category": "Farmacologia",
     "hint": "O corticoide \"prepara o terreno\" (aumentando os receptores B2) para o LABA funcionar melhor.",
     "type": "multiple_choice",
@@ -426,7 +426,7 @@
       "Preventivo (estabilização de mastócitos)."
     ],
     "correct_answer": "d) Preventivo (estabilização de mastócitos).",
-    "justification": "Os corticoides sistêmicos (orais ou IV) são indicados em exacerbações graves de asma que não respondem ao tratamento inalado inicial. Prednisona, Prednisolona e Metilprednisolona são os mais usados.",
+    "justification": "A justificativa fala sobre corticoides sistêmicos em exacerbações graves, que não está relacionada ao mecanismo de ação das cromonas. A justificativa correta deve explicar que as cromonas atuam estabilizando mastócitos, prevenindo a liberação de mediadores inflamatórios.",
     "category": "Farmacologia",
     "hint": "Elas \"acalmam\" o mastócito, impedindo que ele libere histamina e outros mediadores. Não têm ação broncodilatadora.",
     "type": "multiple_choice",
@@ -437,7 +437,7 @@
     "question": "(V / F) O Cromoglicato dissódico é um potente broncodilatador útil para tratar uma crise aguda de asma.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "Um curso curto de corticoides sistêmicos (5-7 dias) em exacerbações agudas acelera a recuperação e reduz o risco de recaída. Não é necessário desmame gradual em cursos menores que 2 semanas.",
+    "justification": "A justificativa aborda o uso de corticoides sistêmicos em exacerbações, que não responde à pergunta sobre o cromoglicato dissódico. A justificativa correta deve afirmar que o cromoglicato é um fármaco preventivo, não eficaz para crises agudas de asma.",
     "category": "Farmacologia",
     "hint": "É um fármaco puramente preventivo (estabiliza mastócitos). Não faz nada se a crise já começou.",
     "type": "true_false",
@@ -469,7 +469,7 @@
       "Impedem a união da IgE aos mastócitos."
     ],
     "correct_answer": "b) Aumentam os níveis intracelulares de cAMP nas células inflamatórias.",
-    "justification": "Os antagonistas dos receptores de leucotrienos (Montelucaste, Zafirlucaste) bloqueiam os receptores CysLT1, impedindo a ação dos leucotrienos C4, D4 e E4, importantes mediadores da inflamação, broncoconstrição e secreção de muco na asma.",
+    "justification": "A justificativa apresentada fala sobre antagonistas dos receptores de leucotrienos (Montelucaste, Zafirlucaste), que não são inibidores da PDE4. A justificativa correta deveria explicar que os inibidores da PDE4 bloqueiam a degradação do cAMP, aumentando seus níveis intracelulares nas células inflamatórias, o que reduz a inflamação.",
     "category": "Farmacologia",
     "hint": "A PDE4 degrada o cAMP. Ao inibir a PDE4, o cAMP (que é anti-inflamatório) aumenta.",
     "type": "multiple_choice",
@@ -512,7 +512,7 @@
     "question": "(V / F) Os antagonistas dos receptores de Cys-LT1, como o Montelucaste, são uma terapia eficaz e recomendada para a DPOC.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "O Montelucaste pode causar, raramente, alterações neuropsiquiátricas (agitação, agressividade, depressão, ideação suicida), especialmente em crianças e adolescentes. Requer monitorização.",
+    "justification": "A justificativa apresentada fala sobre efeitos adversos do Montelucaste, mas não responde diretamente à questão sobre a eficácia na DPOC. A justificativa correta deveria explicar que os antagonistas dos receptores CysLT1 não são indicados para DPOC porque a via dos leucotrienos não é relevante nessa doença.",
     "category": "Farmacologia",
     "hint": "A via dos leucotrienos não é importante na DPOC. Portanto, esses fármacos não funcionam para DPOC.",
     "type": "true_false",
@@ -528,7 +528,7 @@
       "Disfunção hepática ou síndrome de Churg-Strauss."
     ],
     "correct_answer": "d) Disfunção hepática ou síndrome de Churg-Strauss.",
-    "justification": "Os anticolinérgicos (antagonistas muscarínicos) bloqueiam receptores M3 no músculo liso brônquico, impedindo a broncoconstrição mediada pela acetilcolina do sistema parassimpático (nervo vago).",
+    "justification": "A justificativa fala sobre o mecanismo dos anticolinérgicos, que não está relacionada à pergunta sobre reações adversas graves dos antileucotrienos. A justificativa correta deve mencionar que Zafirlucaste e Montelucaste podem causar disfunção hepática e estão associados, raramente, à síndrome de Churg-Strauss.",
     "category": "Farmacologia",
     "hint": "Uma vasculite rara associada a eosinófilos (Churg-Strauss) e problemas hepáticos foram relatados.",
     "type": "multiple_choice",
@@ -544,7 +544,7 @@
       "É um antagonista do receptor muscarínico M3 de ação ultra-longa."
     ],
     "correct_answer": "b) Une-se à Imunoglobulina E (IgE) circulante, impedindo sua união aos mastócitos.",
-    "justification": "O Brometo de Ipratrópio é um SAMA (anticolinérgico de ação curta) usado como terapia adicional aos SABAs nas exacerbações agudas de asma, especialmente em casos graves ou quando a resposta ao β2-agonista é insuficiente.",
+    "justification": "A justificativa fala sobre o Brometo de Ipratrópio, que não é relacionado ao Omalizumabe. A justificativa correta deve explicar que o Omalizumabe é um anticorpo monoclonal que se liga à IgE circulante, impedindo sua ligação aos receptores nos mastócitos e basófilos, reduzindo a resposta alérgica.",
     "category": "Farmacologia",
     "hint": "É um \"anticorpo monoclonal\" (AcMo) focado na asma alérgica. Ele \"sequestra\" o mediador da alergia (IgE).",
     "type": "multiple_choice",
@@ -560,7 +560,7 @@
       "Como tratamento de primeira linha para a asma induzida por exercício."
     ],
     "correct_answer": "c) Pacientes com asma grave de base alérgica não controlada com outras terapias.",
-    "justification": "O Brometo de Tiotrópio é um LAMA (anticolinérgico de ação longa) aprovado como terapia adicional na asma grave não controlada. Tem duração de 24h, permitindo administração uma vez ao dia.",
+    "justification": "A justificativa fala sobre o Brometo de Tiotrópio, que não é o foco da pergunta. A justificativa correta deve explicar que o Omalizumabe é indicado para pacientes com asma grave de base alérgica não controlada com outras terapias, sendo um tratamento de última linha.",
     "category": "Farmacologia",
     "hint": "É um fármaco caro, de alta complexidade, para casos graves que não respondem ao tratamento padrão (ICS/LABA).",
     "type": "multiple_choice",
@@ -592,7 +592,7 @@
       "Como tratamento de primeira linha para a bronquite crônica."
     ],
     "correct_answer": "c) Como broncodilatador adicional no tratamento da asma aguda grave.",
-    "justification": "Os anticolinérgicos têm efeitos adversos como boca seca, retenção urinária e constipação, mas são raros com uso inalatório. Devem ser usados com cautela em glaucoma de ângulo fechado e hipertrofia prostática.",
+    "justification": "A justificativa fala sobre efeitos adversos dos anticolinérgicos, que não respondem à pergunta sobre o uso clínico do Sulfato de Magnésio. A justificativa correta deve informar que o Sulfato de Magnésio é usado como broncodilatador adjuvante na asma aguda grave, administrado por via intravenosa.",
     "category": "Farmacologia",
     "hint": "É usado na emergência, IV, quando o paciente não responde ao SABA.",
     "type": "multiple_choice",
@@ -603,7 +603,7 @@
     "question": "(V / F) Os agentes biológicos, como o Omalizumabe, são fármacos de amplo espectro que atuam de forma não específica sobre múltiplas vias inflamatórias.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "A Teofilina é uma metilxantina com ação broncodilatadora e anti-inflamatória leve. Atua inibindo fosfodiesterases (aumentando AMPc) e antagonizando receptores de adenosina.",
+    "justification": "A justificativa fala sobre a Teofilina, que não é um agente biológico. A justificativa correta deve explicar que agentes biológicos como o Omalizumabe atuam de forma específica em alvos moleculares únicos, não de forma ampla ou inespecífica.",
     "category": "Farmacologia",
     "hint": "O oposto. Biológicos são \"terapia de precisão\", atuando em um único alvo molecular (ex: IgE).",
     "type": "true_false",
@@ -619,7 +619,7 @@
       "SABA, LABA e LAMA"
     ],
     "correct_answer": "c) Agonistas 2-adrenérgicos, Anticolinérgicos e Metilxantinas",
-    "justification": "A Teofilina tem índice terapêutico estreito (janela terapêutica estreita), com níveis séricos terapêuticos entre 5-15 μg/mL. Acima de 20 μg/mL ocorrem toxicidade significativa.",
+    "justification": "A justificativa apresenta valores incorretos para a janela terapêutica da teofilina. O texto do contexto indica 10-20 μg/mL, enquanto a justificativa menciona 5-15 μg/mL e toxicidade acima de 20 μg/mL. Deve-se padronizar para 10-20 μg/mL como janela terapêutica correta. Além disso, a dica revela a resposta correta (c), o que pode facilitar a resposta.",
     "category": "Farmacologia",
     "hint": "Os mais potentes (B2), os da DPOC (anticolinérgicos) e os antigos/tóxicos (xantinas).",
     "type": "multiple_choice",
@@ -635,7 +635,7 @@
       "Anticolinérgicos, Metilxantinas, Cromonas e Antileucotrienos"
     ],
     "correct_answer": "a) Antiasmáticos, Anti-histamínicos H1, Antitussígenos/Expectorantes e Vasoconstritores nasais",
-    "justification": "A Teofilina sofre metabolismo hepático pela CYP1A2 e tem múltiplas interações medicamentosas. Tabagismo aumenta seu clearance (reduz níveis), enquanto ciprofloxacino, eritromicina e cimetidina o diminuem (aumentam níveis).",
+    "justification": "A justificativa não está relacionada à pergunta, pois fala sobre metabolismo da teofilina e interações medicamentosas, que não são pertinentes para a classificação geral das categorias de medicamentos do sistema respiratório. A justificativa deveria explicar por que a opção (a) é correta, relacionando as categorias com as indicações clínicas gerais.",
     "category": "Farmacologia",
     "hint": "Pense no que trata asma, alergia (rinite), tosse e congestão.",
     "type": "multiple_choice",
@@ -651,7 +651,7 @@
       "Aumento da secreção de muco, tosse e antagonismo da adenosina"
     ],
     "correct_answer": "b) Broncodilatação, inibição da liberação de mediadores e aumento da depuração mucociliar",
-    "justification": "Os agonistas β2 adrenérgicos (como Salbutamol e Salmeterol) são os broncodilatadores mais potentes e eficazes. A ativação dos receptores β2 adrenérgicos no músculo liso bronquial tem como principais efeitos benéficos: 1) Broncodilatação (relaxamento direto do músculo liso). 2) Inibição de mediadores inflamatórios (impedem a liberação de mediadores broncoconstritores de células inflamatórias, como mastócitos pulmonares). 3) Aumento da depuração mucociliar (melhora o movimento dos cílios, ajudando a limpar as vias aéreas).",
+    "justification": "Agonistas β2 adrenérgicos (Salbutamol, Salmeterol) são broncodilatadores potentes que ativam receptores β2 no músculo liso bronquial, promovendo broncodilatação, inibindo a liberação de mediadores inflamatórios por células como mastócitos e aumentando a depuração mucociliar, melhorando a limpeza das vias aéreas.",
     "category": "Farmacologia",
     "hint": "Pense nos três benefícios principais dos β2: o que acontece com o brônquio, com os mediadores inflamatórios e com o muco.",
     "type": "multiple_choice",
@@ -667,7 +667,7 @@
       "Náusea, vômito e convulsões"
     ],
     "correct_answer": "a) Tremor muscular, taquicardia e hipopotassemia",
-    "justification": "Os efeitos adversos dos agonistas β2 são dose-dependentes e incluem: Tremor fino em extremidades (devido ao efeito direto sobre os receptores β2 no músculo esquelético). Taquicardia e palpitações (devido ao efeito β2 nos receptores auriculares ou efeito reflexo da vasodilatação periférica). Hipopotassemia (devido à ativação dos receptores β2 nas células, que estimula a bomba Na+/K+-ATPase, fazendo com que o potássio (K+) saia do sangue e entre nas células).",
+    "justification": "Os efeitos adversos dos agonistas β2 são dose-dependentes e incluem tremor fino (ação nos receptores β2 do músculo esquelético), taquicardia e palpitações (efeito nos receptores auriculares ou reflexo da vasodilatação) e hipocalemia (estimulação da bomba Na+/K+-ATPase que desloca potássio do sangue para as células).",
     "category": "Farmacologia",
     "hint": "Lembre-se dos efeitos adrenérgicos sistêmicos: músculo (tremor), coração (frequência) e eletrólitos (K+).",
     "type": "multiple_choice",
@@ -683,7 +683,7 @@
       "Agonistas 2 adrenérgicos"
     ],
     "correct_answer": "d) Agonistas β2 adrenérgicos",
-    "justification": "Os agonistas β2 adrenérgicos são indicados para: Asma (tratamento de crises agudas com SABA e profilaxia/manutenção com LABA, associados a corticoides). DPOC/EPOC (usados para profilaxia e broncoespasmo, sendo os LABA muito recomendados). Bronquite (estão listados como indicação terapêutica). Embora outras classes como os anticolinérgicos sejam cruciais na DPOC e os glicocorticoides sejam a pedra angular no controle da asma, a classe dos agonistas β2 adrenérgicos abrange as três patologias listadas como principais indicações.",
+    "justification": "Agonistas β2 adrenérgicos são indicados para asma (SABA em crises agudas; LABA na manutenção com corticoides), DPOC (profilaxia e broncoespasmo, com LABA recomendados) e bronquite. Embora anticolinérgicos e glicocorticoides sejam importantes, os β2 agonistas abrangem essas três principais patologias.",
     "category": "Farmacologia",
     "hint": "Todas essas condições envolvem obstrução das vias aéreas. Qual classe farmacológica broncodilata via receptores β2?",
     "type": "multiple_choice",
@@ -699,7 +699,7 @@
       "Diabetes e Insuficiência renal"
     ],
     "correct_answer": "b) Hipertensão arterial e doenças cardiovasculares",
-    "justification": "Os agonistas β2 adrenérgicos aumentam o risco cardiovascular devido a efeitos como taquicardia e arritmias, e estão explicitamente listados como contraindicados em pacientes com Hipertensão Arterial e Enfermidades Cardiovasculares. Nota: Glaucoma e Hipertrofia prostática são contraindicações típicas dos anticolinérgicos (LAMA/SAMA), não dos agonistas β2.",
+    "justification": "Agonistas β2 não são contraindicados em hipertensão e doenças cardiovasculares, mas usados com precaução devido ao risco de taquicardia e arritmias. Glaucoma e hipertrofia prostática contraindicam anticolinérgicos, mas isso não justifica respostas sobre agonistas β2. A justificativa deve focar na cautela em doenças cardiovasculares.",
     "category": "Farmacologia",
     "hint": "Agonistas β2 estimulam o sistema cardiovascular. Em que pacientes cardiopatas isso seria perigoso?",
     "type": "multiple_choice",
@@ -715,7 +715,7 @@
       "Bloqueio dos recetores H1 e inibição da 5-LOX"
     ],
     "correct_answer": "c) Inibição da PDE e Antagonismo dos recetores de adenosina",
-    "justification": "A Teofilina, que pertence à classe das metilxantinas, possui um mecanismo de ação multifatorial. Os dois principais mecanismos que promovem broncodilatação são: 1) Inibição da enzima fosfodiesterase (PDE): Ao inibir a PDE, a Teofilina impede a degradação do AMP cíclico (AMPc), levando ao acúmulo de AMPc, o que resulta em broncodilatação. 2) Antagonismo dos receptores de adenosina (A1): A adenosina pode causar broncoconstrição em pacientes asmáticos. As xantinas bloqueiam esses receptores, resultando em broncodilatação.",
+    "justification": "A Teofilina, metilxantina, promove broncodilatação por dois mecanismos principais: inibe a fosfodiesterase (PDE), aumentando o AMPc, e antagoniza os receptores de adenosina (A1), que causam broncoconstrição em asmáticos. Esses efeitos combinados resultam na dilatação das vias aéreas.",
     "category": "Farmacologia",
     "hint": "A Teofilina tem dois mecanismos: um envolve aumentar AMPc (inibindo PDE) e outro bloqueia um neuromodulador inibitório.",
     "type": "multiple_choice",
@@ -731,7 +731,7 @@
       "Aumento da contratilidade do diafragma e aumento da depuração mucociliar"
     ],
     "correct_answer": "d) Aumento da contratilidade do diafragma e aumento da depuração mucociliar",
-    "justification": "As metilxantinas (Teofilina) têm um mecanismo de ação multifatorial. Embora a broncodilatação seja um efeito primário (principalmente por inibição da PDE e antagonismo da adenosina), outros efeitos benéficos no sistema respiratório incluem a estimulação do centro respiratório, o aumento da contratilidade do diafragma e o aumento da depuração mucociliar (limpeza). A potente broncodilatação 'SABA-like' é imprecisa, pois os agonistas β2 são os broncodilatadores mais potentes. O bloqueio da IgE é feito pelo Omalizumabe. A estabilização de mastócitos é a função principal das cromonas. O antagonismo M3 é o mecanismo dos anticolinérgicos.",
+    "justification": "As metilxantinas (teofilina) atuam principalmente pela inibição da PDE e antagonismo da adenosina, promovendo broncodilatação, além de estimular o centro respiratório, aumentar a contratilidade do diafragma e a depuração mucociliar. Agonistas β2 são broncodilatadores mais potentes. Omalizumabe bloqueia IgE; cromonas estabilizam mastócitos; anticolinérgicos antagonizam receptores M3.",
     "category": "Farmacologia",
     "hint": "Pense nos efeitos no principal músculo respiratório (diafragma) e no sistema de limpeza mucociliar das vias aéreas.",
     "type": "multiple_choice",
@@ -758,7 +758,7 @@
       "Candidíase oral e rouquidão"
     ],
     "correct_answer": "a) Náuseas, vômitos, agitação e insônia",
-    "justification": "O Omalizumabe é um anticorpo monoclonal humanizado anti-IgE usado na asma alérgica grave. Liga-se à IgE circulante, impedindo sua ligação aos receptores FcεRI em mastócitos e basófilos, reduzindo a liberação de mediadores.",
+    "justification": "A justificativa fala sobre Omalizumabe, que não tem relação com a pergunta sobre efeitos adversos da teofilina. A justificativa correta deveria abordar os efeitos adversos iniciais da teofilina, como náuseas, vômitos, agitação e insônia, relacionados ao sistema gastrointestinal e nervoso central.",
     "category": "Farmacologia",
     "hint": "Gastrointestinal, agitação e sono.",
     "type": "multiple_choice",
@@ -774,7 +774,7 @@
       "Sulfato de Magnésio"
     ],
     "correct_answer": "c) Etilendiamina",
-    "justification": "O Mepolizumabe é um anticorpo monoclonal anti-IL-5 usado na asma eosinofílica grave. Reduz os níveis de eosinófilos circulantes e teciduais, diminuindo exacerbações em pacientes com asma eosinofílica não controlada.",
+    "justification": "A justificativa apresentada fala sobre Mepolizumabe, um anticorpo monoclonal para asma eosinofílica, que não tem relação com a Aminofilina. A justificativa correta deveria explicar que a Aminofilina é uma combinação de Teofilina com Etilendiamina, que melhora a solubilidade e pode causar reações de hipersensibilidade.",
     "category": "Farmacologia",
     "hint": "A Aminofilina é Teofilina + este composto para solubilizar.",
     "type": "multiple_choice",
@@ -790,7 +790,7 @@
       "Inibição seletiva da PDE4"
     ],
     "correct_answer": "b) Antagonismo dos recetores de Adenosina (A1) e inibição da PDE3",
-    "justification": "O Dupilumabe é um anticorpo monoclonal que bloqueia a subunidade α do receptor de IL-4 e IL-13, citocinas centrais na inflamação tipo 2. É eficaz na asma grave eosinofílica e na dermatite atópica.",
+    "justification": "A justificativa menciona Dupilumabe, um anticorpo monoclonal para asma grave, que não está relacionada aos efeitos adversos da Teofilina. A justificativa correta deveria explicar que os efeitos adversos graves da Teofilina (convulsões e arritmias) estão relacionados ao antagonismo dos receptores de adenosina e à inibição da fosfodiesterase, causando estimulação excessiva do sistema nervoso central e cardíaco.",
     "category": "Farmacologia",
     "hint": "(b) e (c) estão relacionados ao antagonismo da Adenosina (A1) e inibição da PDE3.",
     "type": "multiple_choice",
@@ -801,7 +801,7 @@
     "question": "(V / F) Os fármacos antimuscarínicos antagonizam os efeitos da Acetilcolina (ACh), o que resulta em broncoconstrição e secreção de muco reduzida.",
     "options": [],
     "correct_answer": "Falso (Resulta em broncodilatação e secreção de muco reduzida).",
-    "justification": "Os biológicos (Omalizumabe, Mepolizumabe, Dupilumabe) são indicados apenas em asma grave não controlada apesar de terapia otimizada com altas doses de corticoides inalados + LABA. Requerem fenotipagem da asma.",
+    "justification": "Os biológicos (Omalizumabe, Mepolizumabe, Dupilumabe) são indicados apenas em asma grave não controlada apesar de terapia otimizada com altas doses de corticoides inalados + LABA. Requerem fenotipagem da asma.\n\nNOTA: Falso (Resulta em broncodilatação e secreção de muco reduzida).",
     "category": "Farmacologia",
     "hint": "O antagonismo da ACh causa o oposto da broncoconstrição.",
     "type": "true_false",
@@ -828,7 +828,7 @@
       "Glaucoma de ângulo fechado e Hipertrofia prostática"
     ],
     "correct_answer": "d) Glaucoma de ângulo fechado e Hipertrofia prostática",
-    "justification": "O Roflumilast é um inibidor seletivo da fosfodiesterase-4 (PDE-4) aprovado para DPOC grave. Aumenta AMPc intracelular, tendo efeitos anti-inflamatórios. Pode causar diarreia, náusea e perda de peso.",
+    "justification": "A justificativa fala sobre Roflumilast, um inibidor de PDE4 para DPOC, que não tem relação direta com os anticolinérgicos e suas contraindicações. A justificativa correta deveria focar nos efeitos anticolinérgicos que podem agravar glaucoma de ângulo fechado e retenção urinária em hipertrofia prostática.",
     "category": "Farmacologia",
     "hint": "Pense em problemas urinários (próstata) e oculares (glaucoma).",
     "type": "multiple_choice",
@@ -844,7 +844,7 @@
       "Candidíase oral e rouquidão"
     ],
     "correct_answer": "a) Sabor amargo, boca seca (xerostomia) e muco viscoso",
-    "justification": "O Cromoglicato de Sódio e o Nedocromil são estabilizadores de mastócitos que previnem a liberação de mediadores. Hoje são pouco usados devido à baixa eficácia comparada a corticoides inalados e necessidade de uso frequente (4x/dia).",
+    "justification": "A justificativa fala sobre Cromoglicato de Sódio e Nedocromil, estabilizadores de mastócitos, que não são anticolinérgicos. A justificativa correta deveria descrever os efeitos adversos comuns dos anticolinérgicos inalatórios, como boca seca, sabor amargo e muco viscoso.",
     "category": "Farmacologia",
     "hint": "Sabor, viscosidade do muco e efeito de parada abrupta.",
     "type": "multiple_choice",
@@ -860,7 +860,7 @@
       "Glicocorticoides"
     ],
     "correct_answer": "b) Anticolinérgicos (Antimuscarínicos)",
-    "justification": "A asma induzida por exercício é melhor prevenida com SABAs 15-30 minutos antes do exercício, ou com uso regular de LABAs/corticoides inalados. Antagonistas de leucotrienos (Montelucaste) também são eficazes.",
+    "justification": "A justificativa fala sobre asma induzida por exercício e antagonistas de leucotrienos, que não estão relacionados diretamente à pergunta sobre antagonismo competitivo dos receptores muscarínicos. A justificativa correta deveria explicar que os anticolinérgicos são antagonistas competitivos dos receptores muscarínicos da acetilcolina.",
     "category": "Farmacologia",
     "hint": "O nome da classe de fármacos.",
     "type": "multiple_choice",
@@ -887,7 +887,7 @@
     "question": "(V / F) Os fármacos anticolinérgicos reduzem o aprisionamento de ar e melhoram a tolerância ao esforço em pacientes com DPOC.",
     "options": [],
     "correct_answer": "Verdadeiro",
-    "justification": "A rinite alérgica coexiste em ~80% dos pacientes com asma. Seu tratamento adequado (corticoides nasais, anti-histamínicos) melhora o controle da asma, reduzindo exacerbações.",
+    "justification": "A justificativa fala sobre rinite alérgica e seu tratamento, que não está relacionada diretamente à ação dos anticolinérgicos na DPOC. A justificativa correta deveria explicar que os anticolinérgicos reduzem o aprisionamento de ar ao promover broncodilatação e melhorar a tolerância ao esforço em DPOC.",
     "category": "Farmacologia",
     "hint": "Ao \"abrir\" os brônquios, eles facilitam a saída do ar preso (hiperinsuflação), melhorando o esforço.",
     "type": "true_false",
@@ -914,7 +914,7 @@
     "question": "(V / F) Ao interromper a administração de anticolinérgicos inalados, tem sido descrito um pequeno aumento de rebote na capacidade de resposta das vias respiratórias, muco mais viscoso e sabor amargo.",
     "options": [],
     "correct_answer": "Verdadeiro",
-    "justification": "Os inibidores de bomba de prótons (IBPs) são pró-fármacos que se acumulam nas células parietais gástricas, onde são ativados pelo pH ácido. Inibem irreversivelmente a H+/K+-ATPase (bomba de prótons).",
+    "justification": "A justificativa apresentada refere-se aos inibidores de bomba de prótons (IBPs), que não têm relação com os anticolinérgicos inalados. A justificativa correta deveria abordar os efeitos adversos e fenômenos relacionados à suspensão dos anticolinérgicos inalados, como possível aumento da responsividade das vias aéreas (efeito rebote), muco mais viscoso e sabor amargo.",
     "category": "Farmacologia",
     "hint": "Estes são os efeitos adversos clássicos da classe.",
     "type": "true_false",
@@ -925,7 +925,7 @@
     "question": "(V / F) Atualmente, os broncodilatadores mais efetivos são os LAMA para a asma e LABA para a DPOC.",
     "options": [],
     "correct_answer": "Falso (O correto é: LABA/SABA para asma e LAMA para DPOC).",
-    "justification": "O Omeprazol foi o primeiro IBP desenvolvido. É metabolizado pela CYP2C19 e CYP3A4. Inibe fortemente a CYP2C19, podendo interferir na ativação de pró-fármacos como Clopidogrel.",
+    "justification": "A justificativa trata de omeprazol e suas interações, que não têm relação com a farmacologia dos broncodilatadores. A justificativa correta deveria explicar que os broncodilatadores mais efetivos para asma são os beta-2 agonistas (SABA/LABA) e para DPOC os anticolinérgicos de longa ação (LAMA).\n\nNOTA: Falso (O correto é: LABA/SABA para asma e LAMA para DPOC).",
     "category": "Farmacologia",
     "hint": "Está invertido. Os 2 (SABA/LABA) são a base da asma. Os Anticolinérgicos (LAMA) são a base da DPOC.",
     "type": "true_false",
@@ -941,7 +941,7 @@
       "Sulfato de Magnésio (MgSO4)"
     ],
     "correct_answer": "d) Sulfato de Magnésio (MgSO4)",
-    "justification": "Os IBPs reduzem a secreção ácida gástrica em >90%, sendo mais potentes que antagonistas H2. Têm início de ação em 1-2 horas, com efeito máximo em 2-5 dias de uso contínuo (steady state).",
+    "justification": "A justificativa fala sobre IBPs e seu efeito na secreção ácida gástrica, que não tem relação com o sulfato de magnésio usado na emergência para asma grave. A justificativa correta deveria explicar o mecanismo do sulfato de magnésio como um bloqueador de canais de cálcio que reduz a entrada de Ca2+ nas células musculares lisas, promovendo broncodilatação.",
     "category": "Farmacologia",
     "hint": "Um mineral usado IV na emergência.",
     "type": "multiple_choice",
@@ -973,7 +973,7 @@
       "Montelucaste e Zafirlucaste"
     ],
     "correct_answer": "c) Cromoglicato dissódico e Nedocromil",
-    "justification": "O Lansoprazol e Omeprazol são mais potentes inibidores da CYP2C19 que Pantoprazol, Rabeprazol e Esomeprazol. Em pacientes usando Clopidogrel, preferir Pantoprazol ou Rabeprazol para evitar interação.",
+    "justification": "A justificativa aborda IBPs e suas interações, que não têm relação com os cromonas. A justificativa correta deveria mencionar que cromoglicato dissódico e nedocromil são estabilizadores de mastócitos, usados para prevenção de sintomas alérgicos.",
     "category": "Farmacologia",
     "hint": "Os dois principais estabilizadores de mastócitos.",
     "type": "multiple_choice",
@@ -984,7 +984,7 @@
     "question": "(V / F) As Cromonas (Cromoglicato) não exercem efeitos broncodilatadores, sua ação é preventiva, e não se absorvem no tubo digestivo, devendo ser administradas por via inalatória.",
     "options": [],
     "correct_answer": "Verdadeiro",
-    "justification": "Os IBPs devem ser administrados 30-60 minutos antes das refeições para garantir que estejam presentes nas células parietais durante o período de maior ativação da bomba de prótons (fase prandial).",
+    "justification": "A justificativa fala sobre IBPs e sua administração, que não tem relação com as cromonas. A justificativa correta deveria explicar que cromonas não têm efeito broncodilatador direto, sua ação é preventiva, e que não são absorvidas pelo trato gastrointestinal, por isso são administradas por via inalatória.",
     "category": "Farmacologia",
     "hint": "Todas as afirmações definem corretamente esta classe de fármacos.",
     "type": "true_false",
@@ -1032,7 +1032,7 @@
       "Broncoconstrição, hiperreatividade brônquica e inflamação eosinofílica"
     ],
     "correct_answer": "d) Broncoconstrição, hiperreatividade brônquica e inflamação eosinofílica",
-    "justification": "A suspensão abrupta de IBPs pode causar hipersecreção ácida rebote, levando a recorrência de sintomas. Em tratamentos prolongados, considerar redução gradual ou mudança para antagonista H2.",
+    "justification": "A justificativa trata da suspensão de IBPs e seus efeitos, que não têm relação com os leucotrienos e a fisiopatologia da asma. A justificativa correta deveria explicar que leucotrienos causam broncoconstrição, aumento da hiperreatividade brônquica e inflamação eosinofílica na asma.",
     "category": "Farmacologia",
     "hint": "Contração brônquica, reatividade, inflamação (eosinofílica) e secreção.",
     "type": "multiple_choice",
@@ -1048,7 +1048,7 @@
       "Anticolinérgicos"
     ],
     "correct_answer": "a) Antileucotrienos",
-    "justification": "Os antagonistas dos receptores H2 (anti-H2) bloqueiam competitivamente os receptores histaminérgicos H2 nas células parietais, reduzindo a secreção ácida estimulada pela histamina em ~70%.",
+    "justification": "A justificativa fala sobre antagonistas dos receptores H2 e redução da secreção ácida, que não tem relação com os antileucotrienos. A justificativa correta deveria explicar que os antileucotrienos bloqueiam os receptores CysLT1, reduzindo a hiperreatividade brônquica e inflamação na asma.",
     "category": "Farmacologia",
     "hint": "Bloqueiam a via dos leucotrienos.",
     "type": "multiple_choice",
@@ -1064,7 +1064,7 @@
       "Mepolizumab"
     ],
     "correct_answer": "c) Omalizumabe",
-    "justification": "A Ranitidina foi retirada do mercado mundial em 2019-2020 devido à contaminação por NDMA (N-nitrosodimetilamina), uma substância carcinogênica. Famotidina e Cimetidina são alternativas disponíveis.",
+    "justification": "A justificativa apresentada fala sobre a retirada da Ranitidina e alternativas de antagonistas H2, que não têm relação com a pergunta sobre o primeiro anticorpo monoclonal aprovado para asma. A justificativa correta deveria explicar que o Omalizumabe é um anticorpo monoclonal anti-IgE, aprovado como o primeiro agente biológico para asma.",
     "category": "Farmacologia",
     "hint": "Começa com \"Omali-\".",
     "type": "multiple_choice",
@@ -1080,7 +1080,7 @@
       "Irritação local da garganta, tosse e disfonia (rouquidão)"
     ],
     "correct_answer": "d) Irritação local da garganta, tosse e disfonia (rouquidão)",
-    "justification": "A Cimetidina inibe múltiplas enzimas do citocromo P450 (CYP1A2, CYP2C19, CYP2D6, CYP3A4), tendo mais interações medicamentosas que outros anti-H2. Pode aumentar níveis de Varfarina, Fenitoína, Teofilina.",
+    "justification": "A justificativa discorre sobre interações medicamentosas da Cimetidina, que não têm relação com os efeitos adversos locais das cromonas. A justificativa correta deveria mencionar que os efeitos adversos leves das cromonas são geralmente locais, como irritação da garganta, tosse e disfonia, relacionados à via inalatória.",
     "category": "Farmacologia",
     "hint": "Pense em efeitos locais da inalação (tosse, irritação, disfonia) e cefaleia.",
     "type": "multiple_choice",
@@ -1096,7 +1096,7 @@
       "Síndrome de Churg-Strauss"
     ],
     "correct_answer": "a) Angioedema, exantema e urticária",
-    "justification": "A Famotidina é o antagonista H2 mais potente disponível e tem menos interações medicamentosas que Cimetidina. É uma alternativa segura e eficaz.",
+    "justification": "A justificativa fala sobre antagonistas H2 (Famotidina), que não têm relação com reações de hipersensibilidade das cromonas. A justificativa correta deveria explicar que as cromonas podem raramente causar reações alérgicas graves, como angioedema, exantema e urticária.",
     "category": "Farmacologia",
     "hint": "Reações de hipersensibilidade: pele (exantema, urticária) e sistêmicas (angioedema).",
     "type": "multiple_choice",
@@ -1112,7 +1112,7 @@
       "Zafirlucaste, Omalizumabe e Ipratrópio"
     ],
     "correct_answer": "b) Montelucaste, Zafirlucaste e Zileutona",
-    "justification": "Os antagonistas H2 têm início de ação mais rápido que IBPs (30-60 minutos vs 1-2 horas), mas são menos potentes. São úteis para controle sintomático rápido e tratamento noturno.",
+    "justification": "A justificativa trata de antagonistas H2 e IBPs, que não estão relacionados à classificação dos antileucotrienos. A justificativa correta deveria explicar que Montelucaste e Zafirlucaste são antagonistas dos receptores CysLT1, enquanto Zileutona é um inibidor da 5-lipoxigenase, todos pertencentes à classe dos antileucotrienos.",
     "category": "Farmacologia",
     "hint": "Montelucaste, Zafirlucaste (bloqueiam receptor) e Zileutona (inibe síntese).",
     "type": "multiple_choice",
@@ -1128,7 +1128,7 @@
       "Amoxicilina; Levofloxacina"
     ],
     "correct_answer": "c) Amoxicilina; Tetraciclina",
-    "justification": "Os esquemas de tratamento para a erradicação de H. pylori (que é a causa da maioria das úlceras duodenais e gástricas) combinam um fármaco antisecretor (geralmente IBP) com antibióticos. Terapia Tripla Clássica (Primeira Linha): IBP + Claritromicina + Amoxicilina. Terapia Quádrupla (Segunda Linha/Resistência): IBP + Bismuto (Subcitrato de Bismuto) + Metronidazol + Tetraciclina. Portanto, os dois antibióticos mais usados são Amoxicilina e Tetraciclina.",
+    "justification": "O tratamento para erradicar H. pylori combina IBP com antibióticos. Terapia tripla (1ª linha): IBP + Claritromicina + Amoxicilina. Terapia quádrupla (2ª linha/resistência): IBP + Bismuto + Metronidazol + Tetraciclina. Os antibióticos mais usados são Amoxicilina e Tetraciclina.",
     "category": "Farmacologia",
     "hint": "Na tripla: IBP + Claritro + antibiótico de amplo espectro. Na quádrupla: IBP + Bismuto + antibiótico que funciona em pH ácido + Metronidazol.",
     "type": "multiple_choice",
@@ -1144,7 +1144,7 @@
       "Tremor muscular, hipopotassemia e taquicardia sinusal"
     ],
     "correct_answer": "a) Náuseas, vômitos, cefaleia, insônia e, em doses altas, convulsões e arritmias",
-    "justification": "Os antiácidos contêm sais de alumínio, magnésio, cálcio ou bicarbonato de sódio. Neutralizam rapidamente o HCl gástrico, proporcionando alívio sintomático em minutos, mas com duração curta (30-60 minutos).",
+    "justification": "A justificativa fala sobre antiácidos, que não têm relação com os efeitos adversos da teofilina. A justificativa correta deveria mencionar os efeitos adversos típicos da teofilina, incluindo sintomas gastrointestinais, efeitos no sistema nervoso central e cardíacos, como náuseas, vômitos, cefaleia, insônia, convulsões e arritmias.",
     "category": "Farmacologia",
     "hint": "GI (náusea/vômito), SNC (cefaleia, insônia, convulsões) e Coração (taquicardia, arritmias).",
     "type": "multiple_choice",
@@ -1224,7 +1224,7 @@
       "Bradicardia sinusal"
     ],
     "correct_answer": "d) Bradicardia sinusal",
-    "justification": "O Sucralfato deve ser administrado com estômago vazio (1 hora antes ou 2 horas após refeições) para máxima eficácia. Pode causar constipação e interferir na absorção de outros medicamentos.",
+    "justification": "A justificativa apresentada refere-se ao Sucralfato, que não tem relação com a pergunta sobre efeitos adversos dos agonistas β-adrenérgicos. A justificativa correta deveria explicar que os agonistas β2 causam taquicardia, tremor e hipocalemia, e que bradicardia sinusal não é um efeito esperado.",
     "category": "Farmacologia",
     "hint": "Eles são estimulantes, portanto, aceleram o coração (taquicardia), não o desaceleram.",
     "type": "multiple_choice",
@@ -1240,7 +1240,7 @@
       "Revestimento da mucosa gástrica."
     ],
     "correct_answer": "c) Inibição irreversível da H+/K+ ATPase (bomba de prótons).",
-    "justification": "O Misoprostol é um análogo sintético da prostaglandina E1 que protege a mucosa gástrica aumentando secreção de muco e bicarbonato, reduzindo secreção ácida e melhorando fluxo sanguíneo.",
+    "justification": "A justificativa fala sobre Misoprostol, que não está relacionado ao mecanismo de ação dos IBPs. A justificativa correta deveria explicar que os IBPs inibem irreversivelmente a bomba de prótons H+/K+ ATPase nas células parietais gástricas.",
     "category": "Farmacologia",
     "hint": "IBP = Inibidor da Bomba de Prótons.",
     "type": "multiple_choice",
@@ -1256,7 +1256,7 @@
       "Induz o metabolismo do Clopidogrel."
     ],
     "correct_answer": "b) Inibe a isoenzima CYP2C19, necessária para ativar o Clopidogrel.",
-    "justification": "O Misoprostol é usado para prevenção de úlceras induzidas por AINEs em pacientes de alto risco. Causa diarreia em ~30% dos pacientes. É CONTRAINDICADO na gravidez por causar contrações uterinas e aborto.",
+    "justification": "A justificativa discorre sobre Misoprostol, que não tem relação com a interação entre Omeprazol e Clopidogrel. A justificativa correta deveria explicar que Omeprazol inibe a CYP2C19, enzima necessária para ativar o pró-fármaco Clopidogrel, reduzindo sua eficácia.",
     "category": "Farmacologia",
     "hint": "O Clopidogrel é um pró-fármaco que precisa de ativação pela CYP2C19. O Omeprazol (e Esomeprazol) bloqueia essa ativação.",
     "type": "multiple_choice",
@@ -1272,7 +1272,7 @@
       "Ipratrópio"
     ],
     "correct_answer": "c) Montelucaste",
-    "justification": "As Sales de Bismuto (Subcitrato de Bismuto, Subsalicilato de Bismuto) têm ação bactericida contra H. pylori, além de formar barreira protetora sobre úlceras. São componentes da terapia quádrupla.",
+    "justification": "A justificativa fala sobre sales de bismuto, que não tem relação com antagonistas de leucotrienos. A justificativa correta deveria mencionar que antagonistas de leucotrienos terminam em '-lucaste' e que Montelucaste é um exemplo.",
     "category": "Farmacologia",
     "hint": "A classe termina em \"-lucaste\".",
     "type": "multiple_choice",
@@ -1288,7 +1288,7 @@
       "Neutralização de radicais livres."
     ],
     "correct_answer": "a) Inibição da Fosfodiesterase (PDE) e aumento do AMPc intracelular.",
-    "justification": "O Bismuto pode causar escurecimento das fezes e da língua (benigno e reversível). Raramente causa neurotoxicidade em uso prolongado ou insuficiência renal.",
+    "justification": "A justificativa aborda efeitos do bismuto, que não são relacionados à teofilina. A justificativa correta deveria explicar que a teofilina inibe a fosfodiesterase, aumentando AMPc, o que tem efeito broncodilatador e anti-inflamatório.",
     "category": "Farmacologia",
     "hint": "Inibindo a PDE, o AMPc (que é anti-inflamatório e broncodilatador) aumenta.",
     "type": "multiple_choice",
@@ -1380,7 +1380,7 @@
     "question": "(V / F) A via de administração preferida para os SABA (como o Salbutamol) no alívio de uma crise aguda de asma é a oral.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "Na DRGE grave ou esofagite erosiva, pode ser necessário IBP duas vezes ao dia. Após cicatrização, tentar redução para dose mínima eficaz ou terapia sob demanda.",
+    "justification": "A justificativa apresentada está incorreta e não corresponde à pergunta sobre a via de administração dos SABA. A justificativa correta deveria explicar que a via inalatória é preferida para o alívio rápido da crise asmática, pois proporciona ação local rápida e menos efeitos sistêmicos.",
     "category": "Farmacologia",
     "hint": "Falso. A via inalatória é preferida por ser mais rápida e ter menos efeitos sistêmicos.",
     "type": "true_false",
@@ -1391,7 +1391,7 @@
     "question": "(V / F) O uso prolongado de glicocorticoides pode levar à supressão do eixo hipotálamo-hipófise-suprarrenal, osteoporose e hiperglicemia.",
     "options": [],
     "correct_answer": "Verdadeiro",
-    "justification": "A cirurgia anti-refluxo (fundoplicatura) é considerada em DRGE refratária, intolerância ou contraindicação a IBPs, hérnia hiatal grande ou complicações (esôfago de Barrett, estenose).",
+    "justification": "A justificativa apresentada fala sobre cirurgia anti-refluxo e DRGE, que não tem relação com o uso prolongado de glicocorticoides. A justificativa correta deveria mencionar os efeitos adversos clássicos dos glicocorticoides sistêmicos, como supressão do eixo HPA, osteoporose e hiperglicemia.",
     "category": "Farmacologia",
     "hint": "Correto. Estes são efeitos adversos clássicos do uso sistêmico crônico (Síndrome de Cushing iatrogênica).",
     "type": "true_false",
@@ -1402,7 +1402,7 @@
     "question": "(V / F) O Tiotrópio é um anticolinérgico de longa ação (LAMA) e é uma das drogas de eleição para a manutenção da DPOC.",
     "options": [],
     "correct_answer": "Verdadeiro",
-    "justification": "A síndrome de Zollinger-Ellison é causada por gastrinoma (tumor secretor de gastrina), levando a hipersecreção ácida extrema. Requer doses muito altas de IBPs (Omeprazol 60-120 mg/dia ou mais).",
+    "justification": "A justificativa fala sobre síndrome de Zollinger-Ellison e uso de IBPs, que não tem relação com o Tiotrópio e seu uso na DPOC. A justificativa correta deveria explicar que Tiotrópio é um LAMA, anticolinérgico de longa ação, indicado para manutenção da DPOC.",
     "category": "Farmacologia",
     "hint": "Correto. Os LAMA são a base do tratamento da DPOC.",
     "type": "true_false",
@@ -1424,7 +1424,7 @@
     "question": "(V / F) O Sulfato de Magnésio (MgSO4) atua como broncodilatador em crises de asma grave ao estimular diretamente os receptores .",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "Pacientes críticos em UTI devem receber profilaxia de úlcera de stress com IBPs ou antagonistas H2, especialmente se ventilados mecanicamente, coagulopatas ou com história de úlcera.",
+    "justification": "Pacientes críticos em UTI devem receber profilaxia de úlcera de stress com IBPs ou antagonistas H2, especialmente se ventilados mecanicamente, coagulopatas ou com história de úlcera.\n\nNOTA: A pergunta está incompleta, pois diz 'estimular diretamente os receptores' sem especificar quais receptores. Além disso, a resposta 'Falso' está correta, pois o sulfato de magnésio atua como antagonista do cálcio, não estimulando receptores. Porém, a pergunta deveria ser reformulada para maior clareza.",
     "category": "Farmacologia",
     "hint": "Falso. Ele atua como antagonista do Cálcio (Ca2+), impedindo a contração.",
     "type": "true_false",
@@ -1440,7 +1440,7 @@
       "IBP, Bismuto, Amoxicilina e Claritromicina"
     ],
     "correct_answer": "a) IBP, Subcitrato de Bismuto, Metronidazol e Tetraciclina",
-    "justification": "O teste terapêutico com IBPs pode ser usado para diagnosticar DRGE em pacientes com sintomas típicos sem sinais de alarme, evitando endoscopia inicial. Resposta positiva sugere DRGE.",
+    "justification": "A justificativa fala sobre teste terapêutico com IBPs para DRGE, que não tem relação com a terapia quádrupla para H. pylori. A justificativa correta deveria explicar que a terapia quádrupla inclui IBP, bismuto, metronidazol e tetraciclina para erradicação do H. pylori.",
     "category": "Farmacologia",
     "hint": "IBP + Bismuto + Metronidazol + Tetraciclina.",
     "type": "multiple_choice",
@@ -1472,7 +1472,7 @@
       "anabolismo; síntese"
     ],
     "correct_answer": "b) catabolismo; síntese",
-    "justification": "A osteoporose e risco aumentado de fraturas com IBPs provavelmente ocorrem por redução da absorção de cálcio (requer meio ácido). Monitorizar densidade óssea em uso prolongado, especialmente em idosos.",
+    "justification": "A justificativa fala sobre osteoporose e IBPs, que não tem relação com a miopatia por corticoides. A justificativa correta deveria explicar que os corticoides estimulam o catabolismo proteico e inibem a síntese proteica, levando à perda muscular.",
     "category": "Farmacologia",
     "hint": "Catabolismo (quebra) e inibem a síntese (construção).",
     "type": "multiple_choice",
@@ -1504,7 +1504,7 @@
       "IgE; CysLT1"
     ],
     "correct_answer": "a) CysLT1; 5-lipoxigenase",
-    "justification": "A hipomagnesemia com IBPs é rara mas pode ser grave, causando tetania, arritmias e convulsões. Ocorre por redução da absorção intestinal. Monitorizar magnésio em uso muito prolongado (>1 ano).",
+    "justification": "A justificativa apresentada está incorreta e não relacionada à pergunta. A pergunta trata dos mecanismos do Montelucaste e Zileutona, mas a justificativa fala sobre hipomagnesemia com IBPs, que é tema diferente e não pertinente aqui.",
     "category": "Farmacologia",
     "hint": "Receptor CysLT1 e enzima 5-lipoxigenase (5-LOX).",
     "type": "multiple_choice",
@@ -1536,7 +1536,7 @@
       "Perda de gordura corporal na metade superior do corpo e aumento da massa muscular."
     ],
     "correct_answer": "c) Hipertensão arterial e hiperglicemia.",
-    "justification": "A Síndrome de Cushing é causada pelo excesso crônico de cortisol. Os efeitos fisiológicos e farmacológicos incluem: Aumento da Glicemia (Hiperglicemia): O cortisol aumenta a gliconeogênese, aumenta o glicogênio no fígado e gera resistência à insulina. Aumento da Pressão Arterial (Hipertensão): O aumento da atividade mineralocorticoide leva à expansão do volume plasmático (retenção de sódio e água), resultando em aumento da pressão arterial. Redistribuição de Gordura: Causa redistribuição de gordura, com perda na metade inferior do corpo e depósito na parte superior (face de lua cheia e corcunda de búfalo), e redução da massa muscular (catabolismo proteico).",
+    "justification": "A Síndrome de Cushing resulta do excesso crônico de cortisol, causando hiperglicemia por aumento da gliconeogênese e resistência à insulina; hipertensão devido à retenção de sódio e água pela atividade mineralocorticoide; e redistribuição de gordura, com acúmulo na face e tronco, além de perda muscular por catabolismo proteico.",
     "category": "Farmacologia",
     "hint": "Cushing = excesso de cortisol. Pense nos efeitos metabólicos: glicose no sangue e pressão arterial.",
     "type": "multiple_choice",
@@ -1552,7 +1552,7 @@
       "Antagonismo competitivo de receptores de histamina H2."
     ],
     "correct_answer": "c) Bloqueio da enzima fosfolipase A2 (via Anexina-1), o que impede a produção de prostaglandinas e leucotrienos",
-    "justification": "Os glicocorticoides exercem uma poderosa ação anti-inflamatória. O seu mecanismo de ação principal é o bloqueio da enzima fosfolipase A2 (PLA2). Ao bloquear a PLA2, os glicocorticoides impedem que a via da ciclo-oxigenase (COX-1 e COX-2) seja ativada, e, por consequência, inibem a produção de prostaglandinas e leucotrienos. Essa inibição está relacionada à Anexina-1 (também conhecida como lipocortina-1), uma proteína cuja transcrição é estimulada pelos corticoides. Os corticoides também bloqueiam citocinas como IL-1, TNF, ICAM, VCAM e PAF.",
+    "justification": "Glicocorticoides têm ação anti-inflamatória ao bloquear a fosfolipase A2, impedindo a ativação da ciclo-oxigenase (COX-1 e COX-2) e a produção de prostaglandinas e leucotrienos. Essa inibição envolve a Anexina-1, cuja expressão é estimulada pelos corticoides, que também bloqueiam citocinas como IL-1, TNF, ICAM, VCAM e PAF.",
     "category": "Farmacologia",
     "hint": "O mecanismo anti-inflamatório chave envolve bloquear a Fosfolipase A2 (via Anexina-1), impedindo a formação de mediadores lipídicos.",
     "type": "multiple_choice",
@@ -1584,7 +1584,7 @@
       "Salbutamol (SABA)"
     ],
     "correct_answer": "d) Salbutamol (SABA)",
-    "justification": "Os agonistas β2 adrenérgicos de Ação Curta (SABA), como o Salbutamol (Albuterol), são o tratamento de eleição para as crises e exacerbações agudas do asma. Eles são os broncodilatadores mais rápidos e eficazes, com início de ação muito rápido, o que é crucial para reverter o broncoespasmo agudo. O Brometo de Tiotrópio (LAMA) é menos efetivo que os β2 e é preferencialmente usado para o controle da DPOC. O Salmeterol (LABA) tem início de ação lento e é inadequado para crises. A Budesonida (Glucocorticoide Inalatório) é a terapia anti-inflamatória de manutenção, não de resgate.",
+    "justification": "Agonistas β2 de ação curta (SABA), como Salbutamol, são o tratamento de escolha para crises agudas de asma por seu rápido efeito broncodilatador. Tiotrópio (LAMA) é menos eficaz e usado na DPOC. Salmeterol (LABA) tem início lento, inadequado para crises. Budesonida (corticóide inalatório) é para controle, não resgate.",
     "category": "Farmacologia",
     "hint": "Em crise aguda de asma, você precisa de broncodilatação imediata. Qual é o 'medicamento de resgate' inalado?",
     "type": "multiple_choice",
@@ -1616,7 +1616,7 @@
       "São pró-fármacos que requerem um ambiente ácido para serem ativados e se ligam de maneira irreversível à enzima H/K-ATPase."
     ],
     "correct_answer": "d) São pró-fármacos que requerem um ambiente ácido para serem ativados e se ligam de maneira irreversível à enzima H/K-ATPase",
-    "justification": "Os IBP, como Omeprazol e Pantoprazol, são a terapia de primeira linha e mais potente para a supressão de ácido. Os IBP são pró-fármacos inativos. Eles requerem um ambiente ácido (pH baixo) nos canalículos secretores das células parietais para serem ativados em seu metabolito ativo (sulfonamida tetracíclica). A forma ativada se liga de maneira irreversível à bomba de prótons (H+/K+-ATPase). O efeito é prolongado (24 a 48 horas), mas sua vida média plasmática é curta (30 a 90 minutos). Não atuam como antagonistas H2; essa é a classe dos Antihistamínicos H2 (como a Ranitidina). Não é contraindicado no Síndrome de Zollinger-Ellison (SZE); pelo contrário, são indispensáveis e a terapia de escolha para esta condição.",
+    "justification": "A justificativa afirma que a meia-vida plasmática dos IBPs é curta (30-90 minutos), mas a opção 'c' diz que possuem meia-vida longa (24-48 horas), que está errada. A justificativa correta deveria destacar que o efeito prolongado dos IBPs é devido à ligação irreversível à bomba de prótons, não à meia-vida plasmática.",
     "category": "Farmacologia",
     "hint": "IBPs são pró-fármacos ativados em meio ácido e fazem ligação irreversível (covalente) com a H+/K+-ATPase.",
     "type": "multiple_choice",
@@ -1643,7 +1643,7 @@
     "question": "(V / F) O Misoprostol, um análogo de prostaglandina, está firmemente contraindicado durante a gravidez, pois aumenta a contratilidade uterina e pode induzir o aborto.",
     "options": [],
     "correct_answer": "Verdadeiro (Baseado no doc \"ANTIACIDO ATUALIZADO.pdf\").",
-    "justification": "O refluxo gastroesofágico patológico (DRGE) ocorre quando o esfíncter esofágico inferior (EEI) relaxa inapropriadamente ou tem pressão basal baixa, permitindo refluxo de conteúdo gástrico ácido para o esôfago.",
+    "justification": "A justificativa não está relacionada à pergunta. A pergunta é sobre a contraindicação do Misoprostol na gravidez, mas a justificativa fala sobre refluxo gastroesofágico e esfíncter esofágico inferior, que não tem relação com o tema da pergunta.\n\nNOTA: Verdadeiro (Baseado no doc \"ANTIACIDO ATUALIZADO.pdf\").",
     "category": "Farmacologia",
     "hint": "Esta é a contraindicação absoluta mais importante do fármaco.",
     "type": "true_false",
@@ -1654,7 +1654,7 @@
     "question": "(V / F) Na DPOC, os fármacos Anticolinérgicos de Ação Longa (LAMA), como o Tiotrópio, podem ser tão eficazes ou até superiores aos agonistas 2 no alívio da obstrução, sendo considerados broncodilatadores de eleição.",
     "options": [],
     "correct_answer": "Verdadeiro",
-    "justification": "Os sintomas típicos de DRGE são pirose (queimação retroesternal) e regurgitação ácida. Sintomas atípicos incluem dor torácica, tosse crônica, rouquidão, asma e erosão dentária.",
+    "justification": "A justificativa apresentada está incorreta e não relacionada à pergunta. Ela fala sobre sintomas de DRGE, que não têm relação com o uso de LAMA na DPOC. A justificativa correta deveria explicar que na DPOC o tônus vagal colinérgico elevado torna os LAMA eficazes, podendo ser tão eficazes ou superiores aos β2-agonistas no alívio da obstrução.",
     "category": "Farmacologia",
     "hint": "Correto. Na DPOC, o tônus vagal (colinérgico) é muito alto, tornando os LAMA muito eficazes.",
     "type": "true_false",
@@ -1665,7 +1665,7 @@
     "question": "(V / F) Em tratamentos prolongados (mais de duas semanas) com Glicocorticoides, a interrupção abrupta da medicação é recomendada para evitar a insuficiência suprarrenal aguda.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "A endoscopia digestiva alta (EDA) não é necessária para diagnóstico de DRGE típica sem sinais de alarme. É indicada em: sinais de alarme (disfagia, perda de peso, anemia), idade >50 anos com sintomas novos, ou falha de tratamento.",
+    "justification": "A justificativa apresentada refere-se à indicação de endoscopia digestiva alta (EDA) na DRGE, que não tem relação com a interrupção de glicocorticoides. A justificativa correta deveria explicar que a interrupção abrupta de glicocorticoides após uso prolongado pode causar insuficiência suprarrenal aguda, portanto o desmame gradual é obrigatório.",
     "category": "Farmacologia",
     "hint": "Falso. A interrupção abrupta causa a insuficiência suprarrenal. O \"desmame\" (tapering) é obrigatório.",
     "type": "true_false",
@@ -1729,7 +1729,7 @@
       "(A) Famotidina; (C) Pantoprazol"
     ],
     "correct_answer": "c) (A) Omeprazol; (C) Pantoprazol",
-    "justification": "A interação medicamentosa entre o Omeprazol e o Clopidogrel é uma preocupação clínica significativa. O Clopidogrel é um antiagregante plaquetário que depende da enzima do citocromo P450, especificamente a CYP2C19, para ser convertido em sua forma ativa. O IBP a ser evitado (A) é o Omeprazol, pois ele inibe a enzima CYP2C19. Ao inibir a CYP2C19, o Omeprazol reduz a conversão do Clopidogrel em seu metabólito ativo, diminuindo sua eficácia antiplaquetária e aumentando o risco de eventos trombóticos. O IBP alternativo seguro (C) é o Pantoprazol. O Pantoprazol tem uma menor probabilidade de gerar esta interação clinicamente relevante, tornando-o uma opção mais segura.",
+    "justification": "A interação entre Omeprazol e Clopidogrel é clínica, pois Omeprazol inibe a CYP2C19, reduzindo a ativação do Clopidogrel e sua eficácia antiplaquetária, aumentando risco trombótico. Pantoprazol é alternativa segura, com menor potencial de inibir CYP2C19 e causar essa interação.",
     "category": "Farmacologia",
     "hint": "Clopidogrel precisa da CYP2C19 para ativar. Omeprazol inibe essa enzima. Qual IBP é alternativa segura?",
     "type": "multiple_choice",
@@ -1747,7 +1747,7 @@
     "correct_answer": "b) (B) Acetilcolina; (C) Muscarínicos M3",
     "justification": "O sistema parassimpático (ou colinérgico) controla a broncoconstrição. Essa contração é mediada pela liberação de Acetilcolina (ACh). A Acetilcolina liga-se aos receptores muscarínicos M3 presentes no músculo liso bronquial. O bloqueio destes receptores pelos anticolinérgicos resulta em relaxamento dos brônquios (broncodilatação).",
     "category": "Farmacologia",
-    "hint": "Pense na enzima do citocromo P450 que ativa o Clopidogrel (CYP2C19). Alguns IBPs a inibem fortemente.",
+    "hint": "A dica fala sobre IBPs e CYP2C19, que não tem relação direta com a pergunta sobre broncoconstrição parassimpática, podendo revelar a resposta e confundir o aluno.",
     "type": "multiple_choice",
     "difficulty": "médio"
   },
@@ -1763,7 +1763,7 @@
     "correct_answer": "d) (A) PDE4; (B) DPOC",
     "justification": "O Roflumilast é um inibidor oral seletivo da Fosfodiesterase 4 (PDE4). A PDE4 é a isoforma predominante em células inflamatórias. O Roflumilast foi aprovado para pacientes com Doença Pulmonar Obstrutiva Crónica (DPOC) grave, especialmente aqueles com exacerbações frequentes (VEF₁ < 50%).",
     "category": "Farmacologia",
-    "hint": "Os IBPs são metabolizados principalmente pela CYP2C19, uma enzima do sistema citocromo P450.",
+    "hint": "A dica fala sobre IBPs e CYP2C19, que não tem relação com o Roflumilast e DPOC, podendo confundir o aluno e revelar a resposta.",
     "type": "multiple_choice",
     "difficulty": "médio"
   },
@@ -1779,7 +1779,7 @@
     "correct_answer": "d) Polimerização em ambiente ácido (pH < 4) para formar um gel viscoso que adere ao cráter da úlcera",
     "justification": "O Sucralfato é um agente citoprotetor. Seu mecanismo de ação é único. Em um ambiente ácido (pH < 4), este composto se polimeriza para formar um gel viscoso e aderente. Este polímero liga-se seletivamente às proteínas no cráter da úlcera, formando uma barreira física que a protege do ataque do ácido e da pepsina, facilitando a cicatrização. O sucralfato inibe a hidrólise das proteínas da mucosa gástrica mediada pela pepsina.",
     "category": "Farmacologia",
-    "hint": "Entre os IBPs, qual é o inibidor mais potente da CYP2C19? É também o mais usado.",
+    "hint": "A dica fala sobre IBPs e CYP2C19, que não tem relação com o mecanismo de ação do Sucralfato, podendo confundir o aluno e revelar a resposta.",
     "type": "multiple_choice",
     "difficulty": "médio"
   },
@@ -1793,7 +1793,7 @@
       "Ser totalmente absorvido pelo trato gastrointestinal."
     ],
     "correct_answer": "c) (Baseado nos docs \"ANTIACIDO ATUALIZADO.pdf\" e \"Farmacologia respiratória + corticóide + antiulcerosos.pdf\").",
-    "justification": "O esôfago de Barrett é uma complicação da DRGE crônica, com metaplasia do epitélio escamoso para colunar (tipo intestinal). Aumenta risco de adenocarcinoma esofágico, requerendo vigilância endoscópica.",
+    "justification": "A justificativa apresentada fala sobre esôfago de Barrett e DRGE, que não tem relação com a ação das sales de bismuto. A justificativa correta deveria explicar que as sales de bismuto não neutralizam o ácido, possuem ação antibacteriana direta contra H. pylori, e diferem dos IBPs e Misoprostol por essas características.",
     "category": "Farmacologia",
     "hint": "O Bismuto tem uma ação única de \"matar\" a bactéria H. pylori.",
     "type": "multiple_choice",
@@ -1809,7 +1809,7 @@
       "Bloqueio dos receptores glicocorticoides (GR)."
     ],
     "correct_answer": "c) (Baseado no doc \"P2 Farmaco II.pdf\").",
-    "justification": "O tratamento do esôfago de Barrett inclui: IBPs em doses altas, vigilância endoscópica periódica (biópsias a cada 3-5 anos se sem displasia), e ablação endoscópica se houver displasia.",
+    "justification": "A justificativa apresentada não tem relação com a pergunta sobre Fludrocortisona e seu mecanismo mineralocorticoide. A justificativa correta deveria explicar que a Fludrocortisona promove retenção de sódio e água, expansão do volume plasmático e eliminação de potássio, por seu efeito mineralocorticoide, e não tratar do tratamento do esôfago de Barrett.",
     "category": "Farmacologia",
     "hint": "Mineralocorticoide = mexe com minerais (Sódio e Potássio).",
     "type": "multiple_choice",
@@ -1825,7 +1825,7 @@
       "Inibição seletiva e potente da Fosfodiesterase 4 (PDE4)."
     ],
     "correct_answer": "c) Antagonismo dos receptores de Adenosina (principalmente A1).",
-    "justification": "A estenose esofágica é uma complicação da esofagite erosiva grave ou esôfago de Barrett. Manifesta-se com disfagia progressiva. Tratamento: dilatação endoscópica + IBPs em altas doses.",
+    "justification": "A justificativa apresentada fala sobre estenose esofágica e tratamento com dilatação e IBPs, que não tem relação com o mecanismo das xantinas. A justificativa correta deveria explicar que o antagonismo dos receptores de adenosina (principalmente A1) contribui para broncodilatação e efeitos diuréticos das xantinas.",
     "category": "Farmacologia",
     "hint": "A inibição da PDE não é seletiva, mas o antagonismo da Adenosina A1 é um mecanismo chave para toxicidade e efeito.",
     "type": "multiple_choice",
@@ -1857,7 +1857,7 @@
       "Bloquear a Fosfodiesterase 4, aumentando o AMPc em células inflamatórias."
     ],
     "correct_answer": "c) (Baseado no doc \"SISTEMA RESPIRATORIO FARMACO.pdf\").",
-    "justification": "A úlcera duodenal é mais comum que gástrica (4:1). Dor epigástrica que melhora com alimentação e piora 2-3 horas após (quando ácido chega ao duodeno) é típica de úlcera duodenal.",
+    "justification": "A justificativa apresentada fala sobre úlcera duodenal, que não tem relação com o mecanismo do Omalizumabe. A justificativa correta deveria explicar que o Omalizumabe é um anticorpo monoclonal anti-IgE que se liga à IgE circulante, impedindo sua ligação aos mastócitos e diminuindo a resposta alérgica na asma grave.",
     "category": "Farmacologia",
     "hint": "O biológico Anti-IgE.",
     "type": "multiple_choice",
@@ -1873,7 +1873,7 @@
       "Diminuição da excreção renal de Cálcio."
     ],
     "correct_answer": "c) (Baseado no doc \"Farmacologia respiratória 3.pdf\").",
-    "justification": "A úlcera gástrica causa dor que piora com alimentação. Requer sempre biópsia endoscópica para excluir malignidade (adenocarcinoma gástrico pode se apresentar como úlcera).",
+    "justification": "A justificativa apresentada trata de úlcera gástrica, sem relação com o efeito dos glicocorticoides no metabolismo ósseo. A justificativa correta deveria explicar que o uso crônico de glicocorticoides causa osteoporose por aumentar o PTH, estimular osteoclastos e inibir/apoptose de osteoblastos e osteócitos.",
     "category": "Farmacologia",
     "hint": "Corticoide \"come\" osso. Inibe quem forma (blasto) e ativa quem destrói (clasto).",
     "type": "multiple_choice",
@@ -1933,9 +1933,9 @@
       "Ao deitar, para inibir a secreção ácida noturna"
     ],
     "correct_answer": "a) 30-60 minutos antes da primeira refeição (em jejum), para inibir as bombas ativadas pela comida",
-    "justification": "A administração correta dos Inibidores da Bomba de Prótons (IBP) é crucial para maximizar sua eficácia. Os IBP devem ser administrados em jejum, aproximadamente 30 a 60 minutos antes da primeira refeição do dia. A ingestão de alimentos estimula a produção de ácido, o que, por sua vez, aumenta a expressão do maior número de bombas de H+/K+-ATPase ativas e cria o ambiente ácido necessário no canalículo secretor para a ativação do pró-fármaco. Ao ser ativado, o IBP liga-se irreversivelmente a essas bombas ativadas.",
+    "justification": "A administração correta dos Inibidores da Bomba de Prótons (IBP) é essencial para sua eficácia. Devem ser tomados em jejum, 30-60 minutos antes da primeira refeição, pois alimentos estimulam a produção de ácido, aumentando a atividade das bombas H+/K+-ATPase. O IBP é ativado nesse ambiente ácido e se liga irreversivelmente às bombas ativas.",
     "category": "Farmacologia",
-    "hint": "Anticorpo monoclonal anti-IL-5. A IL-5 recruta qual célula inflamatória importante na asma eosinofílica?",
+    "hint": "A dica apresentada fala sobre anticorpo monoclonal anti-IL-5 e células eosinofílicas, que não tem relação com o protocolo de administração dos IBPs. Isso pode confundir o aluno. A dica deveria estar relacionada à farmacocinética e farmacodinâmica dos IBPs, reforçando a importância do tempo de administração em jejum.",
     "type": "multiple_choice",
     "difficulty": "baixo"
   },
@@ -1951,7 +1951,7 @@
     "correct_answer": "c) (A) Omeprazol; (C) Pantoprazol",
     "justification": "Esta é uma interação clinicamente importante: O IBP a ser evitado (A) é o Omeprazol, pois ele inibe a enzima CYP2C19. O Clopidogrel depende da CYP2C19 para ser convertido em seu metabólito ativo. Ao inibir a enzima, o Omeprazol reduz a eficácia antiplaquetária do Clopidogrel, aumentando o risco de eventos trombóticos. A alternativa mais segura (C) é o Pantoprazol, pois tem uma menor probabilidade de gerar esta interação clinicamente relevante.",
     "category": "Farmacologia",
-    "hint": "Montelucaste e Zafirlucaste bloqueiam receptores de leucotrienos, mediadores importantes na inflamação asmática.",
+    "hint": "A dica fala sobre Montelucaste e Zafirlucaste, que não têm relação direta com a interação entre Clopidogrel e IBPs, podendo confundir o aluno. A dica deveria estar relacionada à interação medicamentosa entre Clopidogrel e IBPs.",
     "type": "multiple_choice",
     "difficulty": "médio"
   },
@@ -1965,7 +1965,7 @@
       "Causa hemorragia gástrica no feto"
     ],
     "correct_answer": "b) É um análogo de PGE1 que aumenta a contratilidade uterina, podendo induzir o aborto",
-    "justification": "Os AINEs (anti-inflamatórios não esteroides) causam úlcera por inibir COX-1, reduzindo prostaglandinas gastroprotetoras (PGE2, PGI2). Isto diminui secreção de muco/bicarbonato e fluxo sanguíneo mucoso.",
+    "justification": "A justificativa fala sobre AINEs e sua ação na úlcera gástrica, mas a pergunta é sobre Misoprostol. A justificativa correta deveria explicar que Misoprostol é um análogo de prostaglandina E1 que aumenta a contratilidade uterina, podendo induzir aborto, e não sobre AINEs.",
     "category": "Farmacologia",
     "hint": "Pense no efeito desse fármaco no útero (aumento da contratilidade).",
     "type": "multiple_choice",
@@ -1981,7 +1981,7 @@
       "Antagonista H2 + Claritromicina + Amoxicilina"
     ],
     "correct_answer": "a) IBP + Claritromicina + Amoxicilina",
-    "justification": "Os fatores de risco para úlcera por AINEs incluem: idade >65 anos, história de úlcera prévia, doses altas de AINEs, uso concomitante de corticoides/anticoagulantes, infecção por H. pylori.",
+    "justification": "A justificativa fala sobre fatores de risco para úlcera por AINEs, que não respondem diretamente à pergunta sobre o regime de primeira linha para H. pylori. A justificativa correta deveria explicar que a terapia tripla padrão é IBP + Claritromicina + Amoxicilina.",
     "category": "Farmacologia",
     "hint": "IBP + Claritromicina + Amoxicilina.",
     "type": "multiple_choice",
@@ -1997,7 +1997,7 @@
       "Deve ser tomado pelo menos 2 horas depois de outros medicamentos"
     ],
     "correct_answer": "d) Deve ser tomado pelo menos 2 horas depois de outros medicamentos",
-    "justification": "O Sucralfato é um agente citoprotetor que, em ambiente ácido (pH < 4), polimeriza-se para formar um gel viscoso e aderente. Esta camada protetora, embora benéfica para a úlcera, pode inibir a absorção de outros fármacos como fenitoína, digoxina, cimetidina, cetoconazol e antibióticos do grupo das fluoroquinolonas. A orientação correta para evitar esta interação e garantir a absorção de outros medicamentos é que o Sucralfato deve ser tomado pelo menos 2 horas depois da administração de outros fármacos. O Sucralfato deve ser tomado com o estômago vazio, pelo menos 1 hora antes das refeições.",
+    "justification": "O Sucralfato é um citoprotetor que, em pH < 4, forma um gel aderente que protege úlceras, mas pode inibir a absorção de fármacos como fenitoína, digoxina, cimetidina, cetoconazol e fluoroquinolonas. Para evitar interações, deve ser tomado pelo menos 2 horas após outros medicamentos e 1 hora antes das refeições, com o estômago vazio.",
     "category": "Farmacologia",
     "hint": "Teofilina tem índice terapêutico estreito (risco de toxicidade) e sofre múltiplas interações medicamentosas.",
     "type": "multiple_choice",
@@ -2013,7 +2013,7 @@
       "(A) Fosfolipase A2; (B) IgE"
     ],
     "correct_answer": "b) (A) Fosfolipase A2; (B) prostaglandinas",
-    "justification": "Os glicocorticoides (GC), utilizados no tratamento anti-asmático, aumentam o risco de úlceras pépticas. Isso ocorre porque o principal mecanismo de ação anti-inflamatória dos GC é o bloqueio da enzima fosfolipase A2 (PLA2). Ao inibir a PLA2, os GC impedem a ativação da COX-1 e COX-2, interrompendo a síntese das prostaglandinas (PGs). As PGs (PGE₂ e PGI₂) são essenciais para a gastroproteção, pois estimulam a secreção de muco e bicarbonato, aumentam o fluxo sanguíneo da mucosa e inibem diretamente a secreção ácida. A perda dessa defesa leva a um desequilíbrio entre os fatores protetores e agressivos, aumentando o risco de úlcera péptica.",
+    "justification": "Glicocorticoides, usados no tratamento da asma, aumentam o risco de úlceras pépticas ao inibir a fosfolipase A2, bloqueando COX-1 e COX-2 e reduzindo a síntese de prostaglandinas (PGE₂ e PGI₂). Essas prostaglandinas protegem a mucosa gástrica estimulando muco, bicarbonato e fluxo sanguíneo, além de inibir a secreção ácida.",
     "category": "Farmacologia",
     "hint": "Anticolinérgicos (como Ipratrópio) bloqueiam a broncoconstrição vagal. São especialmente úteis em qual doença obstrutiva?",
     "type": "multiple_choice",
@@ -2061,7 +2061,7 @@
       "Recetores de Gastrina (CCK), Histamina (H2) e Acetilcolina (M3)"
     ],
     "correct_answer": "d) Recetores de Gastrina (CCK), Histamina (H2) e Acetilcolina (M3)",
-    "justification": "Os inibidores seletivos de COX-2 (Coxibes: Celecoxibe, Etoricoxibe) têm menor risco gastrointestinal que AINEs não seletivos, mas ainda podem causar úlceras. Estão associados a risco cardiovascular aumentado.",
+    "justification": "A justificativa fala sobre inibidores seletivos de COX-2 e risco cardiovascular, que não respondem à pergunta sobre receptores que estimulam a produção de ácido na célula parietal. A justificativa correta deveria explicar que os receptores envolvidos são Gastrina (CCK), Histamina (H2) e Acetilcolina (M3).",
     "category": "Farmacologia",
     "hint": "Receptor de Gastrina (CCK), Histamina (H2) e Acetilcolina (M3).",
     "type": "multiple_choice",
@@ -2093,7 +2093,7 @@
       "ICS (Corticoides Inalatórios)"
     ],
     "correct_answer": "a) SABA (Agonistas Beta-2 de Ação Curta)",
-    "justification": "A combinação de AINE + Misoprostol reduz úlceras em ~50%, mas a diarreia limita seu uso. IBPs são melhor tolerados e igualmente eficazes para gastroproteção.",
+    "justification": "A justificativa fala sobre AINE + Misoprostol para redução de úlceras, que não responde à pergunta sobre o broncodilatador de primeira escolha para crise aguda de asma. A justificativa correta deveria explicar que SABA são os broncodilatadores de resgate devido ao início rápido e curta duração.",
     "category": "Farmacologia",
     "hint": "SABA (ex: Salbutamol).",
     "type": "multiple_choice",
@@ -2109,7 +2109,7 @@
       "(A) alergia; (B) Anti-histamínico"
     ],
     "correct_answer": "c) (A) inflamação; (B) Corticoide Inalatório (ICS)",
-    "justification": "Na asma, os Agonistas β2 de Ação Longa (LABA), como o Salmeterol ou Formoterol, nunca devem ser usados como monoterapia (sozinhos). Os LABA apenas causam broncodilatação e aliviam os sintomas, mas não tratam a inflamação crônica subjacente (A), que é a raiz da doença. O uso isolado de LABA pode mascarar o agravamento da inflamação, aumentando o risco de exacerbações graves e morte por asma. O tratamento ideal, portanto, exige que os LABA sejam sempre associados a um Corticoide Inalatório (ICS) (B). Os ICS (como Budesonida ou Fluticasona) são a terapia anti-inflamatória de primeira linha e a pedra angular do tratamento de controle do asma persistente.",
+    "justification": "A justificativa está correta em conteúdo, porém a dica está desconexa do tema da pergunta (asma e LABA). A dica sobre teofilina e arritmia cardíaca não tem relação com a pergunta e pode confundir o aluno. Recomenda-se remover ou substituir a dica por algo relacionado ao risco do uso isolado de LABA na asma.",
     "category": "Farmacologia",
     "hint": "Teofilina bloqueia receptores de adenosina. No coração, isso pode causar qual arritmia?",
     "type": "multiple_choice",
@@ -2125,7 +2125,7 @@
       "LABA e Antileucotrienos"
     ],
     "correct_answer": "b) LAMA e LABA",
-    "justification": "A gastrite por estresse ocorre em pacientes críticos (UTI, queimaduras, trauma, choque). Profilaxia com IBPs ou anti-H2 reduz sangramento em pacientes de risco (ventilação mecânica, coagulopatia).",
+    "justification": "A justificativa apresentada não tem relação com a pergunta sobre broncodilatadores na DPOC. Ela fala sobre gastrite por estresse e profilaxia com IBPs, o que é inadequado. A justificativa correta deveria explicar que LAMA e LABA são os broncodilatadores de longa duração preferidos para manutenção da DPOC, com ação complementar e melhora da função pulmonar.",
     "category": "Farmacologia",
     "hint": "LABA e LAMA.",
     "type": "multiple_choice",
@@ -2141,7 +2141,7 @@
       "Hipercalcemia (Cálcio alto)"
     ],
     "correct_answer": "a) Hipopotassemia (Potássio baixo)",
-    "justification": "A gastrite autoimune (tipo A) é causada por anticorpos anti-células parietais e anti-fator intrínseco, levando a acloridria, atrofia gástrica e deficiência de B12 (anemia perniciosa). Requer reposição vitalícia de B12.",
+    "justification": "A justificativa apresentada fala sobre gastrite autoimune e anemia perniciosa, que não tem relação com o efeito adverso metabólico dos β2-agonistas. A justificativa correta deveria explicar que a estimulação dos receptores β2 aumenta a atividade da Na+/K+-ATPase, promovendo o influxo de potássio para dentro das células e causando hipocalemia (hipopotassemia).",
     "category": "Farmacologia",
     "hint": "Hipopotassemia (ou Hipocalemia).",
     "type": "multiple_choice",
@@ -2173,7 +2173,7 @@
       "Inibição da 5-LOX e Bloqueio dos recetores CysLT1"
     ],
     "correct_answer": "b) Inibição da Fosfodiesterase (PDE) e Antagonismo dos recetores de Adenosina",
-    "justification": "A doença ulcerosa péptica refratária (não cicatriza após 8-12 semanas de tratamento adequado) pode indicar: não aderência, doses inadequadas de IBP, H. pylori não erradicado, uso contínuo de AINEs, ou outras causas (Zollinger-Ellison, malignidade).",
+    "justification": "A justificativa fala sobre doença ulcerosa péptica refratária, que não tem relação com a teofilina. A justificativa correta deve explicar que a teofilina atua principalmente pela inibição da fosfodiesterase (aumentando AMPc) e pelo antagonismo dos receptores de adenosina, o que contribui para broncodilatação e efeitos estimulantes.",
     "category": "Farmacologia",
     "hint": "Inibição da PDE (aumenta AMPc) e Antagonismo da Adenosina (A1).",
     "type": "multiple_choice",
@@ -2189,7 +2189,7 @@
       "Roflumilaste"
     ],
     "correct_answer": "c) Omalizumabe",
-    "justification": "Os inibidores da bomba de potássio competitivos (P-CABs: Vonoprazana) são nova classe de supressores ácidos, com bloqueio reversível e competitivo da H+/K+-ATPase. Têm ação mais rápida e sustentada que IBPs.",
+    "justification": "A justificativa fala sobre inibidores da bomba de potássio competitivos (P-CABs), que não tem relação com o agente biológico para asma grave alérgica. A justificativa correta deve explicar que Omalizumabe é um anticorpo monoclonal anti-IgE que se liga à IgE circulante, impedindo sua ligação aos mastócitos e basófilos, indicado para asma grave alérgica.",
     "category": "Farmacologia",
     "hint": "Omalizumabe (Anticorpo Monoclonal Anti-IgE).",
     "type": "multiple_choice",
@@ -2221,7 +2221,7 @@
       "Inibem os osteoblastos (formação óssea) e diminuem a absorção intestinal de Cálcio"
     ],
     "correct_answer": "d) Inibem os osteoblastos (formação óssea) e diminuem a absorção intestinal de Cálcio",
-    "justification": "A aspirina em baixas doses (75-100 mg/dia) para prevenção cardiovascular causa menos úlceras que AINEs, mas o risco existe. Gastroproteção com IBPs é recomendada em pacientes de alto risco.",
+    "justification": "A justificativa fala sobre aspirina e gastroproteção, que não tem relação com o mecanismo dos glicocorticoides na osteoporose. A justificativa correta deve explicar que glicocorticoides causam osteoporose principalmente por inibir os osteoblastos (formação óssea) e diminuir a absorção intestinal de cálcio, além de aumentar a atividade dos osteoclastos (reabsorção óssea).",
     "category": "Farmacologia",
     "hint": "Inibem osteoblastos (formação) e aumentam a atividade dos osteoclastos (reabsorção).",
     "type": "multiple_choice",
@@ -2237,7 +2237,7 @@
       "Enzima Fosfolipase A2"
     ],
     "correct_answer": "c) Bomba de prótons (H+/K+-ATPase)",
-    "justification": "A suspensão de IBPs deve ser gradual em uso prolongado para evitar hipersecreção ácida rebote. Pode-se reduzir para uso em dias alternados, depois sob demanda, ou mudar temporariamente para anti-H2.",
+    "justification": "A suspensão gradual de IBPs é necessária para evitar hipersecreção ácida rebote, reduzindo o uso para dias alternados, sob demanda ou substituindo temporariamente por anti-H2. Misoprostol não inibe diretamente a bomba de prótons; é um análogo da prostaglandina E1 que protege a mucosa e reduz a secreção ácida via receptores EP nas células parietais.",
     "category": "Farmacologia",
     "hint": "(A) Bomba de prótons.",
     "type": "multiple_choice",
@@ -2269,7 +2269,7 @@
       "Ambos os fármacos competem pelo mesmo recetor na célula parietal, anulando-se mutuamente e causando falha terapêutica de ambos."
     ],
     "correct_answer": "a) O Omeprazol inibe a enzima CYP2C19, impedindo a ativação do pró-fármaco Clopidogrel e aumentando o risco de trombose.",
-    "justification": "Os antiácidos são úteis para alívio sintomático rápido de pirose ocasional. Não devem ser usados como única terapia em DRGE ou úlcera péptica por eficácia limitada e duração curta.",
+    "justification": "A justificativa apresentada não está relacionada com a interação entre Omeprazol e Clopidogrel. A justificativa correta deveria explicar que o Omeprazol inibe a CYP2C19, enzima necessária para ativar o Clopidogrel, reduzindo sua eficácia e aumentando o risco de eventos trombóticos.",
     "category": "Farmacologia",
     "hint": "Lembre-se da enzima hepática (CYP) que ativa o Clopidogrel e qual IBP específico interfere nela.",
     "type": "clinical_case",
@@ -2285,7 +2285,7 @@
       "Gravidez, pois o Misoprostol (análogo de PGE1) aumenta a contratilidade uterina e é abortivo."
     ],
     "correct_answer": "d) Gravidez, pois o Misoprostol (análogo de PGE1) aumenta a contratilidade uterina e é abortivo.",
-    "justification": "A erradicação do H. pylori reduz significativamente o risco de recorrência de úlcera (de ~60-80% para <10% ao ano) e reduz o risco de câncer gástrico em populações de alto risco.",
+    "justification": "A justificativa não está relacionada à contraindicação do Misoprostol na gravidez. A justificativa correta deveria mencionar que o Misoprostol é abortivo por aumentar a contratilidade uterina, sendo contraindicado em mulheres grávidas.",
     "category": "Farmacologia",
     "hint": "Qual é o mecanismo de ação \"secundário\" do Misoprostol (análogo de PGE1) fora do estômago, especialmente no útero?",
     "type": "clinical_case",
@@ -2301,7 +2301,7 @@
       "Brometo de Tiotrópio (um LAMA - Anticolinérgico de Ação Longa)."
     ],
     "correct_answer": "a) Salbutamol (um SABA - Agonista Beta-2 de Ação Curta).",
-    "justification": "O screening e tratamento de H. pylori é recomendado em: úlcera péptica (ativa ou história), linfoma MALT gástrico, pós-ressecção de câncer gástrico, dispepsia investigada, familiares de 1º grau de pacientes com câncer gástrico.",
+    "justification": "A justificativa não corresponde à pergunta sobre o fármaco de resgate na crise asmática. A justificativa correta deveria reforçar que o Salbutamol é um agonista beta-2 de ação curta, indicado para alívio rápido dos sintomas agudos da asma.",
     "category": "Farmacologia",
     "hint": "A crise aguda exige um fármaco de \"resgate\" (ação rápida), não de \"manutenção\" (ação longa).",
     "type": "clinical_case",
@@ -2317,7 +2317,7 @@
       "A taquicardia consome o potássio sérico para a contração cardíaca, esgotando os níveis no sangue."
     ],
     "correct_answer": "c) O estímulo B2 ativa a bomba de Na+/K+-ATPase, que move o potássio do sangue para dentro das células musculares.",
-    "justification": "A terapia de resgate após falha de erradicação de H. pylori deve usar esquema diferente: se falha da tripla → quádrupla com bismuto; se falha da quádrupla → tripla com levofloxacino ou terapia guiada por cultura e antibiograma.",
+    "justification": "A justificativa está relacionada à erradicação do H. pylori e não explica o mecanismo da hipocalemia induzida pelo Salbutamol. A justificativa correta deveria explicar que a ativação dos receptores beta-2 estimula a bomba Na+/K+-ATPase, promovendo o influxo de potássio para as células e reduzindo o potássio sérico.",
     "category": "Farmacologia",
     "hint": "Os efeitos adversos (tremores, taquicardia, hipocalemia) são devidos à estimulação de recetores B2 fora do pulmão (músculo esquelético, coração) e na bomba de Na+/K+.",
     "type": "clinical_case",
@@ -2333,7 +2333,7 @@
       "Porque o uso isolado de LABA leva rapidamente à perda de eficácia (taquifilaxia) em 2-3 dias, sendo inútil."
     ],
     "correct_answer": "b) Porque trata o broncoespasmo (sintoma) mas não a inflamação de base, mascarando a piora da doença e aumentando o risco de morte.",
-    "justification": "O H. pylori é um carcinógeno classe I pela OMS. A infecção crônica causa gastrite atrófica → metaplasia intestinal → displasia → adenocarcinoma gástrico. Erradicação precoce reduz risco de câncer.",
+    "justification": "A justificativa não está relacionada ao uso isolado de LABA na asma. A justificativa correta deveria explicar que o LABA não trata a inflamação subjacente da asma, podendo mascarar a piora da doença e aumentar o risco de eventos graves, por isso deve ser sempre associado a corticosteroides.",
     "category": "Farmacologia",
     "hint": "O LABA trata o sintoma (broncoespasmo), mas não a causa da asma (inflamação). O que acontece se você tratar apenas o sintoma?",
     "type": "clinical_case",
@@ -2349,7 +2349,7 @@
       "Uma reação alérgica tardia à Prednisona, que se manifestou paradoxalmente após a paragem do fármaco."
     ],
     "correct_answer": "b) Insuficiência Adrenal Aguda (Crise Addisoniana), causada pela supressão do eixo HPA pelo uso crónico do corticoide.",
-    "justification": "O linfoma MALT (tecido linfoide associado à mucosa) gástrico é causado por H. pylori em >90% dos casos. Erradicação da bactéria leva à remissão do linfoma em ~80% dos casos de estágio inicial.",
+    "justification": "A justificativa está relacionada ao H. pylori e câncer gástrico, não ao diagnóstico de insuficiência adrenal aguda. A justificativa correta deveria explicar que a suspensão abrupta de corticoides após uso prolongado causa supressão do eixo HPA, levando à insuficiência adrenal aguda com sintomas como hipotensão e hipoglicemia.",
     "category": "Farmacologia",
     "hint": "O uso crónico de corticoide \"desliga\" a produção natural de cortisol pelo corpo. O que acontece se você cortar o fornecimento externo de repente?",
     "type": "clinical_case",
@@ -2365,7 +2365,7 @@
       "Inibição da libertação de acetilcolina na junção neuromuscular."
     ],
     "correct_answer": "c) Aumento do catabolismo proteico e inibição da síntese de proteínas nos músculos.",
-    "justification": "Os testes não invasivos para H. pylori incluem: teste da ureia respiratório (padrão-ouro não invasivo, sensibilidade/especificidade >95%), antígeno fecal (boa alternativa), e sorologia (não diferencia infecção ativa de passada).",
+    "justification": "A justificativa não está relacionada à miopatia esteroide. A justificativa correta deveria mencionar que os corticosteroides aumentam o catabolismo proteico e inibem a síntese proteica nos músculos, causando fraqueza muscular.",
     "category": "Farmacologia",
     "hint": "O excesso crónico de corticoide mimetiza a doença de Cushing. Pense nos efeitos metabólicos: catabolismo de proteínas e lipólise/redistribuição de gordura.",
     "type": "clinical_case",
@@ -2381,7 +2381,7 @@
       "Retinopatia diabética, pois o fármaco descontrolou a sua glicemia."
     ],
     "correct_answer": "c) Glaucoma de ângulo fechado, pois o anticolinérgico pode aumentar a pressão intraocular.",
-    "justification": "Os testes invasivos para H. pylori (requerem endoscopia): teste rápido da urease (CLO test), histologia, cultura e PCR. Cultura permite antibiograma, útil em falha terapêutica.",
+    "justification": "A justificativa está relacionada a testes para H. pylori e não à contraindicação ocular do Ipratrópio. A justificativa correta deveria explicar que anticolinérgicos podem precipitar glaucoma de ângulo fechado devido ao bloqueio dos receptores muscarínicos que regulam a drenagem do humor aquoso.",
     "category": "Farmacologia",
     "hint": "O Ipratrópio é um anticolinérgico. Pense nos efeitos clássicos de \"secar\" (boca) e nos problemas que ele pode causar em locais com recetores muscarínicos (olhos, próstata).",
     "type": "clinical_case",
@@ -2397,7 +2397,7 @@
       "Estimulação direta dos recetores beta-2 adrenérgicos."
     ],
     "correct_answer": "a) Antagonismo dos recetores de Adenosina.",
-    "justification": "IBPs, antibióticos e bismuto devem ser suspensos antes de testes para H. pylori: IBPs e antibióticos por 2 semanas, bismuto por 4 semanas. Podem causar falsos negativos por suprimirem a bactéria temporariamente.",
+    "justification": "A justificativa não explica o mecanismo da toxicidade da Teofilina, apenas menciona a inibição da CYP pelo Ciprofloxacino. A justificativa correta deveria esclarecer que o antagonismo dos receptores de adenosina pela Teofilina é responsável pelos efeitos adversos graves como convulsões e arritmias.",
     "category": "Farmacologia",
     "hint": "A inibição da CYP (opção C) é a causa do aumento do nível do fármaco, mas a pergunta é sobre o mecanismo da Teofilina que causa a convulsão (toxicidade).",
     "type": "clinical_case",
@@ -2429,7 +2429,7 @@
       "Todos os fármacos Antagonistas H2 (incluindo Famotidina e Nizatidina) causam confusão em idosos; é um efeito de classe inevitável."
     ],
     "correct_answer": "c) A Cimetidina é lipofílica, atravessa a barreira hematoencefálica e pode causar estes efeitos no SNC, sendo um risco conhecido em idosos (Famotidina seria mais segura).",
-    "justification": "A vacina contra H. pylori está em desenvolvimento mas não disponível ainda. Prevenção atual: melhorar condições sanitárias e de habitação.",
+    "justification": "A justificativa apresentada não está relacionada com a pergunta sobre delírio causado pela Cimetidina. A justificativa correta deveria explicar que a Cimetidina atravessa a barreira hematoencefálica devido à sua lipofilicidade, causando efeitos no SNC, especialmente em idosos, e que a Famotidina é uma alternativa mais segura por atravessar menos a barreira hematoencefálica.",
     "category": "Farmacologia",
     "hint": "Pense na capacidade dos fármacos de atravessar a BHE (lipofilicidade) e nos efeitos adversos específicos da Cimetidina em comparação com outros da mesma classe.",
     "type": "clinical_case",
@@ -2445,7 +2445,7 @@
       "O Sucralfato só deve ser tomado após as refeições, e o Omeprazol apenas antes. A paciente inverteu a lógica."
     ],
     "correct_answer": "b) O Omeprazol elimina o ambiente ácido (aumenta o pH) que o Sucralfato necessita para polimerizar e formar a sua barreira protetora (requer pH < 4).",
-    "justification": "A erradicação do H. pylori pode, paradoxalmente, aumentar o risco de DRGE em alguns pacientes, especialmente com gastrite predominante de corpo (que causa hipocloridria). Isto é raro e não contraindica tratamento.",
+    "justification": "A justificativa apresentada fala sobre erradicação do H. pylori e não explica a interação farmacológica entre Omeprazol e Sucralfato. A justificativa correta deveria explicar que o Omeprazol eleva o pH gástrico, impedindo a polimerização do Sucralfato, que necessita de ambiente ácido (pH < 4) para formar sua barreira protetora.",
     "category": "Farmacologia",
     "hint": "O Sucralfato funciona como um \"curativo\" (band-aid) gástrico, mas precisa de \"cola\". A \"cola\" é o ácido (pH < 4). O que o Omeprazol faz ao ácido?",
     "type": "clinical_case",
@@ -2461,7 +2461,7 @@
       "Um SABA oral (ex: Salbutamol xarope), pois promove broncodilatação e vasoconstrição nasal, tratando ambas."
     ],
     "correct_answer": "b) Um Antagonista de Leucotrienos (ex: Montelukast), pois bloqueia os recetores CysLT1, que são mediadores inflamatórios importantes na asma e na rinite.",
-    "justification": "O retratamento de H. pylori após falha deve aguardar pelo menos 4-8 semanas do término do tratamento anterior para permitir recuperação da flora intestinal e maximizar eficácia do novo esquema.",
+    "justification": "A justificativa apresentada refere-se ao retratamento do H. pylori, não à escolha do antagonista de leucotrienos para asma e rinite. A justificativa correta deveria destacar que os antagonistas de leucotrienos bloqueiam mediadores inflamatórios comuns à asma e rinite, sendo indicados para ambas as condições.",
     "category": "Farmacologia",
     "hint": "Procure a classe de fármacos que atua especificamente na via inflamatória dos Leucotrienos, mediadores partilhados pela asma e rinite alérgica.",
     "type": "clinical_case",
@@ -2477,7 +2477,7 @@
       "Leucoplasia (lesão pré-cancerígena); deve-se a uma interação entre o fármaco e o tabaco, sendo necessária uma biópsia."
     ],
     "correct_answer": "b) Candidíase Orofaríngea (local), devido à imunossupressão local pelo ICS; deve-se enxaguar a boca e gargarejar com água (e cuspir) após cada utilização.",
-    "justification": "A resistência do H. pylori é um problema crescente: Claritromicina (15-50%), Metronidazol (20-40%), Levofloxacino (10-30%), Amoxicilina (<1%), Tetraciclina (<1%). Isto explica falhas terapêuticas.",
+    "justification": "A justificativa apresentada trata da resistência do H. pylori, não do efeito adverso local da candidíase orofaríngea causada por corticoides inalatórios. A justificativa correta deveria explicar que o ICS pode causar imunossupressão local, facilitando infecção por Candida, e que a prevenção inclui enxaguar a boca após o uso.",
     "category": "Farmacologia",
     "hint": "Pense num efeito adverso local (na boca) causado pela deposição de um fármaco imunossupressor (corticoide) no local da aplicação.",
     "type": "clinical_case",
@@ -2493,7 +2493,7 @@
       "Parar apenas os antibióticos (Metronidazol e Tetraciclina), mas continuar o Bismuto e o IBP."
     ],
     "correct_answer": "b) Acalmar o paciente e explicar que é um efeito adverso esperado e inofensivo, causado pela reação do Bismuto com o sulfeto de hidrogénio, e que ele deve continuar o tratamento.",
-    "justification": "A terapia sequencial para H. pylori (IBP + Amoxicilina 5 dias, seguido de IBP + Claritromicina + Metronidazol 5 dias) foi popular mas estudos recentes mostram eficácia similar à tripla estendida (14 dias).",
+    "justification": "A justificativa apresentada fala sobre terapias sequenciais para H. pylori, não sobre o efeito adverso do bismuto. A justificativa correta deveria explicar que o bismuto reage com sulfeto de hidrogênio no trato gastrointestinal, formando compostos escuros que causam escurecimento benigno das fezes e língua, sem necessidade de interromper o tratamento.",
     "category": "Farmacologia",
     "hint": "O Bismuto reage quimicamente no TGI. Pense na reação com o enxofre (sulfeto) presente no intestino, formando um composto de cor preta.",
     "type": "clinical_case",
@@ -2509,7 +2509,7 @@
       "Tem um potente efeito mineralocorticoide que retém sódio e água, aumentando a pressão arterial instantaneamente."
     ],
     "correct_answer": "b) Aumenta a sensibilidade dos recetores alfa-1 nos vasos sanguíneos à noradrenalina, restaurando o tónus vascular e a pressão arterial.",
-    "justification": "A aderência ao tratamento de erradicação de H. pylori é crucial. Tomar <60% das doses reduz drasticamente a taxa de sucesso. Explicar importância, efeitos adversos esperados e duração aumenta aderência.",
+    "justification": "A justificativa apresentada refere-se à aderência ao tratamento do H. pylori, não ao efeito permissivo dos corticoides no choque séptico. A justificativa correta deveria explicar que os corticoides aumentam a sensibilidade dos receptores alfa-1 adrenérgicos à noradrenalina, restaurando o tônus vascular e a pressão arterial.",
     "category": "Farmacologia",
     "hint": "No choque, os vasos \"ignoram\" a noradrenalina (perdem o tónus). O corticoide \"permite\" que eles voltem a \"ouvir\" o sinal da noradrenalina e a contrair-se.",
     "type": "clinical_case",
@@ -2525,7 +2525,7 @@
       "A Prednisona atua apenas a nível nuclear, reprimindo genes inflamatórios, sem afetar enzimas da inflamação, enquanto os AINEs bloqueiam enzimas."
     ],
     "correct_answer": "b) A Prednisona inibe a enzima Fosfolipase A2 (via Anexina-1), impedindo a formação de Ácido Araquidónico e bloqueando tanto a via das Prostaglandinas (COX) quanto a dos Leucotrienos (LOX).",
-    "justification": "Probióticos (Lactobacillus, Saccharomyces boulardii) adjuvantes à terapia de erradicação podem reduzir efeitos adversos gastrointestinais (diarreia, náuseas) e aumentar discretamente taxa de erradicação.",
+    "justification": "A justificativa apresentada fala sobre probióticos na erradicação do H. pylori, não sobre o mecanismo molecular dos corticoides versus AINEs. A justificativa correta deveria explicar que os corticoides induzem a produção da anexina-1 que inibe a fosfolipase A2, bloqueando a liberação do ácido araquidônico e consequentemente as vias da COX e LOX, enquanto os AINEs bloqueiam diretamente a COX.",
     "category": "Farmacologia",
     "hint": "Os AINEs bloqueiam a COX. Os corticoides atuam \"rio acima\", bloqueando a enzima (PLA2) que produz a matéria-prima (Ácido Araquidónico) para a COX e a LOX.",
     "type": "clinical_case",
@@ -2541,7 +2541,7 @@
       "Prednisona oral, pois é o único biológico capaz de suprimir a produção de IgE."
     ],
     "correct_answer": "a) Omalizumab (Anti-IgE), que se liga à IgE circulante, impedindo-a de se ligar aos mastócitos e iniciar a degranulação.",
-    "justification": "A re-infecção por H. pylori após erradicação bem-sucedida é rara em países desenvolvidos (<2%/ano) mas mais comum em áreas de alta prevalência. Recorrência de úlcera após erradicação geralmente é por falha terapêutica, não re-infecção.",
+    "justification": "A justificativa apresentada trata da reinfecção por H. pylori, não do uso do Omalizumab em asma grave com IgE elevada. A justificativa correta deveria explicar que o Omalizumab é um anticorpo monoclonal que se liga à IgE livre, impedindo sua ligação aos mastócitos e basófilos, reduzindo a resposta alérgica.",
     "category": "Farmacologia",
     "hint": "O problema da paciente é \"alergia\" (IgE elevada). O fármaco-alvo é um anticorpo monoclonal (AcMo) que \"sequestra\" a IgE.",
     "type": "clinical_case",
@@ -2557,7 +2557,7 @@
       "Um IBP (Omeprazol), pois os sintomas (hipotensão, náusea) são provavelmente de dispepsia causada pelo corticoide."
     ],
     "correct_answer": "c) Um fármaco com ação mineralocorticoide (ex: Fludrocortisona) para repor a função da aldosterona (reter sódio e excretar potássio).",
-    "justification": "A dispepsia H. pylori-positiva sem úlcera (dispepsia funcional H. pylori-positiva) pode se beneficiar de erradicação em ~10% dos pacientes. Estratégia 'test-and-treat' é custo-efetiva em populações de prevalência >10%.",
+    "justification": "A justificativa apresentada fala sobre dispepsia e H. pylori, não sobre reposição mineralocorticoide na Doença de Addison. A justificativa correta deveria explicar que a Prednisona não possui ação mineralocorticoide suficiente para corrigir a deficiência de aldosterona, sendo necessária a fludrocortisona para reter sódio e excretar potássio.",
     "category": "Farmacologia",
     "hint": "O paciente tem dois problemas: falta de cortisol (glicocorticoide) e falta de aldosterona (mineralocorticoide). A Prednisona só trata o primeiro. O que trata o segundo?",
     "type": "clinical_case",
@@ -2573,7 +2573,7 @@
       "Budesonida"
     ],
     "correct_answer": "c) Fludrocortisona",
-    "justification": "A gastroparesia é retardo no esvaziamento gástrico sem obstrução mecânica. Causas: diabetes, pós-vagotomia, medicamentos. Tratamento: dieta fracionada, procinéticos (Metoclopramida, Domperidona), controle glicêmico.",
+    "justification": "A justificativa apresentada fala sobre gastroparesia e procinéticos, não sobre mineralocorticoides. A justificativa correta deveria explicar que a fludrocortisona é um mineralocorticoide potente usado para reposição na insuficiência adrenal primária devido à sua capacidade de retenção de sódio e ação mineralocorticoide.",
     "category": "Farmacologia",
     "hint": "Qual destes fármacos é usado especificamente para reter sal (ação mineral) e não apenas para inflamação (ação glico)?",
     "type": "multiple_choice",
@@ -2589,7 +2589,7 @@
       "Sucralfato"
     ],
     "correct_answer": "a) Omeprazol",
-    "justification": "Os procinéticos (Metoclopramida, Domperidona) aumentam motilidade gastrintestinal. Metoclopramida atravessa barreira hematoencefálica podendo causar efeitos extrapiramidais e discinesia tardia; Domperidona tem menos efeitos centrais.",
+    "justification": "A justificativa apresentada fala sobre procinéticos (Metoclopramida, Domperidona), que não têm relação direta com a interação entre IBPs e Clopidogrel. A justificativa correta deveria explicar que o Omeprazol é um inibidor potente da CYP2C19, enzima necessária para ativar o Clopidogrel, podendo reduzir sua eficácia. Pantoprazol tem menor efeito sobre essa enzima e é a alternativa segura.",
     "category": "Farmacologia",
     "hint": "Qual IBP é o inibidor \"clássico\" da CYP2C19, a enzima que ativa o Clopidogrel? O Pantoprazol é a alternativa segura.",
     "type": "multiple_choice",
@@ -2605,7 +2605,7 @@
       "Bloqueio dos receptores muscarínicos M3, causando broncodilatação."
     ],
     "correct_answer": "c) Anticorpo monoclonal (AcMo) que se liga à IgE circulante, impedindo-a de se ligar aos mastócitos.",
-    "justification": "A Metoclopramida é antagonista D2 (dopaminérgico) e agonista 5-HT4. Aumenta tônus do EEI, acelera esvaziamento gástrico. Útil em gastroparesia, náuseas, DRGE. Evitar uso prolongado pelo risco de discinesia tardia.",
+    "justification": "A justificativa discorre sobre Metoclopramida, que não tem relação com Omalizumab. A justificativa correta deveria explicar que Omalizumab é um anticorpo monoclonal que se liga à IgE livre, impedindo sua ligação aos mastócitos e basófilos, reduzindo a resposta alérgica na asma grave.",
     "category": "Farmacologia",
     "hint": "Omalizumab é um anticorpo monoclonal (AcMo) usado na asma alérgica. Qual é o alvo da alergia?",
     "type": "multiple_choice",
@@ -2621,7 +2621,7 @@
       "Bloquear os receptores de adenosina."
     ],
     "correct_answer": "a) Aumentar a síntese de Anexina-1 (Lipocortina), que inibe a Fosfolipase A2.",
-    "justification": "A Domperidona não atravessa bem a barreira hematoencefálica, tendo menos efeitos extrapiramidais que Metoclopramida. Pode prolongar QT, contraindicada em arritmias. Disponível em muitos países mas não nos EUA.",
+    "justification": "A justificativa fala sobre Domperidona, que não tem relação com o mecanismo de ação dos glicocorticoides. A justificativa correta deveria explicar que os glicocorticoides aumentam a síntese de Anexina-1 (Lipocortina), que inibe a Fosfolipase A2, bloqueando a liberação de ácido araquidônico e, consequentemente, a produção de mediadores inflamatórios.",
     "category": "Farmacologia",
     "hint": "Os corticoides atuam \"acima\" dos AINEs. Eles bloqueiam a enzima (Fosfolipase A2) que produz a matéria-prima (Ácido Araquidónico) para a COX e a LOX.",
     "type": "multiple_choice",
@@ -2637,7 +2637,7 @@
       "Montelukast"
     ],
     "correct_answer": "c) Salbutamol",
-    "justification": "Os antieméticos incluem: antagonistas D2 (Metoclopramida), antagonistas 5-HT3 (Ondansetrona), antagonistas NK1 (Aprepitante), anti-histamínicos (Dimenidrinato), anticolinérgicos (Escopolamina), corticoides, canabinoides.",
+    "justification": "A justificativa aborda antieméticos, sem relação com a escolha do fármaco de resgate para asma. A justificativa correta deveria destacar que o Salbutamol é um beta-2 agonista de curta ação (SABA), com início rápido e indicado para alívio imediato das crises asmáticas.",
     "category": "Farmacologia",
     "hint": "\"Resgate\" (alívio imediato) requer ação curta (SABA). \"Manutenção\" usa ação longa (LABA/LAMA/ICS).",
     "type": "multiple_choice",
@@ -2653,7 +2653,7 @@
       "Crises convulsivas e arritmias."
     ],
     "correct_answer": "b) Fácies de lua cheia, giba de búfalo, hiperglicemia e miopatia.",
-    "justification": "A Ondansetrona (antagonista 5-HT3) é altamente eficaz para náuseas/vômitos induzidos por quimioterapia e radioterapia. Pode causar constipação e prolongamento do intervalo QT em altas doses.",
+    "justification": "A justificativa fala sobre Ondansetrona, um antiemético, sem relação com a Síndrome de Cushing. A justificativa correta deveria descrever os sinais clássicos da Síndrome de Cushing iatrogênica, como fácies em lua cheia, giba de búfalo, hiperglicemia e miopatia, decorrentes do excesso de cortisol.",
     "category": "Farmacologia",
     "hint": "Pense nos efeitos do excesso de cortisol: retenção de gordura central (lua, giba), hiperglicemia (resistência à insulina) e catabolismo muscular (miopatia).",
     "type": "multiple_choice",
@@ -2669,7 +2669,7 @@
       "Antagonista dos receptores de leucotrienos."
     ],
     "correct_answer": "c) Inibidor seletivo da Fosfodiesterase-4 (PDE4).",
-    "justification": "O Aprepitante (antagonista NK1) potencializa antiéticos em quimioterapia altamente emetogênica. Inibe CYP3A4, tendo múltiplas interações (Varfarina, anticoncepcionais, corticoides).",
+    "justification": "A justificativa fala sobre Aprepitante, um antagonista NK1, sem relação com Roflumilast. A justificativa correta deveria explicar que Roflumilast é um inibidor seletivo da fosfodiesterase-4 (PDE4), aumentando os níveis de AMPc e reduzindo a inflamação na DPOC.",
     "category": "Farmacologia",
     "hint": "Este é um anti-inflamatório oral específico para DPOC. Inibe a enzima que degrada o AMPc.",
     "type": "multiple_choice",
@@ -2685,7 +2685,7 @@
       "Na presença de sais biliares."
     ],
     "correct_answer": "c) pH < 4 (ácido)",
-    "justification": "Os laxantes formadores de bolo (psyllium, metilcelulose) aumentam massa fecal e devem ser usados com líquidos abundantes. Seguros para uso crônico. Início de ação: 12-72 horas.",
+    "justification": "A justificativa fala sobre laxantes formadores de bolo, sem relação com o mecanismo de ativação do Sucralfato. A justificativa correta deveria explicar que o Sucralfato necessita de ambiente ácido (pH < 4) para se polimerizar e aderir à mucosa ulcerada, formando uma barreira protetora.",
     "category": "Farmacologia",
     "hint": "O Sucralfato é um \"curativo\" (band-aid) gástrico que precisa de \"cola\". A \"cola\" é o ambiente ácido que o polimeriza.",
     "type": "multiple_choice",
@@ -2701,7 +2701,7 @@
       "São ativados no sangue antes de chegar ao estômago."
     ],
     "correct_answer": "a) São pró-fármacos que necessitam de ativação em meio ácido nos canalículos parietais.",
-    "justification": "Os laxantes osmóticos (Lactulose, Polietilenoglicol, Magnésio) retêm água no lúmen intestinal, amolecendo fezes. PEG é melhor tolerado que Lactulose (menos gases/cólicas). Seguros para uso crônico.",
+    "justification": "A justificativa fala sobre laxantes osmóticos, sem relação com a farmacocinética dos IBPs. A justificativa correta deveria explicar que os IBPs são pró-fármacos que precisam ser ativados em meio ácido nos canalículos secretores das células parietais para inibir irreversivelmente a bomba de prótons.",
     "category": "Farmacologia",
     "hint": "Os IBPs (Inibidores da Bomba de Protões) precisam ser ativados para funcionar. Onde eles são ativados?",
     "type": "multiple_choice",
@@ -2717,7 +2717,7 @@
       "Precipitação do fármaco em pH alcalino."
     ],
     "correct_answer": "b) Reação com o sulfeto de hidrogênio (H2S) bacteriano, formando sulfeto de bismuto.",
-    "justification": "Os laxantes estimulantes (Senna, Bisacodil, Picossulfato) aumentam peristaltismo e secreção intestinal. Início rápido (6-12h). Evitar uso crônico pelo risco teórico de lesão neural (cólon catártico).",
+    "justification": "A justificativa fala sobre laxantes estimulantes, sem relação com o efeito adverso do Subcitrato de Bismuto. A justificativa correta deveria explicar que o escurecimento das fezes e da língua ocorre devido à reação do bismuto com o sulfeto de hidrogênio produzido por bactérias, formando sulfeto de bismuto, um composto preto.",
     "category": "Farmacologia",
     "hint": "O Bismuto reage com algo no TGI que contém enxofre (Sulfur).",
     "type": "multiple_choice",
@@ -2733,7 +2733,7 @@
       "Inibem o PTH (paratormônio)."
     ],
     "correct_answer": "b) Diminuem a absorção intestinal de cálcio e aumentam a atividade dos osteoclastos.",
-    "justification": "O Polietilenoglicol (PEG, Macrogol) é o laxante osmótico preferido para constipação crônica por eficácia, segurança e boa tolerabilidade. Não causa desequilíbrios eletrolíticos.",
+    "justification": "A justificativa fala sobre laxantes osmóticos, sem relação com o efeito dos glicocorticoides na osteoporose. A justificativa correta deveria explicar que os glicocorticoides diminuem a absorção intestinal de cálcio e aumentam a atividade dos osteoclastos, levando à perda óssea e osteoporose.",
     "category": "Farmacologia",
     "hint": "Corticoide \"come\" osso. Inibe quem constrói (osteoblasto) e ativa quem destrói (osteoclasto). Também afeta a absorção de cálcio.",
     "type": "multiple_choice",
@@ -2749,7 +2749,7 @@
       "Nizatidina"
     ],
     "correct_answer": "c) Cimetidina",
-    "justification": "Os antidiarreicos incluem: Loperamida (agonista opioide μ intestinal), Bismuto (adstringente, antissecretor), Racecadotrila (inibidor de encefalinase). Reidratação oral é fundamental.",
+    "justification": "A justificativa apresentada fala sobre antidiarreicos e reidratação, que não têm relação com a pergunta sobre antagonistas H2. A justificativa correta deveria explicar que a cimetidina é um potente inibidor do CYP450 e atravessa a barreira hematoencefálica, podendo causar confusão em idosos.",
     "category": "Farmacologia",
     "hint": "O Antagonista H2 \"antigo\" é famoso por interações (CYP) e por atravessar a BHE (confusão). Os \"-tidina\" mais novos são mais seguros.",
     "type": "multiple_choice",
@@ -2765,7 +2765,7 @@
       "Bradicinina"
     ],
     "correct_answer": "a) Adenosina",
-    "justification": "A Loperamida reduz motilidade intestinal e aumenta absorção de água. Não atravessa barreira hematoencefálica (substrato de P-glicoproteína). Contraindicada em diarreia invasiva (sangue/febre) e colite pseudomembranosa.",
+    "justification": "A justificativa fala sobre Loperamida e diarreia, que não tem relação com a pergunta sobre metilxantinas. A justificativa correta deveria explicar que a teofilina atua como antagonista dos receptores de adenosina, o que contribui para seus efeitos broncodilatadores e estimulantes do SNC.",
     "category": "Farmacologia",
     "hint": "A Teofilina (e a cafeína) atuam bloqueando o receptor que nos \"acalma\" (Adenosina).",
     "type": "multiple_choice",
@@ -2781,7 +2781,7 @@
       "Bloquear os receptores de leucotrienos."
     ],
     "correct_answer": "b) Bloquear os receptores muscarínicos M3, impedindo a broncoconstrição mediada pela acetilcolina.",
-    "justification": "A diarreia aguda infecciosa geralmente é autolimitada (viral). Reidratação é pilar do tratamento. Antibióticos são indicados apenas em: diarreia invasiva grave, disenteria, cólera, Giardia, viajante moderada-grave.",
+    "justification": "A justificativa discorre sobre diarreia infecciosa e uso de antibióticos, sem relação com o mecanismo dos anticolinérgicos no sistema respiratório. A justificativa correta deveria reforçar que os anticolinérgicos bloqueiam os receptores muscarínicos M3, impedindo a broncoconstrição mediada pela acetilcolina.",
     "category": "Farmacologia",
     "hint": "\"Anticolinérgico\" = bloqueia a Acetilcolina. Qual é o recetor-chave no brônquio?",
     "type": "multiple_choice",
@@ -2797,7 +2797,7 @@
       "Neutralizar quimicamente o ácido gástrico em 5 minutos."
     ],
     "correct_answer": "c) Possuir ação bactericida direta contra a bactéria e formar uma barreira protetora.",
-    "justification": "A colite por C. difficile é causada por antibióticos que alteram flora intestinal. Tratamento: Vancomicina oral (1ª linha) ou Fidaxomicina, suspender antibiótico causador. Loperamida é contraindicada (risco de megacólon tóxico).",
+    "justification": "A justificativa fala sobre colite por C. difficile e tratamento com vancomicina, que não tem relação com o subcitrato de bismuto. A justificativa correta deveria explicar que o subcitrato de bismuto possui ação bactericida direta contra H. pylori e forma uma barreira protetora na mucosa gástrica.",
     "category": "Farmacologia",
     "hint": "O Bismuto tem uma ação tripla: barreira, citoproteção e (importante) \"mata\" a bactéria.",
     "type": "multiple_choice",
@@ -2808,7 +2808,7 @@
     "question": "(V / F) O Misoprostol, um análogo da Prostaglandina E1, é um fármaco seguro para ser usado na profilaxia de úlcera por AINEs em mulheres grávidas.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "A doença inflamatória intestinal (DII: Doença de Crohn e Retocolite Ulcerativa) requer tratamento crônico com aminossalicilatos, corticoides, imunomoduladores (Azatioprina, Metotrexato) e biológicos (anti-TNF, anti-integrinas).",
+    "justification": "A justificativa aborda tratamento da doença inflamatória intestinal, sem relação com o uso do misoprostol na gravidez. A justificativa correta deveria destacar que o misoprostol é contraindicado na gravidez por seu efeito abortivo e de indução do parto.",
     "category": "Farmacologia",
     "hint": "O Misoprostol é usado (off-label) para induzir o parto/aborto. Portanto...",
     "type": "true_false",
@@ -2874,7 +2874,7 @@
     "question": "(V / F) O Sucralfato deve ser administrado concomitantemente com o Omeprazol para maximizar sua ativação em pH ácido.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "O Vedolizumabe é anticorpo anti-integrina α4β7 gut-específico, com menos imunossupressão sistêmica que anti-TNF. Eficaz em DII, especialmente Retocolite. Início de ação mais lento (8-12 semanas).",
+    "justification": "A justificativa apresentada não tem relação com a pergunta sobre Sucralfato e Omeprazol. A justificativa correta deveria explicar que o Sucralfato necessita de pH ácido para formar seu complexo protetor, e o Omeprazol eleva o pH gástrico, reduzindo a ativação do Sucralfato, portanto não devem ser administrados concomitantemente para maximizar sua ativação.",
     "category": "Farmacologia",
     "hint": "O Sucralfato precisa de pH < 4 (ácido) para ativar. O Omeprazol (IBP) remove o ácido (aumenta o pH).",
     "type": "true_false",
@@ -2885,7 +2885,7 @@
     "question": "(V / F) Tremores, taquicardia e hipocalemia (potássio baixo) são efeitos adversos conhecidos dos agonistas beta-2 (ex: Salbutamol) em altas doses.",
     "options": [],
     "correct_answer": "Verdadeiro",
-    "justification": "O Ustekinumabe (anti-IL-12/23) é biológico aprovado para Crohn refratário. Opção em falha ou perda de resposta aos anti-TNF.",
+    "justification": "A justificativa apresentada fala sobre Ustekinumabe, que não tem relação com os efeitos adversos dos agonistas beta-2. A justificativa correta deveria explicar que os agonistas beta-2 em altas doses estimulam receptores β2 sistêmicos, causando tremores, taquicardia e hipocalemia.",
     "category": "Farmacologia",
     "hint": "Sim, pela estimulação sistémica de recetores B2 (músculo, coração, bomba Na/K).",
     "type": "true_false",
@@ -2896,7 +2896,7 @@
     "question": "(V / F) A principal indicação da Fludrocortisona é como potente anti-inflamatório em doenças autoimunes, como Lúpus.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "O tratamento da síndrome do intestino irritável (SII) é sintomático: fibras solúveis (constipação), Loperamida (diarreia), antiespasmódicos (dor/cólica), antidepressivos (dor crônica), probióticos (alguns subtipos).",
+    "justification": "A justificativa apresentada trata do tratamento da síndrome do intestino irritável, que não tem relação com a Fludrocortisona. A justificativa correta deveria explicar que a Fludrocortisona é um mineralocorticoide usado para reposição na insuficiência adrenal (Doença de Addison), não como anti-inflamatório em doenças autoimunes como Lúpus.",
     "category": "Farmacologia",
     "hint": "A Fludrocortisona é quase 100% mineralocorticoide (reter sal). A sua indicação é reposição na Doença de Addison, não inflamação (Lúpus usa Prednisona/Glico).",
     "type": "true_false",
@@ -2907,7 +2907,7 @@
     "question": "(V / F) A candidíase orofaríngea (\"sapinho\") é um efeito adverso sistêmico comum da Prednisona oral em baixas doses.",
     "options": [],
     "correct_answer": "Falso",
-    "justification": "Os antiespasmódicos (Hioscina, Mebeverina, Óleo de Hortelã-Pimenta) relaxam músculo liso intestinal, reduzindo cólicas. Úteis na SII predominante de dor. Anticolinérgicos podem causar boca seca, visão turva, retenção urinária.",
+    "justification": "A justificativa apresentada fala sobre antiespasmódicos e seus efeitos, não sobre candidíase orofaríngea e Prednisona. A justificativa correta deveria esclarecer que a candidíase orofaríngea é um efeito adverso local comum dos corticosteroides inalatórios, e não um efeito sistêmico comum da Prednisona oral em baixas doses.",
     "category": "Farmacologia",
     "hint": "\"Sapinho\" (Candidíase) é um efeito local (deposição na boca) de corticoides inalatórios (ICS), não um efeito sistémico da Prednisona oral.",
     "type": "true_false",
@@ -2925,7 +2925,7 @@
     "correct_answer": "a) Glicocorticoides",
     "justification": "A Síndrome de Cushing (iatrogênica, causada por medicamentos) resulta do excesso crônico de cortisol (um glicocorticoide). A Doença de Addison é caracterizada pela insuficiência ou ausência de hormônios corticais, principalmente o cortisol (Glicocorticoide).",
     "category": "Farmacologia",
-    "hint": "Pense na classe de medicamentos que bloqueia receptores H2 na célula parietal, reduzindo secreção ácida.",
+    "hint": "A dica fornecida não está relacionada com a pergunta sobre Síndrome de Cushing e Doença de Addison, pois fala sobre bloqueadores de receptores H2 e IBPs. A dica deveria ser relacionada ao papel dos glicocorticoides na Síndrome de Cushing e Doença de Addison.",
     "type": "multiple_choice",
     "difficulty": "médio"
   },
@@ -2941,7 +2941,7 @@
     "correct_answer": "b) Misoprostol",
     "justification": "O Misoprostol é um análogo sintético da Prostaglandina E1 (PGE1). Ele é usado principalmente para prevenir úlceras gástricas em pacientes que usam AINEs cronicamente. O Misoprostol é absolutamente contraindicado durante a gravidez porque aumenta a contratilidade uterina e pode induzir o aborto.",
     "category": "Farmacologia",
-    "hint": "Compare o bloqueio de receptores (antagonistas H2) versus bloqueio direto da bomba de prótons (IBPs). Qual é mais potente?",
+    "hint": "A dica fornecida não está relacionada com a pergunta sobre Misoprostol, pois fala sobre antagonistas H2 e IBPs. A dica correta deveria mencionar que Misoprostol é um análogo sintético da Prostaglandina E1 que protege a mucosa gástrica e é contraindicado na gravidez.",
     "type": "multiple_choice",
     "difficulty": "médio"
   },
@@ -2987,7 +2987,7 @@
       "CYP2D6"
     ],
     "correct_answer": "c) CYP2C19",
-    "justification": "A interação clinicamente relevante entre o Omeprazol e o Clopidogrel ocorre através do sistema do citocromo P450, especificamente a enzima CYP2C19. O Omeprazol é metabolizado e inibe a enzima CYP2C19. O Clopidogrel é um pró-fármaco que depende da enzima CYP2C19 para ser convertido em sua forma ativa. Ao inibir a CYP2C19, o Omeprazol reduz a conversão do Clopidogrel à sua forma ativa, diminuindo seu efeito antiplaquetário e aumentando o risco de eventos trombóticos graves. O Pantoprazol é recomendado como alternativa.",
+    "justification": "A interação entre Omeprazol e Clopidogrel ocorre via CYP2C19. Omeprazol inibe essa enzima, reduzindo a conversão do Clopidogrel em sua forma ativa, o que diminui seu efeito antiplaquetário e aumenta o risco de eventos trombóticos. Pantoprazol é recomendado como alternativa.",
     "category": "Farmacologia",
     "hint": "Misoprostol é um análogo sintético de qual prostaglandina que protege a mucosa gástrica?",
     "type": "multiple_choice",
@@ -3005,7 +3005,7 @@
     "correct_answer": "c) A Imunoglobulina E (IgE)",
     "justification": "O Omalizumabe é um anticorpo monoclonal humanizado (AcMo) aprovado para o tratamento do asma alérgica grave. Seu alvo é a Imunoglobulina E (IgE) circulante. O Omalizumabe liga-se à IgE livre, impedindo que esta se una aos mastócitos e basófilos. Desta forma, bloqueia a cascata alérgica e a liberação subsequente de mediadores inflamatórios (como histamina e leucotrienos), o que reduz as crises de asma.",
     "category": "Farmacologia",
-    "hint": "Pense no primeiro IBP desenvolvido, ainda amplamente usado. Começa com 'Ome...'.",
+    "hint": "A dica fornecida não está relacionada com a pergunta sobre Omalizumab, pois fala sobre o primeiro IBP (Omeprazol). A dica correta deveria mencionar que Omalizumab é um anticorpo monoclonal anti-IgE usado na asma alérgica grave.",
     "type": "multiple_choice",
     "difficulty": "médio"
   },
@@ -3019,7 +3019,7 @@
       "Magnésio (Mg2+)"
     ],
     "correct_answer": "b) Sódio (Na+) e água",
-    "justification": "A hipertensão arterial induzida pelos glicocorticoides (GC) decorre primariamente de sua atividade mineralocorticoide. Essa atividade mineralocorticoide leva à retenção de sódio e água. A retenção de sódio e água resulta na expansão do volume plasmático, o que, por sua vez, eleva a pressão arterial. Em contraste, o excesso de cortisol causa perda de potássio.",
+    "justification": "A justificativa afirma que o excesso de cortisol causa perda de potássio, o que está incorreto. Na verdade, a atividade mineralocorticoide dos glicocorticoides promove retenção de sódio e água e excreção de potássio, podendo causar hipocalemia. Portanto, o excesso de glicocorticoides com atividade mineralocorticoide leva à retenção de sódio e água e à perda de potássio.",
     "category": "Farmacologia",
     "hint": "H. pylori sempre requer terapia combinada: um IBP + pelo menos dois antibióticos (tripla ou quádrupla).",
     "type": "multiple_choice",
@@ -3099,7 +3099,7 @@
       "Adenosina"
     ],
     "correct_answer": "d) Adenosina",
-    "justification": "As Metilxantinas, como a Teofilina, possuem um mecanismo de ação multifatorial: 1) Inibição da Fosfodiesterase (PDE) (não seletiva, incluindo PDE3, PDE4 e PDE5). 2) Antagonismo dos recetores de adenosina (principalmente A1). A Adenosina causa broncoconstrição em asmáticos ao liberar histamina e leucotrienos; o bloqueio da Adenosina pela Teofilina resulta em broncodilatação. O antagonismo dos recetores de adenosina é também o mecanismo que pode ser responsável por efeitos adversos graves da Teofilina, como arritmias e convulsões.",
+    "justification": "As Metilxantinas, como a Teofilina, agem por inibição não seletiva da fosfodiesterase (PDE3, PDE4, PDE5) e antagonismo dos receptores de adenosina (principalmente A1). A adenosina provoca broncoconstrição via liberação de histamina e leucotrienos; seu bloqueio pela Teofilina causa broncodilatação, mas pode gerar efeitos adversos graves, como arritmias e convulsões.",
     "category": "Farmacologia",
     "hint": "Qual antagonista H2 tem mais interações medicamentosas por inibir várias enzimas CYP450? É o mais antigo.",
     "type": "multiple_choice",
@@ -3131,7 +3131,7 @@
       "Um antifúngico e um antiviral"
     ],
     "correct_answer": "a) Dois ou mais antibióticos",
-    "justification": "A infecção pela bactéria Helicobacter pylori é a causa subjacente da maioria das úlceras duodenais e gástricas. Para a erradicação eficaz, a terapia padrão (Tripla ou Quádrupla) requer um fármaco antisecretor (geralmente um IBP) em combinação com dois ou mais agentes antimicrobianos (antibióticos). Terapia Tripla Clássica: IBP + Claritromicina + Amoxicilina. Terapia Quádrupla: IBP + Sais de Bismuto + Metronidazol + Tetraciclina.",
+    "justification": "A infecção por Helicobacter pylori causa a maioria das úlceras gástricas e duodenais. A erradicação eficaz requer terapia com um inibidor de bomba de prótons (IBP) e dois ou mais antibióticos. Terapia tripla: IBP + claritromicina + amoxicilina. Terapia quádrupla: IBP + sais de bismuto + metronidazol + tetraciclina. A opção correta é dois ou mais antibióticos.",
     "category": "Farmacologia",
     "hint": "IBPs em longo prazo reduzem absorção de cálcio, aumentando risco de fraturas, especialmente em idosos.",
     "type": "multiple_choice",
@@ -3147,7 +3147,7 @@
       "Budesonida"
     ],
     "correct_answer": "c) Fludrocortisona",
-    "justification": "A Doença de Addison (insuficiência adrenal primária) é causada pela redução ou incapacidade das glândulas suprarrenais de produzir hormônios, principalmente cortisol (glicocorticoide) e aldosterona (mineralocorticoide). Para a reposição mineralocorticoide: O mineralocorticoide natural é a Aldosterona. A Aldosterona não é utilizada na prática devido à sua escassa manejabilidade. Na prática, emprega-se o derivado sintético Fludrocortisona, que é ativo por via oral. A Fludrocortisona é usada na insuficiência suprarrenal global, aguda ou crônica, em associação com glicocorticoides (como a Hidrocortisona).",
+    "justification": "A Doença de Addison é causada pela falha das suprarrenais em produzir cortisol e aldosterona. Para reposição mineralocorticoide, usa-se a Fludrocortisona, derivado sintético oral da aldosterona, devido à baixa manejabilidade desta. A Fludrocortisona é indicada na insuficiência suprarrenal aguda ou crônica, associada a glicocorticoides como a hidrocortisona.",
     "category": "Farmacologia",
     "hint": "Misoprostol protege a mucosa gástrica e é usado preventivamente em pacientes usando AINEs cronicamente.",
     "type": "multiple_choice",
@@ -3197,7 +3197,7 @@
     "correct_answer": "a) Agonistas Beta-2, Anticolinérgicos e Metilxantinas",
     "justification": "Os broncodilatadores atuam relaxando o músculo liso bronquial. Eles são tradicionalmente divididos em três classes principais: 1) Agonistas Beta-2 Adrenérgicos (SABA/LABA): Considerados os mais potentes. 2) Anticolinérgicos (SAMA/LAMA): Inibidores da atividade parassimpática. 3) Metilxantinas (Xantinas/Teofilina): Relaxantes diretos da fibra muscular.",
     "category": "Farmacologia",
-    "hint": "DRGE é tratada inicialmente com modificações de estilo de vida + IBPs. São o tratamento mais eficaz.",
+    "hint": "A dica fornecida não está relacionada com a pergunta sobre broncodilatadores, pois fala sobre DRGE e IBPs, o que pode confundir o aluno. A dica deveria estar relacionada aos broncodilatadores ou farmacologia respiratória.",
     "type": "multiple_choice",
     "difficulty": "baixo"
   },
@@ -3243,7 +3243,7 @@
       "Gastrite por Candida albicans"
     ],
     "correct_answer": "c) Doença do Refluxo Gastroesofágico (DRGE)",
-    "justification": "Os Inibidores da Bomba de Prótons (IBPs) são a classe de fármacos mais potente para suprimir a secreção ácida (80% a 95% da produção diária). Por isso, constituem a terapia de primeira linha e o pilar do tratamento para a maioria das doenças relacionadas com o ácido. As indicações terapêuticas primárias incluem: Doença do Refluxo Gastroesofágico (DRGE/ERGE), Tratamento e prevenção de úlceras pépticas (gástricas e duodenais), Síndrome de Zollinger-Ellison (condição de hipersecreção patológica), e Profilaxia de úlceras induzidas por AINEs.",
+    "justification": "Os Inibidores da Bomba de Prótons (IBPs) são os fármacos mais potentes para suprimir 80-95% da secreção ácida, sendo a terapia de primeira linha para doenças relacionadas ao ácido. Indicados para DRGE, tratamento e prevenção de úlceras pépticas, Síndrome de Zollinger-Ellison e profilaxia de úlceras induzidas por AINEs.",
     "category": "Farmacologia",
     "hint": "Antiácidos agem rapidamente neutralizando ácido, mas têm efeito curto (minutos a horas).",
     "type": "multiple_choice",
@@ -3259,7 +3259,7 @@
       "Estrias abdominais violáceas"
     ],
     "correct_answer": "c) Hipotensão e perda de peso",
-    "justification": "A Síndrome de Cushing resulta do excesso crônico de glicocorticoides/cortisol. As características do excesso de cortisol incluem: Hipertensão Arterial (devido ao aumento da atividade mineralocorticoide), Ganho de Peso/Obesidade Central, Fácies de Lua Cheia e Giba de Búfalo (redistribuição da gordura corporal), Hiperglicemia (aumento da gliconeogênese e resistência à insulina), Estrias Violáceas (redução de colágeno), e Miopatia (catabolismo proteico). Portanto, hipotensão (pressão baixa) e perda de peso são sinais da ausência de cortisol (Síndrome de Addison).",
+    "justification": "A Síndrome de Cushing é causada pelo excesso crônico de cortisol, levando a hipertensão (por aumento da atividade mineralocorticoide), obesidade central, fácies em lua cheia, giba de búfalo, hiperglicemia (por gliconeogênese e resistência à insulina), estrias violáceas (redução de colágeno) e miopatia (catabolismo proteico). Hipotensão e perda de peso indicam falta de cortisol (Síndrome de Addison).",
     "category": "Farmacologia",
     "hint": "Para sintomas leves e ocasionais use antiácidos. Para moderados use anti-H2. Para graves ou DRGE use IBPs.",
     "type": "multiple_choice",
@@ -3291,7 +3291,7 @@
       "Aumento da produção de muco e inibição da CYP2C19"
     ],
     "correct_answer": "b) Formação de uma barreira protetora sobre a úlcera e ação bactericida contra H. pylori",
-    "justification": "As Sales de Bismuto (Subcitrato ou Subsalicilato de Bismuto) têm um mecanismo de ação que combina proteção e erradicação. Citoproteção: O bismuto adere preferencialmente aos cráteres das úlceras, formando uma camada protetora. Além disso, inibe a atividade da pepsina e aumenta a secreção de muco e bicarbonato. Ação Antibacteriana: As sales de bismuto possuem um efeito antibacteriano direto (bactericida) contra o Helicobacter pylori na mucosa gastroduodenal. É importante notar que as sales de bismuto NÃO neutralizam o ácido estomacal e NÃO inibem a bomba de prótons.",
+    "justification": "As sales de bismuto (subcitrato ou subsalicilato) protegem úlceras ao formar camada sobre cráteres, inibem pepsina e aumentam muco e bicarbonato. Também têm ação bactericida contra Helicobacter pylori na mucosa gastroduodenal. Não neutralizam ácido nem inibem a bomba de prótons.",
     "category": "Farmacologia",
     "hint": "Considere duração do tratamento, gravidade, custo e perfil de efeitos adversos ao escolher a classe.",
     "type": "multiple_choice",

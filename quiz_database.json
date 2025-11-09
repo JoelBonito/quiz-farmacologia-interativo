@@ -1448,8 +1448,8 @@
       "Bloqueio da enzima fosfolipase A2 (via Anexina-1), o que impede a produção de prostaglandinas e leucotrienos.",
       "Antagonismo competitivo de receptores de histamina H2."
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Bloqueio da enzima fosfolipase A2 (via Anexina-1), o que impede a produção de prostaglandinas e leucotrienos",
+    "justification": "Os glicocorticoides exercem uma poderosa ação anti-inflamatória. O seu mecanismo de ação principal é o bloqueio da enzima fosfolipase A2 (PLA2). Ao bloquear a PLA2, os glicocorticoides impedem que a via da ciclo-oxigenase (COX-1 e COX-2) seja ativada, e, por consequência, inibem a produção de prostaglandinas e leucotrienos. Essa inibição está relacionada à Anexina-1 (também conhecida como lipocortina-1), uma proteína cuja transcrição é estimulada pelos corticoides. Os corticoides também bloqueiam citocinas como IL-1, TNF, ICAM, VCAM e PAF.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1463,8 +1463,8 @@
       "Budesonida",
       "Fludrocortisona"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Fludrocortisona",
+    "justification": "A Fludrocortisona é um derivado sintético utilizado na prática clínica. É empregado na terapia de substituição na insuficiência suprarrenal global, aguda ou crônica, em associação com glicocorticoides. A Aldosterona, o mineralocorticoide natural, não é utilizada devido à sua escassa facilidade de manuseio.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1478,8 +1478,8 @@
       "Budesonida (Glucocorticoide Inalatório)",
       "Salbutamol (SABA)"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Salbutamol (SABA)",
+    "justification": "Os agonistas β2 adrenérgicos de Ação Curta (SABA), como o Salbutamol (Albuterol), são o tratamento de eleição para as crises e exacerbações agudas do asma. Eles são os broncodilatadores mais rápidos e eficazes, com início de ação muito rápido, o que é crucial para reverter o broncoespasmo agudo. O Brometo de Tiotrópio (LAMA) é menos efetivo que os β2 e é preferencialmente usado para o controle da DPOC. O Salmeterol (LABA) tem início de ação lento e é inadequado para crises. A Budesonida (Glucocorticoide Inalatório) é a terapia anti-inflamatória de manutenção, não de resgate.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1493,8 +1493,8 @@
       "Antagonizando os receptores CysLT1 na via inflamatória.",
       "Ligando-se à Imunoglobulina E (IgE) circulante, impedindo sua união a mastócitos e basófilos."
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Ligando-se à Imunoglobulina E (IgE) circulante, impedindo sua união a mastócitos e basófilos",
+    "justification": "O Omalizumabe é um anticorpo monoclonal humanizado. Ele é direcionado contra a Imunoglobulina E (IgE), que é a principal responsável pelas reações alérgicas. O Omalizumabe liga-se à IgE livre no sangue, impedindo que esta se conecte aos receptores de mastócitos e basófilos. Ao bloquear a IgE, ele impede a liberação subsequente de mediadores inflamatórios.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1508,8 +1508,8 @@
       "Possuem longa vida média plasmática (24-48 horas).",
       "São pró-fármacos que requerem um ambiente ácido para serem ativados e se ligam de maneira irreversível à enzima H/K-ATPase."
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) São pró-fármacos que requerem um ambiente ácido para serem ativados e se ligam de maneira irreversível à enzima H/K-ATPase",
+    "justification": "Os IBP, como Omeprazol e Pantoprazol, são a terapia de primeira linha e mais potente para a supressão de ácido. Os IBP são pró-fármacos inativos. Eles requerem um ambiente ácido (pH baixo) nos canalículos secretores das células parietais para serem ativados em seu metabolito ativo (sulfonamida tetracíclica). A forma ativada se liga de maneira irreversível à bomba de prótons (H+/K+-ATPase). O efeito é prolongado (24 a 48 horas), mas sua vida média plasmática é curta (30 a 90 minutos). Não atuam como antagonistas H2; essa é a classe dos Antihistamínicos H2 (como a Ranitidina). Não é contraindicado no Síndrome de Zollinger-Ellison (SZE); pelo contrário, são indispensáveis e a terapia de escolha para esta condição.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1523,8 +1523,8 @@
       "Possuem um efeito antibacteriano direto (bactericida) contra o Helicobacter pylori.",
       "São análogos sintéticos da Prostaglandina E1."
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Possuem um efeito antibacteriano direto (bactericida) contra o Helicobacter pylori",
+    "justification": "As Sales de Bismuto (Subsalicilato de Bismuto ou Subcitrato de Bismuto) são componentes importantes na terapia quádrupla para erradicação do H. pylori. As três ações principais das sales de bismuto são: 1) Aumentam a secreção de muco e bicarbonato. 2) Inibem a atividade da pepsina. 3) Possuem um efeito antibacteriano direto (bactericida) contra o Helicobacter pylori na mucosa gastroduodenal. É crucial notar que elas NÃO neutralizam diretamente o ácido estomacal.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1568,8 +1568,8 @@
       "(A) Histamina; (B) H1",
       "(A) Acetilcolina; (B) Beta-2"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) (A) Acetilcolina; (B) Muscarínicos M3",
+    "justification": "O sistema parassimpático (colinérgico) controla a broncoconstrição e o aumento da secreção de muco nas vias aéreas. Essa contração é mediada pela liberação de Acetilcolina (ACh). A ACh se liga aos receptores muscarínicos M3 presentes no músculo liso bronquial. Os fármacos anticolinérgicos (SAMA/LAMA) atuam bloqueando esses receptores M3 para causar broncodilatação.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1583,8 +1583,8 @@
       "(A) mineralocorticoide; (B) potássio",
       "(A) mineralocorticoide; (B) sódio"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) (A) mineralocorticoide; (B) sódio",
+    "justification": "Embora o Cortisol (glicocorticoide natural) tenha maior atividade glicocorticoide, ele também possui alguma atividade mineralocorticoide. O excesso de glicocorticoides (como na Síndrome de Cushing, ou em altas doses exógenas) resulta em: 1) Aumento da atividade mineralocorticoide. 2) Isto provoca a retenção de sódio e água. 3) A retenção de sódio e água leva à expansão do volume plasmático e ao consequente aumento da pressão arterial (hipertensão).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1598,8 +1598,8 @@
       "(A) catabolismo; (B) lipólise",
       "(A) anabolismo; (B) gluconeogênese"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) (A) catabolismo; (B) gluconeogênese",
+    "justification": "Doses excessivas de glicocorticoides (GC) causam: 1) Catabolismo proteico. Os GC estimulam a degradação de proteínas e inibem sua síntese. 2) Essa degradação (catabolismo) das proteínas musculares libera aminoácidos. 3) Esses aminoácidos servem como substratos para a gliconeogênese hepática (produção de glicose a partir de não carboidratos). 4) O resultado clínico é a redução da massa muscular, fraqueza e fadiga (miopatia esteroidea).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1613,8 +1613,8 @@
       "(A) Omeprazol; (C) Pantoprazol",
       "(A) Famotidina; (C) Pantoprazol"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) (A) Omeprazol; (C) Pantoprazol",
+    "justification": "A interação medicamentosa entre o Omeprazol e o Clopidogrel é uma preocupação clínica significativa. O Clopidogrel é um antiagregante plaquetário que depende da enzima do citocromo P450, especificamente a CYP2C19, para ser convertido em sua forma ativa. O IBP a ser evitado (A) é o Omeprazol, pois ele inibe a enzima CYP2C19. Ao inibir a CYP2C19, o Omeprazol reduz a conversão do Clopidogrel em seu metabólito ativo, diminuindo sua eficácia antiplaquetária e aumentando o risco de eventos trombóticos. O IBP alternativo seguro (C) é o Pantoprazol. O Pantoprazol tem uma menor probabilidade de gerar esta interação clinicamente relevante, tornando-o uma opção mais segura.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1628,8 +1628,8 @@
       "(B) Histamina; (C) H1",
       "(B) Acetilcolina; (C) Beta-2"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) (B) Acetilcolina; (C) Muscarínicos M3",
+    "justification": "O sistema parassimpático (ou colinérgico) controla a broncoconstrição. Essa contração é mediada pela liberação de Acetilcolina (ACh). A Acetilcolina liga-se aos receptores muscarínicos M3 presentes no músculo liso bronquial. O bloqueio destes receptores pelos anticolinérgicos resulta em relaxamento dos brônquios (broncodilatação).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1643,8 +1643,8 @@
       "(A) 5-LOX; (B) Asma",
       "(A) PDE4; (B) DPOC"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) (A) PDE4; (B) DPOC",
+    "justification": "O Roflumilast é um inibidor oral seletivo da Fosfodiesterase 4 (PDE4). A PDE4 é a isoforma predominante em células inflamatórias. O Roflumilast foi aprovado para pacientes com Doença Pulmonar Obstrutiva Crónica (DPOC) grave, especialmente aqueles com exacerbações frequentes (VEF₁ < 50%).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1658,8 +1658,8 @@
       "Atuação como análogo sintético da Prostaglandina E1.",
       "Polimerização em ambiente ácido (pH < 4) para formar um gel viscoso que adere ao cráter da úlcera."
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Polimerização em ambiente ácido (pH < 4) para formar um gel viscoso que adere ao cráter da úlcera",
+    "justification": "O Sucralfato é um agente citoprotetor. Seu mecanismo de ação é único. Em um ambiente ácido (pH < 4), este composto se polimeriza para formar um gel viscoso e aderente. Este polímero liga-se seletivamente às proteínas no cráter da úlcera, formando uma barreira física que a protege do ataque do ácido e da pepsina, facilitando a cicatrização. O sucralfato inibe a hidrólise das proteínas da mucosa gástrica mediada pela pepsina.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1803,8 +1803,8 @@
       "2 horas após a refeição, quando o estômago está vazio",
       "Ao deitar, para inibir a secreção ácida noturna"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) 30-60 minutos antes da primeira refeição (em jejum), para inibir as bombas ativadas pela comida",
+    "justification": "A administração correta dos Inibidores da Bomba de Prótons (IBP) é crucial para maximizar sua eficácia. Os IBP devem ser administrados em jejum, aproximadamente 30 a 60 minutos antes da primeira refeição do dia. A ingestão de alimentos estimula a produção de ácido, o que, por sua vez, aumenta a expressão do maior número de bombas de H+/K+-ATPase ativas e cria o ambiente ácido necessário no canalículo secretor para a ativação do pró-fármaco. Ao ser ativado, o IBP liga-se irreversivelmente a essas bombas ativadas.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1818,8 +1818,8 @@
       "(A) Omeprazol; (C) Pantoprazol",
       "(A) Famotidina; (C) Pantoprazol"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) (A) Omeprazol; (C) Pantoprazol",
+    "justification": "Esta é uma interação clinicamente importante: O IBP a ser evitado (A) é o Omeprazol, pois ele inibe a enzima CYP2C19. O Clopidogrel depende da CYP2C19 para ser convertido em seu metabólito ativo. Ao inibir a enzima, o Omeprazol reduz a eficácia antiplaquetária do Clopidogrel, aumentando o risco de eventos trombóticos. A alternativa mais segura (C) é o Pantoprazol, pois tem uma menor probabilidade de gerar esta interação clinicamente relevante.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"

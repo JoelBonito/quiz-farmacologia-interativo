@@ -936,13 +936,42 @@ body {
 }
 
 /* ===== RESPONSIVE ===== */
+
+/* Tablets e dispositivos médios */
 @media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        max-width: 100%;
+    }
+
     .stats-dashboard {
         grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .stat-card {
+        padding: 12px;
+    }
+
+    .stat-icon {
+        font-size: 1.5em;
+    }
+
+    .stat-value {
+        font-size: 1.2em;
+    }
+
+    .stat-label {
+        font-size: 0.75em;
     }
 
     #start-screen h1 {
         font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1em;
     }
 
     .result-score {
@@ -969,6 +998,440 @@ body {
 
     .tf-button {
         max-width: 100%;
+    }
+
+    .true-false-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .true-false-btn {
+        max-width: 100%;
+        padding: 25px 20px;
+    }
+
+    .quiz-controls {
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 12px;
+    }
+
+    .quiz-controls button {
+        font-size: 0.85em;
+        padding: 8px 12px;
+    }
+
+    #question-counter {
+        flex-basis: 100%;
+        text-align: center;
+        order: -1;
+        margin-bottom: 5px;
+    }
+
+    .badges-container {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .category-badge,
+    .difficulty-badge {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    /* Header e títulos */
+    #start-screen h1 {
+        font-size: 1.6em;
+        line-height: 1.3;
+    }
+
+    .subtitle {
+        font-size: 0.9em;
+    }
+
+    .intro-text {
+        font-size: 0.9em;
+    }
+
+    .intro-text p {
+        margin: 8px 0;
+    }
+
+    /* Filtros */
+    .filters-container {
+        padding: 15px;
+    }
+
+    .filters-container h3 {
+        font-size: 1.1em;
+    }
+
+    .filter-group {
+        margin-bottom: 12px;
+    }
+
+    .filter-label {
+        font-size: 0.9em;
+        margin-bottom: 6px;
+    }
+
+    .filter-select {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+
+    /* Botões principais */
+    .btn {
+        font-size: 1em;
+        padding: 12px 20px;
+        border-radius: 10px;
+    }
+
+    .btn-large {
+        font-size: 1.1em;
+        padding: 16px 30px;
+        margin: 20px 0;
+    }
+
+    .btn-small {
+        font-size: 0.85em;
+        padding: 8px 14px;
+    }
+
+    /* Stats Dashboard */
+    .stats-dashboard {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .stat-card {
+        padding: 10px 8px;
+        border-radius: 10px;
+    }
+
+    .stat-icon {
+        font-size: 1.3em;
+    }
+
+    .stat-value {
+        font-size: 1em;
+        margin: 4px 0;
+    }
+
+    .stat-label {
+        font-size: 0.7em;
+    }
+
+    /* Barra de progresso */
+    .progress-bar {
+        height: 8px;
+        margin-bottom: 10px;
+    }
+
+    .progress-text {
+        font-size: 0.8em;
+    }
+
+    /* Controles do Quiz */
+    .quiz-controls {
+        padding: 10px;
+        gap: 6px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .quiz-controls button {
+        font-size: 0.8em;
+        padding: 6px 10px;
+    }
+
+    #question-counter {
+        font-size: 0.9em;
+        flex-basis: 100%;
+        text-align: center;
+        order: -1;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    /* Question Container */
+    .question-container {
+        padding: 15px;
+    }
+
+    .question-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .badges-container {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .category-badge,
+    .difficulty-badge {
+        font-size: 0.75em;
+        padding: 5px 10px;
+    }
+
+    .bookmark-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    /* Pergunta */
+    #question-text {
+        font-size: 1.1em;
+        line-height: 1.5;
+        margin: 15px 0;
+    }
+
+    /* Opções */
+    .option {
+        padding: 14px;
+        margin: 10px 0;
+        font-size: 0.95em;
+        border-radius: 10px;
+    }
+
+    /* Botões Verdadeiro/Falso */
+    .true-false-container {
+        flex-direction: column;
+        gap: 12px;
+        margin: 20px 0;
+    }
+
+    .true-false-btn {
+        max-width: 100%;
+        padding: 20px 15px;
+        font-size: 1em;
+    }
+
+    .true-false-btn .btn-icon {
+        font-size: 2em;
+    }
+
+    .true-false-btn .btn-text {
+        font-size: 1em;
+    }
+
+    /* Dicas e Feedback */
+    .hint-container,
+    .feedback-container {
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 10px;
+        font-size: 0.9em;
+    }
+
+    .hint-icon,
+    .feedback-icon {
+        font-size: 2em;
+        margin-bottom: 8px;
+    }
+
+    /* Botões de ação */
+    .button-group {
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .button-group button {
+        width: 100%;
+        max-width: 100%;
+        font-size: 1em;
+        padding: 14px;
+    }
+
+    /* Navigation Buttons */
+    .navigation-buttons {
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .navigation-buttons button {
+        flex: 1;
+        font-size: 1em;
+        padding: 14px 10px;
+        min-height: 48px;
+    }
+
+    /* Finish Button */
+    .finish-button-container {
+        margin-top: 12px;
+    }
+
+    .finish-button-container button {
+        font-size: 1em;
+        padding: 14px 24px;
+        min-height: 48px;
+    }
+
+    /* Result Screen */
+    .result-container h1 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .result-score {
+        flex-direction: column;
+        gap: 15px;
+        margin: 20px 0;
+    }
+
+    .score-circle {
+        width: 130px;
+        height: 130px;
+    }
+
+    .score-circle #final-score {
+        font-size: 2.2em;
+    }
+
+    .score-circle .score-label {
+        font-size: 0.9em;
+    }
+
+    .score-percentage #final-percentage {
+        font-size: 2.5em;
+    }
+
+    .score-percentage .score-label {
+        font-size: 0.9em;
+    }
+
+    .result-stats {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin: 20px 0;
+    }
+
+    .stat-item {
+        padding: 12px;
+    }
+
+    .stat-item .stat-value {
+        font-size: 1.8em;
+    }
+
+    .stat-item .stat-label {
+        font-size: 0.85em;
+    }
+
+    /* Performance sections */
+    .category-performance,
+    .difficulty-performance {
+        padding: 15px;
+        margin: 20px 0;
+    }
+
+    .category-performance h3,
+    .difficulty-performance h3 {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+
+    .category-stat-item {
+        margin-bottom: 12px;
+    }
+
+    .category-stat-name {
+        font-size: 0.9em;
+        margin-bottom: 5px;
+    }
+
+    .category-stat-text {
+        font-size: 0.85em;
+    }
+
+    /* Modal */
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+        padding: 20px;
+    }
+
+    .modal-content h2 {
+        font-size: 1.3em;
+    }
+
+    .share-card {
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    /* History */
+    .history-container {
+        padding: 15px;
+    }
+
+    .history-item {
+        padding: 12px;
+        font-size: 0.9em;
+    }
+}
+
+/* Dispositivos muito pequenos */
+@media (max-width: 360px) {
+    body {
+        font-size: 14px;
+    }
+
+    #start-screen h1 {
+        font-size: 1.4em;
+    }
+
+    .stats-dashboard {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+
+    .stat-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .stat-icon {
+        font-size: 1.5em;
+    }
+
+    .stat-info {
+        text-align: left;
+    }
+
+    .true-false-btn {
+        padding: 18px 12px;
+    }
+
+    .true-false-btn .btn-icon {
+        font-size: 1.8em;
+    }
+
+    .navigation-buttons button {
+        font-size: 0.9em;
+        padding: 12px 8px;
     }
 }
 

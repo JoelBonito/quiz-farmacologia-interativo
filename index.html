@@ -57,6 +57,16 @@
                             <option value="clinical_case">Casos Clínicos</option>
                         </select>
                     </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label">Filtrar por Dificuldade:</label>
+                        <select id="difficulty-filter" class="filter-select">
+                            <option value="all">Todas as Dificuldades</option>
+                            <option value="baixo">🟢 Baixo</option>
+                            <option value="médio">🟡 Médio</option>
+                            <option value="difícil">🔴 Difícil</option>
+                        </select>
+                    </div>
                 </div>
 
                 <button class="btn btn-primary btn-large" onclick="startQuiz()">
@@ -124,7 +134,10 @@
 
             <div class="question-container">
                 <div class="question-header">
-                    <div class="category-badge" id="category-badge">Categoria</div>
+                    <div class="badges-container">
+                        <div class="category-badge" id="category-badge">Categoria</div>
+                        <div class="difficulty-badge" id="difficulty-badge">Médio</div>
+                    </div>
                     <button class="bookmark-btn" id="bookmark-btn" onclick="toggleBookmark()" title="Marcar para revisão">
                         <span id="bookmark-icon">⭐</span>
                     </button>
@@ -209,6 +222,12 @@
                 <div class="category-performance" id="category-performance">
                     <h3>📊 Desempenho por Categoria</h3>
                     <div id="category-stats"></div>
+                </div>
+
+                <!-- Performance por Dificuldade -->
+                <div class="difficulty-performance" id="difficulty-performance">
+                    <h3>🎯 Desempenho por Dificuldade</h3>
+                    <div id="difficulty-stats"></div>
                 </div>
 
                 <div class="performance-message" id="performance-message"></div>

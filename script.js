@@ -220,6 +220,7 @@ function getFilteredQuestions() {
     const studyMode = document.getElementById('study-mode').value;
     const categoryFilter = document.getElementById('category-filter').value;
     const typeFilter = document.getElementById('type-filter').value;
+    const difficultyFilter = document.getElementById('difficulty-filter').value;
 
     let filtered = [...allQuestions];
 
@@ -243,6 +244,11 @@ function getFilteredQuestions() {
     // Filtro por tipo
     if (typeFilter !== 'all') {
         filtered = filtered.filter(q => q.type === typeFilter);
+    }
+
+    // Filtro por dificuldade
+    if (difficultyFilter !== 'all') {
+        filtered = filtered.filter(q => q.difficulty === difficultyFilter);
     }
 
     return filtered;
@@ -335,6 +341,17 @@ function loadQuestion() {
     // Atualizar categoria
     const categoryBadge = document.getElementById('category-badge');
     categoryBadge.textContent = question.category || 'Farmacologia';
+
+    // Atualizar dificuldade
+    const difficultyBadge = document.getElementById('difficulty-badge');
+    const difficulty = question.difficulty || 'médio';
+    const difficultyIcons = {
+        'baixo': '🟢',
+        'médio': '🟡',
+        'difícil': '🔴'
+    };
+    difficultyBadge.textContent = `${difficultyIcons[difficulty]} ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}`;
+    difficultyBadge.className = `difficulty-badge difficulty-${difficulty}`;
 
     // Atualizar bookmark
     const bookmarkIcon = document.getElementById('bookmark-icon');
@@ -737,6 +754,9 @@ function finishQuiz() {
     // Desempenho por categoria
     displayCategoryPerformance();
 
+    // Desempenho por dificuldade
+    displayDifficultyPerformance();
+
     // Perguntas erradas para revisão
     displayWrongQuestions();
 
@@ -789,6 +809,55 @@ function displayCategoryPerformance() {
                     <div class="category-stat-name">${category}</div>
                     <div class="category-stat-bar">
                         <div class="category-stat-fill" style="width: ${percentage}%"></div>
+                    </div>
+                    <div class="category-stat-text">${stats.correct}/${stats.total} (${percentage}%)</div>
+                </div>
+            `;
+        })
+        .join('');
+}
+
+// ============================================================================
+// DESEMPENHO POR DIFICULDADE
+// ============================================================================
+
+function displayDifficultyPerformance() {
+    const difficultyStats = {};
+    const difficultyOrder = ['baixo', 'médio', 'difícil'];
+    const difficultyIcons = {
+        'baixo': '🟢',
+        'médio': '🟡',
+        'difícil': '🔴'
+    };
+
+    currentQuestions.forEach((question, index) => {
+        const answer = userAnswers[index];
+        const difficulty = question.difficulty || 'médio';
+
+        if (!difficultyStats[difficulty]) {
+            difficultyStats[difficulty] = { correct: 0, total: 0 };
+        }
+
+        if (answer && !answer.skipped) {
+            difficultyStats[difficulty].total++;
+            if (answer.isCorrect) {
+                difficultyStats[difficulty].correct++;
+            }
+        }
+    });
+
+    const difficultyStatsDiv = document.getElementById('difficulty-stats');
+    difficultyStatsDiv.innerHTML = difficultyOrder
+        .filter(difficulty => difficultyStats[difficulty] && difficultyStats[difficulty].total > 0)
+        .map(difficulty => {
+            const stats = difficultyStats[difficulty];
+            const percentage = Math.round((stats.correct / stats.total) * 100) || 0;
+            const difficultyName = difficulty.charAt(0).toUpperCase() + difficulty.slice(1);
+            return `
+                <div class="category-stat-item">
+                    <div class="category-stat-name">${difficultyIcons[difficulty]} ${difficultyName}</div>
+                    <div class="category-stat-bar">
+                        <div class="category-stat-fill difficulty-fill-${difficulty}" style="width: ${percentage}%"></div>
                     </div>
                     <div class="category-stat-text">${stats.correct}/${stats.total} (${percentage}%)</div>
                 </div>

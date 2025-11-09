@@ -486,6 +486,87 @@ body {
     border-color: var(--error);
 }
 
+/* True/False Buttons (classes usadas no JavaScript) */
+.true-false-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.true-false-btn {
+    flex: 1;
+    max-width: 280px;
+    padding: 30px 20px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: 3px solid var(--border-color);
+    border-radius: 15px;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.true-false-btn .btn-icon {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.true-false-btn .btn-text {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+.true-false-btn:hover:not(.disabled) {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px var(--shadow);
+}
+
+.true-false-btn.true-btn:hover:not(.disabled) {
+    border-color: var(--success);
+    background: rgba(76, 175, 80, 0.1);
+}
+
+.true-false-btn.false-btn:hover:not(.disabled) {
+    border-color: var(--error);
+    background: rgba(244, 67, 54, 0.1);
+}
+
+.true-false-btn.disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.true-false-btn.correct {
+    background: var(--success);
+    color: white;
+    border-color: var(--success);
+    animation: pulse 0.5s ease;
+}
+
+.true-false-btn.incorrect {
+    background: var(--error);
+    color: white;
+    border-color: var(--error);
+    animation: shake 0.5s ease;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+}
+
 /* ===== HINT & FEEDBACK ===== */
 .hint-container {
     background: var(--hint-bg);

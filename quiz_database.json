@@ -683,8 +683,8 @@
       "Antagonismo M3 (como os Anticolinérgicos)",
       "Aumento da contratilidade do diafragma e aumento da depuração mucociliar"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Aumento da contratilidade do diafragma e aumento da depuração mucociliar",
+    "justification": "As metilxantinas (Teofilina) têm um mecanismo de ação multifatorial. Embora a broncodilatação seja um efeito primário (principalmente por inibição da PDE e antagonismo da adenosina), outros efeitos benéficos no sistema respiratório incluem a estimulação do centro respiratório, o aumento da contratilidade do diafragma e o aumento da depuração mucociliar (limpeza). A potente broncodilatação 'SABA-like' é imprecisa, pois os agonistas β2 são os broncodilatadores mais potentes. O bloqueio da IgE é feito pelo Omalizumabe. A estabilização de mastócitos é a função principal das cromonas. O antagonismo M3 é o mecanismo dos anticolinérgicos.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1053,8 +1053,8 @@
       "Amoxicilina; Tetraciclina",
       "Amoxicilina; Levofloxacina"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Amoxicilina; Tetraciclina",
+    "justification": "Os esquemas de tratamento para a erradicação de H. pylori (que é a causa da maioria das úlceras duodenais e gástricas) combinam um fármaco antisecretor (geralmente IBP) com antibióticos. Terapia Tripla Clássica (Primeira Linha): IBP + Claritromicina + Amoxicilina. Terapia Quádrupla (Segunda Linha/Resistência): IBP + Bismuto (Subcitrato de Bismuto) + Metronidazol + Tetraciclina. Portanto, os dois antibióticos mais usados são Amoxicilina e Tetraciclina.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1358,8 +1358,8 @@
       "SABA: Salbutamol; LABA: Salmeterol; LAMA: Tiotrópio",
       "SABA: Salbutamol; LABA: Tiotrópio; LAMA: Salmeterol"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) SABA: Salbutamol; LABA: Salmeterol; LAMA: Tiotrópio",
+    "justification": "A classificação dos broncodilatadores é baseada no mecanismo de ação e na duração: SABA (Agonista β2 de Ação Curta): Salbutamol (Albuterol). Usado no resgate de crises agudas. LABA (Agonista β2 de Ação Longa): Salmeterol (juntamente com Formoterol e Indacaterol). Usado no controle e profilaxia, sempre associado a corticoides na asma. LAMA (Antagonista Muscarínico de Ação Longa): Brometo de Tiotrópio. É o tratamento broncodilatador preferido ou de eleição na DPOC (EPOC).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1418,8 +1418,8 @@
       "O risco de osteoporose é mínimo, sendo uma preocupação apenas em tratamentos curtos.",
       "Aumentam a reabsorção óssea (estimulando osteoclastos) e inibem a formação de osso (suprimindo osteoblastos), levando à osteoporose."
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Aumentam a reabsorção óssea (estimulando osteoclastos) e inibem a formação de osso (suprimindo osteoblastos), levando à osteoporose.",
+    "justification": "O excesso de glicocorticoides (GC) no uso crônico leva à osteoporose através de mecanismos duplos e destrutivos: 1) Inibição da Formação Óssea: Suprimem a proliferação e ativação dos osteoblastos. 2) Aumento da Reabsorção Óssea: Facilitam a eliminação de Cálcio (Ca²⁺) no rim e reduzem sua absorção intestinal, resultando em hipocalcemia e, consequentemente, hiperatividade paratireoidea (aumento do PTH). O aumento do PTH estimula os osteoclastos (células que reabsorvem o osso).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1433,8 +1433,8 @@
       "Hipertensão arterial e hiperglicemia.",
       "Perda de gordura corporal na metade superior do corpo e aumento da massa muscular."
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Hipertensão arterial e hiperglicemia.",
+    "justification": "A Síndrome de Cushing é causada pelo excesso crônico de cortisol. Os efeitos fisiológicos e farmacológicos incluem: Aumento da Glicemia (Hiperglicemia): O cortisol aumenta a gliconeogênese, aumenta o glicogênio no fígado e gera resistência à insulina. Aumento da Pressão Arterial (Hipertensão): O aumento da atividade mineralocorticoide leva à expansão do volume plasmático (retenção de sódio e água), resultando em aumento da pressão arterial. Redistribuição de Gordura: Causa redistribuição de gordura, com perda na metade inferior do corpo e depósito na parte superior (face de lua cheia e corcunda de búfalo), e redução da massa muscular (catabolismo proteico).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"

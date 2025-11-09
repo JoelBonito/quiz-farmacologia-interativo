@@ -190,13 +190,17 @@ function selectOption(selectedIndex) {
     // Marcar resposta selecionada
     options[selectedIndex].classList.add('selected');
     
-    // Verificar resposta
-    const isCorrect = selectedIndex === question.correct;
+    // Verificar resposta (só se question.correct for válido)
+    const isCorrect = (question.correct !== undefined && question.correct >= 0)
+        ? selectedIndex === question.correct
+        : false;
     
     setTimeout(() => {
-        // Mostrar resposta correta
-        options[question.correct].classList.add('correct');
-        
+        // Mostrar resposta correta (se existir e for válida)
+        if (question.correct !== undefined && question.correct >= 0 && options[question.correct]) {
+            options[question.correct].classList.add('correct');
+        }
+
         if (!isCorrect) {
             options[selectedIndex].classList.remove('selected');
             options[selectedIndex].classList.add('incorrect');
@@ -368,7 +372,10 @@ function showFeedback(isCorrect, question) {
     const feedbackIcon = document.getElementById('feedback-icon');
     const feedbackTitle = document.getElementById('feedback-title');
     const feedbackText = document.getElementById('feedback-text');
-    
+
+    // Verificar se a pergunta tem resposta correta definida
+    const hasValidAnswer = question.correct !== undefined && question.correct >= 0;
+
     if (isCorrect) {
         feedbackContainer.className = 'feedback-container';
         feedbackIcon.textContent = '✅';
@@ -378,8 +385,15 @@ function showFeedback(isCorrect, question) {
         feedbackIcon.textContent = '❌';
         feedbackTitle.textContent = 'Incorreto';
     }
-    
-    feedbackText.textContent = question.justification;
+
+    // Mostrar justification ou aviso
+    let feedbackMessage = question.justification || '';
+
+    if (!hasValidAnswer) {
+        feedbackMessage = '⚠️ Resposta correta não definida para esta pergunta.\n\n' + feedbackMessage;
+    }
+
+    feedbackText.textContent = feedbackMessage;
     feedbackContainer.style.display = 'block';
 }
 

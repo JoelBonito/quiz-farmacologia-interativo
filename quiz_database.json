@@ -1,5 +1,2632 @@
 [
-   {
+  {
+    "id": 1,
+    "question": "Qual é o principal mecanismo de ação dos beta-2 agonistas no tratamento de doenças respiratórias?",
+    "options": [
+      "Bloqueio dos receptores muscarínicos M3",
+      "Ativação dos receptores β2-adrenérgicos, aumentando AMPc intracelular",
+      "Inibição da fosfodiesterase para aumentar AMPc",
+      "Bloqueio dos receptores de leucotrienos"
+    ],
+    "correct_answer": "Ativação dos receptores β2-adrenérgicos, aumentando AMPc intracelular",
+    "justification": "Beta-2 agonistas ativam receptores β2 na musculatura lisa brônquica, elevando AMPc e promovendo broncodilatação, o que alivia a obstrução das vias aéreas.",
+    "hint": "Considere o efeito direto sobre a musculatura lisa brônquica",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 2,
+    "question": "Os anticolinérgicos de ação longa (LAMA) são considerados primeira linha para qual condição respiratória?",
+    "options": [
+      "Asma leve intermitente",
+      "Doença pulmonar obstrutiva crônica (DPOC)",
+      "Pneumonia bacteriana",
+      "Fibrose pulmonar idiopática"
+    ],
+    "correct_answer": "Doença pulmonar obstrutiva crônica (DPOC)",
+    "justification": "LAMA são primeira escolha na DPOC para broncodilatação sustentada, devido ao bloqueio prolongado dos receptores muscarínicos M3.",
+    "hint": "Pense na doença que compromete a obstrução brônquica crônica e é beneficiada por broncodilatadores antimuscarínicos",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 3,
+    "question": "(V/F) A teofilina possui uma janela terapêutica larga, tornando seu uso seguro com poucas interações medicamentosas.",
+    "correct_answer": "Falso",
+    "justification": "Teofilina tem janela terapêutica estreita (10-20 μg/mL), com risco significativo de intoxicação e muitas interações, limitando seu uso clínico.",
+    "hint": "Considere o risco de toxicidade e as variações individuais na metabolização",
+    "type": "true_false"
+  },
+  {
+    "id": 4,
+    "question": "Qual efeito adverso local é mais comum com o uso de corticosteroides inalatórios?",
+    "options": [
+      "Hiperglicemia",
+      "Candidíase oral",
+      "Retenção urinária",
+      "Glaucoma de ângulo fechado"
+    ],
+    "correct_answer": "Candidíase oral",
+    "justification": "Corticosteroides inalatórios podem causar candidíase oral devido à supressão local da imunidade; usar espaçador e enxaguar a boca reduz esse risco.",
+    "hint": "Está relacionado à supressão local da imunidade na orofaringe",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 5,
+    "question": "Qual é a principal indicação do omalizumab na farmacoterapia respiratória?",
+    "options": [
+      "Asma eosinofílica grave",
+      "Asma alérgica grave",
+      "DPOC com exacerbações frequentes",
+      "Rinite não alérgica"
+    ],
+    "correct_answer": "Asma alérgica grave",
+    "justification": "Omalizumab é um anticorpo monoclonal anti-IgE indicado para asma alérgica grave, reduzindo a IgE livre circulante e a resposta alérgica.",
+    "hint": "O omalizumab atua reduzindo um tipo específico de imunoglobulina",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 6,
+    "question": "Qual classe de fármacos age bloqueando os receptores de leucotrienos para reduzir broncoconstrição e inflamação?",
+    "options": [
+      "Beta-2 agonistas",
+      "Anticolinérgicos",
+      "Antagonistas de leucotrienos",
+      "Metilxantinas"
+    ],
+    "correct_answer": "Antagonistas de leucotrienos",
+    "justification": "Antagonistas de leucotrienos bloqueiam receptores CysLT1, reduzindo broncoconstrição, inflamação e secreção de muco, usados na asma e rinite alérgica.",
+    "hint": "Esses fármacos são administrados via oral e são úteis em asma leve a moderada",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 7,
+    "question": "Em relação aos corticosteroides sistêmicos, qual é a recomendação principal para a retirada após uso prolongado?",
+    "options": [
+      "Retirada abrupta para evitar efeitos colaterais",
+      "Retirada gradual para evitar insuficiência adrenal aguda",
+      "Retirada apenas em casos de intolerância",
+      "Retirada gradual apenas em crianças"
+    ],
+    "correct_answer": "Retirada gradual para evitar insuficiência adrenal aguda",
+    "justification": "Após uso prolongado, cortisol endógeno pode estar suprimido; retirada gradual evita insuficiência adrenal aguda causada pela falta de produção hormonal.",
+    "hint": "Considere a supressão do eixo hipotálamo-hipófise-adrenal",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 8,
+    "question": "Qual das alternativas abaixo melhor descreve o mecanismo de ação dos inibidores da bomba de prótons (IBP)?",
+    "options": [
+      "Bloqueio reversível da bomba H+/K+-ATPase",
+      "Bloqueio irreversível da bomba H+/K+-ATPase nas células parietais gástricas",
+      "Neutralização do ácido gástrico por aumento do pH estomacal",
+      "Bloqueio dos receptores H2 das células parietais"
+    ],
+    "correct_answer": "Bloqueio irreversível da bomba H+/K+-ATPase nas células parietais gástricas",
+    "justification": "IBPs formam ligação covalente irreversível com a bomba H+/K+-ATPase, inibindo a secreção de ácido por 24-48h até a síntese de novas enzimas.",
+    "hint": "Lembre-se da necessidade de síntese de novas bombas para retomar secreção ácida",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 9,
+    "question": "Qual das seguintes indicações NÃO é uma indicação típica para o uso de inibidores da bomba de prótons?",
+    "options": [
+      "Doença do refluxo gastroesofágico (DRGE)",
+      "Úlceras gástricas e duodenais",
+      "Asma induzida por exercício",
+      "Síndrome de Zollinger-Ellison"
+    ],
+    "correct_answer": "Asma induzida por exercício",
+    "justification": "IBPs não são indicados para asma induzida por exercício, que é tratada com broncodilatadores e antagonistas de leucotrienos.",
+    "hint": "Relacione indicações à acidose gástrica e hipersecreção ácida",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 10,
+    "question": "(V/F) A administração dos inibidores da bomba de prótons deve ser feita em jejum, 30-60 minutos antes da primeira refeição do dia para otimizar sua eficácia.",
+    "correct_answer": "Verdadeiro",
+    "justification": "IBPs são pró-fármacos que requerem ativação em ambiente ácido e a atividade da bomba H+/K+ é maior antes da primeira refeição, justificando a administração em jejum.",
+    "hint": "Pense no momento de maior atividade da bomba de prótons",
+    "type": "true_false"
+  },
+  {
+    "id": 11,
+    "question": "Em um paciente com doença pulmonar obstrutiva crônica (DPOC), qual combinação medicamentosa seria a mais indicada para controle da doença?",
+    "options": [
+      "Beta-2 agonista de ação curta + corticosteroide inalatórios",
+      "Anticolinérgico de ação longa (LAMA) + beta-2 agonista de ação longa (LABA)",
+      "Metilxantina + antagonista de leucotrienos",
+      "Anticorpo monoclonal anti-IgE + beta-2 agonista de ação curta"
+    ],
+    "correct_answer": "Anticolinérgico de ação longa (LAMA) + beta-2 agonista de ação longa (LABA)",
+    "justification": "Para DPOC, a combinação de LAMA + LABA oferece broncodilatação prolongada e melhora sintomática, sendo a estratégia terapêutica padrão.",
+    "hint": "DPOC demanda broncodilatadores de longa duração para controle crônico",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 12,
+    "question": "Qual fármaco utilizado como mucolítico atua quebrando pontes dissulfeto do muco, facilitando sua eliminação?",
+    "options": [
+      "Ambroxol",
+      "Bromexina",
+      "N-acetilcisteína",
+      "Salbutamol"
+    ],
+    "correct_answer": "N-acetilcisteína",
+    "justification": "N-acetilcisteína age rompendo as pontes dissulfeto do muco, reduzindo sua viscosidade e facilitando a expectoração; também tem ação antioxidante.",
+    "hint": "É também conhecido por sua ação antioxidante",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 13,
+    "question": "Um paciente em uso prolongado de corticosteroides sistêmicos apresenta quadro de hiperglicemia, hipertensão e sinais de osteoporose. Essa combinação de efeitos é característica de qual síndrome?",
+    "options": [
+      "Síndrome nefrótica",
+      "Síndrome de Cushing",
+      "Doença de Addison",
+      "Hipertireoidismo"
+    ],
+    "correct_answer": "Síndrome de Cushing",
+    "justification": "Uso prolongado de corticosteroides sistêmicos pode provocar Síndrome de Cushing, caracterizada por hiperglicemia, hipertensão, osteoporose e outras alterações metabólicas.",
+    "hint": "Concentre-se nos efeitos metabólicos dos glicocorticoides em doses elevadas",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 14,
+    "question": "Qual dos seguintes efeitos adversos é uma contraindicação relativa ao uso de anticolinérgicos inalatórios?",
+    "options": [
+      "Hipertensão arterial sistêmica",
+      "Glaucoma de ângulo fechado",
+      "Insuficiência renal crônica",
+      "Diabetes mellitus"
+    ],
+    "correct_answer": "Glaucoma de ângulo fechado",
+    "justification": "Anticolinérgicos podem agravar o glaucoma de ângulo fechado devido à midríase e aumento da pressão intraocular, sendo uma contraindicação relativa.",
+    "hint": "Esse efeito pode agravar patologias oftalmológicas relacionadas à pressão intraocular",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 15,
+    "question": "Qual é a principal vantagem dos antagonistas de leucotrienos em relação aos corticosteroides inalatórios no tratamento da asma leve a moderada?",
+    "options": [
+      "Maior eficácia anti-inflamatória",
+      "Via de administração oral e boa tolerabilidade",
+      "Melhor controle das crises agudas",
+      "Menor custo terapêutico"
+    ],
+    "correct_answer": "Via de administração oral e boa tolerabilidade",
+    "justification": "Antagonistas de leucotrienos são administrados por via oral, apresentam boa tolerabilidade e facilidade de uso, especialmente em crianças e pacientes com dificuldade em usar inaladores.",
+    "hint": "Pense na adesão do paciente e efeitos adversos locais",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 16,
+    "question": "Qual dos seguintes fármacos broncodilatadores apresenta maior risco de taquicardia e tremores em doses elevadas devido à sua ação sistêmica?",
+    "options": [
+      "Salbutamol",
+      "Ipratrópio",
+      "Tiotrópio",
+      "Montelucaste"
+    ],
+    "correct_answer": "Salbutamol",
+    "justification": "Salbutamol, um β2-agonista de curta duração, pode causar taquicardia e tremores devido à ativação dos receptores β2 em tecidos extracardíacos e ação sistêmica em doses elevadas.",
+    "hint": "Considere os efeitos adversos típicos dos β2-agonistas de curta duração",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 17,
+    "question": "Em caso de exacerbação grave de asma, qual a conduta inicial mais apropriada em relação ao uso de corticosteroides?",
+    "options": [
+      "Iniciar corticosteroides inalatórios em dose alta isoladamente",
+      "Iniciar corticosteroides sistêmicos associados a broncodilatadores",
+      "Usar somente broncodilatadores de ação curta sem corticosteroides",
+      "Iniciar antagonistas de leucotrienos por via oral"
+    ],
+    "correct_answer": "Iniciar corticosteroides sistêmicos associados a broncodilatadores",
+    "justification": "Exacerbações graves demandam corticosteroides sistêmicos para rápido controle da inflamação, associados a broncodilatadores para alívio imediato dos sintomas.",
+    "hint": "Lembre-se da necessidade de controle da inflamação e broncodilatação imediata",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 18,
+    "question": "No tratamento da infecção por Helicobacter pylori, os inibidores da bomba de prótons são utilizados porque:",
+    "options": [
+      "Inibem diretamente a bactéria",
+      "Aumentam o pH gástrico, melhorando a eficácia dos antibióticos",
+      "Possuem efeito bactericida sistêmico",
+      "Induzem acidificação gástrica para matar a bactéria"
+    ],
+    "correct_answer": "Aumentam o pH gástrico, melhorando a eficácia dos antibióticos",
+    "justification": "IBPs elevam o pH gástrico, diminuindo a acidez e favorecendo a atividade e estabilidade de antibióticos usados na erradicação do H. pylori.",
+    "hint": "Pense em como o ambiente ácido influencia os antibióticos administrados",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 19,
+    "question": "Qual o principal mecanismo de ação da teofilina na terapia respiratória?",
+    "options": [
+      "Inibição dos receptores muscarínicos M3",
+      "Bloqueio da fosfodiesterase e antagonismo dos receptores de adenosina",
+      "Ativação dos receptores β2-adrenérgicos",
+      "Estimulação da liberação de corticoides endógenos"
+    ],
+    "correct_answer": "Bloqueio da fosfodiesterase e antagonismo dos receptores de adenosina",
+    "justification": "A teofilina promove broncodilatação ao inibir a fosfodiesterase, elevando AMPc, e antagonizar receptores de adenosina, reduzindo broncoconstrição e inflamação.",
+    "hint": "A teofilina atua aumentando o AMPc intracelular através da inibição da fosfodiesterase.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 20,
+    "question": "O intervalo terapêutico da teofilina é considerado estreito, situado entre 10-20 μg/mL no sangue. (V / F)",
+    "correct_answer": "Verdadeiro",
+    "justification": "A janela terapêutica estreita da teofilina exige monitorização sérica, pois concentrações acima de 20 μg/mL aumentam risco de efeitos adversos graves.",
+    "hint": "Monitorização plasma é necessária para evitar toxicidade.",
+    "type": "true_false"
+  },
+  {
+    "id": 21,
+    "question": "Um paciente em uso de teofilina inicia tratamento com ciprofloxacino. Qual o risco dessa associação?",
+    "options": [
+      "Redução da concentração plasmática da teofilina",
+      "Aumento do metabolismo da teofilina, reduzindo seu efeito",
+      "Inibição do metabolismo da teofilina, aumentando risco de toxicidade",
+      "Nenhuma alteração relevante na farmacocinética"
+    ],
+    "correct_answer": "Inibição do metabolismo da teofilina, aumentando risco de toxicidade",
+    "justification": "Ciprofloxacino inibe o CYP1A2, reduzindo a depuração da teofilina, elevando seus níveis plasmáticos e risco de efeitos adversos.",
+    "hint": "Ciprofloxacino é um inibidor do CYP1A2, enzima responsável pela metabolização da teofilina.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 22,
+    "question": "Qual é a conduta mais apropriada para monitorar a terapia com teofilina?",
+    "options": [
+      "Avaliação clínica isolada, sem necessidade de exames laboratoriais",
+      "Monitorização dos níveis plasmáticos para manter entre 10-20 μg/mL",
+      "Dosagem urinária para avaliar excreção da droga",
+      "Avaliação exclusiva da função hepática"
+    ],
+    "correct_answer": "Monitorização dos níveis plasmáticos para manter entre 10-20 μg/mL",
+    "justification": "Devido à janela terapêutica estreita e variabilidade do metabolismo, monitorar níveis plasmáticos é crucial para ajustar dose de teofilina.",
+    "hint": "Monitorar níveis séricos ajuda a prevenir toxicidade e garantir eficácia.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 23,
+    "question": "Aumento da dose de teofilina em pacientes fumantes geralmente é necessário devido à indução enzimática do CYP1A2. (V / F)",
+    "correct_answer": "Verdadeiro",
+    "justification": "Fumar induz o CYP1A2, aumentando o metabolismo da teofilina e reduzindo suas concentrações plasmáticas, o que pode exigir dose maior.",
+    "hint": "O tabagismo altera o metabolismo hepático da teofilina.",
+    "type": "true_false"
+  },
+  {
+    "id": 24,
+    "question": "Um paciente apresenta náuseas, taquicardia e tremores após aumento recente da dose de teofilina. Qual o melhor passo a seguir?",
+    "options": [
+      "Aumentar ainda mais a dose para efeito terapêutico pleno",
+      "Interromper a teofilina imediatamente sem medidas adicionais",
+      "Solicitar níveis plasmáticos da teofilina e ajustar dose conforme resultado",
+      "Adicionar corticoide sistêmico para reduzir efeitos adversos"
+    ],
+    "correct_answer": "Solicitar níveis plasmáticos da teofilina e ajustar dose conforme resultado",
+    "justification": "Sintomas indicam intoxicação leve a moderada; monitorização dos níveis ajuda a evitar complicações e ajustar dose adequadamente.",
+    "hint": "Sintomas indicam possível toxicidade; medir níveis para decisão segura.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 25,
+    "question": "O metabolismo hepático da teofilina ocorre principalmente pela enzima CYP3A4. (V / F)",
+    "correct_answer": "Falso",
+    "justification": "Teofilina é metabolizada principalmente pelo CYP1A2, não pelo CYP3A4, o que influencia suas interações medicamentosas.",
+    "hint": "Considere o principal citocromo envolvido na metabolização da teofilina.",
+    "type": "true_false"
+  },
+  {
+    "id": 26,
+    "question": "Durante a monitorização da teofilina, qual fator não interfere nos níveis plasmáticos do fármaco?",
+    "options": [
+      "Insuficiência hepática",
+      "Cigarro",
+      "Interação com carbamazepina",
+      "Uso concomitante de beta-2 agonistas"
+    ],
+    "correct_answer": "Uso concomitante de beta-2 agonistas",
+    "justification": "Beta-2 agonistas não alteram metabolismo da teofilina significativamente; outros fatores como insuficiência hepática e indução enzimática interferem nos níveis.",
+    "hint": "Reveja fatores que alteram o metabolismo da teofilina.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 27,
+    "question": "A administração de teofilina requer cuidados especiais em qual grupo populacional, devido ao risco aumentado de toxicidade?",
+    "options": [
+      "Pacientes pediátricos",
+      "Pacientes com insuficiência renal grave",
+      "Pacientes idosos",
+      "Pacientes com asma brônquica leve"
+    ],
+    "correct_answer": "Pacientes idosos",
+    "justification": "Pacientes idosos metabolizam teofilina mais lentamente, aumentando risco de toxicidade; monitorização rigorosa é necessária.",
+    "hint": "Idosos apresentam menor capacidade metabólica hepática e maior sensibilidade a efeitos adversos.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 28,
+    "question": "Qual das seguintes situações pode diminuir os níveis plasmáticos da teofilina?",
+    "options": [
+      "Uso de cimetidina",
+      "Cigarro (fumo ativo)",
+      "Interação com ciprofloxacino",
+      "Insuficiência hepática"
+    ],
+    "correct_answer": "Cigarro (fumo ativo)",
+    "justification": "O tabagismo induz o CYP1A2, aumentando o metabolismo e diminuindo níveis plasmáticos da teofilina.",
+    "hint": "Considere o efeito do tabagismo sobre as enzimas hepáticas metabolizadoras.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 29,
+    "question": "Um paciente está em uso de teofilina e inicia tratamento com fenitoína. Qual o efeito esperado sobre os níveis plasmáticos da teofilina?",
+    "options": [
+      "Aumento dos níveis plasmáticos devido à inibição enzimática",
+      "Redução dos níveis plasmáticos por indução do metabolismo hepático",
+      "Nenhuma alteração na farmacocinética da teofilina",
+      "Aumento da meia-vida da teofilina"
+    ],
+    "correct_answer": "Redução dos níveis plasmáticos por indução do metabolismo hepático",
+    "justification": "Fenitoína induz CYP1A2, aumentando metabolismo da teofilina e reduzindo seus níveis plasmáticos, podendo comprometer a eficácia.",
+    "hint": "Fenitoína é conhecida por suas propriedades indutoras enzimáticas.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 30,
+    "question": "Qual a indicação clínica mais comum para o uso de teofilina na farmacologia respiratória atual?",
+    "options": [
+      "Tratamento de resgate da asma aguda",
+      "Controle da insuficiência respiratória aguda",
+      "Terapia adjuvante em DPOC e asma grave resistente",
+      "Profilaxia primária da rinite alérgica"
+    ],
+    "correct_answer": "Terapia adjuvante em DPOC e asma grave resistente",
+    "justification": "Teofilina tem uso restrito como terapia adjuvante em casos graves, devido ao risco de toxicidade e alternativas mais seguras.",
+    "hint": "Uso da teofilina é limitado devido a efeitos adversos e janela terapêutica estreita.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 31,
+    "question": "O uso concomitante de teofilina com bloqueadores dos canais de cálcio, como verapamil, pode levar a:",
+    "options": [
+      "Aumento da eliminação da teofilina",
+      "Diminuição da biodisponibilidade da teofilina",
+      "Aumento do risco de toxicidade da teofilina",
+      "Nenhuma interação clínica significativa"
+    ],
+    "correct_answer": "Aumento do risco de toxicidade da teofilina",
+    "justification": "Verapamil inibe o metabolismo da teofilina via CYP1A2, elevando concentrações plasmáticas e risco de efeitos adversos.",
+    "hint": "Verapamil inibe enzimas hepáticas responsáveis pelo metabolismo da teofilina.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 32,
+    "question": "A monitorização dos níveis plasmáticos da teofilina deve ser realizada preferencialmente:",
+    "options": [
+      "No pico farmacodinâmico, 1-2 horas após dose",
+      "No vale, imediatamente antes da próxima dose",
+      "Ao acaso, independentemente do horário da dose",
+      "Após suspensão do fármaco para evitar interferências"
+    ],
+    "correct_answer": "No vale, imediatamente antes da próxima dose",
+    "justification": "Medir níveis no vale antes da dose seguinte garante que a concentração permaneça dentro da janela terapêutica sem risco de toxicidade.",
+    "hint": "O nível de vale representa a concentração mínima para eficácia e segurança.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 33,
+    "question": "A intoxicação grave por teofilina pode evoluir com convulsões e arritmias. (V / F)",
+    "correct_answer": "Verdadeiro",
+    "justification": "Concentrações elevadas de teofilina podem provocar convulsões e arritmias potencialmente fatais, requerendo intervenção urgente.",
+    "hint": "Reveja os efeitos adversos graves do fármaco em altas concentrações.",
+    "type": "true_false"
+  },
+  {
+    "id": 34,
+    "question": "Qual das seguintes opções não é típica de um efeito adverso da teofilina em níveis terapêuticos altos, mas ainda abaixo da toxicidade grave?",
+    "options": [
+      "Tremor e agitação",
+      "Náuseas e vômitos",
+      "Hipocalemia significativa",
+      "Taquicardia leve"
+    ],
+    "correct_answer": "Hipocalemia significativa",
+    "justification": "Hipocalemia é comum em β2-agonistas em dose alta, mas não é efeito típico direto da teofilina.",
+    "hint": "Hipocalemia está mais associada a outros classes de broncodilatadores.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 35,
+    "question": "Em qual situação clínica a redução da dose de teofilina é especialmente recomendada?",
+    "options": [
+      "Paciente fumante ativo",
+      "Paciente com insuficiência hepática",
+      "Paciente em uso de rifampicina",
+      "Paciente com asma leve intermitente"
+    ],
+    "correct_answer": "Paciente com insuficiência hepática",
+    "justification": "Insuficiência hepática diminui o metabolismo da teofilina, aumentando risco de acúmulo e toxicidade, exigindo dose menor.",
+    "hint": "Comprometimento hepático reduz metabolismo da teofilina.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 36,
+    "question": "Qual é o principal mecanismo de ação dos agonistas beta-2 na musculatura lisa brônquica?",
+    "options": [
+      "Bloqueio dos receptores muscarínicos M3",
+      "Aumento do AMPc intracelular levando ao relaxamento muscular",
+      "Inibição da fosfodiesterase para aumentar adenosina",
+      "Ligação aos receptores de leucotrienos para reduzir inflamação"
+    ],
+    "correct_answer": "Aumento do AMPc intracelular levando ao relaxamento muscular",
+    "justification": "Agonistas beta-2 ativam receptores β2-adrenérgicos, aumentando AMPc que promove relaxamento da musculatura lisa brônquica, resultando em broncodilatação.",
+    "hint": "Considere o efeito dos agonistas beta-2 na via de sinalização celular",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 37,
+    "question": "Qual das alternativas abaixo é uma contraindicação relativa ao uso de anticolinérgicos inalados?",
+    "options": [
+      "Glaucoma de ângulo fechado",
+      "Hipertensão arterial controlada",
+      "Asma leve intermitente",
+      "Diabetes mellitus tipo 2"
+    ],
+    "correct_answer": "Glaucoma de ângulo fechado",
+    "justification": "Anticolinérgicos podem aumentar a pressão intraocular, agravando glaucoma de ângulo fechado, sendo contraindicação relativa ou absoluta.",
+    "hint": "Reflita sobre efeitos anticolinérgicos no sistema ocular",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 38,
+    "question": "Verdadeiro ou falso: A teofilina possui uma janela terapêutica estreita, exigindo monitorização regular dos níveis plasmáticos para evitar toxicidade.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Teofilina tem janela terapêutica estreita (10-20 μg/mL). Níveis acima aumentam risco de toxicidade, como arritmias e convulsões, exigindo monitorização.",
+    "hint": "Considere a relação entre dose, concentração plasmática e efeitos adversos da teofilina",
+    "type": "true_false"
+  },
+  {
+    "id": 39,
+    "question": "Em pacientes com asma persistente, qual combinação terapêutica é recomendada para controle a longo prazo?",
+    "options": [
+      "Beta-2 agonista de curta ação isolado",
+      "Beta-2 agonista de longa ação associado a corticosteroide inalatório",
+      "Anticolinérgico de longa ação isolado",
+      "Antagonista de leucotrienos com metilxantina"
+    ],
+    "correct_answer": "Beta-2 agonista de longa ação associado a corticosteroide inalatório",
+    "justification": "LABA deve ser sempre associado a corticosteroide inalatório para controle da inflamação; uso isolado de LABA aumenta risco de eventos adversos.",
+    "hint": "Reflita sobre o tratamento de manutenção versus alívio na asma persistente",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 40,
+    "question": "Qual efeito adverso é mais comumente associado ao uso prolongado de corticosteroides inalatórios em crianças?",
+    "options": [
+      "Retardo do crescimento",
+      "Hiperglicemia persistente",
+      "Supressão adrenal aguda",
+      "Glaucoma de ângulo aberto"
+    ],
+    "correct_answer": "Retardo do crescimento",
+    "justification": "Corticosteroides inalados podem causar retardo do crescimento em crianças devido à absorção sistêmica, especialmente em uso prolongado e doses elevadas.",
+    "hint": "Considere efeitos sistêmicos de corticosteroides mesmo em doses inaladas",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 41,
+    "question": "Qual dos seguintes fármacos é um antagonista dos receptores de leucotrienos cisteinílicos (CysLT1)?",
+    "options": [
+      "Montelucaste",
+      "Formoterol",
+      "Tiotrópio",
+      "Teofilina"
+    ],
+    "correct_answer": "Montelucaste",
+    "justification": "Montelucaste bloqueia receptores CysLT1, reduzindo broncoconstrição e inflamação em asma e rinite alérgica.",
+    "hint": "Pense em medicamentos administrados via oral para asma leve a moderada",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 42,
+    "question": "Paciente com asma grave e eosinofilia persistente vem sendo tratado com corticosteroides inalados. Qual terapia biológica é indicada para essa condição?",
+    "options": [
+      "Omalizumab",
+      "Mepolizumab",
+      "Dupilumab",
+      "Montelucaste"
+    ],
+    "correct_answer": "Mepolizumab",
+    "justification": "Mepolizumab é anticorpo anti-IL-5 indicado para asma eosinofílica grave, reduzindo contagem de eosinófilos e exacerbações.",
+    "hint": "Considere o alvo terapêutico específico relacionado à eosinofilia",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 43,
+    "question": "Qual mucolítico age rompendo pontes dissulfeto do muco, facilitando a expectoração em doenças pulmonares crônicas?",
+    "options": [
+      "N-acetilcisteína",
+      "Bromexina",
+      "Ambroxol",
+      "Salbutamol"
+    ],
+    "correct_answer": "N-acetilcisteína",
+    "justification": "N-acetilcisteína rompe pontes dissulfeto das glicoproteínas do muco, reduzindo viscosidade e facilitando a eliminação.",
+    "hint": "Considere o mecanismo químico de ação na alteração da viscosidade do muco",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 44,
+    "question": "Verdadeiro ou falso: A dexametasona é um glicocorticoide de longa ação utilizado em exacerbacões graves de asma e DPOC.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Dexametasona tem longa duração, potente efeito anti-inflamatório, indicada em crises graves para redução rápida da inflamação.",
+    "hint": "Lembre-se das classificações dos glicocorticoides por duração de ação",
+    "type": "true_false"
+  },
+  {
+    "id": 45,
+    "question": "Paciente com suspeita de insuficiência adrenal aguda após suspensão abrupta de corticosteroides sistêmicos deveria receber qual conduta inicial mais adequada?",
+    "options": [
+      "Retorno imediato à dose anterior e redução gradual",
+      "Inicio de inibidor da bomba de prótons para proteção gástrica",
+      "Solicitar hemograma e esperar resultado para decidir",
+      "Aumentar dose de metilxantinas para controle de sintomas"
+    ],
+    "correct_answer": "Retorno imediato à dose anterior e redução gradual",
+    "justification": "Suspensão brusca pode causar insuficiência adrenal; reiniciar corticosteroide e reduzir progressivamente restaura eixo HPA evitando crise.",
+    "hint": "Considere os riscos da retirada abrupta dos glicocorticoides",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 46,
+    "question": "Qual das seguintes afirmações sobre os inibidores da bomba de prótons (IBP) é verdadeira?",
+    "options": [
+      "Eles bloqueiam reversivelmente a bomba H+/K+-ATPase",
+      "São ativados em meio alcalino dentro das células parietais gástricas",
+      "Inibem a secreção ácida em até 80-95% por ligação irreversível",
+      "Devem ser administrados preferencialmente à noite para máximo efeito"
+    ],
+    "correct_answer": "Inibem a secreção ácida em até 80-95% por ligação irreversível",
+    "justification": "IBPs convertem-se em forma ativa ácida que liga irreversivelmente à bomba, inibindo a secreção ácida até que novas bombas sejam sintetizadas.",
+    "hint": "Reflita sobre a farmacodinâmica dos IBPs e a duração do efeito",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 47,
+    "question": "Qual medida pode reduzir o risco de candidíase oral em pacientes utilizando corticosteroides inalados?",
+    "options": [
+      "Aumentar dose do corticosteroide inalatório",
+      "Uso de broncodilatadores para limpeza da via aérea",
+      "Enxaguar a boca após a inalação",
+      "Administrar corticosteroide sistêmico concomitantemente"
+    ],
+    "correct_answer": "Enxaguar a boca após a inalação",
+    "justification": "Enxaguar a boca remove resíduos do corticosteroide, evitando colonização por Candida e reduzindo candidíase oral.",
+    "hint": "Pense em medidas locais para evitar crescimento fúngico",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 48,
+    "question": "Paciente com refluxo gastroesofágico apresenta uso inadequado do omeprazol, tomando-o junto com o café da manhã. Qual orientação correta para melhorar a eficácia do medicamento?",
+    "options": [
+      "Tomar a medicação com alimentos para reduzir irritação gástrica",
+      "Administrar em jejum, 30-60 minutos antes da primeira refeição",
+      "Dividir a dose em duas tomadas após as refeições principais",
+      "Associar com antiácido para melhor absorção"
+    ],
+    "correct_answer": "Administrar em jejum, 30-60 minutos antes da primeira refeição",
+    "justification": "Omeprazol é absorvido no duodeno (pH alcalino); tomar em jejum antes do café melhora absorção e ativação do fármaco.",
+    "hint": "Considere o local e o pH necessários para absorção adequada do IBP",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 49,
+    "question": "Entre os citoprotetores, qual medicamento age aumentando a produção de prostaglandinas gastroprotetoras, sendo útil para prevenção de úlceras induzidas por AINEs?",
+    "options": [
+      "Misoprostol",
+      "Sucralfato",
+      "Bismuto",
+      "Omeprazol"
+    ],
+    "correct_answer": "Misoprostol",
+    "justification": "Misoprostol é análogo de prostaglandina E1 que estimula muco e bicarbonato, protegendo mucosa gástrica contra danos por AINEs.",
+    "hint": "Pense em análogos sintéticos de prostaglandinas",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 50,
+    "question": "Verdadeiro ou falso: O sucralfato necessita de ambiente ácido para se ativar e exercer efeito protetor sobre a mucosa gastrointestinal.",
+    "correct_answer": "Verdadeiro",
+    "justification": "O sucralfato forma barreira física ao interagir com proteínas da mucosa em ambiente ácido (pH <4), protegendo contra ácido e pepsina.",
+    "hint": "Considere o pH requerido para a formação do gel protetor pelo sucralfato",
+    "type": "true_false"
+  },
+  {
+    "id": 51,
+    "question": "Paciente com úlcera péptica refratária apresenta intolerância a antiácidos tradicionais. Qual citoprotetor pode ser indicado para proteger a mucosa e promover cicatrização?",
+    "options": [
+      "Bismuto subsalicilato",
+      "Omeprazol",
+      "Montelucaste",
+      "Tiotrópio"
+    ],
+    "correct_answer": "Bismuto subsalicilato",
+    "justification": "Bismuto protege mucosa, atua contra H. pylori e auxilia na cicatrização de úlceras, sendo útil em casos refratários ou intolerantes a outros tratamentos.",
+    "hint": "Considere agentes que formam camada protetora e possuem efeito antimicrobiano contra H. pylori",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 52,
+    "question": "Qual das seguintes alternativas é um efeito colateral típico do uso crônico de metilxantinas como teofilina?",
+    "options": [
+      "Osteoporose",
+      "Convulsões",
+      "Boca seca",
+      "Hipotensão arterial"
+    ],
+    "correct_answer": "Convulsões",
+    "justification": "Teofilina em níveis tóxicos pode causar convulsões, além de arritmias, tremores e agitação, devido à sua estreita janela terapêutica.",
+    "hint": "Reflita sobre efeitos neurotóxicos em intoxicação por teofilina",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 53,
+    "question": "Qual a melhor estratégia terapêutica para manutenção em um paciente com DPOC grave e sintomas persistentes, segundo as diretrizes atuais?",
+    "options": [
+      "Uso isolado de beta-2 agonista de curta ação (SABA)",
+      "Combinação de um beta-2 agonista de longa ação (LABA) com um anticolinérgico de longa ação (LAMA)",
+      "Corticosteroide inalatórios (CI) isolado",
+      "Uso contínuo de metilxantinas como primeira linha"
+    ],
+    "correct_answer": "Combinação de um beta-2 agonista de longa ação (LABA) com um anticolinérgico de longa ação (LAMA)",
+    "justification": "O tratamento de manutenção da DPOC grave prioriza a combinação LABA + LAMA para broncodilatação prolongada e melhora dos sintomas. SABA é para resgate, CI não são primeira linha isolados na DPOC, e metilxantinas têm uso limitado devido à toxicidade.",
+    "hint": "O tratamento de manutenção da DPOC grave geralmente envolve drogas de longa duração e mecanismos complementares.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 54,
+    "question": "Verdadeiro ou falso: Corticosteroides inalatórios são indicados isoladamente para o tratamento de manutenção da DPOC, sem associação com broncodilatadores.",
+    "correct_answer": "Falso",
+    "justification": "Corticosteroides inalatórios isolados não são recomendados para DPOC devido ao risco aumentado de pneumonia; são usados em combinação com LABA em casos específicos, especialmente na DPOC grave com exacerbações frequentes.",
+    "hint": "Na DPOC, os corticosteroides inalatórios têm indicação específica e geralmente são usados em combinação.",
+    "type": "true_false"
+  },
+  {
+    "id": 55,
+    "question": "Em uma exacerbação aguda de DPOC, qual medicação sistêmica é recomendada para reduzir a inflamação e acelerar a recuperação?",
+    "options": [
+      "Metilxantinas (Teofilina)",
+      "Anticolinérgicos de longa ação (LAMA)",
+      "Corticosteroides sistêmicos (Prednisona oral ou Metilprednisolona)",
+      "Antagonistas de leucotrienos (Montelucaste)"
+    ],
+    "correct_answer": "Corticosteroides sistêmicos (Prednisona oral ou Metilprednisolona)",
+    "justification": "Corticosteroides sistêmicos são padrão para exacerbações agudas pela potente ação anti-inflamatória, melhorando função pulmonar e diminuindo duração do episódio. Metilxantinas e antagonistas de leucotrienos não são indicados nesta situação.",
+    "hint": "O tratamento das exacerbações envolve controle rápido da inflamação intensificada.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 56,
+    "question": "Qual dos seguintes fármacos utilizados na DPOC apresenta risco importante de glaucoma de ângulo fechado e deve ser evitado em pacientes com essa condição?",
+    "options": [
+      "Salbutamol",
+      "Tiotrópio",
+      "Prednisona",
+      "N-acetilcisteína"
+    ],
+    "correct_answer": "Tiotrópio",
+    "justification": "Anticolinérgicos de longa ação como tiotrópio bloqueiam receptores muscarínicos e podem precipitar glaucoma de ângulo fechado, contraindicado nesses pacientes. Beta-2 agonistas e corticosteroides inalatórios não apresentam essa contraindicação.",
+    "hint": "Esse fármaco bloqueia receptores muscarínicos e pode agravar certas condições oculares.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 57,
+    "question": "No tratamento da asma persistente, qual associação é padrão para melhora do controle da doença?",
+    "options": [
+      "Beta-2 agonista de curta ação + Anticorpo monoclonal anti-IgE",
+      "Beta-2 agonista de longa ação (LABA) + Corticosteroide inalatório (CI)",
+      "Antagonistas de leucotrienos isolados",
+      "Metilxantinas isoladas"
+    ],
+    "correct_answer": "Beta-2 agonista de longa ação (LABA) + Corticosteroide inalatório (CI)",
+    "justification": "Na asma persistente, a combinação LABA + CI é recomendada para controle efetivo, reduzindo inflamação e melhorando broncodilatação. LABA isolados não são indicados sem CI devido ao risco aumentado de eventos adversos.",
+    "hint": "O controle ideal envolve broncodilatação prolongada e ação anti-inflamatória local.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 58,
+    "question": "Verdadeiro ou falso: Os inibidores da bomba de prótons (IBP) agem bloqueando reversivelmente a bomba H+/K+-ATPase das células parietais gástricas.",
+    "correct_answer": "Falso",
+    "justification": "IBPs se ligam de forma irreversível à bomba H+/K+-ATPase, inibindo a secreção ácida por até 24-48 horas até a síntese de novas bombas. A ligação não é reversível, ao contrário de antiácidos ou antagonistas H2.",
+    "hint": "Considere como os IBPs ligam-se à enzima responsável pela secreção ácida.",
+    "type": "true_false"
+  },
+  {
+    "id": 59,
+    "question": "Paciente com DPOC grave está em uso contínuo de tiotrópio e formoterol. Ao apresentar exacerbação moderada, qual a melhor conduta inicial para manejo farmacológico adicional?",
+    "options": [
+      "Suspender tiotrópio e iniciar corticosteroide inalatório isolado",
+      "Adicionar corticosteroides sistêmicos e antibioticoterapia se indicado",
+      "Aumentar dose de formoterol para uso contínuo a cada 4 horas",
+      "Iniciar metilxantinas para melhorar broncodilatação"
+    ],
+    "correct_answer": "Adicionar corticosteroides sistêmicos e antibioticoterapia se indicado",
+    "justification": "Nas exacerbações moderadas de DPOC, corticosteroides sistêmicos aceleram a recuperação e antibióticos são indicados se sinais de infecção. Suspender tiotrópio não é recomendado e aumento indiscriminado de beta-2 agonistas ou metilxantinas não é primeira linha.",
+    "hint": "Exacerbações requerem controle inflamatório rápido e tratamento de possíveis infecções.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 60,
+    "question": "Qual opção abaixo descreve melhor o mecanismo de ação dos antagonistas de leucotrienos no tratamento da asma?",
+    "options": [
+      "Bloqueio dos receptores β2-adrenérgicos para reduzir broncoconstrição",
+      "Inibição da bomba H+/K+-ATPase para reduzir ácido gástrico",
+      "Bloqueio dos receptores CysLT1 para diminuir broncoconstrição e inflamação",
+      "Aumento da produção de surfactante nas vias aéreas"
+    ],
+    "correct_answer": "Bloqueio dos receptores CysLT1 para diminuir broncoconstrição e inflamação",
+    "justification": "Antagonistas de leucotrienos, como montelucaste, bloqueiam receptores CysLT1, reduzindo broncoconstrição e inflamação típicas da asma. Não atuam em receptores β2 ou na secreção gástrica e não aumentam produção de surfactante.",
+    "hint": "Esses fármacos atuam bloqueando mediadores lipídicos envolvidos na resposta inflamatória das vias aéreas.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 61,
+    "question": "Qual é o principal mecanismo de ação dos beta-2 agonistas no tratamento da asma?",
+    "options": [
+      "Bloqueio dos receptores muscarínicos M3",
+      "Aumento do AMPc intracelular para relaxamento da musculatura lisa brônquica",
+      "Inibição da fosfodiesterase para diminuir a inflamação",
+      "Antagonismo dos receptores de leucotrienos"
+    ],
+    "correct_answer": "Aumento do AMPc intracelular para relaxamento da musculatura lisa brônquica",
+    "justification": "Beta-2 agonistas ativam receptores β2-adrenérgicos, elevando AMPc e causando broncodilatação pelo relaxamento da musculatura lisa brônquica.",
+    "hint": "O aumento do AMPc promove relaxamento muscular no sistema respiratório.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 62,
+    "question": "(V/F) Os antagonistas muscarínicos de ação longa (LAMA) são a primeira linha no tratamento da DPOC e promovem broncodilatação bloqueando receptores M3.",
+    "correct_answer": "Verdadeiro",
+    "justification": "LAMA bloqueiam receptores muscarínicos M3, inibindo broncoconstrição colinérgica, sendo primeira linha na DPOC.",
+    "hint": "Receptores M3 regulam a contração da musculatura lisa brônquica mediada pela acetilcolina.",
+    "type": "true_false"
+  },
+  {
+    "id": 63,
+    "question": "Qual efeito adverso é mais comum com o uso de beta-2 agonistas de curta duração (SABA)?",
+    "options": [
+      "Boca seca",
+      "Tremor fino das mãos",
+      "Constipação",
+      "Hipotensão"
+    ],
+    "correct_answer": "Tremor fino das mãos",
+    "justification": "Tremor é um efeito adverso clássico dos beta-2 agonistas devido à estimulação dos receptores musculares esqueléticos.",
+    "hint": "Efeitos em receptores β2 fora do sistema respiratório causam alterações musculares.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 64,
+    "question": "Em um paciente com asma grave controlada, qual medicamento deve ser associado aos LABA para maior eficácia e segurança?",
+    "options": [
+      "Corticosteroides inalatórios",
+      "Teofilina",
+      "Montelucaste",
+      "Ipratrópio"
+    ],
+    "correct_answer": "Corticosteroides inalatórios",
+    "justification": "LABA nunca devem ser usados isoladamente na asma, sempre combinados com corticosteroides inalatórios para reduzir inflamação e evitar risco de crise grave.",
+    "hint": "Combinação de anti-inflamatório com broncodilatador melhora controle da asma.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 65,
+    "question": "Qual das seguintes drogas tem janela terapêutica estreita e requer monitorização sérica para evitar toxicidade?",
+    "options": [
+      "Salbutamol",
+      "Teofilina",
+      "Montelucaste",
+      "Tiotrópio"
+    ],
+    "correct_answer": "Teofilina",
+    "justification": "Teofilina possui janela terapêutica estreita (10-20 μg/mL), com risco de arritmias e convulsões em doses tóxicas, exigindo monitoramento.",
+    "hint": "Farmacocinética variável e risco de arritmias exigem cuidado no uso.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 66,
+    "question": "Qual destes efeitos adversos é mais associado ao uso prolongado de corticosteroides inalatórios em crianças?",
+    "options": [
+      "Supressão adrenal aguda",
+      "Retardo de crescimento",
+      "Hiperglicemia",
+      "Constipação"
+    ],
+    "correct_answer": "Retardo de crescimento",
+    "justification": "Uso prolongado e em doses altas de corticosteroides inalatórios pode causar retardo de crescimento em crianças devido à ação sistêmica parcial.",
+    "hint": "Mesmo uso local pode impactar crescimento em dose alta.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 67,
+    "question": "Qual antibiótico pode ter sua eficácia reduzida quando usado concomitantemente com omeprazol devido à alteração do pH gástrico?",
+    "options": [
+      "Amoxicilina",
+      "Claritromicina",
+      "Metronidazol",
+      "Rifampicina"
+    ],
+    "correct_answer": "Claritromicina",
+    "justification": "Omeprazol eleva o pH gástrico, podendo reduzir a absorção de claritromicina, importante na erradicação do Helicobacter pylori.",
+    "hint": "Alguns antibióticos dependem de pH ácido para absorção adequada.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 68,
+    "question": "(V/F) Inibidores da bomba de prótons precisam ser administrados em jejum para garantir a ativação na célula parietal gástrica e máxima inibição da secreção ácida.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Inibidores da bomba de prótons têm melhor absorção em jejum e atuam quando as bombas H+/K+-ATPase estão sendo ativas durante a alimentação, maximizando efeito.",
+    "hint": "A absorção depende do pH do intestino e da disponibilidade da bomba ativa.",
+    "type": "true_false"
+  },
+  {
+    "id": 69,
+    "question": "Em um paciente com DPOC grave que apresenta retenção urinária e glaucoma de ângulo fechado, qual broncodilatador deve ser evitado?",
+    "options": [
+      "Tiotrópio",
+      "Salbutamol",
+      "Montelucaste",
+      "Budesonida"
+    ],
+    "correct_answer": "Tiotrópio",
+    "justification": "Tiotrópio é um LAMA que pode causar boca seca, retenção urinária e piorar glaucoma de ângulo fechado, contraindicado nessas condições.",
+    "hint": "Antimuscarínicos podem agravar condições urológicas e oftalmológicas.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 70,
+    "question": "Qual fármaco antiulceroso apresenta inibição irreversível da bomba de prótons e é eficaz na redução da secreção ácida por 24-48 horas?",
+    "options": [
+      "Ranitidina",
+      "Omeprazol",
+      "Sucralfato",
+      "Alginato"
+    ],
+    "correct_answer": "Omeprazol",
+    "justification": "Omeprazol é um inibidor da bomba H+/K+-ATPase que se liga irreversivelmente, necessitando síntese de novas bombas para retorno da secreção.",
+    "hint": "A forma ativa se liga covalentemente à enzima responsável pela secreção ácida.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 71,
+    "question": "Qual é a principal vantagem dos antagonistas de leucotrienos no tratamento da asma e rinite alérgica?",
+    "options": [
+      "Administração inalatória para ação rápida",
+      "Uso via oral com boa tolerabilidade e segurança em crianças",
+      "Efeito broncodilatador mais potente que beta-2 agonistas",
+      "Alta incidência de efeitos neuropsiquiátricos"
+    ],
+    "correct_answer": "Uso via oral com boa tolerabilidade e segurança em crianças",
+    "justification": "Antagonistas de leucotrienos como montelucaste são administrados oralmente, bem tolerados e indicados em crianças, melhorando adesão e controle dos sintomas.",
+    "hint": "Facilidade de uso pode aumentar adesão ao tratamento.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 72,
+    "question": "Qual alternativa representa uma indicação clínica correta para o uso de metilxantinas na farmacologia respiratória atual?",
+    "options": [
+      "Tratamento de primeira linha da asma persistente leve",
+      "Uso exclusivo nas crises agudas de asma",
+      "Terapia adjuvante em DPOC por suas propriedades broncodilatadoras e anti-inflamatórias leves",
+      "Substituto dos corticoides inalatórios em asma grave"
+    ],
+    "correct_answer": "Terapia adjuvante em DPOC por suas propriedades broncodilatadoras e anti-inflamatórias leves",
+    "justification": "Metilxantinas podem ser usadas como terapia adjuvante na DPOC, porém devido a toxicidade e janela terapêutica estreita, seu uso é limitado.",
+    "hint": "Uso limitado devido a efeitos adversos e monitorização necessária.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 73,
+    "question": "Um paciente com asma alérgica grave não controlada apresenta altos níveis de IgE. Qual terapia biológica é indicada nesse caso?",
+    "options": [
+      "Mepolizumab",
+      "Omalizumab",
+      "Dupilumab",
+      "Benralizumab"
+    ],
+    "correct_answer": "Omalizumab",
+    "justification": "Omalizumab é um anticorpo anti-IgE que neutraliza IgE livre, indicado para asma alérgica grave com níveis elevados de IgE.",
+    "hint": "Anticorpos monoclonais específicos para IgE livre são utilizados em asma alérgica grave.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 74,
+    "question": "Qual medida preventiva pode reduzir o risco de candidíase oral em pacientes que utilizam corticosteroides inalatórios?",
+    "options": [
+      "Uso concomitante de antibióticos",
+      "Administração de corticosteroides em jejum",
+      "Uso de espaçador e enxágue da boca após inalação",
+      "Suspensão do corticosteroide a cada 15 dias"
+    ],
+    "correct_answer": "Uso de espaçador e enxágue da boca após inalação",
+    "justification": "O uso de espaçador melhora a deposição pulmonar e enxaguar a boca remove resíduos do corticosteroide, reduzindo risco de candidíase oral.",
+    "hint": "A limpeza local diminui a colonização fúngica nas vias aéreas superiores.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 75,
+    "question": "Em relação aos inibidores da bomba de prótons (IBP), qual das alternativas é correta sobre seu metabolismo e possíveis interações medicamentosas?",
+    "options": [
+      "Metabolizados principalmente pela CYP3A4, com poucas interações clínicas",
+      "Metabolizados pela CYP1A2, aumentando risco de toxicidade com teofilina",
+      "Metabolizados pelas CYP2C19 e CYP3A4, apresentando múltiplas interações",
+      "Não metabolizados pelo fígado, eliminados exclusivamente pelos rins"
+    ],
+    "correct_answer": "Metabolizados pelas CYP2C19 e CYP3A4, apresentando múltiplas interações",
+    "justification": "IBP são metabolizados pelo sistema enzimático CYP2C19 e CYP3A4, podendo interagir com outros medicamentos que utilizam essas vias, alterando eficácia ou toxicidade.",
+    "hint": "Enzimas hepáticas são cruciais na metabolização e interações de muitos fármacos.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 76,
+    "question": "Qual o principal mecanismo de ação dos antagonistas de leucotrienos como montelucaste e zafirlucaste no tratamento da asma?",
+    "options": [
+      "Bloqueio dos receptores β2-adrenérgicos",
+      "Inibição da fosfodiesterase aumentando AMPc",
+      "Bloqueio dos receptores de cisteinil-leucotrienos (CysLT1)",
+      "Estimulação da liberação de cortisol pelas glândulas suprarrenais"
+    ],
+    "correct_answer": "Bloqueio dos receptores de cisteinil-leucotrienos (CysLT1)",
+    "justification": "Montelucaste e zafirlucaste bloqueiam especificamente os receptores CysLT1, reduzindo broncoconstrição, inflamação e secreção de muco na asma.",
+    "hint": "Antileucotrienos atuam bloqueando mediadores envolvidos na broncoconstrição e inflamação.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 77,
+    "question": "Em relação às indicações clínicas dos antagonistas de leucotrienos, assinale a alternativa correta:",
+    "options": [
+      "São indicados exclusivamente para tratamento de asma grave refratária.",
+      "Podem ser usados para asma leve a moderada e rinite alérgica.",
+      "São a primeira escolha para crise aguda de asma.",
+      "Não são eficazes em asma induzida por exercício."
+    ],
+    "correct_answer": "Podem ser usados para asma leve a moderada e rinite alérgica.",
+    "justification": "Antileucotrienos são indicados para asma leve a moderada, asma induzida por exercício e rinite alérgica, devido à sua ação anti-inflamatória e broncodilatadora moderada.",
+    "hint": "Considere o espectro de gravidade da asma e condições associadas para uso dos antileucotrienos.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 78,
+    "question": "Verdadeiro ou falso: Montelucaste é administrado por via oral e pode ser utilizado frequentemente em crianças devido à boa tolerabilidade.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Montelucaste é um antileucotrieno administrado por via oral, com bom perfil de segurança, sendo adequado para uso em crianças com asma leve a moderada.",
+    "hint": "Reflita sobre a via de administração e perfil de segurança em populações pediátricas.",
+    "type": "true_false"
+  },
+  {
+    "id": 79,
+    "question": "Qual das seguintes reações adversas é rara, mas relatada com o uso de antagonistas de leucotrienos?",
+    "options": [
+      "Hipocalemia",
+      "Alterações neuropsiquiátricas",
+      "Retenção urinária",
+      "Hiperglicemia"
+    ],
+    "correct_answer": "Alterações neuropsiquiátricas",
+    "justification": "Embora geralmente bem tolerados, antagonistas de leucotrienos podem raramente causar alterações neuropsiquiátricas, como alucinações e agressividade.",
+    "hint": "Considere efeitos sistêmicos pouco comuns relacionados a essas medicações.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 80,
+    "question": "Pacientes com asma induzida por exercício podem se beneficiar da utilização de qual medicamento?",
+    "options": [
+      "Salbutamol inalatório pré-exercício",
+      "Montelucaste oral em uso regular",
+      "Dexametasona oral em dose única antes do exercício",
+      "Tiotrópio inalatório diário"
+    ],
+    "correct_answer": "Montelucaste oral em uso regular",
+    "justification": "Montelucaste é eficaz na prevenção da asma induzida por exercício devido ao bloqueio dos leucotrienos, mediadores importantes nessa condição.",
+    "hint": "Alguns fármacos orais são indicados para prevenir broncoconstrição associada ao exercício.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 81,
+    "question": "Verdadeiro ou falso: Os antagonistas de leucotrienos devem ser sempre usados como monoterapia na asma persistente grave.",
+    "correct_answer": "Falso",
+    "justification": "Em asma grave, os antagonistas de leucotrienos são geralmente usados como terapia adjuvante, não substituindo corticosteroides inalatórios ou broncodilatadores de longa ação.",
+    "hint": "Pense nas recomendações para asma grave e o papel dos antileucotrienos nesse cenário.",
+    "type": "true_false"
+  },
+  {
+    "id": 82,
+    "question": "Considerando a farmacocinética dos antagonistas de leucotrienos, qual fator contribui para sua vantagem em pacientes pediátricos?",
+    "options": [
+      "Administração tópica pulmonar direta",
+      "Dose única diária devido à longa meia-vida",
+      "Via oral e bom perfil de tolerância gastrointestinal",
+      "Metabolização renal, reduzindo interações hepáticas"
+    ],
+    "correct_answer": "Via oral e bom perfil de tolerância gastrointestinal",
+    "justification": "Antileucotrienos são administrados por via oral e apresentam boa tolerabilidade, facilitando o uso em crianças e melhor adesão ao tratamento.",
+    "hint": "A forma de administração impacta a adesão, especialmente em crianças.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 83,
+    "question": "Um paciente apresenta asma leve controlada com montelucaste, mas queixa-se de dor de cabeça e desconforto abdominal leve. Qual a conduta mais apropriada?",
+    "options": [
+      "Interromper imediatamente o medicamento e iniciar corticosteroides sistêmicos",
+      "Orientar a continuidade do medicamento, pois efeitos adversos são leves e comuns",
+      "Suspender montelucaste e iniciar antileucotrieno alternativo por via inalatória",
+      "Adicionar β2-agonista de longa ação para controle dos sintomas"
+    ],
+    "correct_answer": "Orientar a continuidade do medicamento, pois efeitos adversos são leves e comuns",
+    "justification": "Efeitos adversos leves como cefaleia e dor abdominal são comuns e não indicam parada imediata do tratamento; a continuidade melhora o controle da asma.",
+    "hint": "Avalie a gravidade e frequência dos efeitos adversos típicos dos antileucotrienos.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 84,
+    "question": "Verdadeiro ou falso: O bloqueio dos receptores de cisteinil-leucotrienos promove redução da secreção de muco nas vias aéreas.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Ao bloquear CysLT1, os antagonistas de leucotrienos diminuem broncoconstrição, inflamação e a produção/excreção de muco, melhorando a função respiratória.",
+    "hint": "Além da broncodilatação, antileucotrienos têm efeito sobre outras características da inflamação brônquica.",
+    "type": "true_false"
+  },
+  {
+    "id": 85,
+    "question": "Em relação às limitações do uso de montelucaste, qual das alternativas é correta?",
+    "options": [
+      "Possui risco elevado de insuficiência adrenal",
+      "Não deve ser utilizado em pacientes com glaucoma de ângulo fechado",
+      "Tem eficácia limitada para crises agudas de asma",
+      "É contraindicado em crianças menores de 18 anos"
+    ],
+    "correct_answer": "Tem eficácia limitada para crises agudas de asma",
+    "justification": "Os antagonistas de leucotrienos têm início de ação mais lento e não são indicados para alívio imediato de crises, devendo ser usados como terapia de manutenção.",
+    "hint": "Pense na rapidez de ação dos antileucotrienos comparada a outros broncodilatadores.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 86,
+    "question": "Qual a vantagem dos antagonistas de leucotrienos em relação ao uso exclusivo de corticoides inalatórios para asma leve a moderada?",
+    "options": [
+      "Não causam candidíase oral nem supressão do eixo HPA",
+      "Possuem efeito broncodilatador mais rápido que β2-agonistas de curta ação",
+      "Não possuem efeitos adversos neuropsiquiátricos",
+      "São mais efetivos em reduzir a tosse que os corticosteroides"
+    ],
+    "correct_answer": "Não causam candidíase oral nem supressão do eixo HPA",
+    "justification": "Antileucotrienos são administrados oralmente e não produzem efeitos colaterais locais como candidíase oral ou supressão do eixo HPA, comuns nos corticosteroides inalatórios.",
+    "hint": "Considere os efeitos colaterais locais e sistêmicos típicos de corticosteroides inalatórios.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 87,
+    "question": "Caso clínico: Paciente adulto com asma persistente leve que apresenta dificuldade na adesão a tratamentos inalatórios devido a desconforto e tosse. Qual a melhor opção para manejo inicial?",
+    "options": [
+      "Iniciar montelucaste oral para controle da asma",
+      "Prescrever β2-agonista de curta duração para uso diário contínuo",
+      "Iniciar corticosteroide inalatório em alta dose para rápida melhora",
+      "Indicar tiotrópio inalatório como primeira linha"
+    ],
+    "correct_answer": "Iniciar montelucaste oral para controle da asma",
+    "justification": "Montelucaste oral é indicado em asma leve e pode ser útil em pacientes com dificuldade em usar inaladores, promovendo controle adequado e melhor aceitação do tratamento.",
+    "hint": "Considere vias de administração e tolerabilidade para melhorar adesão ao tratamento.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 88,
+    "question": "Qual o principal mecanismo de ação dos antagonistas dos receptores H2 na redução da acidose gástrica?",
+    "options": [
+      "Bloqueio irreversível da bomba de prótons H+/K+-ATPase",
+      "Bloqueio competitivo dos receptores H2 da célula parietal",
+      "Neutralização direta do ácido gástrico no estômago",
+      "Estimulação dos receptores muscarínicos para reduzir secreção ácida"
+    ],
+    "correct_answer": "Bloqueio competitivo dos receptores H2 da célula parietal",
+    "justification": "Antagonistas H2 bloqueiam reversivelmente os receptores histamínicos H2 nas células parietais, reduzindo a produção de ácido gástrico. Eles não atuam na bomba de prótons nem neutralizam diretamente o ácido, e sim agem por bloqueio competitivo.",
+    "hint": "Os antagonistas H2 atuam antes da etapa final da secreção ácida, interferindo em receptores específicos.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 89,
+    "question": "(V / F) A cimetidina é um antagonista H2 que pode causar inibição de enzimas do citocromo P450, levando a interações medicamentosas.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Cimetidina inibe várias isoenzimas do CYP450, especialmente CYP1A2, 2C9, 2D6 e 3A4, causando aumento dos níveis plasmáticos de outros fármacos metabolizados por essas enzimas, motivo pelo qual suas interações são clinicamente relevantes.",
+    "hint": "Considere os efeitos metabólicos hepáticos relacionados a essa medicação.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 90,
+    "question": "Paciente com úlcera gástrica crônica apresenta sintomas recorrentes mesmo após uso regular de antagonista H2. Qual das opções deve ser considerada para melhorar o manejo?",
+    "options": [
+      "Aumentar a dose do antagonista H2 para duas vezes ao dia",
+      "Substituir o antagonista H2 por inibidor da bomba de prótons",
+      "Adicionar antiácido para neutralizar o ácido gástrico",
+      "Associar um antagonista muscarínico para potencializar efeito"
+    ],
+    "correct_answer": "Substituir o antagonista H2 por inibidor da bomba de prótons",
+    "justification": "Em casos de falha terapêutica ou recidiva, os IBPs são mais eficazes devido à inibição irreversível da bomba de prótons, reduzindo significativamente a secreção ácida em comparação aos antagonistas H2, que podem perder eficácia após longo uso.",
+    "hint": "Considerar que antagonistas H2 podem apresentar tolerância com uso prolongado, afetando a eficácia.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 91,
+    "question": "Qual efeito adverso é mais comum com o uso prolongado de antagonistas H2 como a ranitidina?",
+    "options": [
+      "Toxicidade renal grave",
+      "Ginecomastia e disfunção sexual",
+      "Hipoglicemia intensa",
+      "Supressão do eixo HPA"
+    ],
+    "correct_answer": "Ginecomastia e disfunção sexual",
+    "justification": "Cimetidina, e em menor grau ranitidina, pode causar efeitos antiandrogênicos, resultando em ginecomastia e disfunção sexual em homens, especialmente com doses elevadas e uso prolongado. Esses efeitos não são comuns com IBPs ou relacionados à supressão do eixo HPA.",
+    "hint": "Alguns antagonistas H2 possuem efeitos antiandrogênicos leves.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 92,
+    "question": "Em qual das seguintes situações clínicas o uso de antagonistas H2 é contraindicado ou deve ser cauteloso?",
+    "options": [
+      "Paciente com úlcera péptica ativa",
+      "Paciente idoso com glaucoma de ângulo fechado",
+      "Paciente com doença do refluxo gastroesofágico",
+      "Paciente com síndrome de Zollinger-Ellison"
+    ],
+    "correct_answer": "Paciente idoso com glaucoma de ângulo fechado",
+    "justification": "Embora os antagonistas H2 não sejam diretamente contraindicados no glaucoma, cuidados devem ser tomados em pacientes idosos com glaucoma de ângulo fechado, pois a retenção de líquidos ou efeitos colaterais podem agravar a condição. Anticolinérgicos são mais relacionados a essa contraindicação.",
+    "hint": "Considere efeitos colaterais relacionados à retenção de líquidos ou seu impacto ocular.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 93,
+    "question": "Qual medicamento antagonista H2 apresenta maior potencial para causar interações medicamentosas mediadas pelo CYP450?",
+    "options": [
+      "Famotidina",
+      "Ranitidina",
+      "Cimetidina",
+      "Nizatidina"
+    ],
+    "correct_answer": "Cimetidina",
+    "justification": "Cimetidina é o antagonista H2 mais conhecido por inibir múltiplas isoenzimas do CYP450, aumentando níveis séricos de vários medicamentos, enquanto ranitidina e famotidina possuem menor potencial, e nizatidina quase nenhum efeito relevante nesse aspecto.",
+    "hint": "Um dos antagonistas H2 é conhecido por seu efeito inibitório enzimático hepático significativo.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 94,
+    "question": "Um paciente em uso de ranitidina desenvolveu confusão mental e agitação. Essa reação pode estar relacionada a qual fator?",
+    "options": [
+      "Efeito colateral neurológico devido à irritação gástrica",
+      "Acúmulo da droga em insuficiência renal",
+      "Interação medicamentosa com antiácidos",
+      "Reação alérgica grave ao medicamento"
+    ],
+    "correct_answer": "Acúmulo da droga em insuficiência renal",
+    "justification": "Ranitidina é eliminada principalmente por via renal; em pacientes com insuficiência renal, pode haver acúmulo, causando efeitos neurológicos como confusão ou agitação. Essa é uma reação conhecida e exige ajuste da dose.",
+    "hint": "Considere a farmacocinética e a excreção renal da ranitidina.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 95,
+    "question": "(V / F) Antagonistas H2 são preferenciais para tratamento de úlcera péptica causada por Helicobacter pylori, sem necessidade de associação com antibióticos.",
+    "correct_answer": "Falso",
+    "justification": "Úlceras associadas a H. pylori precisam de terapia combinada com antibióticos e inibidores da secreção ácida (preferencialmente IBP). Antagonistas H2 isolados não são eficazes para erradicar a bactéria nem curar a úlcera nesse contexto.",
+    "hint": "Lembre-se das recomendações para erradicação bacteriana na úlcera péptica.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 96,
+    "question": "Qual o principal mecanismo de ação dos beta-2 agonistas no tratamento das vias aéreas obstruídas?",
+    "options": [
+      "Bloqueio dos receptores muscarínicos M3",
+      "Aumento do AMP cíclico intracelular promovendo relaxamento da musculatura lisa brônquica",
+      "Inibição da fosfodiesterase e antagonismo dos receptores de adenosina",
+      "Ligação a receptores de glicocorticoides intracelulares para reduzir inflamação"
+    ],
+    "correct_answer": "Aumento do AMP cíclico intracelular promovendo relaxamento da musculatura lisa brônquica",
+    "justification": "Beta-2 agonistas ativam receptores β2, elevando o AMPc que promove relaxamento da musculatura lisa brônquica, resultando em broncodilatação e alívio dos sintomas obstrutivos.",
+    "hint": "Beta-2 agonistas atuam diretamente na musculatura lisa dos brônquios para facilitar a respiração.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 97,
+    "question": "Qual das seguintes é a principal contraindicação do uso dos anticolinérgicos no tratamento da DPOC?",
+    "options": [
+      "Hipertensão arterial grave",
+      "Glaucoma de ângulo fechado",
+      "Asma leve persistente",
+      "Doença renal crônica"
+    ],
+    "correct_answer": "Glaucoma de ângulo fechado",
+    "justification": "Os anticolinérgicos são contraindicados em glaucoma de ângulo fechado devido ao risco de piora da pressão intraocular causada pela inibição do tónus muscarínico no olho.",
+    "hint": "Anticolinérgicos podem aumentar a pressão intraocular.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 98,
+    "question": "(V / F) O uso prolongado de corticosteroides inalatórios em doses altas pode levar à supressão do eixo hipotálamo-hipófise-adrenal (HPA).",
+    "correct_answer": "Verdadeiro",
+    "justification": "Embora o uso inalatórios minimize efeitos sistêmicos, doses altas e prolongadas podem absorver quantidades suficientes para suprimir o eixo HPA, causando efeitos adversos sistêmicos.",
+    "hint": "Corticosteroides podem causar efeitos sistêmicos mesmo quando inalados em altas doses.",
+    "type": "true_false"
+  },
+  {
+    "id": 99,
+    "question": "Em um paciente com asma persistente grave, qual a associação farmacológica recomendada para controle e prevenção de crises?",
+    "options": [
+      "Beta-2 agonista de ação curta + anticolinérgico de ação curta",
+      "Corticosteroide inalatório + beta-2 agonista de ação longa",
+      "Metilxantina + antagonista de leucotrienos",
+      "Glicocorticoide sistêmico isolado"
+    ],
+    "correct_answer": "Corticosteroide inalatório + beta-2 agonista de ação longa",
+    "justification": "O uso combinado de corticosteroide inalatório com beta-2 agonista de longa duração é padrão para asma persistente grave, controlando a inflamação e prevenindo exacerbações.",
+    "hint": "Tratamento de manutenção visa reduzir inflamação e melhorar broncodilatação prolongada.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 100,
+    "question": "Qual o principal risco associado ao uso das metilxantinas na terapêutica respiratória?",
+    "options": [
+      "Retenção urinária em idosos",
+      "Janela terapêutica estreita com risco de toxicidade cardiovascular e neurológica",
+      "Supressão do eixo HPA",
+      "Candidíase oral"
+    ],
+    "correct_answer": "Janela terapêutica estreita com risco de toxicidade cardiovascular e neurológica",
+    "justification": "Metilxantinas possuem janela terapêutica estreita, seu excesso pode provocar arritmias, convulsões e agitação, limitando seu uso clínico.",
+    "hint": "Toxicidade ocorre quando níveis plasmáticos ultrapassam 20 μg/mL.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 101,
+    "question": "Qual das alternativas é a principal vantagem dos antagonistas de leucotrienos em relação aos corticosteroides inalatórios no tratamento da asma?",
+    "options": [
+      "Ação mais rápida no alívio de crises agudas",
+      "Baixa incidência de efeitos adversos locais como candidíase oral",
+      "Uso exclusivo em asma grave",
+      "Melhor broncodilatação imediata"
+    ],
+    "correct_answer": "Baixa incidência de efeitos adversos locais como candidíase oral",
+    "justification": "Antagonistas de leucotrienos são bem tolerados e orais, não causando efeitos locais como candidíase, comuns nos corticosteroides inalados.",
+    "hint": "Antagonistas de leucotrienos são administrados por via oral.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 102,
+    "question": "Sobre os inibidores da bomba de prótons (IBP), qual das afirmativas é correta?",
+    "options": [
+      "Possuem ação imediata após a primeira dose, recomendados para uso em crises agudas de dor abdominal",
+      "Ligam-se irreversivelmente à bomba H+/K+-ATPase, necessitando nova síntese enzimática para retomada da secreção ácida",
+      "São metabolizados principalmente pela enzima CYP1A2 no fígado",
+      "Devem ser administrados com alimentos para melhor absorção"
+    ],
+    "correct_answer": "Ligam-se irreversivelmente à bomba H+/K+-ATPase, necessitando nova síntese enzimática para retomada da secreção ácida",
+    "justification": "IBPs são pró-fármacos ativados em ambiente ácido que inibem irreversivelmente a bomba de prótons, e a secreção ácida só retorna com a síntese de novas bombas após 24-48h.",
+    "hint": "A inibição prolongada do ácido ocorre devido à ligação covalente ao alvo.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 103,
+    "question": "Em relação à erradicação de Helicobacter pylori, qual é a conduta padrão inicial mais recomendada atualmente no Brasil?",
+    "options": [
+      "Terapia tripla: IBP + amoxicilina + claritromicina por 7-14 dias",
+      "Monoterapia com IBP por 30 dias",
+      "Terapia com metronidazol isolado por 10 dias",
+      "Terapia quadrupla sequencial: IBP + bismuto + doxiciclina + metronidazol por 7 dias"
+    ],
+    "correct_answer": "Terapia tripla: IBP + amoxicilina + claritromicina por 7-14 dias",
+    "justification": "A primeira linha para erradicação do H. pylori é a terapia tripla associando IBP com amoxicilina e claritromicina, visando aumento da eficácia e redução da resistência bacteriana.",
+    "hint": "Erradicação de H. pylori costuma associar antibióticos e redução da acidez gástrica.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 104,
+    "question": "Qual é o principal mecanismo de ação dos mucolíticos como a N-acetilcisteína no tratamento de doenças respiratórias?",
+    "options": [
+      "Inibição da fosfodiesterase para aumentar AMPc",
+      "Rompimento das pontes dissulfeto no muco",
+      "Bloqueio dos receptores muscarínicos M3 nos brônquios",
+      "Antagonismo dos receptores β2-adrenérgicos"
+    ],
+    "correct_answer": "Rompimento das pontes dissulfeto no muco",
+    "justification": "A N-acetilcisteína quebra as pontes dissulfeto responsáveis pela viscosidade do muco, tornando-o menos espesso e facilitando sua eliminação das vias aéreas.",
+    "hint": "Pense em como o muco mais espesso pode ser facilitado para eliminação",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 105,
+    "question": "(V / F) O cromoglicato atua como um estabilizador de mastócitos, prevenindo a liberação de mediadores inflamatórios no sistema respiratório.",
+    "correct_answer": "Verdadeiro",
+    "justification": "O cromoglicato estabiliza a membrana dos mastócitos, prevenindo a liberação de histamina e outros mediadores que desencadeiam a inflamação e broncoconstrição.",
+    "hint": "Este fármaco é utilizado para prevenir crises asmáticas e não para alívio imediato",
+    "type": "true_false"
+  },
+  {
+    "id": 106,
+    "question": "Um paciente com asma leve a moderada apresenta broncoconstrição induzida por exercício. Qual medicamento oral pode ser indicado para reduzir essa resposta?",
+    "options": [
+      "Omeprazol",
+      "Montelucaste",
+      "Ipratrópio",
+      "Teofilina"
+    ],
+    "correct_answer": "Montelucaste",
+    "justification": "Montelucaste é um antagonista dos receptores CysLT1, reduzindo broncoconstrição e inflamação, eficaz em asma induzida por exercício.",
+    "hint": "Este medicamento bloqueia os efeitos dos leucotrienos",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 107,
+    "question": "Qual a principal contraindicação do uso de anticolinérgicos inalados como ipratrópio em pacientes respiratórios?",
+    "options": [
+      "Glaucoma de ângulo fechado",
+      "Hipertensão pulmonar",
+      "Diabetes mellitus",
+      "Arritmias cardíacas"
+    ],
+    "correct_answer": "Glaucoma de ângulo fechado",
+    "justification": "Anticolinérgicos podem aumentar a pressão intraocular, agravando glaucoma de ângulo fechado e estão contraindicados nesses pacientes.",
+    "hint": "Esta condição ocular pode ser agravada por fármacos que provocam midríase",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 108,
+    "question": "Sobre o sulfato de magnésio no tratamento respiratório, assinale a alternativa correta:",
+    "options": [
+      "Atua principalmente como broncodilatador pela inibição da fosfodiesterase",
+      "É usado em crises graves de asma por seu efeito relaxante da musculatura lisa",
+      "Age como anti-inflamatório inibindo a liberação de leucotrienos",
+      "Estimula a secreção de muco para facilitar a expectoração"
+    ],
+    "correct_answer": "É usado em crises graves de asma por seu efeito relaxante da musculatura lisa",
+    "justification": "O sulfato de magnésio tem efeito broncodilatador relaxando a musculatura lisa e é utilizado em crises graves de asma quando os broncodilatadores convencionais são insuficientes.",
+    "hint": "Pense em uma terapia adjunta para casos de asma refratária",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 109,
+    "question": "(V / F) Nedocromil e cromoglicato são considerados agentes preventivos da asma que atuam inibindo a desgranulação dos mastócitos.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Ambos estabilizam mastócitos, prevenindo a liberação de mediadores inflamatórios e reduzindo a frequência de crises asmáticas.",
+    "hint": "Esses fármacos são usados para prevenção e não para alívio imediato",
+    "type": "true_false"
+  },
+  {
+    "id": 110,
+    "question": "Um paciente apresenta azia persistente e foi iniciado omeprazol 20 mg/dia há uma semana. Qual é o momento mais adequado para administrar o medicamento para otimizar sua eficácia?",
+    "options": [
+      "Imediatamente após o jantar",
+      "Em jejum, 30-60 minutos antes da primeira refeição",
+      "Antes de dormir, com um copo de leite",
+      "Junto com o café da manhã"
+    ],
+    "correct_answer": "Em jejum, 30-60 minutos antes da primeira refeição",
+    "justification": "Os IBPs devem ser administrados em jejum antes da primeira refeição para que a ativação ocorra corretamente e bloqueiem efetivamente a bomba de prótons ao seu pico de atividade.",
+    "hint": "O medicamento é pró-fármaco e precisa de ambiente ácido para ativação",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 111,
+    "question": "Qual o principal risco do uso prolongado e em altas doses de corticosteroides inalados no tratamento da asma?",
+    "options": [
+      "Supressão adrenal aguda",
+      "Osteoporose sistêmica",
+      "Candidíase oral",
+      "Hiperglicemia persistente"
+    ],
+    "correct_answer": "Candidíase oral",
+    "justification": "O uso prolongado de corticosteroides inalados pode causar candidíase oral devido à imunossupressão local, e por isso é recomendável usar espaçador e enxaguar boca após a inalação.",
+    "hint": "Este efeito adverso está relacionado ao uso local do medicamento",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 112,
+    "question": "Em relação aos antiácidos, qual das seguintes opções é uma característica comum importante durante seu uso terapêutico?",
+    "options": [
+      "Início de ação lento e efeito prolongado de 24 horas",
+      "Neutralizam diretamente o ácido gástrico através de reações químicas",
+      "Ativam a secreção de pepsina para melhorar a digestão",
+      "São indicados para tratamento a longo prazo da síndrome de Zollinger-Ellison"
+    ],
+    "correct_answer": "Neutralizam diretamente o ácido gástrico através de reações químicas",
+    "justification": "Antiácidos atuam neutralizando diretamente o ácido no estômago por meio de reações químicas, promovendo rápido alívio dos sintomas de hiperacidez.",
+    "hint": "Pense no mecanismo de ação dos antiácidos como neutralizadores",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 113,
+    "question": "Qual das seguintes alternativas NÃO é uma indicação clínica comum para o uso dos inibidores da bomba de prótons (IBPs)?",
+    "options": [
+      "Doença do refluxo gastroesofágico (DRGE)",
+      "Úlcera gástrica por uso de AINEs",
+      "Fibrose pulmonar idiopática",
+      "Síndrome de Zollinger-Ellison"
+    ],
+    "correct_answer": "Fibrose pulmonar idiopática",
+    "justification": "IBPs são indicados para doenças relacionadas à hiperacidez gástrica, não para doenças pulmonares como a fibrose pulmonar idiopática.",
+    "hint": "Considere as condições relacionadas com ácido gástrico excessivo",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 114,
+    "question": "Um paciente idoso em uso de anticolinérgico inalado relata boca seca e dificuldade para urinar. Qual argumento justifica esses efeitos adversos?",
+    "options": [
+      "Anticolinérgicos estimulam o sistema nervoso parassimpático",
+      "Bloqueio dos receptores muscarínicos reduz secreções e contração vesical",
+      "Aumentam a produção de muco e contraem a bexiga",
+      "Atuam como agonistas β2 causando vasodilatação"
+    ],
+    "correct_answer": "Bloqueio dos receptores muscarínicos reduz secreções e contração vesical",
+    "justification": "Anticolinérgicos bloqueiam receptores muscarínicos M3, diminuindo secreções salivares e relaxando a musculatura da bexiga, causando boca seca e retenção urinária, especialmente em idosos.",
+    "hint": "Pense nos efeitos da acetilcolina no sistema nervoso autônomo parassimpático",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 115,
+    "question": "Qual é a principal preocupação clínica ao retirar corticosteroides sistêmicos após uso prolongado em doenças respiratórias?",
+    "options": [
+      "Reação alérgica imediata",
+      "Insuficiência adrenal aguda por supressão do eixo HPA",
+      "Crise hipertensiva súbita",
+      "Aumento do risco de fibrose pulmonar"
+    ],
+    "correct_answer": "Insuficiência adrenal aguda por supressão do eixo HPA",
+    "justification": "O uso prolongado de corticosteroides suprime o eixo hipotálamo-hipófise-adrenal, e a retirada abrupta pode causar insuficiência adrenal aguda, exigindo diminuição gradual da dose.",
+    "hint": "O organismo pode levar tempo para restabelecer sua função hormonal normal",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 116,
+    "question": "Qual das seguintes substâncias é capaz de estimular a produção de surfactante pulmonar, favorecendo a eliminação do muco?",
+    "options": [
+      "Ambroxol",
+      "Montelucaste",
+      "Sulfato de magnésio",
+      "Omalizumab"
+    ],
+    "correct_answer": "Ambroxol",
+    "justification": "Ambroxol estimula a produção de surfactante e facilita a eliminação do muco, melhorando a função das vias aéreas em doenças respiratórias.",
+    "hint": "Este fármaco é um expectorante que age na secreção pulmonar",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 117,
+    "question": "Em um paciente com asma grave não responsivo a corticosteroides e β2-agonistas, qual terapia biológica é indicada para reduzir eosinófilos e exacerbações?",
+    "options": [
+      "Omalizumab",
+      "Mepolizumab",
+      "Montelucaste",
+      "Nedocromil"
+    ],
+    "correct_answer": "Mepolizumab",
+    "justification": "Mepolizumab é um anticorpo anti-IL-5 que reduz a contagem de eosinófilos, indicado para asma eosinofílica grave refratária.",
+    "hint": "Este anticorpo monoclonal bloqueia a ação da interleucina-5",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 118,
+    "question": "(V / F) Os inibidores da bomba de prótons têm uma curta meia-vida plasmática, porém seu efeito dura 24 a 48 horas devido à inibição irreversível da H+/K+-ATPase nas células parietais gástricas.",
+    "correct_answer": "Verdadeiro",
+    "justification": "IBPs possuem meia-vida plasmática curta, mas inibem irreversivelmente a bomba de prótons, prolongando o efeito até que novas bombas sejam sintetizadas.",
+    "hint": "Considere a diferença entre meia-vida plasmática e duração do efeito farmacológico",
+    "type": "true_false"
+  },
+  {
+    "id": 119,
+    "question": "Qual é o efeito adverso neuropsiquiátrico raro, porém descrito, associado ao uso de antagonistas de leucotrienos como o montelucaste?",
+    "options": [
+      "Convulsões",
+      "Alterações de humor e comportamento",
+      "Paralisia periférica",
+      "Amnésia anterógrada"
+    ],
+    "correct_answer": "Alterações de humor e comportamento",
+    "justification": "Montelucaste pode, raramente, causar efeitos neuropsiquiátricos como agitação, ansiedade e alterações de humor, exigindo acompanhamento clínico.",
+    "hint": "Reações psiquiátricas adversas são listadas como raras, mas importantes",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 120,
+    "question": "Um paciente com Doença Pulmonar Obstrutiva Crônica (DPOC) apresenta necessidade de medicação broncodilatadora de longa duração. Qual a classe de medicamento de escolha para este caso?",
+    "options": [
+      "Corticosteroides sistêmicos",
+      "Anticolinérgicos de longa ação (LAMA)",
+      "Antagonistas de leucotrienos",
+      "Metilxantinas"
+    ],
+    "correct_answer": "Anticolinérgicos de longa ação (LAMA)",
+    "justification": "LAMA são primeira linha para DPOC, pois promovem broncodilatação prolongada e melhor controle dos sintomas ao longo do dia.",
+    "hint": "Considere o padrão terapêutico para DPOC e duração do efeito",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 121,
+    "question": "(V / F) Os beta-2 agonistas de ação curta (SABA) são indicados para alívio imediato dos sintomas em crises agudas de asma.",
+    "correct_answer": "Verdadeiro",
+    "justification": "SABA como salbutamol têm início rápido (5-15 min) e duração curta, ideais para alívio rápido em crises agudas de asma.",
+    "hint": "Considere o início rápido e duração dos SABA no tratamento da asma.",
+    "type": "true_false"
+  },
+  {
+    "id": 122,
+    "question": "(V / F) Corticosteroides inalatórios são a primeira linha para manutenção da asma persistente e devem ser sempre usados associados a beta-2 agonistas de longa duração (LABA).",
+    "correct_answer": "Verdadeiro",
+    "justification": "Corticosteroides inalatórios reduzem inflamação e hiperreatividade; LABA são adicionados para manter broncodilatação, evitando crises e controle sintomas.",
+    "hint": "Observe a combinação recomendada para controle a longo prazo da asma persistente.",
+    "type": "true_false"
+  },
+  {
+    "id": 123,
+    "question": "(V / F) O uso isolado de beta-2 agonistas de longa duração (LABA) em asma é seguro e recomendado para todas as fases da doença.",
+    "correct_answer": "Falso",
+    "justification": "LABA não devem ser usados isoladamente na asma devido ao risco de exacerbações; devem sempre ser combinados com corticosteroides inalatórios na manutenção.",
+    "hint": "Considere as orientações atuais sobre o uso de LABA na asma.",
+    "type": "true_false"
+  },
+  {
+    "id": 124,
+    "question": "(V / F) Anticolinérgicos de longa duração (LAMA) são indicados como primeira linha no tratamento da asma leve a moderada.",
+    "correct_answer": "Falso",
+    "justification": "LAMA são primeira linha para DPOC e podem ser usados em asma grave, mas não são recomendados para asma leve a moderada.",
+    "hint": "Compare indicações de LAMA entre asma e DPOC.",
+    "type": "true_false"
+  },
+  {
+    "id": 125,
+    "question": "(V / F) Antagonistas de leucotrienos são uma opção terapêutica oral para asma leve a moderada, incluindo asma induzida por exercício.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Montelucaste e zafirlucaste bloqueiam leucotrienos, úteis em asma leve/moderada e asma induzida por exercício, além de terem boa tolerabilidade.",
+    "hint": "Reflita sobre modalidades orais no tratamento da asma.",
+    "type": "true_false"
+  },
+  {
+    "id": 126,
+    "question": "(V / F) Omalizumab é um anticorpo monoclonal indicado para asma eosinofílica grave por antagonizar o receptor de IL-5.",
+    "correct_answer": "Falso",
+    "justification": "Omalizumab é anti-IgE, indicado para asma alérgica grave; anti-IL-5 como mepolizumab e benralizumab são indicados para asma eosinofílica grave.",
+    "hint": "Verifique o alvo molecular de omalizumab e suas indicações.",
+    "type": "true_false"
+  },
+  {
+    "id": 127,
+    "question": "(V / F) A teofilina tem janela terapêutica estreita e seu uso na asma foi limitado devido ao risco de efeitos adversos graves como arritmias e convulsões.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Teofilina é broncodilatador com metabolismo hepático, janela terapêutica estreita (10-20 μg/mL), e toxicidade significativa como arritmias e convulsões limitam seu uso.",
+    "hint": "Considere as limitações farmacológicas da teofilina.",
+    "type": "true_false"
+  },
+  {
+    "id": 128,
+    "question": "(V / F) Para evitar candidíase oral em pacientes usando corticosteroides inalatórios, recomenda-se o uso de espaçador e enxágue bucal após a inalação.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Corticosteroides inalatórios podem causar candidíase oral; uso de espaçadores e enxágue após inalação reduz o depósito local do fármaco, prevenindo infecções oportunistas.",
+    "hint": "Analise as medidas preventivas dos efeitos adversos locais dos corticosteroides inalatórios.",
+    "type": "true_false"
+  },
+  {
+    "id": 129,
+    "question": "(V / F) O uso prolongado de corticosteroides sistêmicos para asma deve ser interrompido abruptamente para evitar supressão do eixo hipotálamo-hipófise-adrenal (HPA).",
+    "correct_answer": "Falso",
+    "justification": "Retirada abrupta pode causar insuficiência adrenal aguda devido à supressão do eixo HPA; a retirada deve ser gradual para permitir recuperação da função adrenal.",
+    "hint": "Reflita sobre a retirada dos corticosteroides sistêmicos e riscos associados.",
+    "type": "true_false"
+  },
+  {
+    "id": 130,
+    "question": "(V / F) O uso prolongado de corticosteroides sistêmicos pode causar supressão do eixo hipotálamo-hipófise-adrenal, exigindo retirada gradual para evitar insuficiência adrenal aguda.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Corticosteroides suprimem a produção endógena de ACTH e cortisol. A retirada súbita pode levar à insuficiência adrenal aguda, por isso deve ser gradual para permitir recuperação do eixo HPA.",
+    "hint": "A supressão do eixo HPA pode durar semanas ou meses após o uso contínuo.",
+    "type": "true_false"
+  },
+  {
+    "id": 131,
+    "question": "(V / F) Corticosteroides inalados em doses elevadas e por tempo prolongado podem causar efeitos sistêmicos como osteoporose e retardo de crescimento em crianças.",
+    "correct_answer": "Verdadeiro",
+    "justification": "O uso crônico de corticosteroides inalados em doses altas pode levar a absorção sistêmica suficiente para causar efeitos como supressão do eixo HPA, osteoporose e retardo do crescimento pediátrico.",
+    "hint": "Apesar da administração local, corticosteroides inalados podem ser absorvidos sistemicamente.",
+    "type": "true_false"
+  },
+  {
+    "id": 132,
+    "question": "(V / F) O tratamento de asma grave com corticosteroides orais deve ser sempre substituído por terapia biológica (anticorpos monoclonais) para evitar efeitos adversos.",
+    "correct_answer": "Falso",
+    "justification": "Embora terapias biológicas reduzam a necessidade de corticosteroides em asma grave, estes ainda são essenciais em crises e exacerbations. O uso deve ser individualizado, não substituindo completamente corticosteroides orais.",
+    "hint": "Biológicos são indicados em casos específicos e não substituem corticosteroides em todas as situações.",
+    "type": "true_false"
+  },
+  {
+    "id": 133,
+    "question": "(V / F) Pacientes idosos em uso de corticosteroides sistêmicos possuem maior risco de retenção urinária devido ao efeito mineralocorticoide desses fármacos.",
+    "correct_answer": "Falso",
+    "justification": "A retenção urinária em idosos é um efeito adverso típico dos anticolinérgicos (muscarínicos), não dos corticosteroides, que possuem efeito mineralocorticoide, porém não causam esse efeito específico.",
+    "hint": "Os efeitos de retenção urinária são associados principalmente a outro grupo farmacológico no sistema respiratório.",
+    "type": "true_false"
+  },
+  {
+    "id": 134,
+    "question": "(V / F) O uso concomitante de corticosteroides sistêmicos e inibidores da bomba de prótons é comum para prevenção de úlceras gástricas induzidas pelo estresse e medicamentos.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Os corticosteroides aumentam o risco de úlceras gástricas e, quando usados com AINEs ou em condições de estresse, a profilaxia com IBP é recomendada para proteger a mucosa gástrica.",
+    "hint": "Corticosteroides podem aumentar risco de úlceras, especialmente se associados a outros fatores de risco.",
+    "type": "true_false"
+  },
+  {
+    "id": 135,
+    "question": "(V/F) Os inibidores da bomba de prótons (IBPs) atuam por inibição reversível da enzima H+/K+-ATPase nas células parietais gástricas.",
+    "correct_answer": "Falso",
+    "justification": "Os IBPs ligam-se irreversivelmente à bomba H+/K+-ATPase, inibindo a secreção ácida até que novas bombas sejam sintetizadas, o que explica a duração prolongada do efeito mesmo com meia-vida plasmática curta.",
+    "hint": "Considere o tipo de ligação entre o fármaco ativo e a enzima.",
+    "type": "true_false"
+  },
+  {
+    "id": 136,
+    "question": "(V/F) O omeprazol deve ser administrado em jejum, 30 a 60 minutos antes da primeira refeição do dia, para maximizar sua absorção e efeito.",
+    "correct_answer": "Verdadeiro",
+    "justification": "IBPs são absorvidos no duodeno em pH alcalino; usar em jejum antes da refeição promove maior absorção e ativação da bomba ácida, garantindo eficácia máxima.",
+    "hint": "Pense na farmacocinética dos IBPs e no local de absorção.",
+    "type": "true_false"
+  },
+  {
+    "id": 137,
+    "question": "(V/F) O uso concomitante de inibidores da bomba de prótons pode alterar a metabolização de fármacos que dependem do CYP2C19, devido à inibição dessa enzima hepática.",
+    "correct_answer": "Falso",
+    "justification": "Os IBPs são metabolizados pelas enzimas CYP2C19 e CYP3A4, mas não as inibem significativamente; contudo, podem competir como substratos, alterando o metabolismo de outros fármacos.",
+    "hint": "Considere se os IBPs são inibidores enzimáticos ou substratos do CYP2C19.",
+    "type": "true_false"
+  },
+  {
+    "id": 138,
+    "question": "(V/F) A administração em dose única diária de IBPs é geralmente suficiente para controlar a secreção ácida, pois a inibição da bomba é irreversível e dura até a regeneração da enzima.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Apesar da meia-vida curta, o efeito dos IBPs dura 24-48h devido à ligação irreversível às bombas de prótons, o que permite a dosagem diária para controle ácido eficaz.",
+    "hint": "Pense na meia-vida plasmática versus duração do efeito clínico.",
+    "type": "true_false"
+  },
+  {
+    "id": 139,
+    "question": "(V/F) Uma das principais indicações dos IBPs é a profilaxia de úlceras gástricas em pacientes que utilizam anti-inflamatórios não esteroidais (AINEs).",
+    "correct_answer": "Verdadeiro",
+    "justification": "IBPs reduzem a secreção ácida, protegendo mucosa gástrica e prevenindo úlceras associadas ao uso crônico de AINEs, sendo essa uma indicação amplamente aceita.",
+    "hint": "Reflita sobre a relação entre uso de AINEs e risco gastrointestinal.",
+    "type": "true_false"
+  },
+  {
+    "id": 140,
+    "question": "(V/F) O tratamento de primeira linha para pacientes com DPOC inclui o uso de broncodilatadores de longa ação, especialmente os antagonistas muscarínicos de longa duração (LAMA).",
+    "correct_answer": "Verdadeiro",
+    "justification": "Antagonistas muscarínicos de longa ação (LAMA) como tiotrópio são a base do tratamento na DPOC, proporcionando broncodilatação prolongada e redução das exacerbações, sendo preferidos em relação aos beta-2 agonistas de longa ação isolados.",
+    "hint": "LAMA são considerados primeira linha na DPOC devido à melhora sustentada dos sintomas.",
+    "type": "true_false"
+  },
+  {
+    "id": 141,
+    "question": "(V/F) O uso isolado de beta-2 agonistas de longa duração (LABA) é recomendado para manutenção na asma e DPOC, sem necessidade de associação com corticosteroides inalatórios.",
+    "correct_answer": "Falso",
+    "justification": "Na asma, LABA devem ser sempre usados em associação com corticosteroides inalatórios para controle da inflamação; seu uso isolado pode aumentar o risco de exacerbações graves. Na DPOC, LABA isolados podem ser usados, mas na asma, a combinação é essencial.",
+    "hint": "Revisite as indicações terapêuticas para LABA na asma.",
+    "type": "true_false"
+  },
+  {
+    "id": 142,
+    "question": "(V/F) Os corticosteroides sistêmicos são indicados no manejo de exacerbações graves de DPOC para reduzir a inflamação e melhorar a função pulmonar.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Corticosteroides sistêmicos são usados em exacerbações de DPOC para diminuir inflamação aguda, reduzir tempo de hospitalização e melhorar função pulmonar, devendo ser usados por curto período para minimizar efeitos adversos.",
+    "hint": "Considere o papel dos glicocorticoides nas crises respiratórias.",
+    "type": "true_false"
+  },
+  {
+    "id": 143,
+    "question": "(V/F) Anticolinérgicos de curta ação (SAMA), como ipratrópio, são utilizados no manejo da DPOC para alívio rápido de sintomas durante crises, sendo inadequados para uso de manutenção prolongada.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Ipratrópio, um SAMA, tem início rápido e duração limitada, sendo indicado para alívio rápido de sintomas na DPOC, mas para manutenção são preferidos os LAMA devido à ação prolongada e melhor perfil de eficácia.",
+    "hint": "Diferencie os anticolinérgicos conforme seu tempo de ação e indicações clínicas.",
+    "type": "true_false"
+  },
+  {
+    "id": 144,
+    "question": "(F) Os citoprotectores, como o sucralfato, são indicados como primeira linha no tratamento da doença do refluxo gastroesofágico (DRGE).",
+    "correct_answer": "Falso",
+    "justification": "Os inibidores da bomba de prótons são a primeira linha no tratamento da DRGE, enquanto os citoprotectores são usados como adjuvantes ou em casos específicos, não como terapia inicial padrão.",
+    "hint": "Considere qual medicamento é a base do tratamento da DRGE segundo as recomendações atuais.",
+    "type": "true_false"
+  },
+  {
+    "id": 145,
+    "question": "(V) O uso de citoprotectores é contraindicado em pacientes com insuficiência renal grave devido ao risco de acumulação de alumínio.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Citoprotectores que contêm alumínio, como o sucralfato, podem acumular-se em pacientes com insuficiência renal grave, aumentando o risco de toxicidade, razão pela qual são contraindicados ou usados com cautela nesses casos.",
+    "hint": "Pense na composição química de alguns citoprotectores e sua eliminação.",
+    "type": "true_false"
+  },
+  {
+    "id": 146,
+    "question": "(F) O misoprostol, um citoprotetor, está contraindicado em gestantes devido ao seu potencial efeito abortivo.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Misoprostol é um análogo de prostaglandina que pode induzir contrações uterinas, aumentando o risco de aborto ou parto prematuro, razão pela qual é contraindicado em gestantes.",
+    "hint": "Avalie os efeitos do misoprostol no útero durante a gravidez.",
+    "type": "true_false"
+  },
+  {
+    "id": 147,
+    "question": "(V) A combinação de citoprotectores com inibidores da bomba de prótons pode ser utilizada para aumentar a proteção gástrica em pacientes com alto risco de úlcera péptica.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Em pacientes com alto risco de úlcera (uso crônico de AINEs, história de úlceras), a associação de citoprotectores com IBPs pode potencializar a proteção da mucosa gástrica.",
+    "hint": "Considere estratégias combinadas para proteção gástrica em pacientes vulneráveis.",
+    "type": "true_false"
+  },
+  {
+    "id": 148,
+    "question": "(V / F) A teofilina exerce seu efeito broncodilatador principalmente pela inibição da fosfodiesterase, o que aumenta os níveis intracelulares de AMPc.",
+    "correct_answer": "Verdadeiro",
+    "justification": "A teofilina inibe a fosfodiesterase, prevenindo a degradação do AMPc, o que promove o relaxamento da musculatura lisa brônquica e broncodilatação.",
+    "hint": "Considere o mecanismo clássico das metilxantinas relacionadas ao AMPc.",
+    "type": "true_false"
+  },
+  {
+    "id": 149,
+    "question": "(V / F) Os antagonistas dos receptores de leucotrienos, como o montelucaste, são indicados exclusivamente para asma grave e não apresentam uso na rinite alérgica.",
+    "correct_answer": "Falso",
+    "justification": "Montelucaste é indicado para asma leve a moderada e rinite alérgica, além da asma induzida por exercício, com boa tolerabilidade e via oral.",
+    "hint": "Reflita sobre as múltiplas indicações dos antagonistas de leucotrienos, especialmente em doenças alérgicas.",
+    "type": "true_false"
+  },
+  {
+    "id": 150,
+    "question": "(V / F) Os β2-agonistas de longa ação (LABA) nunca devem ser usados isoladamente no tratamento da asma devido ao risco aumentado de exacerbações graves.",
+    "correct_answer": "Verdadeiro",
+    "justification": "LABA são usados exclusivamente em combinação com corticosteroides inalatórios na asma para evitar exacerbações graves e controle inadequado da inflamação.",
+    "hint": "Pense na associação recomendada para reduzir riscos no tratamento da asma persistente.",
+    "type": "true_false"
+  },
+  {
+    "id": 151,
+    "question": "(V / F) O uso prolongado de corticosteroides sistêmicos pode levar a supressão do eixo hipotálamo-hipófise-adrenal, exigindo retirada gradual para evitar insuficiência adrenal aguda.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Corticosteroides sistêmicos em uso prolongado suprimem o eixo HPA; a retirada abrupta pode causar insuficiência adrenal, por isso deve ser gradual.",
+    "hint": "Considere os efeitos sistêmicos e endocrinológicos dos glicocorticoides.",
+    "type": "true_false"
+  },
+  {
+    "id": 152,
+    "question": "(V / F) Os inibidores da bomba de prótons (IBP) atuam irreversivelmente na bomba H+/K+-ATPase, o que explica sua longa duração do efeito mesmo após meia-vida plasmática curta.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Embora tenham meia-vida curta, os IBPs inibem irreversivelmente a bomba de prótons, exigindo síntese de novas bombas para retomar a secreção ácida, o que prolonga o efeito.",
+    "hint": "Reflita sobre a relação entre mecanismo de ação e duração do efeito dos IBPs.",
+    "type": "true_false"
+  },
+  {
+    "id": 153,
+    "question": "(V / F) A candidíase oral é um efeito adverso comum dos corticosteroides inalatórios, e a recomendação para prevenção inclui o uso de espaçador e higienização bucal após a inalação.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Os corticosteroides inalatórios podem causar candidíase oral; usar espaçador e enxaguar a boca após o uso diminui o risco.",
+    "hint": "Considere medidas práticas para minimizar efeitos locais dos corticosteroides inalatórios.",
+    "type": "true_false"
+  },
+  {
+    "id": 154,
+    "question": "(V / F) O ipratrópio é um antagonista muscarínico de ação longa (LAMA) indicado como primeira linha para o tratamento da asma persistente leve.",
+    "correct_answer": "Falso",
+    "justification": "Ipratrópio é um anticolinérgico de ação curta (SAMA), usado principalmente na DPOC, não de primeira linha para asma leve persistente.",
+    "hint": "Observe a classificação dos anticolinérgicos quanto à duração e indicações clínicas.",
+    "type": "true_false"
+  },
+  {
+    "id": 155,
+    "question": "(V / F) O omalizumab é um anticorpo monoclonal anti-IgE indicado para asma alérgica grave que não responde a tratamento convencional com corticosteroides inalatórios e LABA.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Omalizumab se liga ao IgE livre, reduzindo sua disponibilidade e controle a asma alérgica grave refratária à terapia convencional.",
+    "hint": "Pense no mecanismo específico e na indicação clínica dos anticorpos monoclonais na asma.",
+    "type": "true_false"
+  },
+  {
+    "id": 156,
+    "question": "(V / F) Os mucolíticos como a N-acetilcisteína atuam quebrando as pontes dissulfeto do muco, facilitando sua expectoração, além de possuir efeito antioxidante.",
+    "correct_answer": "Verdadeiro",
+    "justification": "N-acetilcisteína rompe pontes dissulfeto do muco, diminuindo sua viscosidade, e possui efeito antioxidante que ajuda na desintoxicação pulmonar.",
+    "hint": "Considere as ações químicas e clínicas dos mucolíticos em doenças pulmonares.",
+    "type": "true_false"
+  },
+  {
+    "id": 157,
+    "question": "(V / F) O uso dos inibidores da bomba de prótons eleva o pH do estômago, o que pode interferir na absorção de alguns fármacos, como o clopidogrel, devido à inibição do CYP2C19.",
+    "correct_answer": "Verdadeiro",
+    "justification": "IBPs são metabolizados pelo CYP2C19 e podem inibir sua atividade, reduzindo a ativação do clopidogrel, além de elevarem o pH gástrico, influenciando absorção de outros fármacos.",
+    "hint": "Reflita sobre interações medicamentosas envolvendo metabolismo hepático e pH gástrico.",
+    "type": "true_false"
+  },
+  {
+    "id": 158,
+    "question": "(V / F) As metilxantinas apresentam janela terapêutica ampla, o que permite seu uso em doses variadas sem risco significativo de toxicidade.",
+    "correct_answer": "Falso",
+    "justification": "As metilxantinas possuem janela terapêutica estreita (10-20 μg/mL), exigindo monitoramento rigoroso para evitar toxicidade grave.",
+    "hint": "Avalie o perfil de segurança e monitoramento da teofilina e aminofilina.",
+    "type": "true_false"
+  },
+  {
+    "id": 159,
+    "question": "Um paciente de 35 anos apresenta quadro de asma persistente leve, com sintomas diurnos mais de duas vezes por semana, mas menos de uma vez por dia, e despertares noturnos ocasionais. Qual é a melhor conduta terapêutica inicial para o controle dessa asma?",
+    "options": [
+      "Uso isolado de beta-2 agonista de curta ação (SABA) conforme necessidade",
+      "Corticosteroide inalatório em baixa dose como terapia de manutenção",
+      "Antagonista dos leucotrienos em monoterapia",
+      "Associação de corticosteroide inalatório com beta-2 agonista de longa ação (LABA)"
+    ],
+    "correct_answer": "Corticosteroide inalatório em baixa dose como terapia de manutenção",
+    "justification": "Para asma persistente leve, corticosteroides inalatórios são primeira linha para reduzir inflamação e prevenir sintomas, enquanto SABA é usado apenas para resgate. LABA só é indicado em associação a corticosteroide. Antagonistas dos leucotrienos são alternativa, menos eficazes isoladamente.",
+    "hint": "Tratamento de asma persistente envolve controle da inflamação das vias aéreas.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 160,
+    "question": "Paciente com DPOC está em uso de tiotrópio 18 mcg/dia para controle dos sintomas. Após avaliação, que efeito adverso relacionado ao tiotrópio deve ser monitorado especialmente em pacientes idosos?",
+    "options": [
+      "Hipocalemia e arritmias cardíacas",
+      "Retenção urinária e boca seca",
+      "Aumento do risco de candidíase oral",
+      "Supressão do eixo hipotálamo-hipófise-adrenal"
+    ],
+    "correct_answer": "Retenção urinária e boca seca",
+    "justification": "Tiotrópio é um anticolinérgico de longa ação (LAMA) que bloqueia receptores muscarínicos, podendo causar boca seca e retenção urinária, principalmente em idosos. Hipocalemia é mais comum com beta-2 agonistas; candidíase oral é efeito dos corticosteroides inalatórios; supressão do eixo HPA ocorre com corticosteroides sistêmicos.",
+    "hint": "Anticolinérgicos frequentemente causam efeitos antimuscarínicos.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 161,
+    "question": "No tratamento da doença do refluxo gastroesofágico (DRGE), os inibidores da bomba de prótons (IBP) devem ser administrados preferencialmente em qual momento para otimizar seu efeito terapêutico?",
+    "options": [
+      "Após a última refeição do dia, para maximizar a noite de repouso gástrico",
+      "A qualquer momento do dia, pois seu efeito é independente do horário",
+      "Em jejum, 30 a 60 minutos antes da primeira refeição do dia",
+      "Imediatamente após as refeições para bloquear a secreção ácida estimulada"
+    ],
+    "correct_answer": "Em jejum, 30 a 60 minutos antes da primeira refeição do dia",
+    "justification": "IBPs são pró-fármacos ativados em meio ácido e agem de forma irreversível nas bombas H+/K+-ATPase em atividade. Administrá-los em jejum, antes da primeira refeição, garante que as bombas estejam ativas para serem inibidas, otimizando o efeito do medicamento.",
+    "hint": "IBPs necessitam da ativação das bombas para exercerem seu efeito.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 162,
+    "question": "(V/F) O uso concomitante de corticosteroides inalatórios e beta-2 agonistas de longa duração (LABA) é a abordagem recomendada para pacientes com asma moderada a grave, uma vez que LABAs não devem ser usados isoladamente devido ao risco de exacerbações.",
+    "correct_answer": "Verdadeiro",
+    "justification": "LABAs são indicados apenas em associação com corticosteroides inalatórios no tratamento da asma, pois o uso isolado aumenta risco de eventos adversos graves. A combinação controla sintomas e reduz risco de exacerbações, melhorando controle da doença.",
+    "hint": "Associações visam maior eficácia e segurança.",
+    "type": "true_false"
+  },
+  {
+    "id": 163,
+    "question": "Um paciente asmático grave com eosinofilia persistente apresenta exacerbações frequentes apesar do uso otimizado de corticosteroides inalatórios e LABA. Qual terapia biológica é mais indicada para esse perfil?",
+    "options": [
+      "Omalizumab, bloqueador de IgE",
+      "Mepolizumab, anticorpo anti-IL-5",
+      "Montelucaste, antagonista de leucotrienos via oral",
+      "Dupilumab, anticorpo anti-IL-4/IL-13"
+    ],
+    "correct_answer": "Mepolizumab, anticorpo anti-IL-5",
+    "justification": "Mepolizumab é indicado para asma eosinofílica grave e reduz eosinófilos que contribuem para inflamação e exacerbações. Omalizumab é para asma alérgica, Dupilumab para asma tipo 2, mas o IL-5 é alvo específico para eosinofilia elevada; Montelucaste tem menor eficácia em casos graves.",
+    "hint": "Eosinofilia está relacionada à via IL-5 na asma grave.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 164,
+    "question": "Um paciente com asma persistente moderada apresenta uso frequente de salbutamol para alívio dos sintomas. A melhor estratégia farmacológica para controle a longo prazo inclui:",
+    "options": [
+      "Manter apenas o salbutamol em uso regular",
+      "Introduzir um corticosteroide inalatório associado a um LABA",
+      "Adicionar um antagonista muscarínico de ação curta",
+      "Substituir salbutamol por teofilina em monoterapia"
+    ],
+    "correct_answer": "Introduzir um corticosteroide inalatório associado a um LABA",
+    "justification": "Corticosteroides inalados reduzem inflamação e hiperreatividade, enquanto LABA fornecem broncodilatação prolongada. Salbutamol é para alívio rápido e não controle diário. Anticolinérgicos curtos e teofilina têm indicações limitadas na asma persistente.",
+    "hint": "Tratamento de controle em asma persistente envolve redução da inflamação e broncodilatação prolongada.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 165,
+    "question": "Paciente idoso com DPOC faz uso crônico de tiotrópio. Ele apresenta boca seca e dificuldade para urinar. Qual é a relação desses sintomas com o medicamento?",
+    "options": [
+      "São efeitos adversos típicos dos beta-2 agonistas",
+      "São efeitos causados por antagonistas muscarínicos de ação longa",
+      "São provocados por metilxantinas devido à toxicidade",
+      "São efeitos secundários comuns dos corticosteroides sistêmicos"
+    ],
+    "correct_answer": "São efeitos causados por antagonistas muscarínicos de ação longa",
+    "justification": "Tiotrópio é um LAMA que bloqueia receptores muscarínicos, levando a efeitos adversos anticolinérgicos, como boca seca e retenção urinária, sobretudo em idosos. Beta-2 agonistas causam tremor, metilxantinas causam arritmias e corticosteroides apresentam outros efeitos.",
+    "hint": "Efeitos anticolinérgicos sistêmicos incluem boca seca e retenção urinária.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 166,
+    "question": "(V/F) Os inibidores da bomba de prótons (IBP) devem ser administrados em jejum, cerca de 30 a 60 minutos antes da primeira refeição do dia, para otimizar sua absorção e eficácia.",
+    "correct_answer": "Verdadeiro",
+    "justification": "IBPs são pró-fármacos que precisam ser absorvidos no duodeno (pH alcalino) e ativados no ambiente ácido das células parietais. O uso em jejum antes da refeição maximiza a absorção e a inibição da bomba H+/K+-ATPase, garantindo melhor controle da secreção ácida.",
+    "hint": "O local e o tempo de absorção dos IBP são importantes para o efeito terapêutico.",
+    "type": "true_false"
+  },
+  {
+    "id": 167,
+    "question": "Paciente com DRGE apresenta sintomas persistentes mesmo após uso de omeprazol 20 mg uma vez ao dia pela manhã. Qual a conduta mais adequada?",
+    "options": [
+      "Dobrar a dose para 40 mg ao deitar",
+      "Adicionar um antiácido para uso diário contínuo",
+      "Substituir omeprazol por antagonista H2",
+      "Interromper o IBP e iniciar metoclopramida"
+    ],
+    "correct_answer": "Dobrar a dose para 40 mg ao deitar",
+    "justification": "Pacientes refratários ao IBP em dose única podem se beneficiar de uma segunda dose antes do jantar para melhorar o controle ácido. Antiácidos não são indicados para uso contínuo, antagonistas H2 têm menor eficácia em DRGE, e metoclopramida não substitui IBP.",
+    "hint": "Alguns pacientes necessitam de dose adicional para controle noturno da secreção ácida.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 168,
+    "question": "Paciente de 55 anos com diagnóstico de DPOC grave apresenta piora progressiva da dispneia e aumento do volume de escarro purulento. Atualmente faz uso regular de tiotrópio inalatório. Qual a conduta mais adequada para manejo da exacerbação aguda?",
+    "options": [
+      "Aumentar dose de tiotrópio e prescrever anticolinérgico de ação curta",
+      "Iniciar corticosteroide sistêmico e antibioticoterapia associada",
+      "Substituir tiotrópio por beta-2 agonista de longa duração",
+      "Prescrever apenas beta-2 agonista de curta ação para alívio dos sintomas"
+    ],
+    "correct_answer": "Iniciar corticosteroide sistêmico e antibioticoterapia associada",
+    "justification": "Exacerbações de DPOC frequentemente associam inflamação e infecção; corticosteroides sistêmicos reduzem inflamação e melhoram função pulmonar, enquanto antibióticos tratam possível infecção bacteriana. Manter broncodilatadores é importante, mas não suficiente isoladamente.",
+    "hint": "Exacerbações graves de DPOC geralmente requerem anti-inflamatórios e controle da infecção.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 169,
+    "question": "(V / F) O uso prolongado e em altas doses de corticosteroides inalados pode causar supressão do eixo hipotálamo-hipófise-adrenal, semelhante ao corticosteroide sistêmico.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Corticosteroides inalatórios têm menor risco sistêmico, mas em altas doses e uso prolongado podem causar supressão do eixo HPA, levando a efeitos adversos semelhantes aos corticosteroides sistêmicos.",
+    "hint": "Mesmo inalados, corticosteroides podem ser absorvidos sistemicamente.",
+    "type": "true_false"
+  },
+  {
+    "id": 170,
+    "question": "Paciente asmático grave em uso de LABA associado a corticosteroide inalatório apresenta exacerbação frequente dos sintomas. Qual terapia biológica seria mais indicada para esse paciente, considerando as características imunológicas da asma tipo 2?",
+    "options": [
+      "Omalizumab (anti-IgE)",
+      "Montelucaste (antagonista de leucotrieno)",
+      "Teofilina (metilxantina)",
+      "Dexametasona oral para controle das exacerbações"
+    ],
+    "correct_answer": "Omalizumab (anti-IgE)",
+    "justification": "Omalizumab é indicado para asma alérgica grave, reduzindo IgE livre e controle de sintomas refratários a tratamento convencional. Montelucaste é adjuvante, mas menos eficaz em asma grave; Teofilina tem uso limitado; corticosteroides sistêmicos não são terapia biológica.",
+    "hint": "Terapias biológicas atuam em mediadores específicos da resposta imune da asma.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 171,
+    "question": "Paciente masculino de 55 anos, portador de artrite reumatoide, em uso crônico de AINEs, apresenta dor epigástrica e endoscopia evidencia úlcera gástrica. Qual a melhor conduta farmacológica para proteger a mucosa gástrica e prevenir novas lesões nestes casos?",
+    "options": [
+      "Prescrever misoprostol associado aos AINEs para proteção gástrica",
+      "Prescrever sucralfato isoladamente sem suspender os AINEs",
+      "Substituir os AINEs por corticosteroides sistêmicos para evitar lesões gástricas",
+      "Usar apenas omeprazol em monoterapia para o tratamento da úlcera"
+    ],
+    "correct_answer": "Prescrever misoprostol associado aos AINEs para proteção gástrica",
+    "justification": "Misoprostol reduz lesões gástricas induzidas por AINEs pela ação citoprotetora das prostaglandinas, preservando a mucosa e estimulando a secreção de muco e bicarbonato. Sucralfato pode ser usado, mas o misoprostol é mais indicado para prevenção em uso contínuo de AINEs.",
+    "hint": "Misoprostol é um análogo da prostaglandina E1 utilizado para proteção gástrica em uso crônico de AINEs.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 172,
+    "question": "(V / F) Sucralfato age como um citoprotetor por formar uma barreira física na mucosa gástrica, sendo indicado como tratamento isolado em úlceras ativas para proteção local.",
+    "correct_answer": "Verdadeiro",
+    "justification": "Sucralfato se liga às proteínas expostas das lesões gástricas, formando um revestimento protetor que impede agressão ácida e favorece cicatrização local. É utilizado em úlceras ativas como tratamento adjuvante para proteção da mucosa.",
+    "hint": "Considere o mecanismo local de ação do sucralfato na mucosa gástrica.",
+    "type": "true_false"
+  },
+  {
+    "id": 173,
+    "question": "Paciente de 45 anos com diagnóstico confirmado de infecção por Helicobacter pylori apresenta falha na erradicação após esquema padrão com inibidor da bomba de prótons (IBP), amoxicilina e claritromicina. Considerando a farmacologia dos IBPs e tratamento para H. pylori, qual é a conduta mais apropriada para o retratamento deste paciente?",
+    "options": [
+      "Repetir o mesmo esquema terapêutico por mais 14 dias",
+      "Iniciar terapia com IBP, metronidazol e levofloxacino",
+      "Usar apenas IBP em dose dobrada por 4 semanas",
+      "Suspender todos os antibióticos e observar evolução clínica"
+    ],
+    "correct_answer": "Iniciar terapia com IBP, metronidazol e levofloxacino",
+    "justification": "Após falha no tratamento padrão com claritromicina, recomenda-se escolher antibióticos alternativos, como metronidazol e levofloxacino, associados ao IBP para aumentar as chances de erradicação, minimizando resistência e efeitos adversos.",
+    "hint": "O uso de antibióticos alternativos é recomendado em casos de falha no esquema inicial devido à resistência bacteriana.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 174,
+    "question": "Em relação ao uso dos inibidores da bomba de prótons (IBPs) no tratamento da infecção por Helicobacter pylori, assinale a alternativa correta:",
+    "options": [
+      "Os IBPs inibem reversivelmente a bomba H+/K+-ATPase, necessitando doses múltiplas ao dia.",
+      "IBPs são pró-fármacos ativados em meio alcalino e acumulam-se no estômago proximal.",
+      "O uso dos IBPs aumenta o pH gástrico, favorecendo a ação dos antibióticos contra H. pylori.",
+      "Deve-se administrar os IBPs preferencialmente após a refeição para melhor eficácia."
+    ],
+    "correct_answer": "O uso dos IBPs aumenta o pH gástrico, favorecendo a ação dos antibióticos contra H. pylori.",
+    "justification": "IBPs aumentam o pH gástrico inibindo irreversivelmente a bomba H+/K+-ATPase, criando ambiente menos ácido que melhora a atividade dos antibióticos e facilita a erradicação do H. pylori. São pró-fármacos ativados em meio ácido, administrados em jejum para melhor absorção.",
+    "hint": "A eficácia dos antibióticos contra H. pylori está relacionada ao ambiente gástrico menos ácido.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 175,
+    "question": "Um paciente com DPOC está em uso crônico de tiotrópio e apresenta aumento da dispneia e tosse produtiva nas últimas 48 horas, sem febre. Qual a conduta mais indicada inicialmente para manejo dessa exacerbação?",
+    "options": [
+      "Aumentar a dose de tiotrópio e manter observação",
+      "Iniciar beta-2 agonista de curta ação inalatório e corticosteroide sistêmico",
+      "Prescrever antibiótico oral e suspender anticolinérgico",
+      "Iniciar teofilina oral para broncodilatação adicional"
+    ],
+    "correct_answer": "Iniciar beta-2 agonista de curta ação inalatório e corticosteroide sistêmico",
+    "justification": "O tratamento de exacerbação de DPOC inclui broncodilatadores de ação curta para alívio rápido dos sintomas e corticosteroides sistêmicos para reduzir inflamação e acelerar recuperação. Antibióticos são indicados se houver suspeita de infecção bacteriana. Teofilina é reservada para casos refratários por sua toxicidade.",
+    "hint": "Exacerbações de DPOC geralmente requerem broncodilatação rápida e controle da inflamação.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 176,
+    "question": "V/F: A administração de corticosteroides sistêmicos em doses elevadas por curto período não necessita de desmame gradual para evitar insuficiência adrenal aguda.",
+    "correct_answer": "Falso",
+    "justification": "A supressão do eixo HPA pode ocorrer rapidamente, e a retirada abrupta de corticosteroides pode causar insuficiência adrenal aguda; portanto, o desmame gradual é recomendado mesmo após uso curto em doses elevadas.",
+    "hint": "O eixo hipotálamo-hipófise-adrenal pode ser suprimido mesmo após poucos dias de uso de glicocorticoides.",
+    "type": "true_false"
+  },
+  {
+    "id": 177,
+    "question": "Paciente asmático grave em uso contínuo de formoterol associado a corticosteroide inalatório apresenta episódios frequentes de crises. Qual conduta terapêutica é a mais adequada para melhorar o controle da asma?",
+    "options": [
+      "Aumentar dose do corticosteroide inalatório e manter formoterol",
+      "Substituir formoterol por salbutamol para uso diário",
+      "Adicionar anti-leucotrieno à terapia atual",
+      "Iniciar terapia biológica com anticorpos monoclonais"
+    ],
+    "correct_answer": "Iniciar terapia biológica com anticorpos monoclonais",
+    "justification": "Em asma grave não controlada mesmo com corticosteroide inalatório e LABA, a terapia biológica (e.g., anti-IgE, anti-IL-5) é indicada para reduzir exacerbations e melhorar controle. Aumentar dose pode aumentar efeitos adversos; formoterol não é para uso diário isolado; anti-leucotrienos têm papel limitado em asma grave.",
+    "hint": "Pacientes com asma grave e sintomas frequentes podem se beneficiar de terapias específicas direcionadas à inflamação subjacente.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 178,
+    "question": "Qual é a principal razão para a limitação do uso da teofilina no tratamento das doenças respiratórias atualmente?",
+    "options": [
+      "Baixa eficácia broncodilatadora em comparação com beta-2 agonistas",
+      "Janela terapêutica estreita e múltiplas interações medicamentosas",
+      "Alto custo em relação aos corticosteroides inalatórios",
+      "Frequente indução de tolerância e perda de efeito após semanas"
+    ],
+    "correct_answer": "Janela terapêutica estreita e múltiplas interações medicamentosas",
+    "justification": "A teofilina possui janela terapêutica estreita (10–20 μg/mL), exigindo monitoramento cuidadoso para evitar efeitos tóxicos como arritmias e convulsões. Além disso, tem muitas interações medicamentosas, limitando seu uso. Sua eficácia não é inferior, custo não é principal limitação e não há indução significativa de tolerância.",
+    "hint": "O monitoramento serum é necessário para evitar toxicidade séria.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 179,
+    "question": "Qual é o principal mecanismo de ação dos beta-2 agonistas de ação curta no tratamento da asma?",
+    "options": [
+      "Bloqueio dos receptores muscarínicos M3",
+      "Inibição da fosfodiesterase aumentando AMPc",
+      "Ativação dos receptores β2-adrenérgicos e aumento de AMPc intracelular",
+      "Antagonismo dos receptores de leucotrienos",
+      "Estimulação da produção de surfactante pulmonar"
+    ],
+    "correct_answer": "Ativação dos receptores β2-adrenérgicos e aumento de AMPc intracelular",
+    "justification": "Beta-2 agonistas ativam receptores β2-adrenérgicos na musculatura lisa, aumentando AMPc e promovendo broncodilatação rápida, essencial para alívio de crises.",
+    "hint": "Pense no receptor que relaxa a musculatura lisa brônquica.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 180,
+    "question": "Qual dos seguintes fármacos é um antagonista muscarínico de ação longa utilizado como primeira linha no tratamento da DPOC?",
+    "options": [
+      "Ipratrópio",
+      "Tiotrópio",
+      "Salbutamol",
+      "Montelucaste"
+    ],
+    "correct_answer": "Tiotrópio",
+    "justification": "Tiotrópio é um LAMA (antagonista muscarínico de ação longa), primeira escolha para DPOC, bloqueando receptores M3 e promovendo broncodilatação sustentada.",
+    "hint": "Esse fármaco tem duração para 24 horas e é usado especificamente em DPOC.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 181,
+    "question": "A teofilina exerce seu efeito broncodilatador principalmente por:",
+    "options": [
+      "Inibição da bomba H+/K+-ATPase",
+      "Bloqueio dos receptores muscarínicos",
+      "Antagonismo dos receptores de adenosina e inibição da fosfodiesterase",
+      "Ligação aos receptores de glicocorticoides",
+      "Bloqueio dos receptores de leucotrienos"
+    ],
+    "correct_answer": "Antagonismo dos receptores de adenosina e inibição da fosfodiesterase",
+    "justification": "Teofilina inibe fosfodiesterase e antagoniza receptores de adenosina, aumentando AMPc e promovendo broncodilatação, embora tenha janela terapêutica estreita e múltiplas interações.",
+    "hint": "Considere o efeito sobre AMPc e receptores associados a broncoconstrição.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 182,
+    "question": "Qual efeito adverso é mais comum com o uso prolongado de corticosteroides inalatórios em crianças?",
+    "options": [
+      "Supressão adrenal",
+      "Retardo do crescimento",
+      "Hiperglicemia",
+      "Glaucoma"
+    ],
+    "correct_answer": "Retardo do crescimento",
+    "justification": "O uso prolongado de corticosteroides inalados pode retardar o crescimento em crianças, embora seus efeitos sistêmicos sejam menores comparados ao uso oral.",
+    "hint": "Fique atento ao impacto em crianças versus adultos.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 183,
+    "question": "Montelucaste é indicado para qual das seguintes condições respiratórias?",
+    "options": [
+      "Asma grave refratária com uso de corticoides sistêmicos",
+      "Asma leve a moderada e rinite alérgica",
+      "Exacerbações graves de DPOC",
+      "Fibrose pulmonar idiopática"
+    ],
+    "correct_answer": "Asma leve a moderada e rinite alérgica",
+    "justification": "Montelucaste é um antagonista oral de receptores de cisteinil-leucotrienos indicado para controle da asma leve a moderada e rinite alérgica, com perfil de boa tolerabilidade.",
+    "hint": "Considere a via oral e o efeito sobre leucotrienos.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 184,
+    "question": "O omalizumab é um anticorpo monoclonal que atua contra qual alvo no tratamento da asma?",
+    "options": [
+      "IL-5",
+      "IL-4/IL-13",
+      "IgE",
+      "Receptores muscarínicos"
+    ],
+    "correct_answer": "IgE",
+    "justification": "Omalizumab liga-se à IgE livre, impedindo sua ligação a mastócitos, sendo indicado para asma alérgica grave com alta carga de IgE circulante.",
+    "hint": "O foco é a asma alérgica grave e a imunoglobulina envolvida na alergia.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 185,
+    "question": "Qual é a principal indicação clínica da N-acetilcisteína no tratamento respiratório?",
+    "options": [
+      "Alergia severa",
+      "Fibrose pulmonar e DPOC para facilitar eliminação do muco",
+      "Asma grave com eosinofilia",
+      "Prevenção de úlcera péptica causada por AINEs"
+    ],
+    "correct_answer": "Fibrose pulmonar e DPOC para facilitar eliminação do muco",
+    "justification": "N-acetilcisteína atua rompendo pontes dissulfeto do muco e tem ação antioxidante, facilitando a expectoração em DPOC e fibrose cística.",
+    "hint": "Pense em função mucolítica e antioxidante.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 186,
+    "question": "Qual dos seguintes efeitos adversos está mais associado ao uso de beta-2 agonistas em altas doses?",
+    "options": [
+      "Hipercalemia",
+      "Hipocalemia",
+      "Glaucoma",
+      "Retenção urinária"
+    ],
+    "correct_answer": "Hipocalemia",
+    "justification": "Beta-2 agonistas em doses elevadas promovem deslocamento de potássio para o interior celular, causando hipocalemia, o que pode agravar arritmias.",
+    "hint": "Observe o impacto eletrolítico dos agonistas beta-2.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 187,
+    "question": "Qual é o principal risco associado ao uso prolongado de corticosteroides sistêmicos em pacientes com doenças respiratórias?",
+    "options": [
+      "Síndrome nefrótica",
+      "Osteoporose e supressão adrenal",
+      "Hipocalemia severa",
+      "Hipersensibilidade ao beta-2 agonista"
+    ],
+    "correct_answer": "Osteoporose e supressão adrenal",
+    "justification": "Uso prolongado de corticosteroides sistêmicos causa supressão do eixo HPA e perda óssea, aumentando o risco de osteoporose e insuficiência adrenal.",
+    "hint": "Considere efeitos metabólicos e endócrinos.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 188,
+    "question": "Os inibidores da bomba de prótons (IBP) apresentam qual mecanismo de ação para reduzir a secreção ácida gástrica?",
+    "options": [
+      "Bloqueio competitivo dos receptores H2",
+      "Inibição irreversível da bomba H+/K+-ATPase nas células parietais",
+      "Neutralização direta do ácido gástrico",
+      "Antagonismo dos receptores de gastrina"
+    ],
+    "correct_answer": "Inibição irreversível da bomba H+/K+-ATPase nas células parietais",
+    "justification": "IBPs são pró-fármacos ativados em meio ácido que se ligam irreversivelmente à bomba de prótons (H+/K+-ATPase), bloqueando a secreção de ácido.",
+    "hint": "Pense na etapa final da produção ácida gástrica.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 189,
+    "question": "Qual dos seguintes fármacos antiulcerosos está indicado para erradicação de Helicobacter pylori em terapia combinada?",
+    "options": [
+      "Omeprazol",
+      "Cimetidina",
+      "Sucralfato",
+      "Ranitidina"
+    ],
+    "correct_answer": "Omeprazol",
+    "justification": "Omeprazol, um IBP, reduz a acidez e aumenta a eficácia dos antibióticos na erradicação do Helicobacter pylori, sendo base da terapia tripla.",
+    "hint": "Reflita sobre os fármacos utilizados em terapias combinadas para Helicobacter pylori.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 190,
+    "question": "Qual é o efeito adverso local mais comum associado ao uso de corticosteroides inalatórios?",
+    "options": [
+      "Tosse e candidíase oral",
+      "Arritmias cardíacas",
+      "Constipação intestinal",
+      "Hiperglicemia"
+    ],
+    "correct_answer": "Tosse e candidíase oral",
+    "justification": "Corticosteroides inalatórios podem causar candidíase oral e tosse devido à deposição do fármaco em mucosa oral e orofaríngea; medidas de prevenção incluem enxágue bucal.",
+    "hint": "Problemas locais geralmente relacionados à deposição do fármaco nas vias aéreas superiores.",
+    "type": "multiple_choice"
+  },
+  {
+    "id": 191,
+    "question": "Verdadeiro ou falso: Os antagonistas de leucotrienos, como Montelucaste, são usados como terapia de resgate em crises agudas de asma.",
+    "correct_answer": "F",
+    "justification": "Montelucaste é usado para controle a longo prazo da asma leve a moderada, não para alívio imediato ou tratamento de crises agudas, quando beta-2 agonistas são indicados.",
+    "hint": "Pense na forma de início e na indicação para crises.",
+    "type": "true_false"
+  },
+  {
+    "id": 192,
+    "question": "Verdadeiro ou falso: O uso concomitante de beta-2 agonistas e antagonistas muscarínicos de longa ação pode ser benéfico para pacientes com DPOC.",
+    "correct_answer": "V",
+    "justification": "A associação de LABA com LAMA promove broncodilatação sinérgica, sendo recomendada para controle da DPOC e melhoria da função pulmonar.",
+    "hint": "Considere combinações terapêuticas em DPOC.",
+    "type": "true_false"
+  },
+  {
+    "id": 193,
+    "question": "Verdadeiro ou falso: A retirada abrupta de corticosteroides sistêmicos de uso prolongado pode causar insuficiência adrenal aguda.",
+    "correct_answer": "V",
+    "justification": "Uso prolongado suprime o eixo HPA; retirada abrupta pode causar insuficiência adrenal devido à falta de produção endógena de cortisol.",
+    "hint": "Pense na supressão do eixo hipotálamo-hipófise-adrenal.",
+    "type": "true_false"
+  },
+  {
+    "id": 194,
+    "question": "Verdadeiro ou falso: A teofilina possui janela terapêutica larga, facilitando seu uso sem necessidade de monitorização sérica frequente.",
+    "correct_answer": "F",
+    "justification": "Teofilina tem janela terapêutica estreita (10-20 μg/mL), exigindo monitorização para evitar efeitos tóxicos como arritmias e convulsões.",
+    "hint": "Pense em segurança e toxicidade do fármaco.",
+    "type": "true_false"
+  },
+  {
+    "id": 195,
+    "question": "Verdadeiro ou falso: Os inibidores da bomba de prótons devem ser administrados em jejum para maior eficácia devido à necessidade de ativação pelo ácido gástrico.",
+    "correct_answer": "V",
+    "justification": "IBPs são pró-fármacos ativados em ambiente ácido; administração em jejum maximiza absorção e ativação na célula parietal.",
+    "hint": "Considere o pH gástrico e o momento da administração.",
+    "type": "true_false"
+  },
+  {
+    "id": 196,
+    "question": "Verdadeiro ou falso: O uso de corticosteroides inalatórios em pacientes com glaucoma de ângulo fechado é contraindicado devido ao aumento do risco de glaucoma.",
+    "correct_answer": "F",
+    "justification": "O glaucoma de ângulo fechado é contraindicação para antagonistas muscarínicos; corticosteroides inalados podem aumentar a pressão intraocular, porém não são contraindicados absolutos.",
+    "hint": "Diferencie efeitos das classes e contraindicações específicas.",
+    "type": "true_false"
+  },
+  {
+    "id": 197,
+    "question": "Verdadeiro ou falso: Os antagonistas muscarínicos causam redução da secreção mucosa nos brônquios, contribuindo para melhor ventilação.",
+    "correct_answer": "V",
+    "justification": "Antagonistas muscarínicos reduzem broncoconstrição e também a secreção de muco, melhorando o fluxo aéreo em pacientes com DPOC e asma.",
+    "hint": "Pense nos efeitos das antagonistas de receptores muscarínicos no trato respiratório.",
+    "type": "true_false"
+  },
+  {
+    "id": 198,
+    "question": "Verdadeiro ou falso: Um efeito adverso comum dos inibidores da bomba de prótons é a candidíase oral devido à redução da acidez gástrica.",
+    "correct_answer": "F",
+    "justification": "Candidíase oral está associada a corticosteroides inalatórios, não ao uso de IBPs que atuam no estômago; a redução da acidez pode predispor a infecções gastrointestinais, não orais.",
+    "hint": "Pense em locais afetados e tipos de infecção.",
+    "type": "true_false"
+  },
+  {
+    "id": 199,
+    "question": "Paciente de 65 anos com DPOC grave faz uso de tiotrópio e formoterol. Apresenta retenção urinária. Qual fármaco é o mais provável causador desse efeito adverso?",
+    "options": [
+      "Tiotrópio",
+      "Formoterol",
+      "Prednisona",
+      "Montelucaste"
+    ],
+    "correct_answer": "Tiotrópio",
+    "justification": "Tiotrópio, um LAMA, pode causar retenção urinária devido a seus efeitos antimuscarínicos, especialmente em idosos com problemas prostáticos.",
+    "hint": "Considere efeitos anticolinérgicos e populações suscetíveis.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 200,
+    "question": "Paciente asmático crônico usa salmeterol e corticoide inalatório. Apresenta tremores e taquicardia frequentes. Qual ajuste é mais adequado?",
+    "options": [
+      "Suspender corticoide e manter salmeterol",
+      "Substituir salmeterol por formoterol para maior tolerabilidade",
+      "Reduzir dose de salmeterol ou avaliar associação com anticolinérgico",
+      "Adicionar teofilina à terapia"
+    ],
+    "correct_answer": "Reduzir dose de salmeterol ou avaliar associação com anticolinérgico",
+    "justification": "Tremores e taquicardia são efeitos comuns dos β2-agonistas em doses elevadas; reduzir dose ou associação pode otimizar controle e minimizar efeitos.",
+    "hint": "Considere efeitos adversos conhecidos dos β2-agonistas.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 201,
+    "question": "Paciente com doença do refluxo gastroesofágico (DRGE) apresenta sintomas noturnos. Qual conduta farmacológica é mais adequada para controle da secreção ácida?",
+    "options": [
+      "Administrar omeprazol 1x pela manhã em jejum",
+      "Associar omeprazol 2x ao dia, manhã e antes do jantar",
+      "Administrar anti-H2 à noite e antiácido pela manhã",
+      "Usar sucralfato apenas à noite"
+    ],
+    "correct_answer": "Associar omeprazol 2x ao dia, manhã e antes do jantar",
+    "justification": "Em DRGE com sintomas noturnos refratários, dobra-se dose do IBP para garantir controle da secreção ácida durante a noite, devido à necessidade de síntese de novas bombas.",
+    "hint": "Pense em prolongar o efeito do IBP em casos refratários.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 202,
+    "question": "Paciente em uso de corticosteroides sistêmicos por sarcoidose apresenta hiperglicemia e fraqueza muscular. Qual é a explicação mais provável para esses efeitos adversos?",
+    "options": [
+      "Efeitos anti-inflamatórios locais da droga",
+      "Aumento da retenção hídrica e sódio",
+      "Alterações metabólicas e catabolismo promovidas pelo corticoide",
+      "Toxicidade direta no músculo esquelético"
+    ],
+    "correct_answer": "Alterações metabólicas e catabolismo promovidas pelo corticoide",
+    "justification": "Corticosteroides aumentam gliconeogênese e catabolismo proteico, causando hiperglicemia e fraqueza muscular como efeitos sistêmicos.",
+    "hint": "Considere os efeitos metabólicos sistêmicos do glicocorticoide.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 203,
+    "question": "Criança asmática em uso de corticosteroide inalatório apresenta crescimento abaixo do percentil esperado. Qual a conduta mais apropriada?",
+    "options": [
+      "Suspender corticosteroide imediatamente",
+      "Monitorar e tentar reduzir a dose mantido o controle da asma",
+      "Substituir corticosteroide por beta-2 agonista inalatório em monoterapia",
+      "Adicionar corticosteroide sistêmico para melhora do crescimento"
+    ],
+    "correct_answer": "Monitorar e tentar reduzir a dose mantido o controle da asma",
+    "justification": "Corticosteroides inalados podem retardar crescimento; contudo, controle da asma é prioritário. Ajustes na dose e monitorização são essenciais antes de suspensão abrupta.",
+    "hint": "Equilibre controle da doença e efeitos adversos em pediatria.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 204,
+    "question": "Paciente com fibrose cística apresenta dificuldades para eliminar secreções pulmonares. Qual fármaco mucolítico é indicado para facilitar a expectoração?",
+    "options": [
+      "Montelucaste",
+      "N-acetilcisteína",
+      "Tiotrópio",
+      "Dexametasona"
+    ],
+    "correct_answer": "N-acetilcisteína",
+    "justification": "N-acetilcisteína rompe pontes dissulfeto no muco, reduzindo sua viscosidade e facilitando a eliminação em doenças como fibrose cística.",
+    "hint": "Pense em fármaco que rompe ligações químicas no muco.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 205,
+    "question": "Paciente com úlcera péptica em uso crônico de AINEs necessita profilaxia para evitar complicações gastrintestinais. Qual classe de fármaco é preferível para profilaxia?",
+    "options": [
+      "Bloqueadores H2",
+      "Inibidores da bomba de prótons",
+      "Antagonistas de leucotrienos",
+      "Metilxantinas"
+    ],
+    "correct_answer": "Inibidores da bomba de prótons",
+    "justification": "IBPs são primeiros escolhidos para profilaxia em pacientes em uso de AINEs, reduzindo secreção ácida e prevenindo úlceras gástricas e complicações.",
+    "hint": "Considere a eficácia na supressão de ácido e prevenção de lesão mucosa.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 206,
+    "question": "Paciente idoso apresenta exacerbação grave de DPOC e está em uso domiciliar de LABA e LAMA. Para tratamento hospitalar, qual medicamento corticosteroide sistêmico é preferível para início rápido da ação anti-inflamatória?",
+    "options": [
+      "Prednisona oral",
+      "Metilprednisolona intravenosa",
+      "Betametasona oral",
+      "Hidrocortisona tópica"
+    ],
+    "correct_answer": "Metilprednisolona intravenosa",
+    "justification": "Metilprednisolona IV é preferível em crise grave para ação rápida e melhor biodisponibilidade, controlando inflamação nas vias aéreas eficazmente.",
+    "hint": "Considerar via e velocidade de ação na crise.",
+    "type": "clinical_case"
+  },
+  {
+    "id": 207,
+    "pergunta": "Qual o principal mecanismo de ação dos beta-2 agonistas no tratamento da asma?",
+    "tipo": "múltipla escolha",
+    "opções": [
+      "Estímulo dos receptores muscarínicos M3",
+      "Inibição da fosfodiesterase aumentando AMPc",
+      "Ativação dos receptores β2-adrenérgicos aumentando AMPc intracelular",
+      "Bloqueio dos receptores de adenosina",
+      "Antagonismo dos receptores de leucotrienos"
+    ],
+    "resposta_correta": "Ativação dos receptores β2-adrenérgicos aumentando AMPc intracelular",
+    "justificativa": "Beta-2 agonistas ativam receptores β2 nas células musculares lisas brônquicas, elevando AMPc e promovendo relaxamento muscular e broncodilatação.",
+    "dica": "Considere a ação direta sobre os receptores β2 na musculatura lisa.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 208,
+    "pergunta": "Qual fármaco broncodilatador possui ação longa e é indicado para manutenção da asma, nunca para alívio em crises agudas?",
+    "tipo": "múltipla escolha",
+    "opções": [
+      "Salbutamol",
+      "Fenoterol",
+      "Formoterol",
+      "Ipratrópio",
+      "Teofilina"
+    ],
+    "resposta_correta": "Formoterol",
+    "justificativa": "Formoterol é um agonista β2 de longa duração usado na manutenção da asma, diferentemente dos SABA (ex: salbutamol) usados para crises.",
+    "dica": "Analise a duração de ação e indicação terapêutica.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 209,
+    "pergunta": "Sobre os anticolinérgicos utilizados no tratamento da DPOC, assinale a alternativa correta:",
+    "tipo": "múltipla escolha",
+    "opções": [
+      "Ipratrópio é um LAMA com duração de ação de 24 horas",
+      "Tiotrópio é um SAMA usado para crises agudas",
+      "Glicopirrônio é um LAMA indicado na DPOC com dose uma vez ao dia",
+      "Anticolinérgicos aumentam a secreção de muco brônquico",
+      "São contraindicados em pacientes com retenção urinária devido à ação colinérgica"
+    ],
+    "resposta_correta": "Glicopirrônio é um LAMA indicado na DPOC com dose uma vez ao dia",
+    "justificativa": "Glicopirrônio é um antagonista muscarínico de longa ação (LAMA) com duração de 24 horas, usado na DPOC em dose diária única.",
+    "dica": "Verifique a classificação e duração dos anticolinérgicos.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 210,
+    "pergunta": "Qual o principal risco associado ao uso prolongado de teofilina no tratamento respiratório?",
+    "tipo": "múltipla escolha",
+    "opções": [
+      "Hipocalemia leve",
+      "Toxicidade por janela terapêutica estreita, incluindo arritmias e convulsões",
+      "Supressão do eixo HPA",
+      "Glaucoma de ângulo fechado",
+      "Candidíase oral"
+    ],
+    "resposta_correta": "Toxicidade por janela terapêutica estreita, incluindo arritmias e convulsões",
+    "justificativa": "Teofilina possui janela terapêutica estreita; níveis acima do terapêutico podem causar arritmias, convulsões e sintomas gastrointestinais.",
+    "dica": "Considere os efeitos adversos graves relacionados à concentração plasmática.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 211,
+    "pergunta": "Os corticosteroides inalatórios exercem seu efeito anti-inflamatório principalmente por:",
+    "tipo": "múltipla escolha",
+    "opções": [
+      "Bloqueio da bomba H+/K+-ATPase",
+      "Ligação aos receptores de glicocorticoides intracelulares e regulação gênica",
+      "Antagonismo dos receptores de leucotrienos",
+      "Aumento da secreção de muco",
+      "Inibição competitiva do receptor β2-adrenérgico"
+    ],
+    "resposta_correta": "Ligação aos receptores de glicocorticoides intracelulares e regulação gênica",
+    "justificativa": "Corticosteroides inalatórios atuam ao se ligarem a receptores intracelulares e modularem a expressão gênica, reduzindo a inflamação aérea.",
+    "dica": "Pense na ação gênica típica dos glucocorticoides.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 212,
+    "pergunta": "Qual efeito adverso local é comum em pacientes que utilizam corticosteroides inalatórios e pode ser prevenido com o uso de espaçador e enxágue bucal?",
+    "tipo": "múltipla escolha",
+    "opções": [
+      "Boca seca",
+      "Candidíase oral",
+      "Taquicardia",
+      "Constipação",
+      "Glaucoma"
+    ],
+    "resposta_correta": "Candidíase oral",
+    "justificativa": "O uso de corticosteroides inalatórios pode predispor à candidíase oral pela imunossupressão local; a higiene adequada previne essa complicação.",
+    "dica": "Considere infecções fúngicas relacionadas a imunossupressão local.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 213,
+    "pergunta": "Os antagonistas de leucotrienos, como o montelucaste, atuam bloqueando qual receptor específico para reduzir broncoconstrição?",
+    "tipo": "múltipla escolha",
+    "opções": [
+      "Receptor β2-adrenérgico",
+      "Receptor muscarínico M3",
+      "Receptor cisteinil-leucotrieno CysLT1",
+      "Receptor de adenosina A2",
+      "Receptor de IgE"
+    ],
+    "resposta_correta": "Receptor cisteinil-leucotrieno CysLT1",
+    "justificativa": "Antagonistas de leucotrienos bloqueiam o receptor CysLT1, reduzindo broncoconstrição e inflamação associadas aos leucotrienos.",
+    "dica": "Foque no alvo molecular específico dos leucotrienos.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 214,
+    "pergunta": "Verdadeiro ou falso: O omalizumab, um anticorpo monoclonal usado na asma grave alérgica, atua diminuindo a quantidade de IgE livre circulante.",
+    "tipo": "verdadeiro/falso",
+    "resposta_correta": "Verdadeiro",
+    "justificativa": "Omalizumab liga-se à IgE livre, impedindo sua ligação ao receptor FcεRI e reduzindo a resposta alérgica.",
+    "dica": "Lembre-se do alvo específico do omalizumab.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 215,
+    "pergunta": "Verdadeiro ou falso: A retirada abrupta de corticosteroides sistêmicos pode levar à insuficiência adrenal aguda devido à supressão do eixo HPA.",
+    "tipo": "verdadeiro/falso",
+    "resposta_correta": "Verdadeiro",
+    "justificativa": "Uso prolongado de corticosteroides suprime o eixo HPA, e retirada brusca pode causar insuficiência adrenal potencialmente fatal.",
+    "dica": "Relacione o uso crônico de glicocorticoides com a necessidade de desmame gradual.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 216,
+    "pergunta": "Verdadeiro ou falso: Inibidores da bomba de prótons (IBPs) ligam-se reversivelmente à bomba H+/K+-ATPase das células parietais gástricas.",
+    "tipo": "verdadeiro/falso",
+    "resposta_correta": "Falso",
+    "justificativa": "IBPs ligam-se irreversivelmente à bomba de prótons, inibindo a produção de ácido até que novas bombas sejam sintetizadas.",
+    "dica": "Pense na duração prolongada do efeito dos IBPs apesar da meia-vida curta.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 217,
+    "pergunta": "Verdadeiro ou falso: O uso prolongado de inibidores de bomba de prótons pode aumentar o risco de osteoporose e fraturas ósseas devido à má absorção de cálcio.",
+    "tipo": "verdadeiro/falso",
+    "resposta_correta": "Verdadeiro",
+    "justificativa": "A redução da acidez gástrica pode prejudicar a absorção de cálcio e aumentar risco de osteoporose em uso prolongado de IBPs.",
+    "dica": "Avalie os efeitos sistêmicos do bloqueio ácido estomacal crônico.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 218,
+    "pergunta": "Caso clínico: Paciente com DPOC grave em uso de tiotrópio relata boca seca intensa e dificuldade para urinar. Qual recomendação é mais adequada diante desses efeitos adversos?",
+    "tipo": "caso clínico",
+    "resposta_correta": "Avaliar a possibilidade de ajuste ou troca do anticolinérgico e monitorar sinais de retenção urinária, principalmente em idosos.",
+    "justificativa": "Anticolinérgicos podem causar boca seca e retenção urinária; em idosos, recomenda-se monitorar e ajustar tratamento para evitar complicações.",
+    "dica": "Considere efeitos anticolinérgicos em pacientes suscetíveis.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
+    "id": 219,
+    "pergunta": "Caso clínico: Criança asmática utiliza corticosteroide inalatório em alta dose por tempo prolongado. Quais cuidados devem ser adotados para minimizar efeitos adversos sistêmicos?",
+    "tipo": "caso clínico",
+    "resposta_correta": "Usar a menor dose eficaz, monitorar crescimento, orientar uso correto com espaçador e enxágue bucal para reduzir efeitos locais e sistêmicos.",
+    "justificativa": "Em crianças, corticosteroides inalados podem afetar crescimento e causar efeitos sistêmicos; medidas preventivas e monitoramento são essenciais.",
+    "dica": "Pense nos efeitos adversos específicos pediátricos relacionados aos glucocorticoides.",
+    "type": "true_false",
+    "correct_answer": ""
+  },
+  {
     "id": 220,
     "question": "Qual é o principal mecanismo de ação dos antagonistas dos receptores H2, como a ranitidina, famotidina e cimetidina?",
     "options": [

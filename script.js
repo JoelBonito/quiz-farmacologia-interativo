@@ -417,10 +417,7 @@ function renderOptions(question) {
         question.options.forEach((option, index) => {
             const optionDiv = document.createElement('div');
             optionDiv.className = 'option';
-            optionDiv.innerHTML = `
-                <span class="option-letter">${String.fromCharCode(65 + index)}</span>
-                <span class="option-text">${option}</span>
-            `;
+            optionDiv.textContent = option;
             optionDiv.onclick = () => selectOption(index);
             optionsContainer.appendChild(optionDiv);
         });

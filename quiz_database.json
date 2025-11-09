@@ -573,7 +573,10 @@
     "id": 41,
     "question": "Quais são as 3 (três) classes de fármacos broncodilatadores?",
     "options": [
-      "Corticoides, Antileucotrienos e Anti-histamínicos b) IBPs, Antagonistas H2 e Antiácidos c) Agonistas 2-adrenérgicos, Anticolinérgicos e Metilxantinas d) SABA, LABA e LAMA"
+      "Corticoides, Antileucotrienos e Anti-histamínicos",
+      "IBPs, Antagonistas H2 e Antiácidos",
+      "Agonistas 2-adrenérgicos, Anticolinérgicos e Metilxantinas",
+      "SABA, LABA e LAMA"
     ],
     "correct_answer": "",
     "justification": "",
@@ -585,7 +588,10 @@
     "id": 42,
     "question": "Quais são as 4 (quatro) principais categorias de medicamentos usados para o sistema respiratório (geral)?",
     "options": [
-      "Antiasmáticos, Anti-histamínicos H1, Antitussígenos/Expectorantes e Vasoconstritores nasais b) Broncodilatadores, Corticoides, Antibióticos e Antivirais c) SABA, LABA, LAMA e ICS d) Anticolinérgicos, Metilxantinas, Cromonas e Antileucotrienos"
+      "Antiasmáticos, Anti-histamínicos H1, Antitussígenos/Expectorantes e Vasoconstritores nasais",
+      "Broncodilatadores, Corticoides, Antibióticos e Antivirais",
+      "SABA, LABA, LAMA e ICS",
+      "Anticolinérgicos, Metilxantinas, Cromonas e Antileucotrienos"
     ],
     "correct_answer": "",
     "justification": "",
@@ -597,7 +603,10 @@
     "id": 43,
     "question": "Qual das seguintes opções lista corretamente os efeitos benéficos dos agonistas 2 adrenérgicos?",
     "options": [
-      "Broncoconstrição, aumento de muco e sedação b) Broncodilatação, inibição da liberação de mediadores e aumento da depuração mucociliar c) Ação anti-IgE, bloqueio muscarínico e inibição da PDE d) Aumento da secreção de muco, tosse e antagonismo da adenosina"
+      "Broncoconstrição, aumento de muco e sedação",
+      "Broncodilatação, inibição da liberação de mediadores e aumento da depuração mucociliar",
+      "Ação anti-IgE, bloqueio muscarínico e inibição da PDE",
+      "Aumento da secreção de muco, tosse e antagonismo da adenosina"
     ],
     "correct_answer": "",
     "justification": "",
@@ -609,7 +618,10 @@
     "id": 44,
     "question": "Qual das seguintes opções lista efeitos adversos comuns dos agonistas 2 adrenérgicos?",
     "options": [
-      "Tremor muscular, taquicardia e hipopotassemia b) Bradicardia, hiperpotassemia e sonolência c) Boca seca, retenção urinária e glaucoma d) Náusea, vômito e convulsões"
+      "Tremor muscular, taquicardia e hipopotassemia",
+      "Bradicardia, hiperpotassemia e sonolência",
+      "Boca seca, retenção urinária e glaucoma",
+      "Náusea, vômito e convulsões"
     ],
     "correct_answer": "",
     "justification": "",
@@ -621,7 +633,10 @@
     "id": 45,
     "question": "Asma, DPOC e Bronquite são as principais indicações terapêuticas de qual classe de fármacos?",
     "options": [
-      "Anticolinérgicos (LAMA/SAMA) b) Antileucotrienos (Montelucaste) c) Glicocorticoides Inalados (ICS) d) Agonistas 2 adrenérgicos"
+      "Anticolinérgicos (LAMA/SAMA)",
+      "Antileucotrienos (Montelucaste)",
+      "Glicocorticoides Inalados (ICS)",
+      "Agonistas 2 adrenérgicos"
     ],
     "correct_answer": "",
     "justification": "",
@@ -633,7 +648,10 @@
     "id": 46,
     "question": "Os agonistas 2 adrenérgicos devem ser usados com precaução em pacientes com quais condições de base?",
     "options": [
-      "Glaucoma e Hipertrofia prostática b) Hipertensão arterial e doenças cardiovasculares c) Úlcera péptica e DRGE d) Diabetes e Insuficiência renal"
+      "Glaucoma e Hipertrofia prostática",
+      "Hipertensão arterial e doenças cardiovasculares",
+      "Úlcera péptica e DRGE",
+      "Diabetes e Insuficiência renal"
     ],
     "correct_answer": "",
     "justification": "",
@@ -645,7 +663,10 @@
     "id": 47,
     "question": "Qual das seguintes opções inclui os mecanismos de ação propostos para a Teofilina?",
     "options": [
-      "Ativação de recetores B2 e bloqueio de recetores M3 b) Inibição da Fosfolipase A2 e bloqueio de canais de cálcio c) Inibição da PDE e Antagonismo dos recetores de adenosina d) Bloqueio dos recetores H1 e inibição da 5-LOX"
+      "Ativação de recetores B2 e bloqueio de recetores M3",
+      "Inibição da Fosfolipase A2 e bloqueio de canais de cálcio",
+      "Inibição da PDE e Antagonismo dos recetores de adenosina",
+      "Bloqueio dos recetores H1 e inibição da 5-LOX"
     ],
     "correct_answer": "",
     "justification": "",
@@ -657,7 +678,10 @@
     "id": 48,
     "question": "Qual dos seguintes é um efeito benéfico das metilxantinas (Teofilina) no sistema respiratório?",
     "options": [
-      "Potente broncodilatação (SABA-like) e bloqueio da IgE b) Estabilização de mastócitos (como as Cromonas) c) Antagonismo M3 (como os Anticolinérgicos) d) Aumento da contratilidade do diafragma e aumento da depuração mucociliar"
+      "Potente broncodilatação (SABA-like) e bloqueio da IgE",
+      "Estabilização de mastócitos (como as Cromonas)",
+      "Antagonismo M3 (como os Anticolinérgicos)",
+      "Aumento da contratilidade do diafragma e aumento da depuração mucociliar"
     ],
     "correct_answer": "",
     "justification": "",
@@ -679,7 +703,10 @@
     "id": 50,
     "question": "Quais são os efeitos adversos comuns no início do tratamento com Teofilina (Metilxantinas)?",
     "options": [
-      "Náuseas, vômitos, agitação e insônia b) Boca seca, retenção urinária e visão turva c) Tremor muscular, taquicardia e hipopotassemia d) Candidíase oral e rouquidão"
+      "Náuseas, vômitos, agitação e insônia",
+      "Boca seca, retenção urinária e visão turva",
+      "Tremor muscular, taquicardia e hipopotassemia",
+      "Candidíase oral e rouquidão"
     ],
     "correct_answer": "",
     "justification": "",
@@ -691,7 +718,10 @@
     "id": 51,
     "question": "A Aminofilina (Teofilina IV) é uma combinação de Teofilina e qual outro composto, que é responsável por reações de hipersensibilidade?",
     "options": [
-      "Cloreto de Sódio b) Bicarbonato de Sódio c) Etilendiamina d) Sulfato de Magnésio"
+      "Cloreto de Sódio",
+      "Bicarbonato de Sódio",
+      "Etilendiamina",
+      "Sulfato de Magnésio"
     ],
     "correct_answer": "",
     "justification": "",
@@ -703,7 +733,10 @@
     "id": 52,
     "question": "Os efeitos adversos graves da Teofilina, como convulsões e arritmias cardíacas, estão primariamente associados a qual mecanismo?",
     "options": [
-      "Ativação dos recetores Beta-2 adrenérgicos b) Antagonismo dos recetores de Adenosina (A1) e inibição da PDE3 c) Bloqueio dos recetores Muscarínicos M3 d) Inibição seletiva da PDE4"
+      "Ativação dos recetores Beta-2 adrenérgicos",
+      "Antagonismo dos recetores de Adenosina (A1) e inibição da PDE3",
+      "Bloqueio dos recetores Muscarínicos M3",
+      "Inibição seletiva da PDE4"
     ],
     "correct_answer": "",
     "justification": "",
@@ -735,7 +768,10 @@
     "id": 55,
     "question": "Fármacos anticolinérgicos (Ipratrópio, Tiotrópio) devem ser usados com extrema precaução ou são contraindicados em pacientes com:",
     "options": [
-      "Asma e Rinite alérgica b) Hipertensão arterial e Doença cardiovascular c) Úlcera péptica e DRGE d) Glaucoma de ângulo fechado e Hipertrofia prostática"
+      "Asma e Rinite alérgica",
+      "Hipertensão arterial e Doença cardiovascular",
+      "Úlcera péptica e DRGE",
+      "Glaucoma de ângulo fechado e Hipertrofia prostática"
     ],
     "correct_answer": "",
     "justification": "",
@@ -747,7 +783,10 @@
     "id": 56,
     "question": "Qual das seguintes opções lista efeitos adversos comuns associados aos anticolinérgicos inalatórios?",
     "options": [
-      "Sabor amargo, boca seca (xerostomia) e muco viscoso b) Tremor muscular, taquicardia e hipopotassemia c) Náusea, vômito e convulsões d) Candidíase oral e rouquidão"
+      "Sabor amargo, boca seca (xerostomia) e muco viscoso",
+      "Tremor muscular, taquicardia e hipopotassemia",
+      "Náusea, vômito e convulsões",
+      "Candidíase oral e rouquidão"
     ],
     "correct_answer": "",
     "justification": "",
@@ -759,7 +798,10 @@
     "id": 57,
     "question": "Qual classe de fármacos atua como antagonistas competitivos da Acetilcolina (ACh) endógena nos recetores muscarínicos?",
     "options": [
-      "Agonistas Beta-2 Adrenérgicos b) Anticolinérgicos (Antimuscarínicos) c) Metilxantinas d) Glicocorticoides"
+      "Agonistas Beta-2 Adrenérgicos",
+      "Anticolinérgicos (Antimuscarínicos)",
+      "Metilxantinas",
+      "Glicocorticoides"
     ],
     "correct_answer": "",
     "justification": "",
@@ -831,7 +873,10 @@
     "id": 63,
     "question": "Qual fármaco, usado IV na emergência, atua como broncodilatador adicional na asma grave ao reduzir as concentrações citosólicas de Cálcio (Ca2+)?",
     "options": [
-      "Omalizumab b) Aminofilina c) Roflumilaste d) Sulfato de Magnésio (MgSO4)"
+      "Omalizumab",
+      "Aminofilina",
+      "Roflumilaste",
+      "Sulfato de Magnésio (MgSO4)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -843,7 +888,10 @@
     "id": 64,
     "question": "Qual é o mecanismo de ação principal do Cromoglicato Dissódico (Cromona)?",
     "options": [
-      "Inibição da liberação de mediadores (ex: histamina) pela estabilização dos mastócitos b) Potente broncodilatação por antagonismo M3 c) Inibição da Fosfolipase A2 (como os corticoides) d) Bloqueio dos recetores CysLT1 (como o Montelucaste)"
+      "Inibição da liberação de mediadores (ex: histamina) pela estabilização dos mastócitos",
+      "Potente broncodilatação por antagonismo M3",
+      "Inibição da Fosfolipase A2 (como os corticoides)",
+      "Bloqueio dos recetores CysLT1 (como o Montelucaste)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -855,7 +903,10 @@
     "id": 65,
     "question": "Quais fármacos pertencem à classe das Cromonas (estabilizadores de mastócitos)?",
     "options": [
-      "Salbutamol e Salmeterol b) Ipratrópio e Tiotrópio c) Cromoglicato dissódico e Nedocromil d) Montelucaste e Zafirlucaste"
+      "Salbutamol e Salmeterol",
+      "Ipratrópio e Tiotrópio",
+      "Cromoglicato dissódico e Nedocromil",
+      "Montelucaste e Zafirlucaste"
     ],
     "correct_answer": "",
     "justification": "",
@@ -877,7 +928,10 @@
     "id": 67,
     "question": "Fármacos como a Teofilina e o Roflumilaste atuam inibindo qual enzima, para aumentar os níveis de cAMP?",
     "options": [
-      "Fosfodiesterase (PDE) b) Adenilil Ciclase c) Fosfolipase A2 d) 5-Lipoxigenase"
+      "Fosfodiesterase (PDE)",
+      "Adenilil Ciclase",
+      "Fosfolipase A2",
+      "5-Lipoxigenase"
     ],
     "correct_answer": "",
     "justification": "",
@@ -889,7 +943,10 @@
     "id": 68,
     "question": "Qual inibidor oral seletivo da PDE4 é aprovado para DPOC grave com exacerbações frequentes?",
     "options": [
-      "Teofilina b) Roflumilaste c) Omalizumab d) Montelucaste"
+      "Teofilina",
+      "Roflumilaste",
+      "Omalizumab",
+      "Montelucaste"
     ],
     "correct_answer": "",
     "justification": "",
@@ -901,7 +958,10 @@
     "id": 69,
     "question": "Os leucotrienos (alvo do Montelucaste) participam ativamente da fisiopatologia da asma causando:",
     "options": [
-      "Apenas broncodilatação e redução do muco b) Bloqueio da IgE e estabilização de mastócitos c) Ativação da via do AMPc e inibição da PDE d) Broncoconstrição, hiperreatividade brônquica e inflamação eosinofílica"
+      "Apenas broncodilatação e redução do muco",
+      "Bloqueio da IgE e estabilização de mastócitos",
+      "Ativação da via do AMPc e inibição da PDE",
+      "Broncoconstrição, hiperreatividade brônquica e inflamação eosinofílica"
     ],
     "correct_answer": "",
     "justification": "",
@@ -913,7 +973,10 @@
     "id": 70,
     "question": "Qual classe de fármacos, que inclui o Montelucaste, atua reduzindo a hiperreatividade brônquica ao bloquear os recetores CysLT1?",
     "options": [
-      "Antileucotrienos b) Cromonas c) Agonistas Beta-2 d) Anticolinérgicos"
+      "Antileucotrienos",
+      "Cromonas",
+      "Agonistas Beta-2",
+      "Anticolinérgicos"
     ],
     "correct_answer": "",
     "justification": "",
@@ -925,7 +988,10 @@
     "id": 71,
     "question": "Qual foi o primeiro agente biológico (Anticorpo Monoclonal) aprovado para a asma, que atua especificamente contra a IgE?",
     "options": [
-      "Roflumilaste b) Montelucaste c) Omalizumabe d) Mepolizumab"
+      "Roflumilaste",
+      "Montelucaste",
+      "Omalizumabe",
+      "Mepolizumab"
     ],
     "correct_answer": "",
     "justification": "",
@@ -937,7 +1003,10 @@
     "id": 72,
     "question": "Quais são os efeitos adversos leves mais comuns das Cromonas (Cromoglicato), geralmente relacionados à via de administração?",
     "options": [
-      "Convulsões e arritmias b) Tremor e taquicardia c) Boca seca e retenção urinária d) Irritação local da garganta, tosse e disfonia (rouquidão)"
+      "Convulsões e arritmias",
+      "Tremor e taquicardia",
+      "Boca seca e retenção urinária",
+      "Irritação local da garganta, tosse e disfonia (rouquidão)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -949,7 +1018,10 @@
     "id": 73,
     "question": "Embora geralmente seguras, as Cromonas (Cromoglicato) podem raramente causar reações graves de hipersensibilidade, tais como:",
     "options": [
-      "Angioedema, exantema e urticária b) Síndrome de Cushing e osteoporose c) Insuficiência adrenal aguda d) Síndrome de Churg-Strauss"
+      "Angioedema, exantema e urticária",
+      "Síndrome de Cushing e osteoporose",
+      "Insuficiência adrenal aguda",
+      "Síndrome de Churg-Strauss"
     ],
     "correct_answer": "",
     "justification": "",
@@ -961,7 +1033,10 @@
     "id": 74,
     "question": "Qual das seguintes listas contém apenas fármacos da classe dos Antileucotrienos?",
     "options": [
-      "Montelucaste, Salmeterol e Budesonida b) Montelucaste, Zafirlucaste e Zileutona c) Zileutona, Teofilina e Roflumilaste d) Zafirlucaste, Omalizumabe e Ipratrópio"
+      "Montelucaste, Salmeterol e Budesonida",
+      "Montelucaste, Zafirlucaste e Zileutona",
+      "Zileutona, Teofilina e Roflumilaste",
+      "Zafirlucaste, Omalizumabe e Ipratrópio"
     ],
     "correct_answer": "",
     "justification": "",
@@ -973,7 +1048,10 @@
     "id": 75,
     "question": "A \"Terapia Tripla\" clássica para erradicação de H. pylori consiste em IBP + Claritromicina + __________, enquanto a \"Terapia Quádrupla\" usa IBP + Bismuto + Metronidazol + __________.",
     "options": [
-      "Tetraciclina; Amoxicilina b) Metronidazol; Claritromicina c) Amoxicilina; Tetraciclina d) Amoxicilina; Levofloxacina"
+      "Tetraciclina; Amoxicilina",
+      "Metronidazol; Claritromicina",
+      "Amoxicilina; Tetraciclina",
+      "Amoxicilina; Levofloxacina"
     ],
     "correct_answer": "",
     "justification": "",
@@ -985,7 +1063,10 @@
     "id": 76,
     "question": "Quais são os efeitos adversos característicos (e de toxicidade) da Teofilina?",
     "options": [
-      "Náuseas, vômitos, cefaleia, insônia e, em doses altas, convulsões e arritmias b) Boca seca, glaucoma e retenção urinária c) Candidíase oral, rouquidão e osteoporose d) Tremor muscular, hipopotassemia e taquicardia sinusal"
+      "Náuseas, vômitos, cefaleia, insônia e, em doses altas, convulsões e arritmias",
+      "Boca seca, glaucoma e retenção urinária",
+      "Candidíase oral, rouquidão e osteoporose",
+      "Tremor muscular, hipopotassemia e taquicardia sinusal"
     ],
     "correct_answer": "",
     "justification": "",
@@ -997,7 +1078,10 @@
     "id": 77,
     "question": "Qual par representa corretamente o SAMA (Ação Curta) e o LAMA (Ação Longa) anticolinérgicos protótipos?",
     "options": [
-      "SAMA: Salbutamol; LAMA: Salmeterol b) SAMA: Brometo de Tiotrópio; LAMA: Brometo de Ipratrópio c) SAMA: Montelucaste; LAMA: Omalizumabe d) SAMA: Brometo de Ipratrópio; LAMA: Brometo de Tiotrópio"
+      "SAMA: Salbutamol; LAMA: Salmeterol",
+      "SAMA: Brometo de Tiotrópio; LAMA: Brometo de Ipratrópio",
+      "SAMA: Montelucaste; LAMA: Omalizumabe",
+      "SAMA: Brometo de Ipratrópio; LAMA: Brometo de Tiotrópio"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1009,7 +1093,10 @@
     "id": 78,
     "question": "Qual das seguintes NÃO é uma indicação primária para o uso de Inibidores da Bomba de Protões (IBPs)?",
     "options": [
-      "Tratamento da Doença do Refluxo Gastroesofágico (DRGE) b) Alívio imediato da azia ocasional (neutralização) c) Erradicação do H. pylori (em terapia combinada) d) Tratamento da Síndrome de Zollinger-Ellison"
+      "Tratamento da Doença do Refluxo Gastroesofágico (DRGE)",
+      "Alívio imediato da azia ocasional (neutralização)",
+      "Erradicação do H. pylori (em terapia combinada)",
+      "Tratamento da Síndrome de Zollinger-Ellison"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1251,7 +1338,10 @@
     "id": 97,
     "question": "A \"Terapia Quádrupla\" com Bismuto para H. pylori é composta por:",
     "options": [
-      "IBP, Subcitrato de Bismuto, Metronidazol e Tetraciclina b) IBP, Claritromicina, Amoxicilina e Metronidazol c) Antagonista H2, Bismuto, Amoxicilina e Claritromicina d) IBP, Bismuto, Amoxicilina e Claritromicina"
+      "IBP, Subcitrato de Bismuto, Metronidazol e Tetraciclina",
+      "IBP, Claritromicina, Amoxicilina e Metronidazol",
+      "Antagonista H2, Bismuto, Amoxicilina e Claritromicina",
+      "IBP, Bismuto, Amoxicilina e Claritromicina"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1263,7 +1353,10 @@
     "id": 98,
     "question": "Qual opção agrupa corretamente os fármacos em SABA, LABA e LAMA?",
     "options": [
-      "SABA: Salmeterol; LABA: Tiotrópio; LAMA: Salbutamol b) SABA: Ipratrópio; LABA: Formoterol; LAMA: Montelucaste c) SABA: Salbutamol; LABA: Salmeterol; LAMA: Tiotrópio d) SABA: Salbutamol; LABA: Tiotrópio; LAMA: Salmeterol"
+      "SABA: Salmeterol; LABA: Tiotrópio; LAMA: Salbutamol",
+      "SABA: Ipratrópio; LABA: Formoterol; LAMA: Montelucaste",
+      "SABA: Salbutamol; LABA: Salmeterol; LAMA: Tiotrópio",
+      "SABA: Salbutamol; LABA: Tiotrópio; LAMA: Salmeterol"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1275,7 +1368,10 @@
     "id": 99,
     "question": "A miopatia por corticoides (perda muscular) ocorre porque eles estimulam o __________ proteico e inibem a __________ de proteínas.",
     "options": [
-      "anabolismo; degradação b) catabolismo; síntese c) catabolismo; degradação d) anabolismo; síntese"
+      "anabolismo; degradação",
+      "catabolismo; síntese",
+      "catabolismo; degradação",
+      "anabolismo; síntese"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1287,7 +1383,10 @@
     "id": 100,
     "question": "Além da barreira física (pH < 4), quais são os mecanismos citoprotetores adicionais do Sucralfato?",
     "options": [
-      "Neutralização do ácido e inibição da bomba de protões b) Ação bactericida contra H. pylori e bloqueio H2 c) Aumento do AMPc e inibição da PDE4 d) Estimulação da produção local de prostaglandinas e do fator de crescimento epidérmico (EGF)"
+      "Neutralização do ácido e inibição da bomba de protões",
+      "Ação bactericida contra H. pylori e bloqueio H2",
+      "Aumento do AMPc e inibição da PDE4",
+      "Estimulação da produção local de prostaglandinas e do fator de crescimento epidérmico (EGF)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1299,7 +1398,10 @@
     "id": 101,
     "question": "O Montelucaste bloqueia o recetor __________, enquanto o Zileutona inibe a enzima __________.",
     "options": [
-      "CysLT1; 5-lipoxigenase b) 5-lipoxigenase; CysLT1 c) PDE4; Fosfolipase A2 d) IgE; CysLT1"
+      "CysLT1; 5-lipoxigenase",
+      "5-lipoxigenase; CysLT1",
+      "PDE4; Fosfolipase A2",
+      "IgE; CysLT1"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1461,7 +1563,10 @@
     "id": 113,
     "question": "O sistema parassimpático causa broncoconstrição pela liberação de (A)__________ nos recetores (B)__________.",
     "options": [
-      "(A) Noradrenalina; (B) Beta-2 b) (A) Acetilcolina; (B) Muscarínicos M3 c) (A) Histamina; (B) H1 d) (A) Acetilcolina; (B) Beta-2"
+      "(A) Noradrenalina; (B) Beta-2",
+      "(A) Acetilcolina; (B) Muscarínicos M3",
+      "(A) Histamina; (B) H1",
+      "(A) Acetilcolina; (B) Beta-2"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1473,7 +1578,10 @@
     "id": 114,
     "question": "A hipertensão induzida por Glicocorticoides é causada pela sua atividade (A)__________ e consequente retenção de (B)__________.",
     "options": [
-      "(A) glicocorticoide; (B) potássio b) (A) anti-inflamatória; (B) cálcio c) (A) mineralocorticoide; (B) potássio d) (A) mineralocorticoide; (B) sódio"
+      "(A) glicocorticoide; (B) potássio",
+      "(A) anti-inflamatória; (B) cálcio",
+      "(A) mineralocorticoide; (B) potássio",
+      "(A) mineralocorticoide; (B) sódio"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1485,7 +1593,10 @@
     "id": 115,
     "question": "A miopatia por corticoides ocorre pelo (A)__________ proteico, que fornece substratos para a (B)__________.",
     "options": [
-      "(A) catabolismo; (B) gluconeogênese b) (A) anabolismo; (B) glicólise c) (A) catabolismo; (B) lipólise d) (A) anabolismo; (B) gluconeogênese"
+      "(A) catabolismo; (B) gluconeogênese",
+      "(A) anabolismo; (B) glicólise",
+      "(A) catabolismo; (B) lipólise",
+      "(A) anabolismo; (B) gluconeogênese"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1497,7 +1608,10 @@
     "id": 116,
     "question": "Um paciente a tomar Clopidogrel precisa de um IBP. Qual IBP (A) deve ser evitado por inibir a CYP2C19, e qual (C) é a alternativa segura?",
     "options": [
-      "(A) Pantoprazol; (C) Omeprazol b) (A) Omeprazol; (C) Sucralfato c) (A) Omeprazol; (C) Pantoprazol d) (A) Famotidina; (C) Pantoprazol"
+      "(A) Pantoprazol; (C) Omeprazol",
+      "(A) Omeprazol; (C) Sucralfato",
+      "(A) Omeprazol; (C) Pantoprazol",
+      "(A) Famotidina; (C) Pantoprazol"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1509,7 +1623,10 @@
     "id": 117,
     "question": "A via parassimpática causa broncoconstrição pela liberação de (B)__________ nos recetores (C)__________.",
     "options": [
-      "(B) Noradrenalina; (C) Beta-2 b) (B) Acetilcolina; (C) Muscarínicos M3 c) (B) Histamina; (C) H1 d) (B) Acetilcolina; (C) Beta-2"
+      "(B) Noradrenalina; (C) Beta-2",
+      "(B) Acetilcolina; (C) Muscarínicos M3",
+      "(B) Histamina; (C) H1",
+      "(B) Acetilcolina; (C) Beta-2"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1521,7 +1638,10 @@
     "id": 118,
     "question": "O Roflumilast é um inibidor seletivo da (A)__________ usado para (B)__________ grave.",
     "options": [
-      "(A) PDE4; (B) Asma b) (A) PDE3; (B) DPOC c) (A) 5-LOX; (B) Asma d) (A) PDE4; (B) DPOC"
+      "(A) PDE4; (B) Asma",
+      "(A) PDE3; (B) DPOC",
+      "(A) 5-LOX; (B) Asma",
+      "(A) PDE4; (B) DPOC"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1678,7 +1798,10 @@
     "id": 130,
     "question": "Qual é o protocolo de administração fundamental para maximizar a eficácia dos IBPs (Omeprazol)?",
     "options": [
-      "30-60 minutos antes da primeira refeição (em jejum), para inibir as bombas ativadas pela comida b) Juntamente com a refeição, para que o fármaco se misture com o alimento c) 2 horas após a refeição, quando o estômago está vazio d) Ao deitar, para inibir a secreção ácida noturna"
+      "30-60 minutos antes da primeira refeição (em jejum), para inibir as bombas ativadas pela comida",
+      "Juntamente com a refeição, para que o fármaco se misture com o alimento",
+      "2 horas após a refeição, quando o estômago está vazio",
+      "Ao deitar, para inibir a secreção ácida noturna"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1690,7 +1813,10 @@
     "id": 131,
     "question": "(Revisão Interação) Um paciente a tomar Clopidogrel precisa de um IBP. Qual IBP (A) deve ser evitado por inibir a CYP2C19, e qual (C) é a alternativa segura?",
     "options": [
-      "(A) Pantoprazol; (C) Omeprazol b) (A) Omeprazol; (C) Sucralfato c) (A) Omeprazol; (C) Pantoprazol d) (A) Famotidina; (C) Pantoprazol"
+      "(A) Pantoprazol; (C) Omeprazol",
+      "(A) Omeprazol; (C) Sucralfato",
+      "(A) Omeprazol; (C) Pantoprazol",
+      "(A) Famotidina; (C) Pantoprazol"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1702,7 +1828,10 @@
     "id": 132,
     "question": "O Misoprostol é absolutamente contraindicado na gravidez porque:",
     "options": [
-      "Causa defeitos graves do tubo neural b) É um análogo de PGE1 que aumenta a contratilidade uterina, podendo induzir o aborto c) Inibe a produção de progesterona, essencial para a gravidez d) Causa hemorragia gástrica no feto"
+      "Causa defeitos graves do tubo neural",
+      "É um análogo de PGE1 que aumenta a contratilidade uterina, podendo induzir o aborto",
+      "Inibe a produção de progesterona, essencial para a gravidez",
+      "Causa hemorragia gástrica no feto"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1714,7 +1843,10 @@
     "id": 133,
     "question": "O regime de primeira linha (Terapia Tripla) para H. pylori consiste em:",
     "options": [
-      "IBP + Claritromicina + Amoxicilina b) IBP + Metronidazol + Tetraciclina c) IBP + Bismuto + Amoxicilina d) Antagonista H2 + Claritromicina + Amoxicilina"
+      "IBP + Claritromicina + Amoxicilina",
+      "IBP + Metronidazol + Tetraciclina",
+      "IBP + Bismuto + Amoxicilina",
+      "Antagonista H2 + Claritromicina + Amoxicilina"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1726,7 +1858,10 @@
     "id": 134,
     "question": "O Sucralfato pode inibir a absorção de outros fármacos. Qual é a orientação correta de \"timing\"?",
     "options": [
-      "Deve ser tomado sempre junto com outros medicamentos para proteger o estômago b) Deve ser tomado 30 minutos antes de outros medicamentos c) Apenas interage com IBPs, não com antibióticos d) Deve ser tomado pelo menos 2 horas depois de outros medicamentos"
+      "Deve ser tomado sempre junto com outros medicamentos para proteger o estômago",
+      "Deve ser tomado 30 minutos antes de outros medicamentos",
+      "Apenas interage com IBPs, não com antibióticos",
+      "Deve ser tomado pelo menos 2 horas depois de outros medicamentos"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1738,7 +1873,10 @@
     "id": 135,
     "question": "Os glicocorticoides aumentam o risco de úlcera péptica porque bloqueiam a (A), reduzindo as (B) protetoras gástricas.",
     "options": [
-      "(A) COX-1; (B) prostaglandinas b) (A) Fosfolipase A2; (B) prostaglandinas c) (A) Bomba de protões; (B) secreções alcalinas d) (A) Fosfolipase A2; (B) IgE"
+      "(A) COX-1; (B) prostaglandinas",
+      "(A) Fosfolipase A2; (B) prostaglandinas",
+      "(A) Bomba de protões; (B) secreções alcalinas",
+      "(A) Fosfolipase A2; (B) IgE"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1750,7 +1888,10 @@
     "id": 136,
     "question": "Qual afirmação sobre o Subcitrato de Bismuto é CORRETA?",
     "options": [
-      "É um potente neutralizador do ácido e causa diarreia como principal efeito adverso b) Neutraliza o ácido e causa confusão mental c) Não neutraliza o ácido, mas causa escurecimento (preto) inofensivo da língua e das fezes d) Não neutraliza o ácido, mas causa tremores e hipopotassemia"
+      "É um potente neutralizador do ácido e causa diarreia como principal efeito adverso",
+      "Neutraliza o ácido e causa confusão mental",
+      "Não neutraliza o ácido, mas causa escurecimento (preto) inofensivo da língua e das fezes",
+      "Não neutraliza o ácido, mas causa tremores e hipopotassemia"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1762,7 +1903,10 @@
     "id": 137,
     "question": "Qual Antagonista H2 é um potente inibidor da CYP450 (causando interações) e deve ser evitado, preferindo-se alternativas mais seguras como a Famotidina?",
     "options": [
-      "Cimetidina b) Ranitidina c) Pantoprazol d) Nizatidina"
+      "Cimetidina",
+      "Ranitidina",
+      "Pantoprazol",
+      "Nizatidina"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1774,7 +1918,10 @@
     "id": 138,
     "question": "A produção de ácido na célula parietal é estimulada pela ativação de quais três recetores?",
     "options": [
-      "Recetores H2, M3 e Beta-2 b) Recetores de Gastrina, H1 e M1 c) Recetores H2, M3 e Adenosina A1 d) Recetores de Gastrina (CCK), Histamina (H2) e Acetilcolina (M3)"
+      "Recetores H2, M3 e Beta-2",
+      "Recetores de Gastrina, H1 e M1",
+      "Recetores H2, M3 e Adenosina A1",
+      "Recetores de Gastrina (CCK), Histamina (H2) e Acetilcolina (M3)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1786,7 +1933,10 @@
     "id": 139,
     "question": "O uso crônico de IBPs está associado a quais riscos nutricionais e ósseos?",
     "options": [
-      "Hipercalemia, excesso de Vitamina D e risco de gota b) Deficiência de Vitamina B12, Hipomagnesemia e risco aumentado de Osteoporose/fraturas c) Deficiência de Vitamina C, Hipermagnesemia e risco de miopatia d) Excesso de Vitamina B12 e Hipocalcemia"
+      "Hipercalemia, excesso de Vitamina D e risco de gota",
+      "Deficiência de Vitamina B12, Hipomagnesemia e risco aumentado de Osteoporose/fraturas",
+      "Deficiência de Vitamina C, Hipermagnesemia e risco de miopatia",
+      "Excesso de Vitamina B12 e Hipocalcemia"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1798,7 +1948,10 @@
     "id": 140,
     "question": "A classe de broncodilatador de primeira escolha (resgate) para uma crise aguda de asma é:",
     "options": [
-      "SABA (Agonistas Beta-2 de Ação Curta) b) LABA (Agonistas Beta-2 de Ação Longa) c) LAMA (Anticolinérgicos de Ação Longa) d) ICS (Corticoides Inalatórios)"
+      "SABA (Agonistas Beta-2 de Ação Curta)",
+      "LABA (Agonistas Beta-2 de Ação Longa)",
+      "LAMA (Anticolinérgicos de Ação Longa)",
+      "ICS (Corticoides Inalatórios)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1810,7 +1963,10 @@
     "id": 141,
     "question": "Na asma, a monoterapia com LABA é perigosa porque não trata a (A). Por isso, deve ser sempre associado a um (B).",
     "options": [
-      "(A) broncoconstrição; (B) SABA b) (A) inflamação; (B) LAMA c) (A) inflamação; (B) Corticoide Inalatório (ICS) d) (A) alergia; (B) Anti-histamínico"
+      "(A) broncoconstrição; (B) SABA",
+      "(A) inflamação; (B) LAMA",
+      "(A) inflamação; (B) Corticoide Inalatório (ICS)",
+      "(A) alergia; (B) Anti-histamínico"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1822,7 +1978,10 @@
     "id": 142,
     "question": "As classes de broncodilatadores de longa ação, preferidas para a terapia de manutenção da DPOC (muitas vezes combinadas), são:",
     "options": [
-      "SABA e SAMA b) LAMA e LABA c) ICS e LAMA d) LABA e Antileucotrienos"
+      "SABA e SAMA",
+      "LAMA e LABA",
+      "ICS e LAMA",
+      "LABA e Antileucotrienos"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1834,7 +1993,10 @@
     "id": 143,
     "question": "Um efeito adverso metabólico dos agonistas 2 (Salbutamol) em altas doses é a __________, causada pela estimulação da bomba de Na+/K+-ATPase.",
     "options": [
-      "Hipopotassemia (Potássio baixo) b) Hiperpotassemia (Potássio alto) c) Hipoglicemia (Glicose baixa) d) Hipercalcemia (Cálcio alto)"
+      "Hipopotassemia (Potássio baixo)",
+      "Hiperpotassemia (Potássio alto)",
+      "Hipoglicemia (Glicose baixa)",
+      "Hipercalcemia (Cálcio alto)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1846,7 +2008,10 @@
     "id": 144,
     "question": "A interrupção abrupta de Prednisona (uso > 2 semanas) é perigosa porque causa:",
     "options": [
-      "Síndrome de Cushing, devido a um efeito rebote b) Uma crise hipertensiva grave c) Um choque anafilático d) Insuficiência Adrenal Aguda (Crise Addisoniana), devido à supressão do eixo HPA"
+      "Síndrome de Cushing, devido a um efeito rebote",
+      "Uma crise hipertensiva grave",
+      "Um choque anafilático",
+      "Insuficiência Adrenal Aguda (Crise Addisoniana), devido à supressão do eixo HPA"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1858,7 +2023,10 @@
     "id": 145,
     "question": "Quais são os dois principais alvos moleculares da Teofilina?",
     "options": [
-      "Ativação dos recetores B2 e Bloqueio dos recetores M3 b) Inibição da Fosfodiesterase (PDE) e Antagonismo dos recetores de Adenosina c) Bloqueio dos recetores H1 e Inibição da COX d) Inibição da 5-LOX e Bloqueio dos recetores CysLT1"
+      "Ativação dos recetores B2 e Bloqueio dos recetores M3",
+      "Inibição da Fosfodiesterase (PDE) e Antagonismo dos recetores de Adenosina",
+      "Bloqueio dos recetores H1 e Inibição da COX",
+      "Inibição da 5-LOX e Bloqueio dos recetores CysLT1"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1870,7 +2038,10 @@
     "id": 146,
     "question": "Qual agente biológico é indicado para asma grave alérgica com IgE elevada, e atua ligando-se a essa IgE circulante?",
     "options": [
-      "Montelucaste b) Mepolizumab (Anti-IL5) c) Omalizumabe d) Roflumilaste"
+      "Montelucaste",
+      "Mepolizumab (Anti-IL5)",
+      "Omalizumabe",
+      "Roflumilaste"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1882,7 +2053,10 @@
     "id": 147,
     "question": "O Tiotrópio (LAMA) impede a broncoconstrição mediada pela (B)__________ ao bloquear os recetores (A)__________.",
     "options": [
-      "(B) Acetilcolina; (A) Muscarínicos M3 b) (B) Noradrenalina; (A) Beta-2 c) (B) Acetilcolina; (A) Muscarínicos M2 d) (B) Histamina; (A) M3"
+      "(B) Acetilcolina; (A) Muscarínicos M3",
+      "(B) Noradrenalina; (A) Beta-2",
+      "(B) Acetilcolina; (A) Muscarínicos M2",
+      "(B) Histamina; (A) M3"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1894,7 +2068,10 @@
     "id": 148,
     "question": "Qual das seguintes opções descreve corretamente os mecanismos pelos quais os Glicocorticoides causam osteoporose?",
     "options": [
-      "Estimulam os osteoblastos e aumentam a absorção de Cálcio b) Inibem os osteoclastos (reabsorção) e estimulam os osteoblastos c) Aumentam a absorção de Cálcio, mas inibem o PTH d) Inibem os osteoblastos (formação óssea) e diminuem a absorção intestinal de Cálcio"
+      "Estimulam os osteoblastos e aumentam a absorção de Cálcio",
+      "Inibem os osteoclastos (reabsorção) e estimulam os osteoblastos",
+      "Aumentam a absorção de Cálcio, mas inibem o PTH",
+      "Inibem os osteoblastos (formação óssea) e diminuem a absorção intestinal de Cálcio"
     ],
     "correct_answer": "",
     "justification": "",
@@ -1906,7 +2083,10 @@
     "id": 149,
     "question": "Além de ser um análogo de prostaglandina citoprotetor, o Misoprostol também pode reduzir a secreção ácida basal ao inibir diretamente a:",
     "options": [
-      "Recetores H2 (Histamina) b) Recetores M3 (Acetilcolina) c) Bomba de prótons (H+/K+-ATPase) d) Enzima Fosfolipase A2"
+      "Recetores H2 (Histamina)",
+      "Recetores M3 (Acetilcolina)",
+      "Bomba de prótons (H+/K+-ATPase)",
+      "Enzima Fosfolipase A2"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2543,7 +2723,10 @@
     "id": 195,
     "question": "A Síndrome de Cushing iatrogênica é causada pelo excesso de __________, enquanto a Doença de Addison é a insuficiência dos mesmos.",
     "options": [
-      "Glicocorticoides b) Mineralocorticoides c) Catecolaminas d) Anti-histamínicos"
+      "Glicocorticoides",
+      "Mineralocorticoides",
+      "Catecolaminas",
+      "Anti-histamínicos"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2555,7 +2738,10 @@
     "id": 196,
     "question": "Qual fármaco é um análogo da Prostaglandina E1 (PGE1) usado para proteger o estômago, mas que é absolutamente contraindicado na gravidez por ser abortivo?",
     "options": [
-      "Sucralfato b) Misoprostol c) Omeprazol d) Subcitrato de Bismuto"
+      "Sucralfato",
+      "Misoprostol",
+      "Omeprazol",
+      "Subcitrato de Bismuto"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2567,7 +2753,10 @@
     "id": 197,
     "question": "Os agonistas Beta-2 (SABA/LABA) causam broncodilatação ao ativarem a adenilil-ciclase, o que leva ao aumento dos níveis intracelulares de qual segundo mensageiro?",
     "options": [
-      "AMPc (AMP cíclico) b) GMPc (GMP cíclico) c) Cálcio (Ca2+) d) Acetilcolina"
+      "AMPc (AMP cíclico)",
+      "GMPc (GMP cíclico)",
+      "Cálcio (Ca2+)",
+      "Acetilcolina"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2579,7 +2768,10 @@
     "id": 198,
     "question": "O Roflumilast, um anti-inflamatório oral usado na DPOC, atua como um inibidor seletivo da:",
     "options": [
-      "Fosfodiesterase-4 (PDE4) b) Fosfodiesterase-3 (PDE3) c) Ciclooxigenase-2 (COX-2) d) 5-Lipoxigenase (5-LOX)"
+      "Fosfodiesterase-4 (PDE4)",
+      "Fosfodiesterase-3 (PDE3)",
+      "Ciclooxigenase-2 (COX-2)",
+      "5-Lipoxigenase (5-LOX)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2591,7 +2783,10 @@
     "id": 199,
     "question": "A interação clinicamente relevante entre o Omeprazol e o Clopidogrel (um pró-fármaco) ocorre porque o Omeprazol inibe a enzima:",
     "options": [
-      "CYP3A4 b) CYP1A2 c) CYP2C19 d) CYP2D6"
+      "CYP3A4",
+      "CYP1A2",
+      "CYP2C19",
+      "CYP2D6"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2603,7 +2798,10 @@
     "id": 200,
     "question": "O Omalizumab, um fármaco biológico para a asma alérgica grave, tem como alvo terapêutico:",
     "options": [
-      "A Interleucina-5 (IL-5) b) O recetor CysLT1 c) A Imunoglobulina E (IgE) d) A Interleucina-4 (IL-4)"
+      "A Interleucina-5 (IL-5)",
+      "O recetor CysLT1",
+      "A Imunoglobulina E (IgE)",
+      "A Interleucina-4 (IL-4)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2615,7 +2813,10 @@
     "id": 201,
     "question": "A hipertensão arterial induzida por glicocorticoides (efeito mineralocorticoide) deve-se primariamente à retenção de:",
     "options": [
-      "Potássio (K+) e água b) Sódio (Na+) e água c) Cálcio (Ca2+) d) Magnésio (Mg2+)"
+      "Potássio (K+) e água",
+      "Sódio (Na+) e água",
+      "Cálcio (Ca2+)",
+      "Magnésio (Mg2+)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2627,7 +2828,10 @@
     "id": 202,
     "question": "A miopatia esteroide (fraqueza e perda de massa muscular) causada pelo uso crónico de corticoides é um resultado direto do aumento do:",
     "options": [
-      "Anabolismo proteico b) Catabolismo proteico c) Armazenamento de glicogénio d) Transporte de aminoácidos"
+      "Anabolismo proteico",
+      "Catabolismo proteico",
+      "Armazenamento de glicogénio",
+      "Transporte de aminoácidos"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2639,7 +2843,10 @@
     "id": 203,
     "question": "Qual é a orientação fundamental que se deve dar a um paciente que usa um corticoide inalatório (ICS), como a Budesonida, para prevenir a candidíase orofaríngea (\"sapinho\")?",
     "options": [
-      "Tomar o fármaco sempre com leite. b) Suster a respiração por pelo menos 1 minuto após a inalação. c) Enxaguar a boca e gargarejar com água (e cuspir) após cada utilização. d) Tomar um anti-histamínico 30 minutos antes de usar."
+      "Tomar o fármaco sempre com leite.",
+      "Suster a respiração por pelo menos 1 minuto após a inalação.",
+      "Enxaguar a boca e gargarejar com água (e cuspir) após cada utilização.",
+      "Tomar um anti-histamínico 30 minutos antes de usar."
     ],
     "correct_answer": "",
     "justification": "",
@@ -2651,7 +2858,10 @@
     "id": 204,
     "question": "Os broncodilatadores anticolinérgicos (SAMA/LAMA) exercem o seu efeito principal ao bloquear qual subtipo de recetor muscarínico no músculo liso brônquico?",
     "options": [
-      "M1 b) M2 c) M3 d) B2 (Beta-2)"
+      "M1",
+      "M2",
+      "M3",
+      "B2 (Beta-2)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2663,7 +2873,10 @@
     "id": 205,
     "question": "Qual classe de fármacos, quando usada isoladamente (em monoterapia) para o tratamento de manutenção da asma, demonstrou aumentar o risco de exacerbações graves e morte?",
     "options": [
-      "SABA (Agonistas Beta-2 de Ação Curta) b) LABA (Agonistas Beta-2 de Ação Longa) c) LAMA (Anticolinérgicos de Ação Longa) d) ICS (Corticoides Inalatórios)"
+      "SABA (Agonistas Beta-2 de Ação Curta)",
+      "LABA (Agonistas Beta-2 de Ação Longa)",
+      "LAMA (Anticolinérgicos de Ação Longa)",
+      "ICS (Corticoides Inalatórios)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2675,7 +2888,10 @@
     "id": 206,
     "question": "Além da inibição da PDE, um dos mecanismos de ação (e toxicidade) da Teofilina é o antagonismo dos recetores de:",
     "options": [
-      "Histamina b) Leucotrienos c) Acetilcolina d) Adenosina"
+      "Histamina",
+      "Leucotrienos",
+      "Acetilcolina",
+      "Adenosina"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2687,7 +2903,10 @@
     "id": 207,
     "question": "Para que o Sucralfato se polimerize e forme um gel viscoso protetor sobre a úlcera, ele necessita de um ambiente com:",
     "options": [
-      "pH neutro (aprox. 7.0) b) pH alcalino (acima de 8.0) c) pH ácido (abaixo de 4.0) d) A presença de bílis"
+      "pH neutro (aprox. 7.0)",
+      "pH alcalino (acima de 8.0)",
+      "pH ácido (abaixo de 4.0)",
+      "A presença de bílis"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2699,7 +2918,10 @@
     "id": 208,
     "question": "Para a erradicação eficaz do H. pylori, a terapia padrão (tripla ou quádrupla) requer a combinação de um IBP (Inibidor da Bomba de Protões) com:",
     "options": [
-      "Dois ou mais AINEs b) Dois ou mais antibióticos c) Um Antagonista H2 e um antiácido d) Um antifúngico e um antiviral"
+      "Dois ou mais AINEs",
+      "Dois ou mais antibióticos",
+      "Um Antagonista H2 e um antiácido",
+      "Um antifúngico e um antiviral"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2711,7 +2933,10 @@
     "id": 209,
     "question": "Pacientes com Doença de Addison (insuficiência adrenal primária) necessitam de reposição glicocorticoide (ex: Hidrocortisona) e também de reposição mineralocorticoide, que é feita com:",
     "options": [
-      "Dexametasona b) Prednisona c) Fludrocortisona d) Budesonida"
+      "Dexametasona",
+      "Prednisona",
+      "Fludrocortisona",
+      "Budesonida"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2723,7 +2948,10 @@
     "id": 210,
     "question": "Qual das seguintes não é uma indicação terapêutica primária para o uso de glicocorticoides sistémicos (ex: Prednisona)?",
     "options": [
-      "Imunossupressão em doenças autoimunes (ex: Lúpus) b) Terapia anti-inflamatória em asma grave ou AR c) Terapia de reposição na Doença de Addison d) Tratamento de primeira linha para hipertensão arterial"
+      "Imunossupressão em doenças autoimunes (ex: Lúpus)",
+      "Terapia anti-inflamatória em asma grave ou AR",
+      "Terapia de reposição na Doença de Addison",
+      "Tratamento de primeira linha para hipertensão arterial"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2735,7 +2963,10 @@
     "id": 211,
     "question": "A \"Terapia Quádrupla\" com Bismuto para a erradicação do H. pylori é composta por um IBP, Subcitrato de Bismuto e quais dois antibióticos?",
     "options": [
-      "Claritromicina e Amoxicilina b) Amoxicilina e Levofloxacina c) Metronidazol e Tetraciclina d) Claritromicina e Metronidazol"
+      "Claritromicina e Amoxicilina",
+      "Amoxicilina e Levofloxacina",
+      "Metronidazol e Tetraciclina",
+      "Claritromicina e Metronidazol"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2747,7 +2978,10 @@
     "id": 212,
     "question": "As três classes clássicas de fármacos com ação broncodilatadora são:",
     "options": [
-      "Agonistas Beta-2, Anticolinérgicos e Metilxantinas b) Agonistas Beta-2, Corticoides e Antileucotrienos c) Anticolinérgicos, Antileucotrienos e Cromonas d) Metilxantinas, Corticoides e Anti-histamínicos"
+      "Agonistas Beta-2, Anticolinérgicos e Metilxantinas",
+      "Agonistas Beta-2, Corticoides e Antileucotrienos",
+      "Anticolinérgicos, Antileucotrienos e Cromonas",
+      "Metilxantinas, Corticoides e Anti-histamínicos"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2759,7 +2993,10 @@
     "id": 213,
     "question": "Quais dos seguintes fármacos são classificados como Agonistas Beta-2 de Ação Longa (LABA)?",
     "options": [
-      "Salbutamol e Fenoterol b) Salmeterol e Formoterol c) Ipratrópio e Tiotrópio d) Montelukast e Zafirlukast"
+      "Salbutamol e Fenoterol",
+      "Salmeterol e Formoterol",
+      "Ipratrópio e Tiotrópio",
+      "Montelukast e Zafirlukast"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2771,7 +3008,10 @@
     "id": 214,
     "question": "Qual par representa corretamente um anticolinérgico de ação curta (SAMA) e um de ação longa (LAMA), respetivamente?",
     "options": [
-      "Salbutamol (SAMA) e Salmeterol (LAMA) b) Ipratrópio (SAMA) e Tiotrópio (LAMA) c) Tiotrópio (SAMA) e Ipratrópio (LAMA) d) Formoterol (SAMA) e Budesonida (LAMA)"
+      "Salbutamol (SAMA) e Salmeterol (LAMA)",
+      "Ipratrópio (SAMA) e Tiotrópio (LAMA)",
+      "Tiotrópio (SAMA) e Ipratrópio (LAMA)",
+      "Formoterol (SAMA) e Budesonida (LAMA)"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2783,7 +3023,10 @@
     "id": 215,
     "question": "Qual das seguintes é uma indicação terapêutica primária para os Inibidores da Bomba de Protões (IBPs)?",
     "options": [
-      "Síndrome do Intestino Irritável (SII) b) Doença Inflamatória Intestinal (Crohn ou Colite Ulcerativa) c) Doença do Refluxo Gastroesofágico (DRGE) d) Gastrite por Candida albicans"
+      "Síndrome do Intestino Irritável (SII)",
+      "Doença Inflamatória Intestinal (Crohn ou Colite Ulcerativa)",
+      "Doença do Refluxo Gastroesofágico (DRGE)",
+      "Gastrite por Candida albicans"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2795,7 +3038,10 @@
     "id": 216,
     "question": "Qual dos seguintes não é um sinal/sintoma característico da Síndrome de Cushing iatrogénica?",
     "options": [
-      "Fácies de lua cheia e giba de búfalo b) Hiperglicemia e miopatia c) Hipotensão e perda de peso d) Estrias abdominais violáceas"
+      "Fácies de lua cheia e giba de búfalo",
+      "Hiperglicemia e miopatia",
+      "Hipotensão e perda de peso",
+      "Estrias abdominais violáceas"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2807,7 +3053,10 @@
     "id": 217,
     "question": "Para um paciente que necessita de um IBP mas está a tomar Clopidogrel, qual IBP é considerado a alternativa mais segura por ter menor interação com a CYP2C19?",
     "options": [
-      "Omeprazol b) Esomeprazol c) Pantoprazol d) Lansoprazol"
+      "Omeprazol",
+      "Esomeprazol",
+      "Pantoprazol",
+      "Lansoprazol"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2819,7 +3068,10 @@
     "id": 218,
     "question": "O Subcitrato de Bismuto, usado na terapia quádrupla, tem um mecanismo de ação duplo que envolve:",
     "options": [
-      "Inibição da bomba de protões e neutralização do ácido b) Formação de uma barreira protetora sobre a úlcera e ação bactericida contra H. pylori c) Bloqueio dos recetores H2 e M3 na célula parietal d) Aumento da produção de muco e inibição da CYP2C19"
+      "Inibição da bomba de protões e neutralização do ácido",
+      "Formação de uma barreira protetora sobre a úlcera e ação bactericida contra H. pylori",
+      "Bloqueio dos recetores H2 e M3 na célula parietal",
+      "Aumento da produção de muco e inibição da CYP2C19"
     ],
     "correct_answer": "",
     "justification": "",
@@ -2831,7 +3083,10 @@
     "id": 219,
     "question": "O Misoprostol, um análogo da Prostaglandina E1, é absolutamente contraindicado em qual situação?",
     "options": [
-      "Gravidez b) Hipertensão arterial c) Asma d) Insuficiência renal"
+      "Gravidez",
+      "Hipertensão arterial",
+      "Asma",
+      "Insuficiência renal"
     ],
     "correct_answer": "",
     "justification": "",

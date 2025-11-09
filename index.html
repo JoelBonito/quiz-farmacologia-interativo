@@ -84,8 +84,13 @@
 
         <!-- Tela do Quiz -->
         <div id="quiz-screen" class="screen">
+            <!-- Botão Toggle Stats (apenas mobile) -->
+            <button class="stats-toggle-btn" onclick="toggleStats()" style="display: none;">
+                <span id="stats-toggle-text">📊 Mostrar Estatísticas</span>
+            </button>
+
             <!-- Dashboard de Estatísticas em Tempo Real -->
-            <div class="stats-dashboard">
+            <div class="stats-dashboard" id="stats-dashboard">
                 <div class="stat-card">
                     <div class="stat-icon">✅</div>
                     <div class="stat-info">

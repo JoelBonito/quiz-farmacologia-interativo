@@ -1023,3 +1023,198 @@ window.onclick = function(event) {
         closeShareModal();
     }
 };
+
+// ============================================================================
+// MELHORIAS MOBILE - RESPONSIVIDADE E UX
+// ============================================================================
+
+// Toggle Stats Dashboard (Mobile)
+function toggleStats() {
+    const dashboard = document.getElementById('stats-dashboard');
+    const toggleText = document.getElementById('stats-toggle-text');
+    
+    if (dashboard.classList.contains('collapsed')) {
+        dashboard.classList.remove('collapsed');
+        toggleText.textContent = '📊 Ocultar Estatísticas';
+    } else {
+        dashboard.classList.add('collapsed');
+        toggleText.textContent = '📊 Mostrar Estatísticas';
+    }
+}
+
+// Inicializar dashboard colapsado em mobile
+function initMobileOptimizations() {
+    if (window.innerWidth <= 480) {
+        const dashboard = document.getElementById('stats-dashboard');
+        const toggleBtn = document.querySelector('.stats-toggle-btn');
+        
+        // Mostrar botão toggle apenas em mobile
+        if (toggleBtn) {
+            toggleBtn.style.display = 'block';
+        }
+        
+        // Iniciar com dashboard colapsado em mobile
+        if (dashboard && !dashboard.classList.contains('collapsed')) {
+            dashboard.classList.add('collapsed');
+        }
+    }
+}
+
+// Suporte a Gestos Swipe
+let touchStartX = 0;
+let touchEndX = 0;
+let touchStartY = 0;
+let touchEndY = 0;
+
+function handleGesture() {
+    const horizontalSwipe = touchEndX - touchStartX;
+    const verticalSwipe = Math.abs(touchEndY - touchStartY);
+    
+    // Apenas processar swipe se for predominantemente horizontal
+    if (Math.abs(horizontalSwipe) > verticalSwipe && Math.abs(horizontalSwipe) > 50) {
+        // Swipe left - próxima pergunta
+        if (horizontalSwipe < -50) {
+            const nextBtn = document.getElementById('next-btn');
+            if (nextBtn && nextBtn.style.display !== 'none') {
+                vibrateFeedback([10]);
+                nextQuestion();
+            } else {
+                // Se não houver botão próxima, tentar pular
+                vibrateFeedback([5]);
+                skipQuestion();
+            }
+        }
+        
+        // Swipe right - pergunta anterior
+        if (horizontalSwipe > 50) {
+            vibrateFeedback([10]);
+            previousQuestion();
+        }
+    }
+}
+
+// Feedback Háptico
+function vibrateFeedback(pattern = [10]) {
+    if ('vibrate' in navigator) {
+        navigator.vibrate(pattern);
+    }
+}
+
+// Event Listeners para Swipe
+function initSwipeGestures() {
+    const questionContainer = document.querySelector('.question-container');
+    
+    if (questionContainer && window.innerWidth <= 480) {
+        questionContainer.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
+        }, { passive: true });
+
+        questionContainer.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            touchEndY = e.changedTouches[0].screenY;
+            handleGesture();
+        }, { passive: true });
+    }
+}
+
+// Detectar mudança de orientação
+function handleOrientationChange() {
+    initMobileOptimizations();
+    
+    // Reajustar layout após mudança de orientação
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 300);
+}
+
+// Event listeners para orientação
+window.addEventListener('orientationchange', handleOrientationChange);
+window.addEventListener('resize', () => {
+    if (window.innerWidth <= 480) {
+        initMobileOptimizations();
+    } else {
+        // Remover otimizações mobile em telas maiores
+        const dashboard = document.getElementById('stats-dashboard');
+        const toggleBtn = document.querySelector('.stats-toggle-btn');
+        
+        if (dashboard) {
+            dashboard.classList.remove('collapsed');
+        }
+        if (toggleBtn) {
+            toggleBtn.style.display = 'none';
+        }
+    }
+});
+
+// Prevenir scroll indesejado durante swipe
+let scrollY = 0;
+function preventScrollOnSwipe() {
+    if (window.innerWidth <= 480) {
+        document.body.style.overflowY = 'auto';
+        document.body.style.position = 'relative';
+    }
+}
+
+// Melhorar performance em mobile reduzindo animações
+function optimizeMobilePerformance() {
+    if (window.innerWidth <= 480) {
+        // Reduzir animações
+        document.documentElement.style.setProperty('--transition-speed', '0.2s');
+        
+        // Lazy load de imagens se houver
+        if ('loading' in HTMLImageElement.prototype) {
+            const images = document.querySelectorAll('img[data-src]');
+            images.forEach(img => {
+                img.src = img.dataset.src;
+            });
+        }
+    }
+}
+
+// Inicializar melhorias mobile quando o DOM estiver pronto
+function initMobileEnhancements() {
+    initMobileOptimizations();
+    initSwipeGestures();
+    preventScrollOnSwipe();
+    optimizeMobilePerformance();
+}
+
+// Adicionar ao DOMContentLoaded existente
+(function() {
+    const originalDOMContentLoaded = window.addEventListener;
+    window.addEventListener('DOMContentLoaded', () => {
+        // Aguardar um pouco para garantir que tudo foi carregado
+        setTimeout(() => {
+            initMobileEnhancements();
+        }, 100);
+    });
+})();
+
+// Melhorar feedback visual ao tocar em opções
+function enhanceTouchFeedback() {
+    if (window.innerWidth <= 480) {
+        document.addEventListener('touchstart', function(e) {
+            if (e.target.classList.contains('option') || 
+                e.target.classList.contains('btn') ||
+                e.target.classList.contains('true-false-btn')) {
+                e.target.style.opacity = '0.8';
+            }
+        }, { passive: true });
+
+        document.addEventListener('touchend', function(e) {
+            if (e.target.classList.contains('option') || 
+                e.target.classList.contains('btn') ||
+                e.target.classList.contains('true-false-btn')) {
+                setTimeout(() => {
+                    e.target.style.opacity = '1';
+                }, 100);
+            }
+        }, { passive: true });
+    }
+}
+
+// Inicializar feedback de toque
+setTimeout(() => {
+    enhanceTouchFeedback();
+}, 500);

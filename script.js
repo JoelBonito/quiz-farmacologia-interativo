@@ -715,6 +715,21 @@ function showPreviousAnswer() {
 // FINALIZAR QUIZ
 // ============================================================================
 
+function finishQuizEarly() {
+    // Verificar se o usuário respondeu pelo menos uma pergunta
+    if (stats.totalAnswered === 0) {
+        alert('Você precisa responder pelo menos uma pergunta antes de finalizar o quiz.');
+        return;
+    }
+
+    // Confirmar se o usuário realmente quer finalizar
+    const confirmation = confirm(`Você respondeu ${stats.totalAnswered} de ${currentQuestions.length} perguntas. Deseja realmente finalizar e ver os resultados?`);
+
+    if (confirmation) {
+        finishQuiz();
+    }
+}
+
 function finishQuiz() {
     // Calcular estatísticas finais
     const totalQuestions = currentQuestions.length;

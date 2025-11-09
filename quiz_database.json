@@ -159,7 +159,7 @@
       "Tremor muscular."
     ],
     "correct_answer": "d) Tremor muscular.",
-    "justification": "O Salbutamol (Albuterol) é o SABA mais utilizado mundialmente. Tem início de ação em 5 minutos, pico em 30-60 minutos e duração de 4-6 horas. É o medicamento de resgate padrão nas crises asmáticas.",
+    "justification": "O tremor fino em extremidades é um efeito adverso característico dos agonistas Beta-2, resultado da estimulação direta dos receptores β2 no músculo esquelético. A administração sistêmica (oral, subcutânea, endovenosa) torna os efeitos adversos, como tremor, taquicardia e hipopotassemia, mais pronunciados.",
     "category": "Farmacologia",
     "hint": "Pense na estimulação dos receptores B2 no músculo esquelético. Também causa taquicardia e hipopotassemia.",
     "type": "multiple_choice",
@@ -175,7 +175,7 @@
       "Teofilina + Antileucotrieno."
     ],
     "correct_answer": "b) LABA + Cromoglicato sódico.",
-    "justification": "O Formoterol é um LABA com início de ação rápido (1-3 minutos), sendo o único LABA que pode ser usado tanto para manutenção quanto para resgate quando combinado com corticoide inalado (estratégia MART).",
+    "justification": "Os agonistas β2 de ação prolongada (LABA) se associam ao cromoglicato sódico (um inibidor da liberação de mediadores) e são utilizados como profilaxia em asma induzida por exercício e exposição a alérgenos. Além disso, os antileucotrienos também são eficazes na prevenção da asma induzida pelo exercício, com eficácia semelhante à dos LABAs.",
     "category": "Farmacologia",
     "hint": "Envolve um estabilizador de mastócito (Cromona) e um broncodilatador de longa duração.",
     "type": "multiple_choice",
@@ -191,7 +191,7 @@
       "Os LABA só são usados para crises agudas na DPOC."
     ],
     "correct_answer": "b) Na asma, os LABA sempre devem ser combinados com corticoides, enquanto na DPOC podem ser usados sozinhos.",
-    "justification": "O Salmeterol é um LABA com duração de 12 horas mas início de ação mais lento (10-20 minutos). Deve ser usado apenas para manutenção, sempre combinado com corticoide inalado, nunca para crise aguda.",
+    "justification": "No tratamento da asma, os LABA nunca devem ser utilizados sozinhos (monoterapia), pois aliviam o broncoespasmo, mas não tratam a inflamação subjacente, o que aumenta o risco de exacerbações graves. Eles devem ser combinados com glucocorticoides. Em contraste, na DPOC, os LABA são efetivos e podem ser utilizados sozinhos ou em combinação com anticolinérgicos e glucocorticoides.",
     "category": "Farmacologia",
     "hint": "A inflamação é a base da asma (precisa de corticoide). A broncodilatação é a base da DPOC (pode usar LABA/LAMA sozinho).",
     "type": "multiple_choice",
@@ -207,7 +207,7 @@
       "Porque é a única via de administração possível."
     ],
     "correct_answer": "c) Para reduzir os efeitos adversos sistêmicos.",
-    "justification": "Na gravidez, é mais seguro manter a asma controlada com medicação do que permitir crises que causam hipóxia fetal. SABAs e corticoides inalados (especialmente Budesonida) são considerados seguros durante a gestação.",
+    "justification": "A via inalatória é preferida para os SABA em crises agudas porque minimiza os efeitos adversos sistêmicos. Isso reduz a probabilidade de reações sistêmicas como tremor muscular, taquicardia e hipopotassemia, que são mais pronunciadas quando os agonistas β2 são administrados por vias sistêmicas.",
     "category": "Farmacologia",
     "hint": "Ação local (pulmão) é mais rápida e evita que o fármaco circule pelo corpo todo.",
     "type": "multiple_choice",
@@ -223,7 +223,7 @@
       "O Salmeterol tem um início de ação mais rápido mas uma duração mais curta."
     ],
     "correct_answer": "c) O Salbutamol dura de 3 a 6 horas, enquanto o Salmeterol dura 12 horas ou mais.",
-    "justification": "O efeito broncodilatador dos β2-agonistas ocorre principalmente pela via AMPc → PKA → fosforilação da MLCK (quinase da cadeia leve de miosina) → relaxamento do músculo liso brônquico.",
+    "justification": "Os SABA (como o Salbutamol, Fenoterol ou Terbutalina) são de ação curta, com duração de efeito de 3 a 6 horas (ou 4-8 horas). Os LABA (como o Salmeterol e Formoterol) são de ação longa, com duração de efeito de 12 a 24 horas.",
     "category": "Farmacologia",
     "hint": "As siglas SABA (Short-Acting) e LABA (Long-Acting) definem a resposta.",
     "type": "multiple_choice",
@@ -239,7 +239,7 @@
       "Bloqueiam os receptores de adenosina nas vias respiratórias."
     ],
     "correct_answer": "b) Antagonizam os efeitos da acetilcolina nos receptores muscarínicos M3.",
-    "justification": "A taquicardia é um efeito adverso comum dos β2-agonistas, especialmente em doses altas ou via sistêmica, devido à estimulação β1 cardíaca (menor seletividade em doses elevadas) e à vasodilatação periférica β2 (reflexo compensatório).",
+    "justification": "Os fármacos anticolinérgicos (ou antimuscarínicos) bloqueiam os receptores muscarínicos M3 do músculo liso bronquial. Ao impedir que a acetilcolina se ligue a esses receptores, eles antagonizam o reflexo parassimpático (vagal) que causa broncoconstrição e secreção de muco, resultando em broncodilatação.",
     "category": "Farmacologia",
     "hint": "\"Anticolinérgico\" significa \"contra a acetilcolina\". O receptor-chave no brônquio é o M3.",
     "type": "multiple_choice",

@@ -111,8 +111,34 @@ function loadQuestion() {
     const optionsContainer = document.getElementById('options-container');
     optionsContainer.innerHTML = '';
     
-    // Verificar se é pergunta de completar/listar (sem opções)
-    if (question.type === 'fill_in' || question.type === 'list' || question.options.length === 0) {
+    // Verificar tipo de pergunta
+    if (question.type === 'true_false') {
+        // Criar botões Verdadeiro/Falso
+        const trueFalseDiv = document.createElement('div');
+        trueFalseDiv.style.display = 'flex';
+        trueFalseDiv.style.gap = '20px';
+        trueFalseDiv.style.justifyContent = 'center';
+        trueFalseDiv.style.marginTop = '20px';
+        trueFalseDiv.innerHTML = `
+            <button onclick="selectTrueFalse(true)" 
+                    class="true-false-btn"
+                    style="flex: 1; max-width: 300px; padding: 20px 40px; background: #27ae60; 
+                           color: white; border: none; border-radius: 12px; 
+                           font-size: 18px; cursor: pointer; font-weight: 700;
+                           transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                ✓ VERDADEIRO
+            </button>
+            <button onclick="selectTrueFalse(false)" 
+                    class="true-false-btn"
+                    style="flex: 1; max-width: 300px; padding: 20px 40px; background: #e74c3c; 
+                           color: white; border: none; border-radius: 12px; 
+                           font-size: 18px; cursor: pointer; font-weight: 700;
+                           transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                ✗ FALSO
+            </button>
+        `;
+        optionsContainer.appendChild(trueFalseDiv);
+    } else if (question.type === 'fill_in' || question.type === 'list' || question.options.length === 0) {
         // Criar campo de texto para resposta aberta
         const textareaDiv = document.createElement('div');
         textareaDiv.style.width = '100%';
@@ -241,6 +267,69 @@ function submitOpenAnswer() {
     score += 5;
     correctAnswers++;
     document.getElementById('score-display').textContent = `Pontuação: ${score}`;
+}
+
+// Selecionar Verdadeiro/Falso
+function selectTrueFalse(userAnswer) {
+    const question = currentQuestions[currentQuestionIndex];
+    const buttons = document.querySelectorAll('.true-false-btn');
+    
+    // Desabilitar botões
+    buttons.forEach(btn => {
+        btn.disabled = true;
+        btn.style.opacity = '0.6';
+        btn.style.cursor = 'not-allowed';
+    });
+    
+    // Determinar resposta correta (pode estar em correct_answer como "Verdadeiro", "Falso", "V", "F", etc)
+    let correctAnswer = false;
+    const answerText = question.correct_answer.toLowerCase();
+    if (answerText.includes('verdadeiro') || answerText === 'v' || answerText === 'true') {
+        correctAnswer = true;
+    }
+    
+    // Verificar se está correto
+    const isCorrect = userAnswer === correctAnswer;
+    
+    // Atualizar pontuação
+    if (isCorrect) {
+        const points = hintUsed ? 5 : 10;
+        score += points;
+        correctAnswers++;
+    } else {
+        incorrectAnswers++;
+    }
+    document.getElementById('score-display').textContent = `Pontuação: ${score}`;
+    
+    // Mostrar feedback
+    const feedbackContainer = document.getElementById('feedback-container');
+    const feedbackIcon = document.getElementById('feedback-icon');
+    const feedbackTitle = document.getElementById('feedback-title');
+    const feedbackText = document.getElementById('feedback-text');
+    
+    if (isCorrect) {
+        feedbackContainer.className = 'feedback-container';
+        feedbackIcon.textContent = '✅';
+        feedbackTitle.textContent = 'Correto!';
+    } else {
+        feedbackContainer.className = 'feedback-container incorrect';
+        feedbackIcon.textContent = '❌';
+        feedbackTitle.textContent = 'Incorreto';
+    }
+    
+    const correctText = correctAnswer ? 'VERDADEIRO' : 'FALSO';
+    feedbackText.innerHTML = `<strong>Resposta correta:</strong> ${correctText}<br><br>${question.justification || 'Sem justificativa disponível.'}`;
+    feedbackContainer.style.display = 'block';
+    
+    // Ocultar botão de dica
+    document.getElementById('hint-btn').style.display = 'none';
+    
+    // Mostrar botão de próxima pergunta
+    if (currentQuestionIndex < currentQuestions.length - 1) {
+        document.getElementById('next-btn').style.display = 'inline-block';
+    } else {
+        document.getElementById('finish-btn').style.display = 'inline-block';
+    }
 }
 
 // Voltar pergunta anterior

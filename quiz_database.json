@@ -1863,8 +1863,8 @@
       "Apenas interage com IBPs, não com antibióticos",
       "Deve ser tomado pelo menos 2 horas depois de outros medicamentos"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Deve ser tomado pelo menos 2 horas depois de outros medicamentos",
+    "justification": "O Sucralfato é um agente citoprotetor que, em ambiente ácido (pH < 4), polimeriza-se para formar um gel viscoso e aderente. Esta camada protetora, embora benéfica para a úlcera, pode inibir a absorção de outros fármacos como fenitoína, digoxina, cimetidina, cetoconazol e antibióticos do grupo das fluoroquinolonas. A orientação correta para evitar esta interação e garantir a absorção de outros medicamentos é que o Sucralfato deve ser tomado pelo menos 2 horas depois da administração de outros fármacos. O Sucralfato deve ser tomado com o estômago vazio, pelo menos 1 hora antes das refeições.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1878,8 +1878,8 @@
       "(A) Bomba de protões; (B) secreções alcalinas",
       "(A) Fosfolipase A2; (B) IgE"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) (A) Fosfolipase A2; (B) prostaglandinas",
+    "justification": "Os glicocorticoides (GC), utilizados no tratamento anti-asmático, aumentam o risco de úlceras pépticas. Isso ocorre porque o principal mecanismo de ação anti-inflamatória dos GC é o bloqueio da enzima fosfolipase A2 (PLA2). Ao inibir a PLA2, os GC impedem a ativação da COX-1 e COX-2, interrompendo a síntese das prostaglandinas (PGs). As PGs (PGE₂ e PGI₂) são essenciais para a gastroproteção, pois estimulam a secreção de muco e bicarbonato, aumentam o fluxo sanguíneo da mucosa e inibem diretamente a secreção ácida. A perda dessa defesa leva a um desequilíbrio entre os fatores protetores e agressivos, aumentando o risco de úlcera péptica.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1893,8 +1893,8 @@
       "Não neutraliza o ácido, mas causa escurecimento (preto) inofensivo da língua e das fezes",
       "Não neutraliza o ácido, mas causa tremores e hipopotassemia"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Não neutraliza o ácido, mas causa escurecimento (preto) inofensivo da língua e das fezes",
+    "justification": "O Subcitrato de Bismuto (Subcitrato de Bismuto Coloidal) tem um mecanismo de ação citoprotetor e antibacteriano. Não neutraliza o ácido estomacal. Um de seus efeitos adversos característicos e inofensivos é o escurecimento (cor preta) da mucosa oral e das fezes. Isso ocorre devido à reação do bismuto com o sulfeto de hidrogênio bacteriano, que forma sulfeto de bismuto. O Subcitrato de Bismuto é um bactericida contra o H. pylori.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1908,8 +1908,8 @@
       "Pantoprazol",
       "Nizatidina"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) Cimetidina",
+    "justification": "A Cimetidina é o Antagonista H2 que atua como um potente inibidor de várias enzimas do citocromo P450 (CYP450), incluindo CYP1A2, CYP2C9 e CYP2D6. Essa inibição pode elevar os níveis plasmáticos de diversos fármacos que são metabolizados por essas vias, resultando em numerosas interações farmacológicas. Devido a este perfil de interação, a Famotidina e a Nizatidina são consideradas mais seguras, pois não interagem significativamente com o sistema CYP450.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -1968,8 +1968,8 @@
       "(A) inflamação; (B) Corticoide Inalatório (ICS)",
       "(A) alergia; (B) Anti-histamínico"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) (A) inflamação; (B) Corticoide Inalatório (ICS)",
+    "justification": "Na asma, os Agonistas β2 de Ação Longa (LABA), como o Salmeterol ou Formoterol, nunca devem ser usados como monoterapia (sozinhos). Os LABA apenas causam broncodilatação e aliviam os sintomas, mas não tratam a inflamação crônica subjacente (A), que é a raiz da doença. O uso isolado de LABA pode mascarar o agravamento da inflamação, aumentando o risco de exacerbações graves e morte por asma. O tratamento ideal, portanto, exige que os LABA sejam sempre associados a um Corticoide Inalatório (ICS) (B). Os ICS (como Budesonida ou Fluticasona) são a terapia anti-inflamatória de primeira linha e a pedra angular do tratamento de controle do asma persistente.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2058,8 +2058,8 @@
       "(B) Acetilcolina; (A) Muscarínicos M2",
       "(B) Histamina; (A) M3"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) (B) Acetilcolina; (A) Muscarínicos M3",
+    "justification": "O Tiotrópio é um Anticolinérgico de Ação Longa (LAMA). O sistema parassimpático (colinérgico) causa broncoconstrição e aumento da secreção de muco. O neurotransmissor liberado é a Acetilcolina (ACh). A ACh se liga aos receptores muscarínicos M3 no músculo liso bronquial, causando a contração. Os anticolinérgicos (como o Tiotrópio) bloqueiam de forma competitiva a ligação da Acetilcolina aos receptores M3, resultando em broncodilatação e redução de secreções.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2728,8 +2728,8 @@
       "Catecolaminas",
       "Anti-histamínicos"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) Glicocorticoides",
+    "justification": "A Síndrome de Cushing (iatrogênica, causada por medicamentos) resulta do excesso crônico de cortisol (um glicocorticoide). A Doença de Addison é caracterizada pela insuficiência ou ausência de hormônios corticais, principalmente o cortisol (Glicocorticoide).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2743,8 +2743,8 @@
       "Omeprazol",
       "Subcitrato de Bismuto"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) Misoprostol",
+    "justification": "O Misoprostol é um análogo sintético da Prostaglandina E1 (PGE1). Ele é usado principalmente para prevenir úlceras gástricas em pacientes que usam AINEs cronicamente. O Misoprostol é absolutamente contraindicado durante a gravidez porque aumenta a contratilidade uterina e pode induzir o aborto.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2758,8 +2758,8 @@
       "Cálcio (Ca2+)",
       "Acetilcolina"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) AMPc (AMP cíclico)",
+    "justification": "Os agonistas β2 adrenérgicos, como SABA e LABA, atuam no músculo liso bronquial: 1) Ligam-se aos receptores β2 adrenérgicos. 2) Estimulam a enzima adenilato ciclase. 3) O que resulta no aumento da síntese dos níveis intracelulares de AMP cíclico (AMPc). 4) O AMPc elevado ativa a Proteína Quinase A (PKA), culminando no relaxamento do músculo liso bronquial (broncodilatação).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2773,8 +2773,8 @@
       "Ciclooxigenase-2 (COX-2)",
       "5-Lipoxigenase (5-LOX)"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) Fosfodiesterase-4 (PDE4)",
+    "justification": "O Roflumilast é um inibidor oral seletivo da Fosfodiesterase 4 (PDE4). A PDE4 é a isoforma predominante em células inflamatórias (mastócitos, eosinófilos, neutrófilos, etc.), e sua inibição aumenta os níveis de AMPc, o que confere um efeito anti-inflamatório. O Roflumilast é aprovado para pacientes com DPOC grave.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2788,8 +2788,8 @@
       "CYP2C19",
       "CYP2D6"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) CYP2C19",
+    "justification": "A interação clinicamente relevante entre o Omeprazol e o Clopidogrel ocorre através do sistema do citocromo P450, especificamente a enzima CYP2C19. O Omeprazol é metabolizado e inibe a enzima CYP2C19. O Clopidogrel é um pró-fármaco que depende da enzima CYP2C19 para ser convertido em sua forma ativa. Ao inibir a CYP2C19, o Omeprazol reduz a conversão do Clopidogrel à sua forma ativa, diminuindo seu efeito antiplaquetário e aumentando o risco de eventos trombóticos graves. O Pantoprazol é recomendado como alternativa.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2803,8 +2803,8 @@
       "A Imunoglobulina E (IgE)",
       "A Interleucina-4 (IL-4)"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) A Imunoglobulina E (IgE)",
+    "justification": "O Omalizumabe é um anticorpo monoclonal humanizado (AcMo) aprovado para o tratamento do asma alérgica grave. Seu alvo é a Imunoglobulina E (IgE) circulante. O Omalizumabe liga-se à IgE livre, impedindo que esta se una aos mastócitos e basófilos. Desta forma, bloqueia a cascata alérgica e a liberação subsequente de mediadores inflamatórios (como histamina e leucotrienos), o que reduz as crises de asma.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2818,8 +2818,8 @@
       "Cálcio (Ca2+)",
       "Magnésio (Mg2+)"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) Sódio (Na+) e água",
+    "justification": "A hipertensão arterial induzida pelos glicocorticoides (GC) decorre primariamente de sua atividade mineralocorticoide. Essa atividade mineralocorticoide leva à retenção de sódio e água. A retenção de sódio e água resulta na expansão do volume plasmático, o que, por sua vez, eleva a pressão arterial. Em contraste, o excesso de cortisol causa perda de potássio.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2833,8 +2833,8 @@
       "Armazenamento de glicogénio",
       "Transporte de aminoácidos"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) Catabolismo proteico",
+    "justification": "A miopatia esteroide, caracterizada por fraqueza e perda de massa muscular, é um resultado direto do efeito catabólico proteico dos glicocorticoides quando usados em doses excessivas. As doses elevadas de GC estimulam a degradação (catabolismo) das proteínas musculares e inibem sua síntese. Os aminoácidos liberados servem como substratos para a gliconeogênese (produção de glicose).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2848,8 +2848,8 @@
       "Enxaguar a boca e gargarejar com água (e cuspir) após cada utilização.",
       "Tomar um anti-histamínico 30 minutos antes de usar."
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Enxaguar a boca e gargarejar com água (e cuspir) após cada utilização",
+    "justification": "Os glicocorticoides inalatórios (ICS), como a Budesonida, são a terapia anti-inflamatória de primeira linha para o controle do asma. No entanto, seu uso pode levar à candidíase orofaríngea (infecção fúngica, 'sapinho'). A orientação fundamental para prevenir este efeito adverso é enxaguar a boca e gargarejar com água após cada inalação, e cuspir a água. Este procedimento simples minimiza a deposição do corticosteroide na orofaringe, reduzindo o risco de infecção fúngica localizada.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2863,8 +2863,8 @@
       "M3",
       "B2 (Beta-2)"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) M3",
+    "justification": "O sistema nervoso parassimpático (colinérgico) causa broncoconstrição ao liberar Acetilcolina (ACh). A ACh se liga aos recetores muscarínicos (M3) no músculo liso bronquial, o que resulta na contração. Os broncodilatadores anticolinérgicos, como o Brometo de Ipratrópio (SAMA) e o Brometo de Tiotrópio (LAMA), atuam bloqueando estes recetores M3, impedindo a ação da Acetilcolina e causando o relaxamento dos brônquios (broncodilatação) e a redução das secreções.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2878,8 +2878,8 @@
       "LAMA (Anticolinérgicos de Ação Longa)",
       "ICS (Corticoides Inalatórios)"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) LABA (Agonistas Beta-2 de Ação Longa)",
+    "justification": "Os Agonistas β2 de Ação Longa (LABA) (como Salmeterol ou Formoterol) nunca devem ser usados sozinhos (monoterapia) no tratamento da asma. Os LABA apenas aliviam os sintomas (broncodilatação), mas não controlam a inflamação crônica subjacente. O uso isolado dos LABA pode mascarar o agravamento da inflamação, o que aumenta o risco de exacerbações graves e morte por asma. O tratamento ideal requer que os LABA sejam sempre associados a um Corticoide Inalatório (ICS), que trata a inflamação de base.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2893,8 +2893,8 @@
       "Acetilcolina",
       "Adenosina"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Adenosina",
+    "justification": "As Metilxantinas, como a Teofilina, possuem um mecanismo de ação multifatorial: 1) Inibição da Fosfodiesterase (PDE) (não seletiva, incluindo PDE3, PDE4 e PDE5). 2) Antagonismo dos recetores de adenosina (principalmente A1). A Adenosina causa broncoconstrição em asmáticos ao liberar histamina e leucotrienos; o bloqueio da Adenosina pela Teofilina resulta em broncodilatação. O antagonismo dos recetores de adenosina é também o mecanismo que pode ser responsável por efeitos adversos graves da Teofilina, como arritmias e convulsões.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2908,8 +2908,8 @@
       "pH ácido (abaixo de 4.0)",
       "A presença de bílis"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) pH ácido (abaixo de 4.0)",
+    "justification": "O Sucralfato é um agente citoprotetor com um mecanismo de ação único. Ele requer um ambiente ácido (pH menor que 4) para ser ativado. Em pH baixo, o Sucralfato se polimeriza para formar um gel viscoso e aderente que se liga seletivamente às proteínas no cráter da úlcera, criando uma barreira protetora contra o ácido e a pepsina.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2923,8 +2923,8 @@
       "Um Antagonista H2 e um antiácido",
       "Um antifúngico e um antiviral"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) Dois ou mais antibióticos",
+    "justification": "A infecção pela bactéria Helicobacter pylori é a causa subjacente da maioria das úlceras duodenais e gástricas. Para a erradicação eficaz, a terapia padrão (Tripla ou Quádrupla) requer um fármaco antisecretor (geralmente um IBP) em combinação com dois ou mais agentes antimicrobianos (antibióticos). Terapia Tripla Clássica: IBP + Claritromicina + Amoxicilina. Terapia Quádrupla: IBP + Sais de Bismuto + Metronidazol + Tetraciclina.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2938,8 +2938,8 @@
       "Fludrocortisona",
       "Budesonida"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Fludrocortisona",
+    "justification": "A Doença de Addison (insuficiência adrenal primária) é causada pela redução ou incapacidade das glândulas suprarrenais de produzir hormônios, principalmente cortisol (glicocorticoide) e aldosterona (mineralocorticoide). Para a reposição mineralocorticoide: O mineralocorticoide natural é a Aldosterona. A Aldosterona não é utilizada na prática devido à sua escassa manejabilidade. Na prática, emprega-se o derivado sintético Fludrocortisona, que é ativo por via oral. A Fludrocortisona é usada na insuficiência suprarrenal global, aguda ou crônica, em associação com glicocorticoides (como a Hidrocortisona).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2953,8 +2953,8 @@
       "Terapia de reposição na Doença de Addison",
       "Tratamento de primeira linha para hipertensão arterial"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "d) Tratamento de primeira linha para hipertensão arterial",
+    "justification": "O uso terapêutico dos glicocorticoides (GC) inclui reemplazo hormonal (como na Doença de Addison), ação anti-inflamatória (como na asma grave ou artrite reumatoide), e imunossupressão. A hipertensão arterial é, na verdade, um efeito adverso e uma contraindicação ao uso de corticoides. O excesso de cortisol ou GC (atividade mineralocorticoide) causa retenção de sódio e água, levando à hipertensão arterial. Portanto, não é uma indicação primária de tratamento.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2968,8 +2968,8 @@
       "Metronidazol e Tetraciclina",
       "Claritromicina e Metronidazol"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Metronidazol e Tetraciclina",
+    "justification": "O esquema da 'Terapia Quádrupla' é uma terapia de segunda linha, utilizada para casos de recidivas ou resistência, e consiste em quatro componentes: 1) Um Inibidor da Bomba de Prótons (IBP). 2) Subcitrato de Bismuto (ou Subsalicilato de Bismuto). 3) Metronidazol (antibiótico que danifica o DNA bacteriano). 4) Tetraciclina (antibiótico que inibe a síntese de proteínas).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2983,8 +2983,8 @@
       "Anticolinérgicos, Antileucotrienos e Cromonas",
       "Metilxantinas, Corticoides e Anti-histamínicos"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) Agonistas Beta-2, Anticolinérgicos e Metilxantinas",
+    "justification": "Os broncodilatadores atuam relaxando o músculo liso bronquial. Eles são tradicionalmente divididos em três classes principais: 1) Agonistas Beta-2 Adrenérgicos (SABA/LABA): Considerados os mais potentes. 2) Anticolinérgicos (SAMA/LAMA): Inibidores da atividade parassimpática. 3) Metilxantinas (Xantinas/Teofilina): Relaxantes diretos da fibra muscular.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -2998,8 +2998,8 @@
       "Ipratrópio e Tiotrópio",
       "Montelukast e Zafirlukast"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) Salmeterol e Formoterol",
+    "justification": "Os Agonistas β2 Adrenérgicos de Ação Longa (LABA) são usados para profilaxia e controle a longo prazo, sendo sua duração de efeito de 12 a 24 horas. LABA (Ação Longa): Salmeterol e Formoterol. SABA (Ação Curta): Salbutamol e Fenoterol. Anticolinérgicos (LAMA/SAMA): Ipratrópio e Tiotrópio. Antileucotrienos: Montelukast e Zafirlukast.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -3013,8 +3013,8 @@
       "Tiotrópio (SAMA) e Ipratrópio (LAMA)",
       "Formoterol (SAMA) e Budesonida (LAMA)"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) Ipratrópio (SAMA) e Tiotrópio (LAMA)",
+    "justification": "Os broncodilatadores anticolinérgicos (antimuscarínicos) são classificados de acordo com sua duração de ação. SAMA (Short-Acting Muscarinic Antagonist), ou de Curta Duração: O principal representante é o Brometo de Ipratrópio. LAMA (Long-Acting Muscarinic Antagonist), ou de Longa Duração: Os representantes incluem o Brometo de Tiotrópio, Brometo de Glicopirrónio, e Brometo de Umeclidinio. O Tiotrópio é mais eficaz que o Ipratrópio e seu efeito pode durar mais de 24 horas.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -3028,8 +3028,8 @@
       "Doença do Refluxo Gastroesofágico (DRGE)",
       "Gastrite por Candida albicans"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Doença do Refluxo Gastroesofágico (DRGE)",
+    "justification": "Os Inibidores da Bomba de Prótons (IBPs) são a classe de fármacos mais potente para suprimir a secreção ácida (80% a 95% da produção diária). Por isso, constituem a terapia de primeira linha e o pilar do tratamento para a maioria das doenças relacionadas com o ácido. As indicações terapêuticas primárias incluem: Doença do Refluxo Gastroesofágico (DRGE/ERGE), Tratamento e prevenção de úlceras pépticas (gástricas e duodenais), Síndrome de Zollinger-Ellison (condição de hipersecreção patológica), e Profilaxia de úlceras induzidas por AINEs.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -3043,8 +3043,8 @@
       "Hipotensão e perda de peso",
       "Estrias abdominais violáceas"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Hipotensão e perda de peso",
+    "justification": "A Síndrome de Cushing resulta do excesso crônico de glicocorticoides/cortisol. As características do excesso de cortisol incluem: Hipertensão Arterial (devido ao aumento da atividade mineralocorticoide), Ganho de Peso/Obesidade Central, Fácies de Lua Cheia e Giba de Búfalo (redistribuição da gordura corporal), Hiperglicemia (aumento da gliconeogênese e resistência à insulina), Estrias Violáceas (redução de colágeno), e Miopatia (catabolismo proteico). Portanto, hipotensão (pressão baixa) e perda de peso são sinais da ausência de cortisol (Síndrome de Addison).",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -3058,8 +3058,8 @@
       "Pantoprazol",
       "Lansoprazol"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "c) Pantoprazol",
+    "justification": "O Omeprazol (e o Esomeprazol) inibe significativamente a enzima CYP2C19. Como o Clopidogrel é um pró-fármaco que depende da ativação pela CYP2C19, a coadministração de Omeprazol pode reduzir a eficácia antiplaquetária do Clopidogrel, aumentando o risco de eventos trombóticos. O Pantoprazol é o IBP considerado a alternativa mais segura nesta situação, pois tem uma menor probabilidade de gerar esta interação clinicamente relevante com a CYP2C19.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -3073,8 +3073,8 @@
       "Bloqueio dos recetores H2 e M3 na célula parietal",
       "Aumento da produção de muco e inibição da CYP2C19"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "b) Formação de uma barreira protetora sobre a úlcera e ação bactericida contra H. pylori",
+    "justification": "As Sales de Bismuto (Subcitrato ou Subsalicilato de Bismuto) têm um mecanismo de ação que combina proteção e erradicação. Citoproteção: O bismuto adere preferencialmente aos cráteres das úlceras, formando uma camada protetora. Além disso, inibe a atividade da pepsina e aumenta a secreção de muco e bicarbonato. Ação Antibacteriana: As sales de bismuto possuem um efeito antibacteriano direto (bactericida) contra o Helicobacter pylori na mucosa gastroduodenal. É importante notar que as sales de bismuto NÃO neutralizam o ácido estomacal e NÃO inibem a bomba de prótons.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"
@@ -3088,8 +3088,8 @@
       "Asma",
       "Insuficiência renal"
     ],
-    "correct_answer": "",
-    "justification": "",
+    "correct_answer": "a) Gravidez",
+    "justification": "O Misoprostol é um análogo sintético da Prostaglandina E1 (PGE1). As prostaglandinas aumentam o tono e a frequência das contrações do útero. O Misoprostol é, portanto, absolutamente contraindicado durante a gravidez e em mulheres em idade fértil sem um método contraceptivo seguro, devido ao risco de induzir o aborto ou parto prematuro.",
     "category": "Farmacologia",
     "hint": "",
     "type": "multiple_choice"

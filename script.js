@@ -177,8 +177,13 @@ function loadTheme() {
 
 async function loadQuizData() {
     try {
+        console.log('🔄 Iniciando carregamento do quiz...');
         const response = await fetch('quiz_database.json');
+        console.log('📥 Resposta recebida:', response.status);
+
         const questions = await response.json();
+        console.log('📊 JSON parseado:', questions.length, 'questões');
+        console.log('📝 Primeira questão (antes):', questions[0]);
 
         // Normalizar campos português → inglês
         const normalizedQuestions = questions.map(q => ({
@@ -193,8 +198,12 @@ async function loadQuizData() {
             justification: q.justificativa || q.justification
         }));
 
+        console.log('✨ Primeira questão (depois):', normalizedQuestions[0]);
+
         quizData = { questions: normalizedQuestions };
         allQuestions = normalizedQuestions;
+
+        console.log('💾 allQuestions atualizado:', allQuestions.length);
 
         // Atualizar contador total na tela inicial
         document.getElementById('total-questions').textContent = normalizedQuestions.length;
@@ -207,7 +216,7 @@ async function loadQuizData() {
 
         console.log(`✅ ${normalizedQuestions.length} perguntas carregadas com sucesso`);
     } catch (error) {
-        console.error('Erro ao carregar dados do quiz:', error);
+        console.error('❌ Erro ao carregar dados do quiz:', error);
         alert('Erro ao carregar o quiz. Por favor, recarregue a página.');
     }
 }

@@ -143,7 +143,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Pense no momento de maior atividade da bomba de prótons",
     "id": 10,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs são pró-fármacos que requerem ativação em ambiente ácido e a atividade da bomba H+/K+ é maior antes da primeira refeição, justificando a administração em jejum."
   },
@@ -159,7 +159,7 @@
     "resposta_correta": "Anticolinérgico de ação longa (LAMA) + beta-2 agonista de ação longa (LABA)",
     "dica": "DPOC demanda broncodilatadores de longa duração para controle crônico",
     "id": 11,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Para DPOC, a combinação de LAMA + LABA oferece broncodilatação prolongada e melhora sintomática, sendo a estratégia terapêutica padrão."
   },
@@ -239,7 +239,7 @@
     "resposta_correta": "Salbutamol",
     "dica": "Considere os efeitos adversos típicos dos β2-agonistas de curta duração",
     "id": 16,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Salbutamol, um β2-agonista de curta duração, pode causar taquicardia e tremores devido à ativação dos receptores β2 em tecidos extracardíacos e ação sistêmica em doses elevadas."
   },
@@ -297,7 +297,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Monitorização plasma é necessária para evitar toxicidade.",
     "id": 20,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "A janela terapêutica estreita da teofilina exige monitorização sérica, pois concentrações acima de 20 μg/mL aumentam risco de efeitos adversos graves."
   },
@@ -381,7 +381,7 @@
     "resposta_correta": "Uso concomitante de beta-2 agonistas",
     "dica": "Reveja fatores que alteram o metabolismo da teofilina.",
     "id": 26,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Beta-2 agonistas não alteram metabolismo da teofilina significativamente; outros fatores como insuficiência hepática e indução enzimática interferem nos níveis."
   },
@@ -397,7 +397,7 @@
     "resposta_correta": "Pacientes idosos",
     "dica": "Idosos apresentam menor capacidade metabólica hepática e maior sensibilidade a efeitos adversos.",
     "id": 27,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Pacientes idosos metabolizam teofilina mais lentamente, aumentando risco de toxicidade; monitorização rigorosa é necessária."
   },
@@ -477,7 +477,7 @@
     "resposta_correta": "No vale, imediatamente antes da próxima dose",
     "dica": "O nível de vale representa a concentração mínima para eficácia e segurança.",
     "id": 32,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Medir níveis no vale antes da dose seguinte garante que a concentração permaneça dentro da janela terapêutica sem risco de toxicidade."
   },
@@ -487,7 +487,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Reveja os efeitos adversos graves do fármaco em altas concentrações.",
     "id": 33,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Concentrações elevadas de teofilina podem provocar convulsões e arritmias potencialmente fatais, requerendo intervenção urgente."
   },
@@ -503,7 +503,7 @@
     "resposta_correta": "Hipocalemia significativa",
     "dica": "Hipocalemia está mais associada a outros classes de broncodilatadores.",
     "id": 34,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Hipocalemia é comum em β2-agonistas em dose alta, mas não é efeito típico direto da teofilina."
   },
@@ -519,7 +519,7 @@
     "resposta_correta": "Paciente com insuficiência hepática",
     "dica": "Comprometimento hepático reduz metabolismo da teofilina.",
     "id": 35,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Insuficiência hepática diminui o metabolismo da teofilina, aumentando risco de acúmulo e toxicidade, exigindo dose menor."
   },
@@ -577,7 +577,7 @@
     "resposta_correta": "Beta-2 agonista de longa ação associado a corticosteroide inalatório",
     "dica": "Reflita sobre o tratamento de manutenção versus alívio na asma persistente",
     "id": 39,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "LABA deve ser sempre associado a corticosteroide inalatório para controle da inflamação; uso isolado de LABA aumenta risco de eventos adversos."
   },
@@ -625,7 +625,7 @@
     "resposta_correta": "Mepolizumab",
     "dica": "Considere o alvo terapêutico específico relacionado à eosinofilia",
     "id": 42,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Mepolizumab é anticorpo anti-IL-5 indicado para asma eosinofílica grave, reduzindo contagem de eosinófilos e exacerbações."
   },
@@ -667,7 +667,7 @@
     "resposta_correta": "Retorno imediato à dose anterior e redução gradual",
     "dica": "Considere os riscos da retirada abrupta dos glicocorticoides",
     "id": 45,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Suspensão brusca pode causar insuficiência adrenal; reiniciar corticosteroide e reduzir progressivamente restaura eixo HPA evitando crise."
   },
@@ -699,7 +699,7 @@
     "resposta_correta": "Enxaguar a boca após a inalação",
     "dica": "Pense em medidas locais para evitar crescimento fúngico",
     "id": 47,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Enxaguar a boca remove resíduos do corticosteroide, evitando colonização por Candida e reduzindo candidíase oral."
   },
@@ -741,7 +741,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere o pH requerido para a formação do gel protetor pelo sucralfato",
     "id": 50,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "O sucralfato forma barreira física ao interagir com proteínas da mucosa em ambiente ácido (pH <4), protegendo contra ácido e pepsina."
   },
@@ -789,7 +789,7 @@
     "resposta_correta": "Combinação de um beta-2 agonista de longa ação (LABA) com um anticolinérgico de longa ação (LAMA)",
     "dica": "O tratamento de manutenção da DPOC grave geralmente envolve drogas de longa duração e mecanismos complementares.",
     "id": 53,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O tratamento de manutenção da DPOC grave prioriza a combinação LABA + LAMA para broncodilatação prolongada e melhora dos sintomas. SABA é para resgate, CI não são primeira linha isolados na DPOC, e metilxantinas têm uso limitado devido à toxicidade."
   },
@@ -831,7 +831,7 @@
     "resposta_correta": "Tiotrópio",
     "dica": "Esse fármaco bloqueia receptores muscarínicos e pode agravar certas condições oculares.",
     "id": 56,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Anticolinérgicos de longa ação como tiotrópio bloqueiam receptores muscarínicos e podem precipitar glaucoma de ângulo fechado, contraindicado nesses pacientes. Beta-2 agonistas e corticosteroides inalatórios não apresentam essa contraindicação."
   },
@@ -857,7 +857,7 @@
     "resposta_correta": "Falso",
     "dica": "Considere como os IBPs ligam-se à enzima responsável pela secreção ácida.",
     "id": 58,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs se ligam de forma irreversível à bomba H+/K+-ATPase, inibindo a secreção ácida por até 24-48 horas até a síntese de novas bombas. A ligação não é reversível, ao contrário de antiácidos ou antagonistas H2."
   },
@@ -889,7 +889,7 @@
     "resposta_correta": "Bloqueio dos receptores CysLT1 para diminuir broncoconstrição e inflamação",
     "dica": "Esses fármacos atuam bloqueando mediadores lipídicos envolvidos na resposta inflamatória das vias aéreas.",
     "id": 60,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Antagonistas de leucotrienos, como montelucaste, bloqueiam receptores CysLT1, reduzindo broncoconstrição e inflamação típicas da asma. Não atuam em receptores β2 ou na secreção gástrica e não aumentam produção de surfactante."
   },
@@ -915,7 +915,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Receptores M3 regulam a contração da musculatura lisa brônquica mediada pela acetilcolina.",
     "id": 62,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "LAMA bloqueiam receptores muscarínicos M3, inibindo broncoconstrição colinérgica, sendo primeira linha na DPOC."
   },
@@ -947,7 +947,7 @@
     "resposta_correta": "Corticosteroides inalatórios",
     "dica": "Combinação de anti-inflamatório com broncodilatador melhora controle da asma.",
     "id": 64,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "LABA nunca devem ser usados isoladamente na asma, sempre combinados com corticosteroides inalatórios para reduzir inflamação e evitar risco de crise grave."
   },
@@ -963,7 +963,7 @@
     "resposta_correta": "Teofilina",
     "dica": "Farmacocinética variável e risco de arritmias exigem cuidado no uso.",
     "id": 65,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Teofilina possui janela terapêutica estreita (10-20 μg/mL), com risco de arritmias e convulsões em doses tóxicas, exigindo monitoramento."
   },
@@ -989,7 +989,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "A absorção depende do pH do intestino e da disponibilidade da bomba ativa.",
     "id": 67,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Inibidores da bomba de prótons têm melhor absorção em jejum e atuam quando as bombas H+/K+-ATPase estão sendo ativas durante a alimentação, maximizando efeito."
   },
@@ -1085,7 +1085,7 @@
     "resposta_correta": "Metabolizados pelas CYP2C19 e CYP3A4, apresentando múltiplas interações",
     "dica": "Enzimas hepáticas são cruciais na metabolização e interações de muitos fármacos.",
     "id": 73,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "IBP são metabolizados pelo sistema enzimático CYP2C19 e CYP3A4, podendo interagir com outros medicamentos que utilizam essas vias, alterando eficácia ou toxicidade."
   },
@@ -1101,7 +1101,7 @@
     "resposta_correta": "Bloqueio dos receptores de cisteinil-leucotrienos (CysLT1)",
     "dica": "Antileucotrienos atuam bloqueando mediadores envolvidos na broncoconstrição e inflamação.",
     "id": 74,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Montelucaste e zafirlucaste bloqueiam especificamente os receptores CysLT1, reduzindo broncoconstrição, inflamação e secreção de muco na asma."
   },
@@ -1127,7 +1127,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Reflita sobre a via de administração e perfil de segurança em populações pediátricas.",
     "id": 76,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Montelucaste é um antileucotrieno administrado por via oral, com bom perfil de segurança, sendo adequado para uso em crianças com asma leve a moderada."
   },
@@ -1160,7 +1160,7 @@
     "dica": "Alguns fármacos orais são indicados para prevenir broncoconstrição associada ao exercício.",
     "id": 78,
     "justificativa": "Montelucaste é eficaz na prevenção da asma induzida por exercício devido ao bloqueio dos leucotrienos, mediadores importantes nessa condição.",
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia"
   },
   {
@@ -1169,7 +1169,7 @@
     "resposta_correta": "Falso",
     "dica": "Pense nas recomendações para asma grave e o papel dos antileucotrienos nesse cenário.",
     "id": 79,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Em asma grave, os antagonistas de leucotrienos são geralmente usados como terapia adjuvante, não substituindo corticosteroides inalatórios ou broncodilatadores de longa ação."
   },
@@ -1185,7 +1185,7 @@
     "resposta_correta": "Via oral e bom perfil de tolerância gastrointestinal",
     "dica": "A forma de administração impacta a adesão, especialmente em crianças.",
     "id": 80,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Antileucotrienos são administrados por via oral e apresentam boa tolerabilidade, facilitando o uso em crianças e melhor adesão ao tratamento."
   },
@@ -1211,7 +1211,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Além da broncodilatação, antileucotrienos têm efeito sobre outras características da inflamação brônquica.",
     "id": 82,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Ao bloquear CysLT1, os antagonistas de leucotrienos diminuem broncoconstrição, inflamação e a produção/excreção de muco, melhorando a função respiratória."
   },
@@ -1259,7 +1259,7 @@
     "resposta_correta": "Bloqueio competitivo dos receptores H2 da célula parietal",
     "dica": "Os antagonistas H2 atuam antes da etapa final da secreção ácida, interferindo em receptores específicos.",
     "id": 85,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Antagonistas H2 bloqueiam reversivelmente os receptores histamínicos H2 nas células parietais, reduzindo a produção de ácido gástrico. Eles não atuam na bomba de prótons nem neutralizam diretamente o ácido, e sim agem por bloqueio competitivo."
   },
@@ -1335,7 +1335,7 @@
     "resposta_correta": "Cimetidina",
     "dica": "Um dos antagonistas H2 é conhecido por seu efeito inibitório enzimático hepático significativo.",
     "id": 90,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Cimetidina é o antagonista H2 mais conhecido por inibir múltiplas isoenzimas do CYP450, aumentando níveis séricos de vários medicamentos, enquanto ranitidina e famotidina possuem menor potencial, e nizatidina quase nenhum efeito relevante nesse aspecto."
   },
@@ -1387,7 +1387,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Corticosteroides podem causar efeitos sistêmicos mesmo quando inalados em altas doses.",
     "id": 94,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Embora o uso inalatórios minimize efeitos sistêmicos, doses altas e prolongadas podem absorver quantidades suficientes para suprimir o eixo HPA, causando efeitos adversos sistêmicos."
   },
@@ -1403,7 +1403,7 @@
     "resposta_correta": "Corticosteroide inalatório + beta-2 agonista de ação longa",
     "dica": "Tratamento de manutenção visa reduzir inflamação e melhorar broncodilatação prolongada.",
     "id": 95,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O uso combinado de corticosteroide inalatório com beta-2 agonista de longa duração é padrão para asma persistente grave, controlando a inflamação e prevenindo exacerbações."
   },
@@ -1477,7 +1477,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Este fármaco é utilizado para prevenir crises asmáticas e não para alívio imediato",
     "id": 100,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "O cromoglicato estabiliza a membrana dos mastócitos, prevenindo a liberação de histamina e outros mediadores que desencadeiam a inflamação e broncoconstrição."
   },
@@ -1509,7 +1509,7 @@
     "resposta_correta": "Glaucoma de ângulo fechado",
     "dica": "Esta condição ocular pode ser agravada por fármacos que provocam midríase",
     "id": 102,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Anticolinérgicos podem aumentar a pressão intraocular, agravando glaucoma de ângulo fechado e estão contraindicados nesses pacientes."
   },
@@ -1567,7 +1567,7 @@
     "resposta_correta": "Candidíase oral",
     "dica": "Este efeito adverso está relacionado ao uso local do medicamento",
     "id": 106,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O uso prolongado de corticosteroides inalados pode causar candidíase oral devido à imunossupressão local, e por isso é recomendável usar espaçador e enxaguar boca após a inalação."
   },
@@ -1647,7 +1647,7 @@
     "resposta_correta": "Mepolizumab",
     "dica": "Este anticorpo monoclonal bloqueia a ação da interleucina-5",
     "id": 111,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Mepolizumab é um anticorpo anti-IL-5 que reduz a contagem de eosinófilos, indicado para asma eosinofílica grave refratária."
   },
@@ -1709,7 +1709,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Observe a combinação recomendada para controle a longo prazo da asma persistente.",
     "id": 116,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Corticosteroides inalatórios reduzem inflamação e hiperreatividade; LABA são adicionados para manter broncodilatação, evitando crises e controle sintomas."
   },
@@ -1719,7 +1719,7 @@
     "resposta_correta": "Falso",
     "dica": "Considere as orientações atuais sobre o uso de LABA na asma.",
     "id": 117,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "LABA não devem ser usados isoladamente na asma devido ao risco de exacerbações; devem sempre ser combinados com corticosteroides inalatórios na manutenção."
   },
@@ -1729,7 +1729,7 @@
     "resposta_correta": "Falso",
     "dica": "Compare indicações de LAMA entre asma e DPOC.",
     "id": 118,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "LAMA são primeira linha para DPOC e podem ser usados em asma grave, mas não são recomendados para asma leve a moderada."
   },
@@ -1789,7 +1789,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "A supressão do eixo HPA pode durar semanas ou meses após o uso contínuo.",
     "id": 124,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Corticosteroides suprimem a produção endógena de ACTH e cortisol. A retirada súbita pode levar à insuficiência adrenal aguda, por isso deve ser gradual para permitir recuperação do eixo HPA."
   },
@@ -1809,7 +1809,7 @@
     "resposta_correta": "Falso",
     "dica": "Biológicos são indicados em casos específicos e não substituem corticosteroides em todas as situações.",
     "id": 126,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Embora terapias biológicas reduzam a necessidade de corticosteroides em asma grave, estes ainda são essenciais em crises e exacerbations. O uso deve ser individualizado, não substituindo completamente corticosteroides orais."
   },
@@ -1829,7 +1829,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Corticosteroides podem aumentar risco de úlceras, especialmente se associados a outros fatores de risco.",
     "id": 128,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Os corticosteroides aumentam o risco de úlceras gástricas e, quando usados com AINEs ou em condições de estresse, a profilaxia com IBP é recomendada para proteger a mucosa gástrica."
   },
@@ -1839,7 +1839,7 @@
     "resposta_correta": "Falso",
     "dica": "Considere o tipo de ligação entre o fármaco ativo e a enzima.",
     "id": 129,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Os IBPs ligam-se irreversivelmente à bomba H+/K+-ATPase, inibindo a secreção ácida até que novas bombas sejam sintetizadas, o que explica a duração prolongada do efeito mesmo com meia-vida plasmática curta."
   },
@@ -1849,7 +1849,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Pense na farmacocinética dos IBPs e no local de absorção.",
     "id": 130,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs são absorvidos no duodeno em pH alcalino; usar em jejum antes da refeição promove maior absorção e ativação da bomba ácida, garantindo eficácia máxima."
   },
@@ -1899,7 +1899,7 @@
     "resposta_correta": "Falso",
     "dica": "Revisite as indicações terapêuticas para LABA na asma.",
     "id": 135,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Na asma, LABA devem ser sempre usados em associação com corticosteroides inalatórios para controle da inflamação; seu uso isolado pode aumentar o risco de exacerbações graves. Na DPOC, LABA isolados podem ser usados, mas na asma, a combinação é essencial."
   },
@@ -1929,7 +1929,7 @@
     "resposta_correta": "Falso",
     "dica": "Considere qual medicamento é a base do tratamento da DRGE segundo as recomendações atuais.",
     "id": 138,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Os inibidores da bomba de prótons são a primeira linha no tratamento da DRGE, enquanto os citoprotectores são usados como adjuvantes ou em casos específicos, não como terapia inicial padrão."
   },
@@ -1949,7 +1949,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Avalie os efeitos do misoprostol no útero durante a gravidez.",
     "id": 140,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Misoprostol é um análogo de prostaglandina que pode induzir contrações uterinas, aumentando o risco de aborto ou parto prematuro, razão pela qual é contraindicado em gestantes."
   },
@@ -1969,7 +1969,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere o mecanismo clássico das metilxantinas relacionadas ao AMPc.",
     "id": 142,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "A teofilina inibe a fosfodiesterase, prevenindo a degradação do AMPc, o que promove o relaxamento da musculatura lisa brônquica e broncodilatação."
   },
@@ -1989,7 +1989,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Pense na associação recomendada para reduzir riscos no tratamento da asma persistente.",
     "id": 144,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "LABA são usados exclusivamente em combinação com corticosteroides inalatórios na asma para evitar exacerbações graves e controle inadequado da inflamação."
   },
@@ -2009,7 +2009,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere medidas práticas para minimizar efeitos locais dos corticosteroides inalatórios.",
     "id": 146,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Os corticosteroides inalatórios podem causar candidíase oral; usar espaçador e enxaguar a boca após o uso diminui o risco."
   },
@@ -2019,7 +2019,7 @@
     "resposta_correta": "Falso",
     "dica": "Observe a classificação dos anticolinérgicos quanto à duração e indicações clínicas.",
     "id": 147,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Ipratrópio é um anticolinérgico de ação curta (SAMA), usado principalmente na DPOC, não de primeira linha para asma leve persistente."
   },
@@ -2091,7 +2091,7 @@
     "resposta_correta": "Retenção urinária e boca seca",
     "dica": "Anticolinérgicos frequentemente causam efeitos antimuscarínicos.",
     "id": 153,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Tiotrópio é um anticolinérgico de longa ação (LAMA) que bloqueia receptores muscarínicos, podendo causar boca seca e retenção urinária, principalmente em idosos. Hipocalemia é mais comum com beta-2 agonistas; candidíase oral é efeito dos corticosteroides inalatórios; supressão do eixo HPA ocorre com corticosteroides sistêmicos."
   },
@@ -2149,7 +2149,7 @@
     "resposta_correta": "Introduzir um corticosteroide inalatório associado a um LABA",
     "dica": "Tratamento de controle em asma persistente envolve redução da inflamação e broncodilatação prolongada.",
     "id": 157,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Corticosteroides inalados reduzem inflamação e hiperreatividade, enquanto LABA fornecem broncodilatação prolongada. Salbutamol é para alívio rápido e não controle diário. Anticolinérgicos curtos e teofilina têm indicações limitadas na asma persistente."
   },
@@ -2165,7 +2165,7 @@
     "resposta_correta": "São efeitos causados por antagonistas muscarínicos de ação longa",
     "dica": "Efeitos anticolinérgicos sistêmicos incluem boca seca e retenção urinária.",
     "id": 158,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Tiotrópio é um LAMA que bloqueia receptores muscarínicos, levando a efeitos adversos anticolinérgicos, como boca seca e retenção urinária, sobretudo em idosos. Beta-2 agonistas causam tremor, metilxantinas causam arritmias e corticosteroides apresentam outros efeitos."
   },
@@ -2197,7 +2197,7 @@
     "resposta_correta": "Iniciar corticosteroide sistêmico e antibioticoterapia associada",
     "dica": "Exacerbações graves de DPOC geralmente requerem anti-inflamatórios e controle da infecção.",
     "id": 160,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Exacerbações de DPOC frequentemente associam inflamação e infecção; corticosteroides sistêmicos reduzem inflamação e melhoram função pulmonar, enquanto antibióticos tratam possível infecção bacteriana. Manter broncodilatadores é importante, mas não suficiente isoladamente."
   },
@@ -2207,7 +2207,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Mesmo inalados, corticosteroides podem ser absorvidos sistemicamente.",
     "id": 161,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Corticosteroides inalatórios têm menor risco sistêmico, mas em altas doses e uso prolongado podem causar supressão do eixo HPA, levando a efeitos adversos semelhantes aos corticosteroides sistêmicos."
   },
@@ -2223,7 +2223,7 @@
     "resposta_correta": "Omalizumab (anti-IgE)",
     "dica": "Terapias biológicas atuam em mediadores específicos da resposta imune da asma.",
     "id": 162,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Omalizumab é indicado para asma alérgica grave, reduzindo IgE livre e controle de sintomas refratários a tratamento convencional. Montelucaste é adjuvante, mas menos eficaz em asma grave; Teofilina tem uso limitado; corticosteroides sistêmicos não são terapia biológica."
   },
@@ -2239,7 +2239,7 @@
     "resposta_correta": "Prescrever misoprostol associado aos AINEs para proteção gástrica",
     "dica": "Misoprostol é um análogo da prostaglandina E1 utilizado para proteção gástrica em uso crônico de AINEs.",
     "id": 163,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Misoprostol reduz lesões gástricas induzidas por AINEs pela ação citoprotetora das prostaglandinas, preservando a mucosa e estimulando a secreção de muco e bicarbonato. Sucralfato pode ser usado, mas o misoprostol é mais indicado para prevenção em uso contínuo de AINEs."
   },
@@ -2249,7 +2249,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere o mecanismo local de ação do sucralfato na mucosa gástrica.",
     "id": 164,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Sucralfato se liga às proteínas expostas das lesões gástricas, formando um revestimento protetor que impede agressão ácida e favorece cicatrização local. É utilizado em úlceras ativas como tratamento adjuvante para proteção da mucosa."
   },
@@ -2265,7 +2265,7 @@
     "resposta_correta": "Iniciar terapia com IBP, metronidazol e levofloxacino",
     "dica": "O uso de antibióticos alternativos é recomendado em casos de falha no esquema inicial devido à resistência bacteriana.",
     "id": 165,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Após falha no tratamento padrão com claritromicina, recomenda-se escolher antibióticos alternativos, como metronidazol e levofloxacino, associados ao IBP para aumentar as chances de erradicação, minimizando resistência e efeitos adversos."
   },
@@ -2281,7 +2281,7 @@
     "resposta_correta": "O uso dos IBPs aumenta o pH gástrico, favorecendo a ação dos antibióticos contra H. pylori.",
     "dica": "A eficácia dos antibióticos contra H. pylori está relacionada ao ambiente gástrico menos ácido.",
     "id": 166,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs aumentam o pH gástrico inibindo irreversivelmente a bomba H+/K+-ATPase, criando ambiente menos ácido que melhora a atividade dos antibióticos e facilita a erradicação do H. pylori. São pró-fármacos ativados em meio ácido, administrados em jejum para melhor absorção."
   },
@@ -2323,7 +2323,7 @@
     "resposta_correta": "Iniciar terapia biológica com anticorpos monoclonais",
     "dica": "Pacientes com asma grave e sintomas frequentes podem se beneficiar de terapias específicas direcionadas à inflamação subjacente.",
     "id": 169,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Em asma grave não controlada mesmo com corticosteroide inalatório e LABA, a terapia biológica (e.g., anti-IgE, anti-IL-5) é indicada para reduzir exacerbations e melhorar controle. Aumentar dose pode aumentar efeitos adversos; formoterol não é para uso diário isolado; anti-leucotrienos têm papel limitado em asma grave."
   },
@@ -2339,7 +2339,7 @@
     "resposta_correta": "Janela terapêutica estreita e múltiplas interações medicamentosas",
     "dica": "O monitoramento serum é necessário para evitar toxicidade séria.",
     "id": 170,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "A teofilina possui janela terapêutica estreita (10–20 μg/mL), exigindo monitoramento cuidadoso para evitar efeitos tóxicos como arritmias e convulsões. Além disso, tem muitas interações medicamentosas, limitando seu uso. Sua eficácia não é inferior, custo não é principal limitação e não há indução significativa de tolerância."
   },
@@ -2435,7 +2435,7 @@
     "resposta_correta": "Hipocalemia",
     "dica": "Observe o impacto eletrolítico dos agonistas beta-2.",
     "id": 176,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Beta-2 agonistas em doses elevadas promovem deslocamento de potássio para o interior celular, causando hipocalemia, o que pode agravar arritmias."
   },
@@ -2451,7 +2451,7 @@
     "resposta_correta": "Osteoporose e supressão adrenal",
     "dica": "Considere efeitos metabólicos e endócrinos.",
     "id": 177,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Uso prolongado de corticosteroides sistêmicos causa supressão do eixo HPA e perda óssea, aumentando o risco de osteoporose e insuficiência adrenal."
   },
@@ -2533,7 +2533,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere o pH gástrico e o momento da administração.",
     "id": 184,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs são pró-fármacos ativados em ambiente ácido; administração em jejum maximiza absorção e ativação na célula parietal."
   },
@@ -2553,7 +2553,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Pense nos efeitos das antagonistas de receptores muscarínicos no trato respiratório.",
     "id": 186,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Antagonistas muscarínicos reduzem broncoconstrição e também a secreção de muco, melhorando o fluxo aéreo em pacientes com DPOC e asma."
   },
@@ -2563,7 +2563,7 @@
     "resposta_correta": "Falso",
     "dica": "Pense em locais afetados e tipos de infecção.",
     "id": 187,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Candidíase oral está associada a corticosteroides inalatórios, não ao uso de IBPs que atuam no estômago; a redução da acidez pode predispor a infecções gastrointestinais, não orais."
   },
@@ -2579,7 +2579,7 @@
     "resposta_correta": "Tiotrópio",
     "dica": "Considere efeitos anticolinérgicos e populações suscetíveis.",
     "id": 188,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Tiotrópio, um LAMA, pode causar retenção urinária devido a seus efeitos antimuscarínicos, especialmente em idosos com problemas prostáticos."
   },
@@ -2595,7 +2595,7 @@
     "resposta_correta": "Reduzir dose de salmeterol ou avaliar associação com anticolinérgico",
     "dica": "Considere efeitos adversos conhecidos dos β2-agonistas.",
     "id": 189,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Tremores e taquicardia são efeitos comuns dos β2-agonistas em doses elevadas; reduzir dose ou associação pode otimizar controle e minimizar efeitos."
   },
@@ -2627,7 +2627,7 @@
     "resposta_correta": "Alterações metabólicas e catabolismo promovidas pelo corticoide",
     "dica": "Considere os efeitos metabólicos sistêmicos do glicocorticoide.",
     "id": 191,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Corticosteroides aumentam gliconeogênese e catabolismo proteico, causando hiperglicemia e fraqueza muscular como efeitos sistêmicos."
   },
@@ -2643,7 +2643,7 @@
     "resposta_correta": "Monitorar e tentar reduzir a dose mantido o controle da asma",
     "dica": "Equilibre controle da doença e efeitos adversos em pediatria.",
     "id": 192,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Corticosteroides inalados podem retardar crescimento; contudo, controle da asma é prioritário. Ajustes na dose e monitorização são essenciais antes de suspensão abrupta."
   },
@@ -2691,7 +2691,7 @@
     "resposta_correta": "Metilprednisolona intravenosa",
     "dica": "Considerar via e velocidade de ação na crise.",
     "id": 195,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Metilprednisolona IV é preferível em crise grave para ação rápida e melhor biodisponibilidade, controlando inflamação nas vias aéreas eficazmente."
   },
@@ -2726,7 +2726,7 @@
       "Anticolinérgicos aumentam a secreção de muco brônquico",
       "São contraindicados em pacientes com retenção urinária devido à ação colinérgica"
     ],
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia"
   },
   {
@@ -2743,7 +2743,7 @@
       "Glaucoma de ângulo fechado",
       "Candidíase oral"
     ],
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia"
   },
   {
@@ -2777,7 +2777,7 @@
       "Constipação",
       "Glaucoma"
     ],
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia"
   },
   {
@@ -2814,7 +2814,7 @@
     "justificativa": "Uso prolongado de corticosteroides suprime o eixo HPA, e retirada brusca pode causar insuficiência adrenal potencialmente fatal.",
     "dica": "Relacione o uso crônico de glicocorticoides com a necessidade de desmame gradual.",
     "id": 203,
-    "dificuldade": "fácil",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia"
   },
   {
@@ -2885,7 +2885,7 @@
     "resposta_correta": "Diarreia e dor abdominal",
     "dica": "Reações gastrointestinais são frequentes com bloqueadores de receptores H2.",
     "id": 209,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Os antagonistas H2 geralmente causam efeitos adversos leves, como dor abdominal e diarreia. Candidíase oral está associada a corticosteroides, e supressão do eixo HPA a glicocorticoides."
   },
@@ -2901,7 +2901,7 @@
     "resposta_correta": "150 mg duas vezes ao dia",
     "dica": "Antagonistas H2 comumente usam doses divididas para manter o efeito ao longo do dia.",
     "id": 210,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "A dose padrão de ranitidina para úlceras gástricas é 150 mg duas vezes ao dia, mantendo níveis terapêuticos estáveis para controlar a secreção ácida."
   },
@@ -2975,7 +2975,7 @@
     "resposta_correta": "Famotidina",
     "dica": "Famotidina é reconhecida por alta potência entre antagonistas H2.",
     "id": 215,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Famotidina possui maior afinidade e potência para o receptor H2, possibilitando doses menores para alcançar o mesmo efeito clínico, além de menor efeito sobre o CYP450."
   },
@@ -3007,7 +3007,7 @@
     "resposta_correta": "Esomeprazol",
     "dica": "Enantiômeros podem ter diferenças farmacocinéticas importantes.",
     "id": 217,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Esomeprazol é o enantiômero S do omeprazol, resultando em maior biodisponibilidade e farmacocinética menos variável devido ao metabolismo hepático diferente."
   },
@@ -3065,7 +3065,7 @@
     "resposta_correta": "Esomeprazol",
     "dica": "Meia-vida plasmática pode afetar cinética, mas não duração de efeito.",
     "id": 221,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O esomeprazol apresenta meia-vida plasmática um pouco maior, porém a duração do efeito dos IBPs é principalmente determinada pela inibição irreversível da bomba H+/K+-ATPase, que dura 24-48h."
   },
@@ -3075,7 +3075,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere interações entre IBPs e medicamentos pró-fármacos.",
     "id": 222,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Omeprazol inibe CYP2C19, enzima necessária para a ativação do clopidogrel, reduzindo sua eficácia antitrombótica, o que não ocorre com pantoprazol, que tem menor potencial inibitório."
   },
@@ -3091,7 +3091,7 @@
     "resposta_correta": "Pantoprazol",
     "dica": "Considere perfil de interações enzimáticas do fármaco.",
     "id": 223,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Pantoprazol possui menor inibição do CYP2C19 e CYP3A4, apresentando menor risco de interação com fármacos metabolizados por essas vias, como clopidogrel e diazepam."
   },
@@ -3175,7 +3175,7 @@
     "resposta_correta": "Potencialização do efeito anti-inflamatório com corticosteroide e broncodilatador",
     "dica": "Pense na sinergia entre os fármacos na combinação.",
     "id": 229,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "A combinação fixa permite controle da inflamação (corticosteroide) e broncodilatação (formoterol), melhorando o manejo da asma persistente e reduzindo exacerbações."
   },
@@ -3223,7 +3223,7 @@
     "resposta_correta": "Formoterol tem início de ação mais rápido que salmeterol",
     "dica": "Pense na rapidez com que cada fármaco começa a agir após inalação.",
     "id": 232,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O início rápido do formoterol (5 min) permite uso próximo ao aparecimento dos sintomas, diferente do salmeterol que demora até 30 min para efeito máximo."
   },
@@ -3249,7 +3249,7 @@
     "resposta_correta": "Verificar técnica de inalação e ajustar dose de corticosteroide associado",
     "dica": "Efeitos adversos podem estar relacionados a dose e uso inadequado; corticosteroides podem reduzir necessidades de broncodilatador.",
     "id": 234,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Tremor e taquicardia são efeitos colaterais comuns de β2-agonistas; ajuste da técnica e otimização da dose de corticosteroide podem reduzir sintomas e melhorar controle."
   },
@@ -3307,7 +3307,7 @@
     "resposta_correta": "Falso",
     "dica": "Reveja as indicações principais do ipratrópio em relação a asma e DPOC.",
     "id": 238,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Ipratrópio é utilizado principalmente na DPOC e como adjuvante em crises de asma, mas sozinho não é o tratamento padrão para crises graves de asma, que preferencialmente usam β2-agonistas de ação rápida."
   },
@@ -3323,7 +3323,7 @@
     "resposta_correta": "Inalatória (aerossol ou nebulização)",
     "dica": "O medicamento atua localmente nos brônquios para evitar efeitos sistêmicos.",
     "id": 239,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Ipratrópio é administrado via inalatória para atingir diretamente a musculatura lisa brônquica, promovendo broncodilatação e minimizando efeitos sistêmicos."
   },
@@ -3339,7 +3339,7 @@
     "resposta_correta": "Glaucoma de ângulo fechado",
     "dica": "Observe contraindicações relacionadas ao sistema ocular.",
     "id": 240,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Ipratrópio pode causar retenção do humor aquoso e aumentar a pressão intraocular, contra indicado em glaucoma de ângulo fechado."
   },
@@ -3365,7 +3365,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Efeitos anticolinérgicos frequentemente causam boca seca.",
     "id": 242,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Como antagonista muscarínico, ipratrópio reduz secreção de glândulas salivares, causando boca seca, efeito colateral comum aos anticolinérgicos."
   },
@@ -3407,7 +3407,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Além da broncodilatação, pense na secreção brônquica.",
     "id": 245,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Por bloquear os receptores muscarínicos M3, ipratrópio também reduz a secreção de muco nas vias aéreas, benefício importante em DPOC."
   },
@@ -3423,7 +3423,7 @@
     "resposta_correta": "Ipratrópio + β2-agonista de curta duração inalatório",
     "dica": "Pense em associação sinérgica para crise leve de DPOC.",
     "id": 246,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Na exacerbação leve, a combinação de broncodilatadores de mecanismos diferentes (anticolinérgicos + β2-agonistas) promove melhora rápida dos sintomas; corticosteroides e metilxantinas são reservados para quadros mais graves."
   },
@@ -3439,7 +3439,7 @@
     "resposta_correta": "Omeprazol",
     "dica": "Foque nos IBPs metabolizados principalmente pelo CYP2C19.",
     "id": 247,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Omeprazol inibe o CYP2C19, responsável pela bioativação do clopidogrel, diminuindo seu efeito antiplaquetário, enquanto pantoprazol e rabeprazol têm menor impacto nesse metabolismo."
   },
@@ -3481,7 +3481,7 @@
     "resposta_correta": "Inibição do CYP2C19 pelo IBP reduz a conversão do clopidogrel em forma ativa",
     "dica": "Foque na via metabólica hepática do clopidogrel.",
     "id": 250,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Clopidogrel é pró-fármaco ativado pelo CYP2C19; IBPs como omeprazol inibem esta enzima, reduzindo a formação do metabólito ativo e seu efeito antiplaquetário."
   },
@@ -3491,7 +3491,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Pense na dependência do pH para a solubilidade dos antifúngicos.",
     "id": 251,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Antifúngicos azólicos necessitam de ambiente ácido para boa dissolução e absorção; IBPs elevam o pH gástrico, reduzindo a biodisponibilidade destes antifúngicos."
   },
@@ -3523,7 +3523,7 @@
     "resposta_correta": "Itraconazol",
     "dica": "Foque no antifúngico com baixa solubilidade em pH alcalino.",
     "id": 253,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Itraconazol necessita de meio ácido para absorção adequada; IBPs elevam o pH gástrico, reduzindo sua biodisponibilidade e efeito terapêutico."
   },
@@ -3549,7 +3549,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere o caminho metabólico dos DOACs e IBPs.",
     "id": 255,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs não afetam significativamente o metabolismo dos DOACs, que são eliminados principalmente por via renal e via CYP3A4/5; portanto, menor risco de interação relevante."
   },
@@ -3565,7 +3565,7 @@
     "resposta_correta": "Fluconazol não depende do pH gástrico para absorção, então não há impacto",
     "dica": "Compare solubilidade e absorção dos antifúngicos em pH variável.",
     "id": 256,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Fluconazol é bem absorvido independentemente do pH gástrico, diferentemente de itraconazol, logo IBPs não alteram sua eficácia clínica."
   },
@@ -3581,7 +3581,7 @@
     "resposta_correta": "Ativação dos receptores β2 em fibras musculares esqueléticas",
     "dica": "Lembre-se que o beta-2 agonista atua fora dos brônquios também.",
     "id": 257,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Beta-2 agonistas ativam receptores β2 nos músculos esqueléticos, causando aumento da excitabilidade e tremor fino. Essa ação é extrassimpática e não está relacionada a receptores muscarínicos ou neurotransmissores colinérgicos."
   },
@@ -3591,7 +3591,7 @@
     "resposta_correta": "Falso",
     "dica": "Considere a seletividade dos beta-2 agonistas para seus receptores alvos.",
     "id": 258,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Beta-2 agonistas são seletivos para β2, mas em doses altas podem ativar receptores β1 no coração, causando taquicardia. No entanto, a taquicardia geralmente ocorre por reflexo da vasodilatação periférica e retirada do tônus vagal, não por ativação direta predominante dos β1."
   },
@@ -3633,7 +3633,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Lembre-se do mecanismo dual das metilxantinas.",
     "id": 261,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Teofilina inibe fosfodiesterase aumentando AMPc e antagoniza receptores de adenosina no SNC e coração, o que causa estimulação simpática, resultando em tremor e taquicardia."
   },
@@ -3649,7 +3649,7 @@
     "resposta_correta": "Suspender o tiotrópio devido a efeitos adversos e reavaliar terapia",
     "dica": "Anticolinérgicos podem causar efeitos colaterais em idosos e pacientes com hiperplasia prostática.",
     "id": 262,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Tiotrópio, um LAMA, pode causar boca seca e retenção urinária. Se os efeitos forem significativos, deve-se reconsiderar ou ajustar a terapia para melhorar tolerância e segurança."
   },
@@ -3665,7 +3665,7 @@
     "resposta_correta": "Reduzir o uso do beta-2 agonista e otimizar o tratamento de manutenção com corticosteroides inalatórios",
     "dica": "Lembre-se que beta-2 agonistas de longa ação não são indicados para alívio rápido.",
     "id": 263,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O controle adequado da inflamação com corticosteroides reduz a necessidade do uso excessivo de beta-2 agonistas, diminuindo efeitos adversos como tremor e taquicardia. Beta-bloqueadores são contraindicados em asmáticos."
   },
@@ -3691,7 +3691,7 @@
     "resposta_correta": "Uso concomitante de antagonistas muscarínicos inalados",
     "dica": "Tratamentos combinados podem melhorar eficácia com menos efeitos colaterais cardíacos.",
     "id": 265,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Antagonistas muscarínicos oferecem broncodilatação sem efeitos cardíacos significativos, podendo ser combinados a beta-2 agonistas para reduzir doses necessárias e minimizar taquicardia. Bloqueadores beta são contraindicados em DPOC por risco de broncoconstrição."
   },
@@ -3733,7 +3733,7 @@
     "resposta_correta": "Utilizar um β1-seletivo com cautela e monitoramento",
     "dica": "Nem todos os β-bloqueadores têm o mesmo grau de seletividade.",
     "id": 268,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Em asmáticos, β1-seletivos são preferíveis, pois têm menor efeito sobre β2-bronquiais, reduzindo risco de broncoespasmo, mas devem ser usados com cuidado."
   },
@@ -3759,7 +3759,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Receptores β2 são predominantes na musculatura lisa brônquica.",
     "id": 270,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "β-bloqueadores não seletivos bloqueiam β2 em brônquios causando broncoconstrição; β1-seletivos têm menor impacto bronquial."
   },
@@ -3791,7 +3791,7 @@
     "resposta_correta": "Pode precipitar uma crise asmática",
     "dica": "Bloqueio dos receptores β2 nos pulmões é o problema central.",
     "id": 272,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "β-bloqueadores não seletivos bloqueiam β2 brônquicos, causando broncoconstrição e risco de crise asmática, contraindicado em pacientes com asma."
   },
@@ -3801,7 +3801,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Misoprostol é usado para indução do parto e aborto medicamentoso.",
     "id": 273,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Misoprostol tem efeito uterotônico usado na indução do parto; sua ação abortiva o torna contraindicado para prevenção de úlceras em gestantes."
   },
@@ -3833,7 +3833,7 @@
     "resposta_correta": "Prescrever inibidor de bomba de prótons",
     "dica": "Evite fármacos com efeito abortivo em gestantes.",
     "id": 275,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs como omeprazol são considerados seguros na gravidez; misoprostol é abortivo e contraindicado, ranitidina pode ser usado, mas IBPs são mais eficazes para proteção gástrica."
   },
@@ -3849,7 +3849,7 @@
     "resposta_correta": "Reduzir a dose inicial devido à diminuição da depuração hepática",
     "dica": "Idosos frequentemente apresentam diminuição da função hepática.",
     "id": 276,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "A depuração hepática da teofilina diminui com a idade, aumentando risco de toxicidade. Portanto, é recomendado reduzir a dose inicial para evitar efeitos adversos."
   },
@@ -3875,7 +3875,7 @@
     "resposta_correta": "Manter a dose padrão, pois o salbutamol não depende da função renal para eliminação",
     "dica": "Conheça a via principal de eliminação do salbutamol.",
     "id": 278,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Salbutamol é principalmente metabolizado no fígado, com pouca eliminação renal, não exigindo ajuste significativo em insuficiência renal leve."
   },
@@ -3891,7 +3891,7 @@
     "resposta_correta": "Teofilina",
     "dica": "Considere a janela terapêutica e metabolismo hepático alterado na gravidez.",
     "id": 279,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "A teofilina tem janela terapêutica estreita e é metabolizada no fígado, cuja função pode variar na gravidez, exigindo monitorização e ajuste para evitar toxicidade fetal."
   },
@@ -3907,7 +3907,7 @@
     "resposta_correta": "Diminuição da massa muscular e maior absorção sistêmica",
     "dica": "Envelhecimento altera a farmacodinâmica e absorção.",
     "id": 280,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Idosos podem ter maior absorção sistêmica e sensibilidade aumentada aos corticosteroides, além de perda muscular, aumentando risco de efeitos adversos."
   },
@@ -3949,7 +3949,7 @@
     "resposta_correta": "Manter a dose padrão pois IBPs não dependem da função renal",
     "dica": "Ometrazol tem metabolismo e excreção específicos.",
     "id": 283,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs são metabolizados no fígado e excretados principalmente pela via biliar; insuficiência renal não requer ajuste de dose."
   },
@@ -3981,7 +3981,7 @@
     "resposta_correta": "Tiotrópio",
     "dica": "Anticolinérgicos podem piorar a pressão intraocular.",
     "id": 285,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Tiotrópio é anticolinérgico e pode aumentar pressão intraocular, contraindicado em glaucoma de ângulo fechado."
   },
@@ -3997,7 +3997,7 @@
     "resposta_correta": "Constipação intestinal",
     "dica": "Hidróxido de alumínio tende a causar uma alteração oposta ao magnésio.",
     "id": 286,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "O hidróxido de alumínio tem efeito constipante, podendo levar à constipação intestinal, enquanto o magnésio costuma causar diarreia. Esse efeito é importante para ajustar combinações antiácidas."
   },
@@ -4039,7 +4039,7 @@
     "resposta_correta": "Redução da absorção de digoxina",
     "dica": "Antiácidos podem formar complexos com alguns fármacos, reduzindo sua biodisponibilidade.",
     "id": 289,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "O hidróxido de alumínio pode formar quelatos com digoxina, diminuindo sua absorção e eficácia clínica."
   },
@@ -4065,7 +4065,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Alguns antiácidos formam complexos insolúveis com determinados antibióticos.",
     "id": 291,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Hidróxido de alumínio pode quelar tetraciclinas no trato gastrointestinal, formando complexos insolúveis que diminuem a absorção e eficácia do antibiótico."
   },
@@ -4081,7 +4081,7 @@
     "resposta_correta": "Avaliar e monitorar níveis séricos de magnésio regularmente",
     "dica": "Função renal prejudicada reduz excreção de certos íons.",
     "id": 292,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Pacientes com insuficiência renal têm risco aumentado de hipermagnesemia ao usar hidróxido de magnésio, exigindo monitorização cuidadosa para evitar toxicidade."
   },
@@ -4097,7 +4097,7 @@
     "resposta_correta": "Combater efeitos colaterais opostos na motilidade intestinal",
     "dica": "Alumínio e magnésio causam efeitos gastrointestinais opostos.",
     "id": 293,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O hidróxido de alumínio causa constipação, enquanto o hidróxido de magnésio induz diarreia; combiná-los reduz os efeitos adversos intestinais, melhorando a tolerabilidade."
   },
@@ -4107,7 +4107,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Antiácidos podem interferir na absorção de vários fármacos administrados via oral.",
     "id": 294,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Hidróxido de alumínio pode se ligar à levotiroxina no trato gastrointestinal, reduzindo sua absorção e eficácia terapêutica."
   },
@@ -4139,7 +4139,7 @@
     "resposta_correta": "Beta-2 agonista de curta ação (SABA) sob demanda",
     "dica": "Asma intermitente requer tratamento para alívio rápido, sem uso contínuo de anti-inflamatórios.",
     "id": 296,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Para asma intermitente, o SABA é suficiente para controle dos sintomas, usada apenas durante crises. Corticoides e LABA são indicados para formas persistentes."
   },
@@ -4149,7 +4149,7 @@
     "resposta_correta": "Falso",
     "dica": "Considere as recomendações para segurança no uso do LABA na asma.",
     "id": 297,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "LABA nunca devem ser usados isoladamente na asma, pois aumentam o risco de eventos adversos. Devem ser sempre associados a corticosteroides inalatórios para tratamento de manutenção."
   },
@@ -4207,7 +4207,7 @@
     "resposta_correta": "Usar espaçador e realizar enxágue bucal após a inalação",
     "dica": "Práticas que ajudam a reduzir depósito local do fármaco.",
     "id": 301,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Uso de espaçador e enxágue da boca após a aplicação reduz a incidência de candidíase e disfonia sem comprometer o tratamento."
   },
@@ -4239,7 +4239,7 @@
     "resposta_correta": "Hipoglicemia",
     "dica": "Reflita sobre os efeitos metabólicos dos glicocorticoides.",
     "id": 303,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Corticosteroides causam hiperglicemia, não hipoglicemia, além de outros efeitos sistêmicos como osteoporose e supressão adrenal."
   },
@@ -4297,7 +4297,7 @@
     "resposta_correta": "Falso",
     "dica": "Reflita sobre indicações específicas para corticosteroides inalatórios na DPOC.",
     "id": 307,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Corticosteroides inalatórios isolados não são indicados para DPOC sem exacerbações frequentes, pois seu benefício é limitado e associado a risco de pneumonia. São utilizados em combinação com LABA em casos graves com exacerbações frequentes."
   },
@@ -4313,7 +4313,7 @@
     "resposta_correta": "Prescrição de antibióticos, corticosteroides orais e aumento da dose de broncodilatadores",
     "dica": "Exacerbações moderadas exigem abordagem combinada para controlar inflamação e possível infecção bacteriana.",
     "id": 308,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Exacerbações com aumento de escarro purulento geralmente indicam infecção bacteriana; antibióticos são indicados. Corticosteroides orais diminuem a inflamação e broncodilatadores aliviam obstrução. Internação depende da gravidade; suspensão de broncodilatadores não é recomendada e metilxantinas não são primeira linha."
   },
@@ -4323,7 +4323,7 @@
     "resposta_correta": "Falso",
     "dica": "Considere a janela terapêutica e o perfil de segurança das metilxantinas.",
     "id": 309,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Metilxantinas têm janela terapêutica estreita e várias interações, limitando seu uso atual. São geralmente reservadas para casos refratários, não sendo primeira linha devido ao risco de toxicidade."
   },
@@ -4339,7 +4339,7 @@
     "resposta_correta": "Melhorar o controle inflamatório e reduzir exacerbações",
     "dica": "Pense em como a combinação age nas vias aéreas inflamatórias e na função pulmonar.",
     "id": 310,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "A combinação de LABA com corticosteroides inalatórios melhora o controle da inflamação das vias aéreas, reduz a hiperreatividade e diminui a frequência de exacerbações na DPOC grave. Não previne retenção urinária, nem aumenta muco, e não substitui anticolinérgicos."
   },
@@ -4381,7 +4381,7 @@
     "resposta_correta": "Corticosteroides sistêmicos",
     "dica": "Reflita sobre a ação anti-inflamatória potente necessária em crises graves.",
     "id": 313,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Corticosteroides sistêmicos são usados para reduzir a inflamação nas exacerbações graves da DPOC, melhorando a função pulmonar e reduzindo o tempo de hospitalização. Antileucotrienos não são indicados, antagonistas muscarínicos orais não são usados e metilxantinas têm uso limitado."
   },
@@ -4423,7 +4423,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Medicamentos que alteram o pH gástrico podem interferir no crescimento bacteriano e diagnóstico.",
     "id": 316,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs reduzem a carga bacteriana temporariamente, podendo levar a falso-negativo no teste respiratório com urease ou na endoscopia, devendo ser suspensos 2-4 semanas antes do exame."
   },
@@ -4439,7 +4439,7 @@
     "resposta_correta": "Solicitar teste para resistência à Claritromicina e ajustar terapia conforme resultado",
     "dica": "Falha terapêutica pode estar relacionada à resistência bacteriana.",
     "id": 317,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Persistência dos sintomas após terapia padrão pode indicar resistência bacteriana, sendo importante confirmar e ajustar o tratamento com opções alternativas (ex: esquema quádruplo com bismuto), evitando uso desnecessário dos mesmos antibióticos."
   },
@@ -4465,7 +4465,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Alterar o pH gástrico pode modificar a eficácia antibiótica.",
     "id": 319,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "O aumento do pH gástrico pelos IBPs melhora a estabilidade e ação da Amoxicilina, além de favorecer o crescimento bacteriano em fase ativa, tornando-os mais sensíveis ao antibiótico."
   },
@@ -4481,7 +4481,7 @@
     "resposta_correta": "Histopatologia e cultura do fragmento de biópsia gástrica",
     "dica": "Maior sensibilidade e especificidade em exame invasivo durante endoscopia.",
     "id": 320,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Embora testes não invasivos sejam úteis, o exame histopatológico com cultura da biópsia gástrica é padrão ouro, permitindo confirmação, avaliação de inflamação e teste de sensibilidade bacteriana."
   },
@@ -4497,7 +4497,7 @@
     "resposta_correta": "14 dias",
     "dica": "Duração adequada aumenta taxa de erradicação e reduz resistência.",
     "id": 321,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Tratamentos com esquema quádruplo contendo bismuto têm maior sucesso quando administrados por 14 dias, garantindo melhores taxas de erradicação em comparação a períodos mais curtos."
   },
@@ -4507,7 +4507,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Antibiótico comumente associado à redução na taxa de sucesso pela resistência.",
     "id": 322,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "A resistência à Claritromicina, que varia geograficamente, é um dos maiores desafios para o sucesso do tratamento padrão triplo, requerendo alternativas em regimes terapêuticos."
   },
@@ -4523,7 +4523,7 @@
     "resposta_correta": "IBP + Tetraciclina + Bismuto + Metronidazol",
     "dica": "Evitar Amoxicilina em pacientes com alergia à penicilina, usar esquema quádruplo.",
     "id": 323,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Em pacientes com alergia a penicilina, o esquema quádruplo contendo IBP, bismuto, tetraciclina e metronidazol é recomendado para evitar uso de amoxicilina e superar resistência bacteriana."
   },
@@ -4581,7 +4581,7 @@
     "resposta_correta": "Trocar para IBP em dose padrão, usar por 8 semanas",
     "dica": "Lesão esofágica indica tratamento mais potente e eficaz.",
     "id": 327,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs são mais eficazes que anti-H2 na cicatrização da esofagite por refluxo e no controle da DRGE moderada a grave, recomendados por 6-8 semanas para melhora da mucosa."
   },
@@ -4607,7 +4607,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Absorção e ativação dos IBPs dependem do pH e estímulo ácido.",
     "id": 329,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs são pró-fármacos ativados em meio ácido e atuam melhor quando administrados antes da refeição, quando as bombas H+/K+ estão mais ativas."
   },
@@ -4623,7 +4623,7 @@
     "resposta_correta": "Omeprazol",
     "dica": "Considere metabolismo hepático e excreção renal dos fármacos.",
     "id": 330,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs como omeprazol são metabolizados principalmente no fígado e têm excreção renal limitada, sendo mais seguros em insuficiência renal do que anti-H2, que requerem ajuste de dose."
   },
@@ -4655,7 +4655,7 @@
     "resposta_correta": "Tolerância aos anti-H2 e eficácia inferior para esofagite",
     "dica": "Considere a farmacodinâmica e limitações das duas classes.",
     "id": 332,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Anti-H2 têm menor eficácia na cicatrização da esofagite e podem desenvolver tolerância com uso prolongado; IBPs são o padrão ouro para controle efetivo da DRGE grave."
   },
@@ -4681,7 +4681,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Monitorar efeitos adversos em tratamentos prolongados.",
     "id": 334,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "IBPs podem alterar flora gástrica e absorção de minerais, aumentando o risco de infecções respiratórias e comprometendo a densidade óssea em uso prolongado."
   },
@@ -4707,7 +4707,7 @@
     "resposta_correta": "Falso",
     "dica": "Pense se bloqueiam a produção ou o receptor dos leucotrienos.",
     "id": 336,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Eles são antagonistas dos receptores cisteinil-leucotrienos (CysLT1), bloqueando a ação do leucotrieno, não sua síntese."
   },
@@ -4723,7 +4723,7 @@
     "resposta_correta": "Suspender o medicamento e investigar outras causas",
     "dica": "Sintomas agravados podem indicar reação adversa ou falha terapêutica.",
     "id": 337,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Piora dos sintomas pode indicar falha do antagonista de leucotrienos ou reações adversas, devendo-se suspender e reavaliar o paciente."
   },
@@ -4749,7 +4749,7 @@
     "resposta_correta": "Falso",
     "dica": "Pense no tempo de início e uso adequado.",
     "id": 339,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Montelucaste tem início lento e é usado para controle, não para alívio imediato de crises agudas."
   },
@@ -4781,7 +4781,7 @@
     "resposta_correta": "Via oral e boa tolerabilidade",
     "dica": "Pense na forma de administração e aceitação por crianças.",
     "id": 341,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Montelucaste é administrado por via oral e tem boa tolerabilidade, sendo adequado para crianças com asma leve a moderada."
   },
@@ -4797,7 +4797,7 @@
     "resposta_correta": "Administrados por via oral com boa biodisponibilidade",
     "dica": "Considere a forma e via de administração habitual desses fármacos.",
     "id": 342,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Montelucaste e zafirlucaste são administrados por via oral, possuem boa biodisponibilidade e não dependem de ativação ácida para ação."
   },
@@ -4807,7 +4807,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere possíveis interações medicamentosas com anticoagulantes.",
     "id": 343,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "Zafirlucaste pode aumentar os níveis de varfarina, elevando o risco de hemorragia; monitoramento é recomendado."
   },
@@ -4823,7 +4823,7 @@
     "resposta_correta": "Fluticasona",
     "dica": "Potência está relacionada à afinidade pelo receptor glicocorticoide e estabilidade local.",
     "id": 344,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Fluticasona apresenta maior afinidade aos receptores glicocorticoides e efeito anti-inflamatório mais potente em doses menores comparado a beclometasona e budesonida."
   },
@@ -4833,7 +4833,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Potência e perfil de segurança podem ser inversamente proporcionais em alguns casos.",
     "id": 345,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Beclometasona possui menor potência relativa, o que pode reduzir efeitos adversos sistêmicos em doses altas, conferindo melhor tolerabilidade em alguns pacientes."
   },
@@ -4849,7 +4849,7 @@
     "resposta_correta": "Usar espaçador e enxaguar a boca após a inalação",
     "dica": "A candidíase oral está relacionada à deposição local do fármaco nas vias aéreas superiores.",
     "id": 346,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O uso de espaçador e enxágue oral diminui a deposição do corticosteroide na orofaringe, reduzindo candidíase sem necessidade de alterar dose ou potência."
   },
@@ -4891,7 +4891,7 @@
     "resposta_correta": "Substituir beclometasona por fluticasona",
     "dica": "Aumentar potência é geralmente feito trocando para corticoide mais potente da mesma classe.",
     "id": 349,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Fluticasona tem potência maior que beclometasona, sendo escolha coerente para intensificar controle anti-inflamatório sem mudar grupo farmacológico."
   },
@@ -4907,7 +4907,7 @@
     "resposta_correta": "Risco de supressão do crescimento",
     "dica": "Corticoides inalados podem afetar crescimento em crianças, especialmente em doses altas e potentes.",
     "id": 350,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O uso prolongado e em doses elevadas de corticoides inalados pode atrasar o crescimento infantil devido à ação sistêmica parcial, mesmo com potências variadas."
   },
@@ -4933,7 +4933,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Efeitos adversos oculares estão associados principalmente a uso prolongado e doses elevadas.",
     "id": 352,
-    "dificuldade": "fácil",
+    "dificuldade": "médio",
     "categoria": "Farmacologia",
     "justificativa": "Corticoides inalados potentes em altas doses por tempo prolongado podem ter efeitos sistêmicos que incluem risco aumentado de catarata e glaucoma."
   },
@@ -4965,7 +4965,7 @@
     "resposta_correta": "Baixa margem entre dose terapêutica e tóxica",
     "dica": "A concentração plasmática deve ser controlada para evitar toxicidade.",
     "id": 354,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Teofilina possui janela terapêutica estreita, com doses próximas do efeito tóxico, exigindo monitorização rigorosa para evitar eventos adversos graves."
   },
@@ -5033,7 +5033,7 @@
     "resposta_correta": "10-20 μg/mL",
     "dica": "Valores abaixo ou acima podem ser ineficazes ou tóxicos, respectivamente.",
     "id": 359,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "A concentração terapêutica ideal da teofilina está entre 10-20 μg/mL para controlar sintomas com menor risco de efeitos adversos."
   },
@@ -5049,7 +5049,7 @@
     "resposta_correta": "Nível tóxico",
     "dica": "Valores acima de 20 μg/mL podem representar risco grave.",
     "id": 360,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Níveis acima de 20 μg/mL indicam toxicidade, associada a arritmias, convulsões e outros efeitos adversos graves."
   },
@@ -5075,7 +5075,7 @@
     "resposta_correta": "Efeito anticolinérgico indireto da teofilina",
     "dica": "Sintomas semelhantes aos anticolinérgicos podem ocorrer com certos broncodilatadores.",
     "id": 362,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Teofilina pode causar efeitos anticolinérgicos indiretos, levando a boca seca e retenção urinária, especialmente em idosos suscetíveis."
   },
@@ -5091,7 +5091,7 @@
     "resposta_correta": "Consumo de alimentos gordurosos",
     "dica": "A farmacocinética da teofilina é mais influenciada por metabolismo do que por alimentos.",
     "id": 363,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Embora fatores como função hepática e interações medicamentosas sejam cruciais, o consumo de alimentos gordurosos não afeta significativamente a farmacocinética da teofilina."
   },
@@ -5117,7 +5117,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere que o fármaco precisa de pH ácido para se ligar às proteínas e formar o gel.",
     "id": 365,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "O sucralfato precisa de pH ácido para que suas moléculas se polimerizem e formem a camada protetora sobre a mucosa lesada; em pH alcalino, essa reação é ineficaz."
   },
@@ -5159,7 +5159,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Pense na capacidade do sucralfato de se ligar a outras substâncias no trato gastrointestinal.",
     "id": 368,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "O sucralfato pode formar complexos com determinados fármacos, reduzindo sua absorção oral e eficácia; por isso recomenda-se administração em horários diferentes."
   },
@@ -5191,7 +5191,7 @@
     "resposta_correta": "Acúmulo de alumínio e possíveis toxicidades associadas",
     "dica": "Lembre que o sucralfato contém alumínio em sua formulação.",
     "id": 370,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Sucralfato contém alumínio que pode se acumular em pacientes com insuficiência renal, causando toxicidade, incluindo encefalopatia; monitorar função renal é fundamental."
   },
@@ -5217,7 +5217,7 @@
     "resposta_correta": "Administrar em jejum, 1 hora antes das refeições e ao deitar",
     "dica": "Pense no momento em que o pH está mais baixo e a mucosa está mais vulnerável.",
     "id": 372,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "O sucralfato deve ser administrado em horários afastados das refeições para garantir ambiente gástrico ácido e permitir que o gel protetor se forme eficientemente sobre a mucosa lesionada."
   },
@@ -5233,7 +5233,7 @@
     "resposta_correta": "Administrar o antibiótico pelo menos 2 horas antes ou depois do sucralfato",
     "dica": "Pense no tempo necessário para evitar complexação no trato gastrointestinal.",
     "id": 373,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "A separação temporal na administração evita interação farmacocinética, garantindo melhor absorção do antibiótico que pode se ligar ao sucralfato e ter sua absorção reduzida."
   },
@@ -5259,7 +5259,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Pense na escolha padrão para DPOC moderada a grave.",
     "id": 375,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "O tiotrópio e outros LAMA são considerados primeira linha no manejo da DPOC devido ao efeito broncodilatador prolongado e redução das exacerbações."
   },
@@ -5291,7 +5291,7 @@
     "resposta_correta": "Inibidores da bomba de prótons (IBP)",
     "dica": "Pense em medicamentos que reduzem secreção ácida de forma eficaz por longo tempo.",
     "id": 377,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "Os IBP são a escolha preferida para profilaxia de úlcera de stress em UTI por sua potente e prolongada inibição da secreção ácida, protegendo a mucosa gástrica."
   },
@@ -5333,7 +5333,7 @@
     "resposta_correta": "Requisição excessiva de gastrina (rebote ácido)",
     "dica": "Considere os efeitos fisiológicos após uso prolongado de IBP.",
     "id": 380,
-    "dificuldade": "médio",
+    "dificuldade": "difícil",
     "categoria": "Farmacologia",
     "justificativa": "A suspensão abrupta de IBP pode levar ao aumento compensatório da gastrina (hipergastrinemia), provocando aumento da secreção ácida e sintomas de rebote ácido."
   },
@@ -5343,7 +5343,7 @@
     "resposta_correta": "Verdadeiro",
     "dica": "Considere efeitos locais relacionados à deposição do fármaco nas vias aéreas superiores.",
     "id": 381,
-    "dificuldade": "médio",
+    "dificuldade": "fácil",
     "categoria": "Farmacologia",
     "justificativa": "O uso de corticosteroides inalados pode levar a candidíase oral e alterações da voz (disfonia), devendo o paciente enxaguar a boca após a inalação para reduzir esses efeitos."
   },

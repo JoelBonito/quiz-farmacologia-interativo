@@ -1,0 +1,521 @@
+==================================================================================================================================
+COMPLETE DIFFICULTY CHANGES LOG
+==================================================================================================================================
+
+Total changes: 171
+
+ID    Old        New        Reasoning                                                                                           
+----------------------------------------------------------------------------------------------------------------------------------
+10    FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) A administração dos inibidores da bomba de prótons deve ser feita em jejum, 30-60 minutos...
+
+11    DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Em um paciente com doença pulmonar obstrutiva crônica (DPOC), qual combinação medicamentosa ser...
+
+16    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual dos seguintes fármacos broncodilatadores apresenta maior risco de taquicardia e tremores e...
+
+20    FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      O intervalo terapêutico da teofilina é considerado estreito, situado entre 10-20 μg/mL no sangu...
+
+26    DIFÍCIL    MÉDIO      Pharmacokinetics - requires understanding
+      Durante a monitorização da teofilina, qual fator não interfere nos níveis plasmáticos do fármac...
+
+27    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      A administração de teofilina requer cuidados especiais em qual grupo populacional, devido ao ri...
+
+32    DIFÍCIL    MÉDIO      Pharmacokinetics - requires understanding
+      A monitorização dos níveis plasmáticos da teofilina deve ser realizada preferencialmente:
+
+33    FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      A intoxicação grave por teofilina pode evoluir com convulsões e arritmias. (V / F)
+
+34    DIFÍCIL    MÉDIO      Adverse effect - requires mechanism understanding
+      Qual das seguintes opções não é típica de um efeito adverso da teofilina em níveis terapêuticos...
+
+35    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Em qual situação clínica a redução da dose de teofilina é especialmente recomendada?
+
+39    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Em pacientes com asma persistente, qual combinação terapêutica é recomendada para controle a lo...
+
+42    DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Paciente com asma grave e eosinofilia persistente vem sendo tratado com corticosteroides inalad...
+
+45    DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Paciente com suspeita de insuficiência adrenal aguda após suspensão abrupta de corticosteroides...
+
+47    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual medida pode reduzir o risco de candidíase oral em pacientes utilizando corticosteroides in...
+
+50    FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      Verdadeiro ou falso: O sucralfato necessita de ambiente ácido para se ativar e exercer efeito p...
+
+53    DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Qual a melhor estratégia terapêutica para manutenção em um paciente com DPOC grave e sintomas p...
+
+56    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual dos seguintes fármacos utilizados na DPOC apresenta risco importante de glaucoma de ângulo...
+
+58    FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      Verdadeiro ou falso: Os inibidores da bomba de prótons (IBP) agem bloqueando reversivelmente a ...
+
+60    MÉDIO      FÁCIL      Direct mechanism question - basic recall
+      Qual opção abaixo descreve melhor o mecanismo de ação dos antagonistas de leucotrienos no trata...
+
+62    FÁCIL      MÉDIO      Clinical indication - requires understanding
+      (V/F) Os antagonistas muscarínicos de ação longa (LAMA) são a primeira linha no tratamento da D...
+
+64    DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Em um paciente com asma grave controlada, qual medicamento deve ser associado aos LABA para mai...
+
+65    DIFÍCIL    MÉDIO      Pharmacokinetics - requires understanding
+      Qual das seguintes drogas tem janela terapêutica estreita e requer monitorização sérica para ev...
+
+67    FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) Inibidores da bomba de prótons precisam ser administrados em jejum para garantir a ativaç...
+
+73    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Em relação aos inibidores da bomba de prótons (IBP), qual das alternativas é correta sobre seu ...
+
+74    MÉDIO      FÁCIL      Direct mechanism question - basic recall
+      Qual o principal mecanismo de ação dos antagonistas de leucotrienos como montelucaste e zafirlu...
+
+76    FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      Verdadeiro ou falso: Montelucaste é administrado por via oral e pode ser utilizado frequentemen...
+
+78    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Pacientes com asma induzida por exercício podem se beneficiar da utilização de qual medicamento...
+
+79    FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      Verdadeiro ou falso: Os antagonistas de leucotrienos devem ser sempre usados como monoterapia n...
+
+80    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Considerando a farmacocinética dos antagonistas de leucotrienos, qual fator contribui para sua ...
+
+82    FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      Verdadeiro ou falso: O bloqueio dos receptores de cisteinil-leucotrienos promove redução da sec...
+
+85    DIFÍCIL    MÉDIO      Mechanism requires deeper understanding
+      Qual o principal mecanismo de ação dos antagonistas dos receptores H2 na redução da acidose gás...
+
+90    DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual medicamento antagonista H2 apresenta maior potencial para causar interações medicamentosas...
+
+94    MÉDIO      FÁCIL      Reclassified based on complexity analysis
+      (V / F) O uso prolongado de corticosteroides inalatórios em doses altas pode levar à supressão ...
+
+95    DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Em um paciente com asma persistente grave, qual a associação farmacológica recomendada para con...
+
+100   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) O cromoglicato atua como um estabilizador de mastócitos, prevenindo a liberação de medi...
+
+102   DIFÍCIL    MÉDIO      Clinical indication - requires understanding
+      Qual a principal contraindicação do uso de anticolinérgicos inalados como ipratrópio em pacient...
+
+106   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual o principal risco do uso prolongado e em altas doses de corticosteroides inalados no trata...
+
+111   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Em um paciente com asma grave não responsivo a corticosteroides e β2-agonistas, qual terapia bi...
+
+116   FÁCIL      MÉDIO      Clinical indication - requires understanding
+      (V / F) Corticosteroides inalatórios são a primeira linha para manutenção da asma persistente e...
+
+117   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) O uso isolado de beta-2 agonistas de longa duração (LABA) em asma é seguro e recomendad...
+
+118   FÁCIL      MÉDIO      Clinical indication - requires understanding
+      (V / F) Anticolinérgicos de longa duração (LAMA) são indicados como primeira linha no tratament...
+
+124   MÉDIO      FÁCIL      Reclassified based on complexity analysis
+      (V / F) O uso prolongado de corticosteroides sistêmicos pode causar supressão do eixo hipotálam...
+
+126   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) O tratamento de asma grave com corticosteroides orais deve ser sempre substituído por t...
+
+128   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) O uso concomitante de corticosteroides sistêmicos e inibidores da bomba de prótons é co...
+
+129   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) Os inibidores da bomba de prótons (IBPs) atuam por inibição reversível da enzima H+/K+-AT...
+
+130   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) O omeprazol deve ser administrado em jejum, 30 a 60 minutos antes da primeira refeição do...
+
+135   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) O uso isolado de beta-2 agonistas de longa duração (LABA) é recomendado para manutenção n...
+
+138   FÁCIL      MÉDIO      Clinical indication - requires understanding
+      (F) Os citoprotectores, como o sucralfato, são indicados como primeira linha no tratamento da d...
+
+140   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (F) O misoprostol, um citoprotetor, está contraindicado em gestantes devido ao seu potencial ef...
+
+142   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) A teofilina exerce seu efeito broncodilatador principalmente pela inibição da fosfodies...
+
+144   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) Os β2-agonistas de longa ação (LABA) nunca devem ser usados isoladamente no tratamento ...
+
+146   FÁCIL      MÉDIO      Adverse effect - requires mechanism understanding
+      (V / F) A candidíase oral é um efeito adverso comum dos corticosteroides inalatórios, e a recom...
+
+147   FÁCIL      MÉDIO      Clinical indication - requires understanding
+      (V / F) O ipratrópio é um antagonista muscarínico de ação longa (LAMA) indicado como primeira l...
+
+153   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Paciente com DPOC está em uso de tiotrópio 18 mcg/dia para controle dos sintomas. Após avaliaçã...
+
+157   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Um paciente com asma persistente moderada apresenta uso frequente de salbutamol para alívio dos...
+
+158   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente idoso com DPOC faz uso crônico de tiotrópio. Ele apresenta boca seca e dificuldade par...
+
+160   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente de 55 anos com diagnóstico de DPOC grave apresenta piora progressiva da dispneia e aum...
+
+161   MÉDIO      FÁCIL      Reclassified based on complexity analysis
+      (V / F) O uso prolongado e em altas doses de corticosteroides inalados pode causar supressão do...
+
+162   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático grave em uso de LABA associado a corticosteroide inalatório apresenta exacerb...
+
+163   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente masculino de 55 anos, portador de artrite reumatoide, em uso crônico de AINEs, apresen...
+
+164   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) Sucralfato age como um citoprotetor por formar uma barreira física na mucosa gástrica, ...
+
+165   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente de 45 anos com diagnóstico confirmado de infecção por Helicobacter pylori apresenta fa...
+
+166   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Em relação ao uso dos inibidores da bomba de prótons (IBPs) no tratamento da infecção por Helic...
+
+169   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático grave em uso contínuo de formoterol associado a corticosteroide inalatório ap...
+
+170   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual é a principal razão para a limitação do uso da teofilina no tratamento das doenças respira...
+
+176   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual dos seguintes efeitos adversos está mais associado ao uso de beta-2 agonistas em altas dos...
+
+177   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual é o principal risco associado ao uso prolongado de corticosteroides sistêmicos em paciente...
+
+184   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      Verdadeiro ou falso: Os inibidores da bomba de prótons devem ser administrados em jejum para ma...
+
+186   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      Verdadeiro ou falso: Os antagonistas muscarínicos causam redução da secreção mucosa nos brônqui...
+
+187   FÁCIL      MÉDIO      Adverse effect - requires mechanism understanding
+      Verdadeiro ou falso: Um efeito adverso comum dos inibidores da bomba de prótons é a candidíase ...
+
+188   DIFÍCIL    MÉDIO      Adverse effect - requires mechanism understanding
+      Paciente de 65 anos com DPOC grave faz uso de tiotrópio e formoterol. Apresenta retenção urinár...
+
+189   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático crônico usa salmeterol e corticoide inalatório. Apresenta tremores e taquicar...
+
+191   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente em uso de corticosteroides sistêmicos por sarcoidose apresenta hiperglicemia e fraquez...
+
+192   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Criança asmática em uso de corticosteroide inalatório apresenta crescimento abaixo do percentil...
+
+195   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente idoso apresenta exacerbação grave de DPOC e está em uso domiciliar de LABA e LAMA. Par...
+
+197   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Sobre os anticolinérgicos utilizados no tratamento da DPOC, assinale a alternativa correta:
+
+198   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual o principal risco associado ao uso prolongado de teofilina no tratamento respiratório?
+
+200   DIFÍCIL    MÉDIO      Adverse effect - requires mechanism understanding
+      Qual efeito adverso local é comum em pacientes que utilizam corticosteroides inalatórios e pode...
+
+203   DIFÍCIL    FÁCIL      Reclassified based on complexity analysis
+      Verdadeiro ou falso: A retirada abrupta de corticosteroides sistêmicos pode levar à insuficiênc...
+
+209   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Um paciente com refluxo gastroesofágico foi prescrito famotidina 20 mg duas vezes ao dia. Qual ...
+
+210   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual a dose usual de ranitidina para o tratamento de úlcera gástrica em adultos?
+
+215   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual antagonista H2 apresenta maior afinidade pelo receptor H2, permitindo doses menores para e...
+
+217   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual dos seguintes inibidores da bomba de prótons (IBPs) é o enantiômero S do omeprazol, aprese...
+
+221   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Entre os IBPs, qual apresenta meia-vida plasmática levemente mais longa, podendo influenciar no...
+
+222   MÉDIO      FÁCIL      Reclassified based on complexity analysis
+      Paciente em uso crônico de omeprazol apresenta redução do efeito do clopidogrel. Isso ocorre po...
+
+223   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual IBP é preferido em pacientes com alto risco de interações medicamentosas, especialmente aq...
+
+229   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático usa budesonida/formoterol em dose fixa para manutenção. Qual a vantagem dessa...
+
+232   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual é a principal diferença farmacocinética entre formoterol e salmeterol que impacta seu uso ...
+
+234   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Paciente com asma grave relata aumento do tremor e taquicardia após uso de formoterol em dose h...
+
+238   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) Ipratrópio pode ser usado isoladamente no tratamento de asma grave em crises agudas.
+
+239   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual é a via de administração mais comum do ipratrópio para pacientes com DPOC?
+
+240   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Pacientes com qual condição devem evitar o uso de ipratrópio devido ao risco de agravamento?
+
+242   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      O uso prolongado de ipratrópio pode levar a xerostomia (boca seca). (V / F)
+
+245   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      O ipratrópio é eficaz para reduzir a produção de muco nas vias aéreas. (V / F)
+
+246   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Durante uma exacerbação leve de DPOC, um paciente está em tratamento com ipratrópio inalatório....
+
+247   DIFÍCIL    MÉDIO      Drug interaction - requires integration
+      Qual dos inibidores da bomba de prótons (IBPs) é mais associado à interação significativa com o...
+
+250   DIFÍCIL    MÉDIO      Drug interaction - requires integration
+      Qual mecanismo principal explica a interação entre IBPs e clopidogrel?
+
+251   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) A coadministração de IBPs pode diminuir a absorção de antifúngicos azólicos como cetocona...
+
+253   DIFÍCIL    MÉDIO      Drug interaction - requires integration
+      Qual dos seguintes antifúngicos apresenta maior risco de interação farmacocinética com IBPs dev...
+
+255   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) O uso concomitante de IBPs não interfere na metabolização dos anticoagulantes diretos (DO...
+
+256   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Um paciente com DRGE e candidíase oral está em uso de fluconazol e pantoprazol. Como os IBPs po...
+
+257   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual o principal mecanismo responsável pelo tremor fino observado em pacientes que utilizam bet...
+
+258   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) A taquicardia causada pelos broncodilatadores beta-2 agonistas ocorre devido à ativação...
+
+261   MÉDIO      FÁCIL      Reclassified based on complexity analysis
+      (V / F) O tremor e a taquicardia observados em pacientes que utilizam teofilina são decorrentes...
+
+262   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Um paciente com DPOC em tratamento com tiotrópio relata boca seca intensa e dificuldade para ur...
+
+263   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático relata tremores e palpitações após uso excessivo de salbutamol. Qual a melhor...
+
+265   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual estratégia pode minimizar o risco de taquicardia causada por beta-2 agonistas sistêmicos e...
+
+268   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático está com angina e o cardiologista prescreve um β-bloqueador. Qual a conduta m...
+
+270   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) O risco de broncoespasmo com β-bloqueadores é maior com os agentes não seletivos do que...
+
+272   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático controlado desenvolveu hipertensão e necessita de β-bloqueador. Qual é a just...
+
+273   MÉDIO      FÁCIL      Reclassified based on complexity analysis
+      (V / F) Em pacientes grávidas, o misoprostol pode ser usado para indução do trabalho de parto c...
+
+275   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente gestante de 10 semanas recebe prescrição para prevenção de úlcera péptica devido ao us...
+
+276   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Em idosos com DPOC, qual ajuste de dose é mais indicado ao prescrever teofilina para evitar tox...
+
+278   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente idoso com insuficiência renal leve está usando salbutamol para asma. Qual a melhor con...
+
+279   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Em gestantes, qual dos seguintes broncodilatadores deve ser usado com cautela devido a risco po...
+
+280   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente idoso com DPOC usa corticosteroide inalatório diariamente. Há risco aumentado de efeit...
+
+283   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente idosa com DRGE e insuficiência renal moderada está em uso de omeprazol. Qual ajuste de...
+
+285   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente idoso, com glaucoma de ângulo fechado e DPOC, necessita de broncodilatador. Qual fárma...
+
+286   FÁCIL      MÉDIO      Adverse effect - requires mechanism understanding
+      Qual é o principal efeito adverso associado ao uso prolongado de hidróxido de alumínio como ant...
+
+289   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      Durante o uso concomitante de hidróxido de alumínio e digoxina, qual é o principal risco decorr...
+
+291   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) A administração simultânea de hidróxido de alumínio e antibióticos do grupo das tetracicl...
+
+292   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Um paciente com insuficiência renal crônica está tomando hidróxido de magnésio para azia. Qual ...
+
+293   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Paciente com doença do refluxo gastroesofágico faz uso crônico de antiácidos contendo hidróxido...
+
+294   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) O uso concomitante de hidróxido de alumínio e levotiroxina pode levar à redução da absorç...
+
+296   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Qual é o tratamento inicial mais apropriado para um paciente com asma intermitente que apresent...
+
+297   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) O uso isolado de beta-2 agonistas de longa ação (LABA) é recomendado para controle da a...
+
+301   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático apresenta efeitos adversos frequentes ao usar corticosteroide inalatório em d...
+
+303   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      O uso prolongado e em altas doses de corticosteroides sistêmicos em pacientes asmáticos pode ca...
+
+307   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) O uso de corticosteróides inalados é recomendado isoladamente para o tratamento de manu...
+
+308   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente masculino, 65 anos, com DPOC grave, apresenta exacerbação com piora da dispneia, aumen...
+
+309   FÁCIL      MÉDIO      Clinical indication - requires understanding
+      (V / F) Metilxantinas como a teofilina são frequentemente utilizadas como primeira linha no tra...
+
+310   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Em um paciente com DPOC estável, qual é o benefício principal da associação de LABA com cortico...
+
+313   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Em pacientes com exacerbação grave de DPOC que não respondem adequadamente aos broncodilatadore...
+
+316   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) O uso de inibidores da bomba de prótons (IBPs) pode afetar a eficácia do teste respiratór...
+
+317   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente de 45 anos com úlcera péptica diagnosticada por endoscopia. Após 14 dias de tratamento...
+
+319   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) O uso concomitante de inibidores da bomba de prótons e amoxicilina potencializa a erradic...
+
+320   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual exame é considerado padrão-ouro para diagnóstico definitivo de infecção por H. pylori em p...
+
+321   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Paciente com úlcera péptica e H. pylori confirmada inicia tratamento com regime quádruplo com b...
+
+322   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) A resistência bacteriana à Claritromicina é a principal causa da falha no tratamento de e...
+
+323   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente 60 anos com úlcera gástrica e confirmação de H. pylori. Apresenta alergia grave à peni...
+
+327   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente de 45 anos, com DRGE frequente e erosões esofágicas na endoscopia, relata pouca melhor...
+
+329   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) A administração dos IBPs deve ser preferencialmente feita em jejum 30-60 minutos antes da...
+
+330   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente idoso com DRGE crônica tem histórico de insuficiência renal leve. Qual fármaco é mais ...
+
+332   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Paciente com DRGE relata uso intermitente de anti-H2 com melhora parcial. Quais as razões para ...
+
+334   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V/F) O uso prolongado de IBPs está associado a riscos aumentados de pneumonia e fraturas óssea...
+
+336   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) Montelucaste e zafirlucaste atuam bloqueando diretamente a síntese de leucotrienos.
+
+337   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático apresenta piora dos sintomas após iniciar montelucaste. Qual é a conduta mais...
+
+339   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) É recomendável o uso isolado de montelucaste em crises agudas de asma devido ao início ...
+
+341   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente asmático de 8 anos inicia montelucaste. Qual a vantagem desta medicação no tratamento ...
+
+342   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Em relação à farmacocinética dos antagonistas de leucotrienos, assinale a alternativa correta:
+
+343   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) Zafirlucaste pode interagir com varfarina, aumentando o risco de hemorragia.
+
+344   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Qual dos seguintes corticoides inalados possui maior potência anti-inflamatória por dose admini...
+
+345   MÉDIO      FÁCIL      Reclassified based on complexity analysis
+      (V / F) A beclometasona inalatória tem potência menor que a fluticasona, mas apresenta melhor p...
+
+346   DIFÍCIL    MÉDIO      Adverse effect - requires mechanism understanding
+      Paciente asmático está usando budesonida inalatório, mas apresenta candidíase oral recorrente. ...
+
+349   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Durante o ajuste da terapia para asma persistente, um paciente requer aumento da potência do co...
+
+350   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Um paciente pediátrico com asma usa beclometasona inalatório em doses elevadas. Qual cuidado es...
+
+352   MÉDIO      FÁCIL      Reclassified based on complexity analysis
+      Paciente de 55 anos com asma grave utiliza fluticasona inalatório em dose alta e apresenta susp...
+
+354   DIFÍCIL    MÉDIO      Pharmacokinetics - requires understanding
+      Qual das seguintes características é típica da janela terapêutica da teofilina?
+
+359   DIFÍCIL    MÉDIO      Pharmacokinetics - requires understanding
+      Durante a monitorização da teofilina, qual intervalo terapêutico plasmático é geralmente aceito...
+
+360   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente em tratamento com aminofilina apresenta arritmia e convulsão. Ao medir a teofilina pla...
+
+362   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Um paciente idoso em uso de teofilina apresenta retenção urinária e boca seca. Esses efeitos ad...
+
+363   DIFÍCIL    MÉDIO      Pharmacokinetics - requires understanding
+      Durante ajuste de dose de teofilina, qual fator NÃO é relevante para a monitorização eficaz do ...
+
+365   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) O sucralfato requer um ambiente gástrico ácido para ativar seu efeito protetor.
+
+368   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) Sucralfato pode interferir na absorção de outros medicamentos como tetraciclinas e digo...
+
+370   DIFÍCIL    MÉDIO      Adverse effect - requires mechanism understanding
+      Paciente idoso com insuficiência renal crônica está em uso de sucralfato. Qual efeito adverso d...
+
+372   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Um paciente apresenta úlcera duodenal e está em uso de sucralfato. Como deve ser orientada a ad...
+
+373   DIFÍCIL    MÉDIO      Drug interaction - requires integration
+      Paciente em uso de sucralfato apresenta diminuição da eficácia de um antibiótico oral. Qual é a...
+
+375   FÁCIL      MÉDIO      Clinical indication - requires understanding
+      (V / F) Os anticolinérgicos de longa ação (LAMA), como o tiotrópio, podem ser usados como prime...
+
+377   DIFÍCIL    MÉDIO      Clinical scenario - application of knowledge
+      Um paciente na UTI está sendo avaliado para profilaxia de úlcera de stress. Qual classe farmaco...
+
+380   DIFÍCIL    MÉDIO      Reclassified based on complexity analysis
+      Paciente apresenta piora do refluxo gastroesofágico após suspensão abrupta do omeprazol. Qual é...
+
+381   FÁCIL      MÉDIO      Reclassified based on complexity analysis
+      (V / F) Os corticoides inalados podem causar candidíase oral e disfonia como efeitos adversos l...
+

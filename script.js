@@ -180,11 +180,24 @@ async function loadQuizData() {
         const response = await fetch('quiz_database.json');
         const questions = await response.json();
 
-        quizData = { questions: questions };
-        allQuestions = questions;
+        // Normalizar campos português → inglês
+        const normalizedQuestions = questions.map(q => ({
+            id: q.id,
+            question: q.pergunta || q.question,
+            type: normalizeType(q.tipo || q.type),
+            options: q.opcoes || q.options,
+            correct_answer: q.resposta_correta || q.correct_answer,
+            hint: q.dica || q.hint,
+            difficulty: normalizeDifficulty(q.dificuldade || q.difficulty),
+            category: q.categoria || q.category,
+            justification: q.justificativa || q.justification
+        }));
+
+        quizData = { questions: normalizedQuestions };
+        allQuestions = normalizedQuestions;
 
         // Atualizar contador total na tela inicial
-        document.getElementById('total-questions').textContent = questions.length;
+        document.getElementById('total-questions').textContent = normalizedQuestions.length;
 
         // Atualizar contadores dos filtros
         updateFilterCounts();
@@ -192,11 +205,30 @@ async function loadQuizData() {
         // Carregar histórico
         displayQuizHistory();
 
-        console.log(`✅ ${questions.length} perguntas carregadas com sucesso`);
+        console.log(`✅ ${normalizedQuestions.length} perguntas carregadas com sucesso`);
     } catch (error) {
         console.error('Erro ao carregar dados do quiz:', error);
         alert('Erro ao carregar o quiz. Por favor, recarregue a página.');
     }
+}
+
+// Normalizar tipos de questão português → inglês
+function normalizeType(tipo) {
+    const typeMap = {
+        'multipla_escolha': 'multiple_choice',
+        'verdadeiro_falso': 'true_false',
+        'caso_clinico': 'clinical_case'
+    };
+    return typeMap[tipo] || tipo;
+}
+
+// Normalizar níveis de dificuldade
+function normalizeDifficulty(dificuldade) {
+    const difficultyMap = {
+        'fácil': 'baixo',
+        'facil': 'baixo'
+    };
+    return difficultyMap[dificuldade] || dificuldade;
 }
 
 // ============================================================================

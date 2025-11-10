@@ -39,7 +39,7 @@
     "id": 3,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Teofilina tem janela terapêutica estreita (10-20 μg/mL), com risco significativo de intoxicação e muitas interações, limitando seu uso clínico."
+    "justificativa": "Teofilina possui janela terapêutica estreita (10-20 μg/mL), com alta variabilidade interindividual e risco significativo de intoxicação. Manifesta múltiplas interações medicamentosas via CYP1A2 (ciprofloxacino, cimetidina) e efeitos adversos graves (arritmias, convulsões, agitação). Essas características limitam substancialmente seu uso clínico atual, sendo reservada para casos refratários."
   },
   {
     "pergunta": "Qual efeito adverso local é mais comum com o uso de corticosteroides inalatórios?",
@@ -367,7 +367,7 @@
     "id": 25,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Teofilina é metabolizada principalmente pelo CYP1A2, não pelo CYP3A4, o que influencia suas interações medicamentosas."
+    "justificativa": "Teofilina é metabolizada principalmente pela enzima CYP1A2, e não pelo CYP3A4. Esta via metabólica específica determina suas importantes interações medicamentosas: ciprofloxacino (inibidor do CYP1A2) aumenta níveis de teofilina, enquanto tabagismo (indutor do CYP1A2) reduz seus níveis plasmáticos, exigindo ajuste de dose."
   },
   {
     "pergunta": "Durante a monitorização da teofilina, qual fator não interfere nos níveis plasmáticos do fármaco?",
@@ -415,7 +415,7 @@
     "id": 28,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "O tabagismo induz o CYP1A2, aumentando o metabolismo e diminuindo níveis plasmáticos da teofilina."
+    "justificativa": "O tabagismo (fumo ativo) induz a enzima CYP1A2, principal via metabólica da teofilina, acelerando seu metabolismo hepático e reduzindo significativamente os níveis plasmáticos. Fumantes podem necessitar de doses 50-100% maiores que não fumantes. Ao cessar o tabagismo, deve-se reduzir a dose para evitar toxicidade."
   },
   {
     "pergunta": "Um paciente está em uso de teofilina e inicia tratamento com fenitoína. Qual o efeito esperado sobre os níveis plasmáticos da teofilina?",
@@ -463,7 +463,7 @@
     "id": 31,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Verapamil inibe o metabolismo da teofilina via CYP1A2, elevando concentrações plasmáticas e risco de efeitos adversos."
+    "justificativa": "Verapamil, bloqueador dos canais de cálcio, inibe o metabolismo da teofilina principalmente via CYP1A2, elevando suas concentrações plasmáticas e aumentando significativamente o risco de efeitos adversos graves como arritmias cardíacas, tremores, náuseas e convulsões. Monitorização dos níveis séricos e ajuste de dose são essenciais quando há uso concomitante."
   },
   {
     "pergunta": "A monitorização dos níveis plasmáticos da teofilina deve ser realizada preferencialmente:",
@@ -505,7 +505,7 @@
     "id": 34,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Hipocalemia é comum em β2-agonistas em dose alta, mas não é efeito típico direto da teofilina."
+    "justificativa": "Teofilina pode causar efeitos adversos cardiovasculares (taquicardia, arritmias), neurológicos (tremor, insônia, agitação, convulsões em doses tóxicas) e gastrointestinais (náuseas, vômitos). Hipocalemia NÃO é efeito típico da teofilina, sendo mais característica de beta-2 agonistas em doses elevadas, que estimulam bomba Na+/K+-ATPase."
   },
   {
     "pergunta": "Em qual situação clínica a redução da dose de teofilina é especialmente recomendada?",
@@ -521,7 +521,7 @@
     "id": 35,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Insuficiência hepática diminui o metabolismo da teofilina, aumentando risco de acúmulo e toxicidade, exigindo dose menor."
+    "justificativa": "Teofilina é metabolizada extensamente no fígado (90%) pela CYP1A2. Na insuficiência hepática (cirrose, hepatite grave), o clearance hepático reduz significativamente, aumentando meia-vida e risco de acúmulo tóxico. Redução de dose (geralmente 50%) e monitorização rigorosa dos níveis séricos são obrigatórias."
   },
   {
     "pergunta": "Qual é o principal mecanismo de ação dos agonistas beta-2 na musculatura lisa brônquica?",
@@ -537,7 +537,7 @@
     "id": 36,
     "dificuldade": "fácil",
     "categoria": "Farmacologia",
-    "justificativa": "Agonistas beta-2 ativam receptores β2-adrenérgicos, aumentando AMPc que promove relaxamento da musculatura lisa brônquica, resultando em broncodilatação."
+    "justificativa": "Manifestações de intoxicação por teofilina incluem: cardiovasculares (taquicardia sinusal, arritmias ventriculares), neurológicas (tremor, agitação, insônia, convulsões), gastrointestinais (náuseas, vômitos intensos, dor abdominal) e metabólicas (hipocalemia, hiperglicemia). Convulsões ocorrem geralmente com níveis >40 μg/mL e têm alta mortalidade."
   },
   {
     "pergunta": "Qual das alternativas abaixo é uma contraindicação relativa ao uso de anticolinérgicos inalados?",
@@ -611,7 +611,7 @@
     "id": 41,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Montelucaste bloqueia receptores CysLT1, reduzindo broncoconstrição e inflamação em asma e rinite alérgica."
+    "justificativa": "Montelucaste é antagonista seletivo dos receptores cisteinil-leucotrienos tipo 1 (CysLT1), bloqueando a ação de leucotrienos C4, D4 e E4. Reduz broncoconstrição, edema de mucosa e inflamação das vias aéreas. Indicado em asma persistente leve a moderada e rinite alérgica, via oral, dose única diária."
   },
   {
     "pergunta": "Paciente com asma grave e eosinofilia persistente vem sendo tratado com corticosteroides inalados. Qual terapia biológica é indicada para essa condição?",
@@ -643,7 +643,7 @@
     "id": 43,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "N-acetilcisteína rompe pontes dissulfeto das glicoproteínas do muco, reduzindo viscosidade e facilitando a eliminação."
+    "justificativa": "N-acetilcisteína (NAC) é mucolítico que rompe pontes dissulfeto das glicoproteínas do muco, reduzindo sua viscosidade e facilitando a expectoração. Além de mucolítico, tem propriedade antioxidante e é usado como antídoto em intoxicação por paracetamol (repõe glutationa hepática)."
   },
   {
     "pergunta": "Verdadeiro ou falso: A dexametasona é um glicocorticoide de longa ação utilizado em exacerbacões graves de asma e DPOC.",
@@ -701,7 +701,7 @@
     "id": 47,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Enxaguar a boca remove resíduos do corticosteroide, evitando colonização por Candida e reduzindo candidíase oral."
+    "justificativa": "Corticosteroides inalatórios depositam-se na orofaringe, favorecendo crescimento de Candida albicans. Enxaguar vigorosamente a boca com água após cada inalação remove resíduos do fármaco da mucosa oral, reduzindo significativamente o risco de candidíase oral (sapinho), efeito adverso comum e limitante da adesão ao tratamento."
   },
   {
     "pergunta": "Paciente com refluxo gastroesofágico apresenta uso inadequado do omeprazol, tomando-o junto com o café da manhã. Qual orientação correta para melhorar a eficácia do medicamento?",
@@ -717,7 +717,7 @@
     "id": 48,
     "dificuldade": "difícil",
     "categoria": "Farmacologia",
-    "justificativa": "Omeprazol é absorvido no duodeno (pH alcalino); tomar em jejum antes do café melhora absorção e ativação do fármaco."
+    "justificativa": "Omeprazol é pró-fármaco com revestimento entérico, absorvido no duodeno em pH alcalino. Administração em jejum (30-60 min antes da refeição) maximiza absorção e garante que o fármaco seja ativado quando as bombas H+/K+-ATPase estejam ativas durante a alimentação, potencializando o efeito supressor ácido."
   },
   {
     "pergunta": "Entre os citoprotetores, qual medicamento age aumentando a produção de prostaglandinas gastroprotetoras, sendo útil para prevenção de úlceras induzidas por AINEs?",
@@ -875,7 +875,7 @@
     "id": 59,
     "dificuldade": "difícil",
     "categoria": "Farmacologia",
-    "justificativa": "Nas exacerbações moderadas de DPOC, corticosteroides sistêmicos aceleram a recuperação e antibióticos são indicados se sinais de infecção. Suspender tiotrópio não é recomendado e aumento indiscriminado de beta-2 agonistas ou metilxantinas não é primeira linha."
+    "justificativa": "Ipratrópio é antagonista muscarínico não-seletivo (bloqueia M1, M2 e M3) de curta ação que inibe broncoconstrição mediada por acetilcolina via nervo vago. Ação predominante em vias aéreas centrais. Baixa absorção sistêmica (efeitos anticolinérgicos mínimos). Início: 15-30 min, pico: 1-2h, duração: 4-6h. Útil em DPOC e broncoespasmo refratário."
   },
   {
     "pergunta": "Qual opção abaixo descreve melhor o mecanismo de ação dos antagonistas de leucotrienos no tratamento da asma?",
@@ -891,7 +891,7 @@
     "id": 60,
     "dificuldade": "fácil",
     "categoria": "Farmacologia",
-    "justificativa": "Antagonistas de leucotrienos, como montelucaste, bloqueiam receptores CysLT1, reduzindo broncoconstrição e inflamação típicas da asma. Não atuam em receptores β2 ou na secreção gástrica e não aumentam produção de surfactante."
+    "justificativa": "Ipratrópio é antagonista muscarínico de curta ação (SAMA) que bloqueia receptores M3, inibindo broncoconstrição colinérgica. Tem início de ação mais lento que SABA (15-30 min), menor efeito broncodilatador, mas é alternativa importante em pacientes que não toleram beta-agonistas ou têm broncoespasmo de etiologia colinérgica predominante."
   },
   {
     "pergunta": "Qual é o principal mecanismo de ação dos beta-2 agonistas no tratamento da asma?",
@@ -907,7 +907,7 @@
     "id": 61,
     "dificuldade": "fácil",
     "categoria": "Farmacologia",
-    "justificativa": "Beta-2 agonistas ativam receptores β2-adrenérgicos, elevando AMPc e causando broncodilatação pelo relaxamento da musculatura lisa brônquica."
+    "justificativa": "Antagonistas muscarínicos de longa ação (LAMA) são superiores aos de curta ação (SAMA) no tratamento da DPOC por oferecerem: broncodilatação sustentada por 24h (dose única diária), maior redução de exacerbações, melhora da função pulmonar e qualidade de vida, menor necessidade de medicação de resgate. Tiotrópio e umeclidínio são exemplos."
   },
   {
     "pergunta": "(V/F) Os antagonistas muscarínicos de ação longa (LAMA) são a primeira linha no tratamento da DPOC e promovem broncodilatação bloqueando receptores M3.",
@@ -917,7 +917,7 @@
     "id": 62,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "LAMA bloqueiam receptores muscarínicos M3, inibindo broncoconstrição colinérgica, sendo primeira linha na DPOC."
+    "justificativa": "Antagonistas muscarínicos de longa ação (LAMA) como tiotrópio bloqueiam receptores muscarínicos M3 nos brônquios, inibindo a broncoconstrição mediada por acetilcolina. São primeira linha no tratamento da DPOC por proporcionarem broncodilatação sustentada (24h), reduzindo exacerbações e melhorando função pulmonar."
   },
   {
     "pergunta": "Qual efeito adverso é mais comum com o uso de beta-2 agonistas de curta duração (SABA)?",
@@ -933,7 +933,7 @@
     "id": 63,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Tremor é um efeito adverso clássico dos beta-2 agonistas devido à estimulação dos receptores musculares esqueléticos."
+    "justificativa": "Tremor fino de extremidades é efeito adverso clássico e dose-dependente dos beta-2 agonistas, causado pela estimulação de receptores beta-2 em músculo esquelético. Outros efeitos incluem taquicardia (estimulação beta-1 cardíaca em doses altas), hipocalemia e ansiedade. Geralmente são leves e transitórios."
   },
   {
     "pergunta": "Em um paciente com asma grave controlada, qual medicamento deve ser associado aos LABA para maior eficácia e segurança?",
@@ -968,20 +968,20 @@
     "justificativa": "Teofilina possui janela terapêutica estreita (10-20 μg/mL), com risco de arritmias e convulsões em doses tóxicas, exigindo monitoramento."
   },
   {
-    "pergunta": "Qual antibiótico pode ter sua eficácia reduzida quando usado concomitantemente com omeprazol devido à alteração do pH gástrico?",
+    "pergunta": "Qual medicamento pode ter sua absorção significativamente reduzida quando usado concomitantemente com omeprazol devido à alteração do pH gástrico?",
     "tipo": "multipla_escolha",
     "opcoes": [
+      "Fluconazol",
+      "Ketoconazol",
       "Amoxicilina",
-      "Claritromicina",
-      "Metronidazol",
-      "Rifampicina"
+      "Claritromicina"
     ],
-    "resposta_correta": "Claritromicina",
-    "dica": "Alguns antibióticos dependem de pH ácido para absorção adequada.",
+    "resposta_correta": "Ketoconazol",
+    "dica": "Antifúngicos azólicos dependem de pH ácido para adequada dissolução e absorção.",
     "id": 66,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Omeprazol eleva o pH gástrico, podendo reduzir a absorção de claritromicina, importante na erradicação do Helicobacter pylori."
+    "justificativa": "Ketoconazol é um antifúngico azólico que requer pH gástrico ácido para dissolução e absorção adequadas. Omeprazol eleva o pH gástrico, reduzindo significativamente a biodisponibilidade do ketoconazol. Pacientes devem evitar uso concomitante ou usar alternativas como fluconazol (não dependente de pH ácido)."
   },
   {
     "pergunta": "(V/F) Inibidores da bomba de prótons precisam ser administrados em jejum para garantir a ativação na célula parietal gástrica e máxima inibição da secreção ácida.",
@@ -1071,7 +1071,7 @@
     "id": 72,
     "dificuldade": "difícil",
     "categoria": "Farmacologia",
-    "justificativa": "Omalizumab é um anticorpo anti-IgE que neutraliza IgE livre, indicado para asma alérgica grave com níveis elevados de IgE."
+    "justificativa": "Teste terapêutico com IBP é estratégia diagnóstica na suspeita de DRGE quando endoscopia é normal ou não disponível. Omeprazol em dose padrão por 2-4 semanas com melhora significativa dos sintomas (pirose, regurgitação) sugere fortemente DRGE como causa, com sensibilidade de 70-80%. Resposta negativa não exclui DRGE, mas sugere investigação alternativa."
   },
   {
     "pergunta": "Em relação aos inibidores da bomba de prótons (IBP), qual das alternativas é correta sobre seu metabolismo e possíveis interações medicamentosas?",
@@ -1103,7 +1103,7 @@
     "id": 74,
     "dificuldade": "fácil",
     "categoria": "Farmacologia",
-    "justificativa": "Montelucaste e zafirlucaste bloqueiam especificamente os receptores CysLT1, reduzindo broncoconstrição, inflamação e secreção de muco na asma."
+    "justificativa": "Montelucaste antagoniza especificamente receptores cisteinil-leucotrienos tipo 1 (CysLT1), bloqueando ação de leucotrienos C4, D4 e E4. Leucotrienos são mediadores inflamatórios 1000x mais potentes que histamina em causar broncoconstrição, edema de mucosa e secreção de muco. Reduz inflamação, sintomas e necessidade de beta-agonistas."
   },
   {
     "pergunta": "Em relação às indicações clínicas dos antagonistas de leucotrienos, assinale a alternativa correta:",
@@ -1119,7 +1119,7 @@
     "id": 75,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Antileucotrienos são indicados para asma leve a moderada, asma induzida por exercício e rinite alérgica, devido à sua ação anti-inflamatória e broncodilatadora moderada."
+    "justificativa": "Antagonistas de leucotrienos (montelucaste) oferecem vantagens únicas: administração oral (boa adesão), dose única diária, segurança em crianças >6 meses, sem necessidade de dispositivo inalatório. Particularmente úteis em asma induzida por exercício, asma com rinite alérgica concomitante e pacientes com dificuldade em usar inaladores."
   },
   {
     "pergunta": "Verdadeiro ou falso: Montelucaste é administrado por via oral e pode ser utilizado frequentemente em crianças devido à boa tolerabilidade.",
@@ -1145,7 +1145,7 @@
     "id": 77,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Embora geralmente bem tolerados, antagonistas de leucotrienos podem raramente causar alterações neuropsiquiátricas, como alucinações e agressividade."
+    "justificativa": "Omalizumab é anticorpo monoclonal recombinante humanizado anti-IgE indicado em asma grave alérgica não controlada apesar de corticosteroides/LABA em alta dose. Liga-se ao domínio Fc da IgE livre, impedindo ligação aos receptores FcεRI em mastócitos/basófilos. Reduz exacerbações em 50%, melhora controle e qualidade de vida. Administração subcutânea quinzenal/mensal."
   },
   {
     "pergunta": "Pacientes com asma induzida por exercício podem se beneficiar da utilização de qual medicamento?",
@@ -1187,7 +1187,7 @@
     "id": 80,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Antileucotrienos são administrados por via oral e apresentam boa tolerabilidade, facilitando o uso em crianças e melhor adesão ao tratamento."
+    "justificativa": "Antileucotrienos (montelucaste) apresentam vantagens farmacocinéticas importantes: administração por via oral (comprimidos ou grânulos), dose única diária, e excelente perfil de tolerabilidade gastrointestinal. Estas características facilitam o uso pediátrico, melhoram a adesão ao tratamento e evitam problemas técnicos associados a dispositivos inalatórios."
   },
   {
     "pergunta": "Um paciente apresenta asma leve controlada com montelucaste, mas queixa-se de dor de cabeça e desconforto abdominal leve. Qual a conduta mais apropriada?",
@@ -1287,7 +1287,7 @@
     "id": 87,
     "dificuldade": "difícil",
     "categoria": "Farmacologia",
-    "justificativa": "Em casos de falha terapêutica ou recidiva, os IBPs são mais eficazes devido à inibição irreversível da bomba de prótons, reduzindo significativamente a secreção ácida em comparação aos antagonistas H2, que podem perder eficácia após longo uso."
+    "justificativa": "Hidróxido de alumínio é antiácido que neutraliza HCl gástrico formando cloreto de alumínio e água. Como efeito adverso característico causa constipação (ação adstringente). Por isso, frequentemente é combinado com hidróxido de magnésio (que causa diarréia), balanceando efeitos gastrointestinais e melhorando tolerabilidade."
   },
   {
     "pergunta": "Qual efeito adverso é mais comum com o uso prolongado de antagonistas H2 como a ranitidina?",
@@ -1316,7 +1316,7 @@
       "Paciente com síndrome de Zollinger-Ellison"
     ],
     "resposta_correta": "Paciente com insuficiência renal grave",
-    "justificativa": "Antagonistas H2 como ranitidina e famotidina são eliminados predominantemente pelos rins. Em pacientes com insuficiência renal grave, há risco de acúmulo do fármaco e efeitos adversos (confusão mental, especialmente em idosos). Requer ajuste de dose baseado no clearance de creatinina. As outras situações são indicações terapêuticas, não contraindicações.",
+    "justificativa": "Ranitidina e famotidina são antagonistas H2 mais modernos que cimetidina, com vantagens importantes: não inibem significativamente o CYP450 (menor risco de interações medicamentosas), não apresentam efeitos antiandrogênicos (ginecomastia, impotência), têm maior duração de ação e melhor perfil de segurança. São preferidos para uso crônico.",
     "dica": "Pense na via de eliminação dos antagonistas H2 e quando isso se torna problemático.",
     "topico": "IBP e Antagonistas H2",
     "subtopico": "Precauções e ajuste de dose",
@@ -1389,7 +1389,7 @@
     "id": 94,
     "dificuldade": "fácil",
     "categoria": "Farmacologia",
-    "justificativa": "Embora o uso inalatórios minimize efeitos sistêmicos, doses altas e prolongadas podem absorver quantidades suficientes para suprimir o eixo HPA, causando efeitos adversos sistêmicos."
+    "justificativa": "Sucralfato atua por mecanismo local único: em pH ácido (<4), polimeriza formando gel viscoso adesivo que se liga preferencialmente a proteínas do leito ulcerado, criando barreira protetora física contra pepsina, bile e ácido. Também estimula produção local de prostaglandinas, muco e bicarbonato, favorecendo cicatrização."
   },
   {
     "pergunta": "Em um paciente com asma persistente grave, qual a associação farmacológica recomendada para controle e prevenção de crises?",
@@ -1405,7 +1405,7 @@
     "id": 95,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "O uso combinado de corticosteroide inalatório com beta-2 agonista de longa duração é padrão para asma persistente grave, controlando a inflamação e prevenindo exacerbações."
+    "justificativa": "Misoprostol é análogo sintético da prostaglandina E1 com múltiplas ações: inibe secreção ácida gástrica, aumenta produção de muco e bicarbonato, melhora fluxo sanguíneo mucoso. Indicado para profilaxia de úlceras induzidas por AINEs, especialmente em idosos e pacientes de alto risco. Contraindicado na gestação (efeito uterotônico/abortivo)."
   },
   {
     "pergunta": "Qual o principal risco associado ao uso das metilxantinas na terapêutica respiratória?",
@@ -1675,7 +1675,7 @@
     "id": 113,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Montelucaste pode, raramente, causar efeitos neuropsiquiátricos como agitação, ansiedade e alterações de humor, exigindo acompanhamento clínico."
+    "justificativa": "Omeprazol é o IBP com maior inibição do CYP2C19, enzima responsável pela bioativação do clopidogrel (pró-fármaco). Esta interação reduz formação do metabólito ativo de clopidogrel em 25-50%, diminuindo seu efeito antiplaquetário e aumentando risco de eventos cardiovasculares (infarto, trombose de stent). Preferir pantoprazol ou rabeprazol em pacientes usando clopidogrel."
   },
   {
     "pergunta": "Um paciente com Doença Pulmonar Obstrutiva Crônica (DPOC) apresenta necessidade de medicação broncodilatadora de longa duração. Qual a classe de medicamento de escolha para este caso?",
@@ -1701,7 +1701,7 @@
     "id": 115,
     "dificuldade": "fácil",
     "categoria": "Farmacologia",
-    "justificativa": "SABA como salbutamol têm início rápido (5-15 min) e duração curta, ideais para alívio rápido em crises agudas de asma."
+    "justificativa": "Beta-2 agonistas de ação curta (SABA) como salbutamol e fenoterol têm início de ação muito rápido (3-5 minutos), pico em 15-30 min e duração de 4-6h. São medicações de resgate ideais para alívio imediato de broncoespasmo em crises agudas de asma, não devendo ser usados regularmente."
   },
   {
     "pergunta": "(V / F) Corticosteroides inalatórios são a primeira linha para manutenção da asma persistente e devem ser sempre usados associados a beta-2 agonistas de longa duração (LABA).",
@@ -1711,7 +1711,7 @@
     "id": 116,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Corticosteroides inalatórios reduzem inflamação e hiperreatividade; LABA são adicionados para manter broncodilatação, evitando crises e controle sintomas."
+    "justificativa": "Salbutamol (albuterol) é beta-2 agonista de curta ação (SABA) com início rápido (3-5 min), pico em 15-30 min e duração de 4-6h. É medicação de resgate/alívio para broncoespasmo agudo. Uso frequente (>2x/semana) indica asma não controlada, necessitando intensificar terapia anti-inflamatória (corticosteroides inalatórios)."
   },
   {
     "pergunta": "(V / F) O uso isolado de beta-2 agonistas de longa duração (LABA) em asma é seguro e recomendado para todas as fases da doença.",
@@ -1731,7 +1731,7 @@
     "id": 118,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "LAMA são primeira linha para DPOC e podem ser usados em asma grave, mas não são recomendados para asma leve a moderada."
+    "justificativa": "LAMA (antagonistas muscarínicos de longa ação) como tiotrópio e umeclidínio são primeira linha na DPOC, com broncodilatação sustentada por 24h. Na asma, são indicados apenas como terapia adicional em asma grave não controlada com corticosteroides + LABA, NÃO sendo primeira linha em asma leve-moderada."
   },
   {
     "pergunta": "(V / F) Antagonistas de leucotrienos são uma opção terapêutica oral para asma leve a moderada, incluindo asma induzida por exercício.",
@@ -2077,7 +2077,7 @@
     "id": 152,
     "dificuldade": "difícil",
     "categoria": "Farmacologia",
-    "justificativa": "Para asma persistente leve, corticosteroides inalatórios são primeira linha para reduzir inflamação e prevenir sintomas, enquanto SABA é usado apenas para resgate. LABA só é indicado em associação a corticosteroide. Antagonistas dos leucotrienos são alternativa, menos eficazes isoladamente."
+    "justificativa": "Beclometasona é corticosteroide inalatório de baixa a média potência, disponível em formulação extrafina (partículas menores, melhor deposição em vias aéreas distais). É pró-fármaco convertido em metabólito ativo (beclometasona-17-monopropionato) nos pulmões. Dose usual: 200-800 μg/dia em adultos. Efeitos locais: candidíase oral (prevenir com espaçador e enxágue)."
   },
   {
     "pergunta": "Paciente com DPOC está em uso de tiotrópio 18 mcg/dia para controle dos sintomas. Após avaliação, que efeito adverso relacionado ao tiotrópio deve ser monitorado especialmente em pacientes idosos?",
@@ -2093,7 +2093,7 @@
     "id": 153,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Tiotrópio é um anticolinérgico de longa ação (LAMA) que bloqueia receptores muscarínicos, podendo causar boca seca e retenção urinária, principalmente em idosos. Hipocalemia é mais comum com beta-2 agonistas; candidíase oral é efeito dos corticosteroides inalatórios; supressão do eixo HPA ocorre com corticosteroides sistêmicos."
+    "justificativa": "Budesonida é corticosteroide inalatório de potência intermediária com alta afinidade pelos receptores de glicocorticoides e prolongada retenção pulmonar. Vantagens: metabolismo de primeira passagem extenso (reduz efeitos sistêmicos), seguro na gestação (categoria B). Disponível isolado ou combinado com formoterol. Dose: 200-800 μg/dia em adultos."
   },
   {
     "pergunta": "No tratamento da doença do refluxo gastroesofágico (DRGE), os inibidores da bomba de prótons (IBP) devem ser administrados preferencialmente em qual momento para otimizar seu efeito terapêutico?",
@@ -2109,7 +2109,7 @@
     "id": 154,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "IBPs são pró-fármacos ativados em meio ácido e agem de forma irreversível nas bombas H+/K+-ATPase em atividade. Administrá-los em jejum, antes da primeira refeição, garante que as bombas estejam ativas para serem inibidas, otimizando o efeito do medicamento."
+    "justificativa": "Fluticasona é corticosteroide inalatório de alta potência (2x mais potente que beclometasona/budesonida) com excelente afinidade pelos receptores de glicocorticoides e prolongada permanência no tecido pulmonar. Permite usar doses menores para mesmo efeito anti-inflamatório, reduzindo risco de efeitos sistêmicos. Disponível isolado ou combinado com salmeterol/vilanterol."
   },
   {
     "pergunta": "(V/F) O uso concomitante de corticosteroides inalatórios e beta-2 agonistas de longa duração (LABA) é a abordagem recomendada para pacientes com asma moderada a grave, uma vez que LABAs não devem ser usados isoladamente devido ao risco de exacerbações.",
@@ -2209,7 +2209,7 @@
     "id": 161,
     "dificuldade": "fácil",
     "categoria": "Farmacologia",
-    "justificativa": "Corticosteroides inalatórios têm menor risco sistêmico, mas em altas doses e uso prolongado podem causar supressão do eixo HPA, levando a efeitos adversos semelhantes aos corticosteroides sistêmicos."
+    "justificativa": "Corticosteroides sistêmicos (prednisona, prednisolona, metilprednisolona) são indicados em exacerbações graves de asma ou DPOC como terapia de curto prazo (5-7 dias) para controle rápido da inflamação. Uso prolongado exige cautela devido a efeitos adversos graves: supressão adrenal, osteoporose, diabetes, imunossupressão, hipertensão."
   },
   {
     "pergunta": "Paciente asmático grave em uso de LABA associado a corticosteroide inalatório apresenta exacerbação frequente dos sintomas. Qual terapia biológica seria mais indicada para esse paciente, considerando as características imunológicas da asma tipo 2?",
@@ -2225,7 +2225,7 @@
     "id": 162,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Omalizumab é indicado para asma alérgica grave, reduzindo IgE livre e controle de sintomas refratários a tratamento convencional. Montelucaste é adjuvante, mas menos eficaz em asma grave; Teofilina tem uso limitado; corticosteroides sistêmicos não são terapia biológica."
+    "justificativa": "Corticosteroides inalatórios (beclometasona, budesonida, fluticasona) são primeira linha no controle da asma persistente. Reduzem inflamação crônica das vias aéreas, hiper-reatividade brônquica, frequência de exacerbações e necessidade de corticosteroides sistêmicos. Efeitos adversos locais: candidíase oral, disfonia, tosse (reduzir com espaçador e enxágue oral)."
   },
   {
     "pergunta": "Paciente masculino de 55 anos, portador de artrite reumatoide, em uso crônico de AINEs, apresenta dor epigástrica e endoscopia evidencia úlcera gástrica. Qual a melhor conduta farmacológica para proteger a mucosa gástrica e prevenir novas lesões nestes casos?",
@@ -2505,7 +2505,7 @@
     "id": 181,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "A associação de LABA com LAMA promove broncodilatação sinérgica, sendo recomendada para controle da DPOC e melhoria da função pulmonar."
+    "justificativa": "A associação de beta-2 agonistas de longa ação (LABA) com antagonistas muscarínicos de longa ação (LAMA) promove broncodilatação sinérgica por mecanismos complementares: β2-agonismo e anticolinérgico. Esta combinação é altamente recomendada no manejo da DPOC, melhorando significativamente a função pulmonar, reduzindo exacerbações e sintomas."
   },
   {
     "pergunta": "Verdadeiro ou falso: A retirada abrupta de corticosteroides sistêmicos de uso prolongado pode causar insuficiência adrenal aguda.",
@@ -2535,7 +2535,7 @@
     "id": 184,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "IBPs são pró-fármacos ativados em ambiente ácido; administração em jejum maximiza absorção e ativação na célula parietal."
+    "justificativa": "IBPs são pró-fármacos ácido-lábeis com revestimento entérico, absorvidos no duodeno em pH alcalino. Administração em jejum (30-60 min antes do café da manhã) otimiza absorção e garante que o fármaco atinja células parietais quando as bombas H+/K+-ATPase estiverem ativas durante alimentação, maximizando supressão ácida."
   },
   {
     "pergunta": "Verdadeiro ou falso: O uso de corticosteroides inalatórios em pacientes com glaucoma de ângulo fechado é contraindicado devido ao aumento do risco de glaucoma.",
@@ -2801,7 +2801,7 @@
     "pergunta": "Verdadeiro ou falso: O omalizumab, um anticorpo monoclonal usado na asma grave alérgica, atua diminuindo a quantidade de IgE livre circulante.",
     "tipo": "verdadeiro_falso",
     "resposta_correta": "Verdadeiro",
-    "justificativa": "Omalizumab liga-se à IgE livre, impedindo sua ligação ao receptor FcεRI e reduzindo a resposta alérgica.",
+    "justificativa": "Omalizumab é anticorpo monoclonal anti-IgE usado na asma grave alérgica. Liga-se à IgE livre circulante, impedindo sua ligação aos receptores FcεRI em mastócitos e basófilos, bloqueando a cascata de resposta alérgica e reduzindo inflamação, exacerbações e necessidade de corticosteroides sistêmicos.",
     "dica": "Lembre-se do alvo específico do omalizumab.",
     "id": 202,
     "dificuldade": "médio",
@@ -2961,7 +2961,7 @@
     "id": 214,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Antagonistas H2 são usados para prevenir úlceras por estresse em unidades de terapia intensiva, reduzindo a produção ácida e protegendo a mucosa gástrica."
+    "justificativa": "Ranitidina é antagonista competitivo dos receptores H2 das células parietais gástricas, inibindo secreção ácida basal e estimulada. Mais potente que cimetidina (4-10x), com maior duração de ação (8-12h), menor perfil de interações medicamentosas (não inibe CYP450 significativamente) e ausência de efeitos antiandrogênicos."
   },
   {
     "pergunta": "Qual antagonista H2 apresenta maior afinidade pelo receptor H2, permitindo doses menores para efeito terapêutico equivalente?",
@@ -3035,7 +3035,7 @@
     "id": 219,
     "dificuldade": "difícil",
     "categoria": "Farmacologia",
-    "justificativa": "Aumentar dose e frequência do omeprazol pode superar a falha, visto que a inibição da bomba é irreversível, mas novas bombas são sintetizadas, requerendo dose adequada para controle ácido."
+    "justificativa": "Lansoprazol é IBP de primeira geração com perfil similar ao omeprazol. Características: pró-fármaco ácido-lábil, requer revestimento entérico, metabolizado por CYP2C19 e CYP3A4. Disponível também em formulação orodispersível (útil em pacientes com disfagia, sondas). Dose: 15-30 mg/dia. Pode aumentar níveis de metotrexato e digoxina."
   },
   {
     "pergunta": "Qual IBP apresenta formulação com maior estabilidade ao pH gástrico e pode ser administrado com alimentos, diferentemente do omeprazol que requer jejum para melhor absorção?",
@@ -3051,7 +3051,7 @@
     "id": 220,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Pantoprazol possui formulação que mantém estabilidade e absorção mesmo com a presença de alimentos, facilitando a administração em relação ao omeprazol."
+    "justificativa": "Esomeprazol é isômero S do omeprazol (mistura racêmica R/S), com vantagens farmacocinéticas: metabolismo mais lento, maior biodisponibilidade, concentrações plasmáticas mais estáveis e previsíveis. Maior supressão ácida que omeprazol em dose equivalente. Mesmas indicações e precauções (fraturas, hipomagnesemia, interações com clopidogrel)."
   },
   {
     "pergunta": "Entre os IBPs, qual apresenta meia-vida plasmática levemente mais longa, podendo influenciar no início da ação, porém todos apresentam duração do efeito similar (24-48 horas)?",
@@ -3067,7 +3067,7 @@
     "id": 221,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "O esomeprazol apresenta meia-vida plasmática um pouco maior, porém a duração do efeito dos IBPs é principalmente determinada pela inibição irreversível da bomba H+/K+-ATPase, que dura 24-48h."
+    "justificativa": "Rabeprazol é IBP com características distintas: ativação menos dependente de pH ácido (início mais rápido), metabolismo predominantemente não-enzimático (menor variabilidade genética pelo polimorfismo CYP2C19). Perfil de interações medicamentosas possivelmente mais favorável que omeprazol, sendo alternativa em pacientes usando clopidogrel."
   },
   {
     "pergunta": "Paciente em uso crônico de omeprazol apresenta redução do efeito do clopidogrel. Isso ocorre porque omeprazol é um inibidor do CYP450 que metaboliza clopidogrel em sua forma ativa.",
@@ -3251,7 +3251,7 @@
     "id": 234,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Tremor e taquicardia são efeitos colaterais comuns de β2-agonistas; ajuste da técnica e otimização da dose de corticosteroide podem reduzir sintomas e melhorar controle."
+    "justificativa": "Salmeterol é LABA de longa duração (12h) com início de ação lento (10-20 min), não servindo para alívio agudo. Alta lipofilicidade causa retenção na membrana brônquica, prolongando ação. NUNCA usar isoladamente na asma - sempre combinado com corticosteroides (fluticasona em dispositivo único). Efeitos adversos: tremor, taquicardia, cefaleia."
   },
   {
     "pergunta": "Qual é a vantagem do formoterol sobre o salmeterol no tratamento da asma em relação à duração e início da ação?",
@@ -3267,7 +3267,7 @@
     "id": 235,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Formoterol começa a agir em 5 minutos, ideal para sintomas mais imediatos, enquanto salmeterol demora mais; ambos têm duração prolongada (12-24h)."
+    "justificativa": "Formoterol é LABA com características únicas: além de longa duração (12h), tem início de ação rápido (1-3 min), similar aos SABA. Pode ser usado tanto para controle (dose regular) quanto alívio em regimes SMART (Single Maintenance and Reliever Therapy) com budesonida. Nunca usar isolado na asma - sempre combinado com corticosteroides."
   },
   {
     "pergunta": "O uso de formoterol isolado na asma persistente pode aumentar o risco de eventos adversos graves devido a qual fator?",
@@ -3299,7 +3299,7 @@
     "id": 237,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Ipratrópio é um antagonista muscarínico que bloqueia receptores M3, reduzindo a broncoconstrição mediada pela acetilcolina, promovendo broncodilatação na DPOC."
+    "justificativa": "Beta-2 agonistas de longa ação (LABA) como formoterol e salmeterol NÃO possuem efeito anti-inflamatório significativo. Seu uso isolado na asma pode mascarar sintomas enquanto a inflamação persiste, aumentando risco de exacerbações graves e morte. SEMPRE devem ser combinados com corticosteroides inalatórios na asma."
   },
   {
     "pergunta": "(V / F) Ipratrópio pode ser usado isoladamente no tratamento de asma grave em crises agudas.",
@@ -3309,7 +3309,7 @@
     "id": 238,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Ipratrópio é utilizado principalmente na DPOC e como adjuvante em crises de asma, mas sozinho não é o tratamento padrão para crises graves de asma, que preferencialmente usam β2-agonistas de ação rápida."
+    "justificativa": "Tiotrópio é LAMA de longa duração (24h), antagonista seletivo M3/M1 sobre M2. Primeira linha na DPOC, reduz exacerbações, melhora função pulmonar e qualidade de vida. Na asma, é terapia adicional em asma grave. Administrado por inalador (Respimat) ou cápsula inalável (HandiHaler). Efeitos anticolinérgicos: boca seca, retenção urinária (idosos)."
   },
   {
     "pergunta": "Qual é a via de administração mais comum do ipratrópio para pacientes com DPOC?",
@@ -3525,7 +3525,7 @@
     "id": 253,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Itraconazol necessita de meio ácido para absorção adequada; IBPs elevam o pH gástrico, reduzindo sua biodisponibilidade e efeito terapêutico."
+    "justificativa": "Itraconazol é um antifúngico azólico que necessita de meio gástrico ácido para adequada dissolução e absorção. Os inibidores da bomba de prótons (IBPs) elevam o pH gástrico acima de 4-5, reduzindo drasticamente a biodisponibilidade do itraconazol (até 60% de redução). Quando necessário uso concomitante, administrar itraconazol com bebida ácida (refrigerante tipo cola) ou preferir formulação intravenosa."
   },
   {
     "pergunta": "Paciente com histórico de sangramento gastrointestinal está em uso de anticoagulante oral e inicia IBP profilático. Qual o principal benefício deste uso combinado?",
@@ -3719,7 +3719,7 @@
     "id": 267,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "β-bloqueadores podem bloquear receptores β2, levando a broncoconstrição, o que pode agravar crises asmáticas."
+    "justificativa": "Beta-bloqueadores não-seletivos (propranolol) e mesmo alguns beta-1 seletivos podem bloquear receptores beta-2 adrenérgicos brônquicos, causando broncoconstrição e potencialmente precipitando crise asmática grave. São geralmente contraindicados em asmáticos; quando essencial, preferir beta-1 ultra-seletivos (bisoprolol) com cautela."
   },
   {
     "pergunta": "Paciente asmático está com angina e o cardiologista prescreve um β-bloqueador. Qual a conduta mais adequada?",
@@ -3735,7 +3735,7 @@
     "id": 268,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Em asmáticos, β1-seletivos são preferíveis, pois têm menor efeito sobre β2-bronquiais, reduzindo risco de broncoespasmo, mas devem ser usados com cuidado."
+    "justificativa": "Beta-bloqueadores não-seletivos (propranolol, nadolol) bloqueiam receptores beta-2 brônquicos, causando broncoconstrição potencialmente grave em asmáticos. Mesmo beta-1 seletivos (metoprolol, atenolol) perdem seletividade em doses altas. Se essencial, preferir beta-1 ultra-seletivos (nebivolol, bisoprolol) em doses baixas com monitorização rigorosa."
   },
   {
     "pergunta": "Qual dos seguintes fármacos antiulcerosos é absolutamente contraindicado na gravidez por seu mecanismo de ação?",
@@ -3777,7 +3777,7 @@
     "id": 271,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Misoprostol é abortivo; em gestantes, profilaxia deve usar outras medicações seguras para preservar a gravidez."
+    "justificativa": "Misoprostol é análogo da prostaglandina E1 com propriedade abortiva/uterotônica, sendo formalmente contraindicado na gestação. Em gestantes com risco de úlcera pelo uso de AINEs, deve-se preferir IBPs ou antagonistas H2 (ranitidina, famotidina), que são seguros na gravidez para gastroproteção."
   },
   {
     "pergunta": "Paciente asmático controlado desenvolveu hipertensão e necessita de β-bloqueador. Qual é a justificativa principal para evitar um β-bloqueador não seletivo?",
@@ -3983,7 +3983,7 @@
     "id": 285,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Tiotrópio é anticolinérgico e pode aumentar pressão intraocular, contraindicado em glaucoma de ângulo fechado."
+    "justificativa": "Tiotrópio é antagonista muscarínico (anticolinérgico) de longa ação que pode causar midríase e aumentar a pressão intraocular, sendo formalmente contraindicado em pacientes com glaucoma de ângulo fechado. Neste caso, preferir beta-2 agonistas de longa ação (LABA) ou considerar avaliação oftalmológica rigorosa."
   },
   {
     "pergunta": "Qual é o principal efeito adverso associado ao uso prolongado de hidróxido de alumínio como antiácido?",
@@ -4041,7 +4041,7 @@
     "id": 289,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "O hidróxido de alumínio pode formar quelatos com digoxina, diminuindo sua absorção e eficácia clínica."
+    "justificativa": "Hidróxido de alumínio pode formar complexos insolúveis (quelatos) com digoxina no trato gastrointestinal, reduzindo sua absorção e consequente eficácia terapêutica. Esta interação pode resultar em níveis subterapêuticos de digoxina e perda de controle da arritmia ou insuficiência cardíaca. Separar administração em pelo menos 2 horas."
   },
   {
     "pergunta": "Um paciente em uso de antiácidos que contêm hidróxido de magnésio relata sintomas de fraqueza, confusão e hipotensão. Qual efeito adverso grave deve ser considerado?",
@@ -4109,7 +4109,7 @@
     "id": 294,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Hidróxido de alumínio pode se ligar à levotiroxina no trato gastrointestinal, reduzindo sua absorção e eficácia terapêutica."
+    "justificativa": "Hidróxido de alumínio liga-se à levotiroxina no trato gastrointestinal, formando complexos insolúveis que reduzem significativamente sua absorção intestinal e eficácia terapêutica. Isto pode resultar em hipotireoidismo descontrolado. Antiácidos devem ser administrados pelo menos 4 horas antes ou depois da levotiroxina para evitar esta interação."
   },
   {
     "pergunta": "Caso clínico: Paciente idoso com azia frequente usa hidróxido de alumínio e magnésio regularmente, além de digoxina e tetraciclina. Após piora dos sintomas cardíacos, qual das condutas abaixo é mais adequada para evitar interações medicamentosas?",
@@ -4641,7 +4641,7 @@
     "id": 331,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Pacientes com esofagite moderada a grave precisam de tratamento prolongado com IBP para cicatrização completa e prevenção de recidivas."
+    "justificativa": "Pacientes com esofagite erosiva graus C ou D (classificação de Los Angeles) apresentam lesões moderadas a graves da mucosa esofágica, necessitando de tratamento prolongado com IBP (geralmente 8-12 semanas ou mais) para cicatrização completa, controle sintomático e prevenção de complicações como estenose ou esôfago de Barrett."
   },
   {
     "pergunta": "Paciente com DRGE relata uso intermitente de anti-H2 com melhora parcial. Quais as razões para substituir por IBP?",
@@ -4709,7 +4709,7 @@
     "id": 336,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Eles são antagonistas dos receptores cisteinil-leucotrienos (CysLT1), bloqueando a ação do leucotrieno, não sua síntese."
+    "justificativa": "Montelucaste e zafirlucaste são antagonistas competitivos dos receptores cisteinil-leucotrienos tipo 1 (CysLT1), bloqueando a AÇÃO dos leucotrienos já formados. Diferem do zileuton, que é inibidor da 5-lipoxigenase e bloqueia a SÍNTESE de leucotrienos. Ambos reduzem broncoconstrição e inflamação."
   },
   {
     "pergunta": "Paciente asmático apresenta piora dos sintomas após iniciar montelucaste. Qual é a conduta mais adequada?",
@@ -4741,7 +4741,7 @@
     "id": 338,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Os efeitos adversos mais frequentes são cefaleia e dor abdominal, geralmente leves e autolimitados."
+    "justificativa": "Montelucaste é geralmente bem tolerado. Os efeitos adversos mais frequentes são cefaleia, dor abdominal e sintomas gastrointestinais, habitualmente leves e autolimitados. Efeitos neuropsiquiátricos (agitação, insônia, depressão) são raros mas importantes, exigindo descontinuação se ocorrerem."
   },
   {
     "pergunta": "(V / F) É recomendável o uso isolado de montelucaste em crises agudas de asma devido ao início rápido de ação.",
@@ -4751,7 +4751,7 @@
     "id": 339,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Montelucaste tem início lento e é usado para controle, não para alívio imediato de crises agudas."
+    "justificativa": "Montelucaste é antagonista de receptores de leucotrienos com início de ação lento (horas a dias) e efeito preventivo. NÃO deve ser usado isoladamente em crises agudas de asma, que exigem broncodilatadores de ação rápida (SABA). Montelucaste é medicação de controle, não de resgate."
   },
   {
     "pergunta": "Em relação às limitações do montelucaste e do zafirlucaste, assinale a opção correta:",
@@ -4799,7 +4799,7 @@
     "id": 342,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Montelucaste e zafirlucaste são administrados por via oral, possuem boa biodisponibilidade e não dependem de ativação ácida para ação."
+    "justificativa": "Zileuton é inibidor seletivo da enzima 5-lipoxigenase (5-LO), bloqueando a SÍNTESE de todos os leucotrienos (LTB4, LTC4, LTD4, LTE4) a partir do ácido araquidônico. Diferencia-se dos antagonistas de receptores (montelucaste) que bloqueiam apenas a AÇÃO dos leucotrienos. Uso limitado por hepatotoxicidade (monitorar transaminases), interações via CYP e necessidade de doses múltiplas diárias."
   },
   {
     "pergunta": "(V / F) Zafirlucaste pode interagir com varfarina, aumentando o risco de hemorragia.",
@@ -4809,7 +4809,7 @@
     "id": 343,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Zafirlucaste pode aumentar os níveis de varfarina, elevando o risco de hemorragia; monitoramento é recomendado."
+    "justificativa": "Zafirlucaste é metabolizado pelo CYP2C9 e pode inibir esta enzima, aumentando os níveis plasmáticos de varfarina (também substrato do CYP2C9), elevando significativamente o INR e o risco de hemorragia. Monitoramento rigoroso do INR e ajuste de dose de varfarina são essenciais nesta combinação."
   },
   {
     "pergunta": "Qual dos seguintes corticoides inalados possui maior potência anti-inflamatória por dose administrada?",
@@ -4909,7 +4909,7 @@
     "id": 350,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "O uso prolongado e em doses elevadas de corticoides inalados pode atrasar o crescimento infantil devido à ação sistêmica parcial, mesmo com potências variadas."
+    "justificativa": "Ciclesonida é corticosteroide inalatório de nova geração, pró-fármaco ativado por esterases pulmonares em metabólito ativo (des-ciclesonida). Vantagens: alta potência, partículas ultrafinas (melhor deposição periférica), baixíssima biodisponibilidade oral (<1%, mínimos efeitos sistêmicos), menor risco de candidíase oral e disfonia. Administração: 80-320 μg/dia em dose única."
   },
   {
     "pergunta": "Qual das alternativas apresenta ordem correta de potência relativa crescente dos corticoides inalados disponíveis: beclometasona, budesonida e fluticasona?",
@@ -4925,7 +4925,7 @@
     "id": 351,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Beclometasona tem a menor potência, seguida por budesonida, com fluticasona sendo a mais potente entre as três."
+    "justificativa": "A potência relativa dos corticosteroides inalatórios em ordem crescente é: beclometasona < budesonida < fluticasona < mometasona < ciclesonida. Fluticasona tem potência aproximadamente 2x maior que budesonida e beclometasona. Maior potência permite usar doses menores para mesmo efeito anti-inflamatório."
   },
   {
     "pergunta": "Paciente de 55 anos com asma grave utiliza fluticasona inalatório em dose alta e apresenta suspeita de catarata. Essa complicação está relacionada à potência e ao uso prolongado do corticoide inalatório?",
@@ -5009,7 +5009,7 @@
     "id": 357,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Teofilina é metabolizada principalmente pelo CYP1A2, resultando em alta variabilidade e possibilidade de interações medicamentosas importantes."
+    "justificativa": "Teofilina é metabolizada predominantemente por via hepática através da enzima CYP1A2 (90% do metabolismo). Esta via metabólica específica resulta em alta variabilidade farmacocinética interindividual e numerosas interações medicamentosas clinicamente relevantes. Indutores (tabaco, carbamazepina) reduzem níveis, enquanto inibidores (ciprofloxacino, cimetidina) aumentam toxicidade."
   },
   {
     "pergunta": "(V / F) A administração concomitante de ciprofloxacino pode aumentar os níveis de teofilina no sangue devido à inibição do CYP1A2.",
@@ -5019,7 +5019,7 @@
     "id": 358,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Ciprofloxacino inibe CYP1A2, elevando níveis plasmáticos da teofilina, aumentando risco de toxicidade."
+    "justificativa": "Ciprofloxacino, antibiótico fluoroquinolona, é um potente inibidor da enzima CYP1A2, principal via de metabolização da teofilina. Esta interação pode elevar os níveis plasmáticos de teofilina em 30-100%, aumentando significativamente o risco de toxicidade (arritmias, convulsões, náuseas). Monitorização rigorosa e redução de dose da teofilina são obrigatórias."
   },
   {
     "pergunta": "Durante a monitorização da teofilina, qual intervalo terapêutico plasmático é geralmente aceito para efeito eficaz e seguro?",
@@ -5051,7 +5051,7 @@
     "id": 360,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "Níveis acima de 20 μg/mL indicam toxicidade, associada a arritmias, convulsões e outros efeitos adversos graves."
+    "justificativa": "A janela terapêutica da teofilina é 10-20 μg/mL. Níveis acima de 20 μg/mL caracterizam toxicidade, manifestando-se com arritmias cardíacas (taquicardia ventricular), convulsões, tremores intensos, náuseas e vômitos graves. Em intoxicação severa (>40 μg/mL), considerar hemodiálise e suporte em UTI."
   },
   {
     "pergunta": "(V / F) O tabagismo pode aumentar o metabolismo da teofilina, diminuindo seus níveis plasmáticos e exigindo ajuste posológico.",
@@ -5151,7 +5151,7 @@
     "id": 367,
     "dificuldade": "médio",
     "categoria": "Farmacologia",
-    "justificativa": "O sucralfato atua localmente na mucosa gástrica com absorção sistêmica mínima, reduzindo riscos de efeitos sistêmicos e interações farmacodinâmicas."
+    "justificativa": "Sucralfato atua por mecanismo local na mucosa gástrica, formando complexo protetor sobre úlceras. Possui absorção sistêmica mínima (<5%), o que confere excelente perfil de segurança com raros efeitos sistêmicos. Entretanto, pode causar interações farmacocinéticas locais, reduzindo absorção de outros fármacos por quelação ou alteração de pH."
   },
   {
     "pergunta": "(V / F) Sucralfato pode interferir na absorção de outros medicamentos como tetraciclinas e digoxina quando administrados simultaneamente.",

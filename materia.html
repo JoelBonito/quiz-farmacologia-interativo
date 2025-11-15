@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciar Matéria - Quiz Interativo</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/materia.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="dashboard.html" class="back-btn">← Voltar</a>
+          <h1 id="materia-nome">Carregando...</h1>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-primary" id="process-ai-btn" disabled>
+            🤖 Processar com IA
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Info Card -->
+      <div class="info-card">
+        <div class="info-row">
+          <div class="info-item">
+            <span class="info-icon" id="materia-icone">📚</span>
+            <div>
+              <div class="info-label">Matéria</div>
+              <div class="info-value" id="materia-nome-display">-</div>
+            </div>
+          </div>
+          <div class="info-item">
+            <div>
+              <div class="info-label">Arquivos</div>
+              <div class="info-value" id="total-arquivos-display">0</div>
+            </div>
+          </div>
+          <div class="info-item">
+            <div>
+              <div class="info-label">Perguntas Geradas</div>
+              <div class="info-value" id="total-perguntas-display">0</div>
+            </div>
+          </div>
+        </div>
+        <p class="info-description" id="materia-descricao">-</p>
+      </div>
+
+      <!-- Upload Section -->
+      <div class="section">
+        <h2>📤 Upload de Arquivos</h2>
+        <p class="section-description">Faça upload de PDFs, textos, imagens ou markdown com o conteúdo que você quer estudar</p>
+
+        <div class="upload-area" id="upload-area">
+          <input type="file" id="file-input" multiple accept=".pdf,.txt,.md,.jpg,.jpeg,.png" style="display: none;">
+          <div class="upload-content">
+            <div class="upload-icon">📁</div>
+            <h3>Arraste arquivos aqui ou clique para selecionar</h3>
+            <p>Formatos aceitos: PDF, TXT, MD, JPG, PNG</p>
+            <button class="btn btn-primary" id="select-files-btn">Escolher Arquivos</button>
+          </div>
+        </div>
+
+        <!-- Selected Files Preview -->
+        <div id="selected-files" class="selected-files" style="display: none;"></div>
+      </div>
+
+      <!-- Files List -->
+      <div class="section">
+        <div class="section-header">
+          <h2>📄 Arquivos Carregados</h2>
+          <span class="badge" id="files-count">0</span>
+        </div>
+
+        <div id="files-loading" class="loading-state" style="display: none;">
+          <div class="spinner-circle"></div>
+          <p>Carregando arquivos...</p>
+        </div>
+
+        <div id="files-empty" class="empty-state-sm">
+          <p>Nenhum arquivo carregado ainda</p>
+        </div>
+
+        <div id="files-list" class="files-list" style="display: none;"></div>
+      </div>
+
+      <!-- Questions Preview (aparece após processar) -->
+      <div class="section" id="questions-section" style="display: none;">
+        <div class="section-header">
+          <h2>❓ Perguntas Geradas</h2>
+          <span class="badge" id="questions-count">0</span>
+        </div>
+        <div id="questions-list"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Toast Messages -->
+  <div id="toast-container"></div>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay" class="loading-overlay" style="display: none;">
+    <div class="loading-card">
+      <div class="spinner-circle"></div>
+      <h3 id="loading-title">Processando...</h3>
+      <p id="loading-message">Isso pode levar alguns minutos</p>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/gemini.js"></script>
+  <script src="js/materia.js"></script>
+</body>
+</html>

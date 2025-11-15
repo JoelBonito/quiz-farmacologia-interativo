@@ -1,289 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <title>Quiz Interativo de Farmacologia</title>
-    <link rel="stylesheet" href="style.css?v=1.2">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Interativo - Carregando...</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .loader {
+      text-align: center;
+    }
+
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 5px solid rgba(255, 255, 255, 0.3);
+      border-top-color: white;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 20px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+  </style>
 </head>
 <body>
-    <!-- Toggle Modo Noturno (fixo no canto) -->
-    <div class="theme-toggle" onclick="toggleTheme()">
-        <span id="theme-icon">🌙</span>
-    </div>
+  <div class="loader">
+    <div class="spinner"></div>
+    <h1>📚 Quiz Interativo</h1>
+    <p>Carregando...</p>
+  </div>
 
-    <div class="container">
-        <!-- Tela Inicial -->
-        <div id="start-screen" class="screen active">
-            <div class="welcome-container">
-                <h1>🎓 Quiz Interativo de Farmacologia</h1>
-                <p class="subtitle">Sistema Respiratório e Gastrointestinal</p>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config/config.js"></script>
+  <script>
+    // Inicializar Supabase
+    const supabase = window.supabase.createClient(
+      CONFIG.SUPABASE_URL,
+      CONFIG.SUPABASE_ANON_KEY
+    );
 
-                <div class="intro-text">
-                    <p>📚 <strong><span id="total-questions">219</span> perguntas</strong> completas com justificativas detalhadas</p>
-                    <p>💡 Sistema inteligente de revisão e acompanhamento de progresso</p>
-                    <p>📊 Estatísticas em tempo real e histórico de desempenho</p>
-                </div>
+    // Verificar autenticação e redirecionar
+    async function checkAuthAndRedirect() {
+      try {
+        const { data: { user }, error } = await supabase.auth.getUser();
 
-                <!-- Filtros Opcionais -->
-                <div class="filters-container">
-                    <h3>🎯 Personalizar Quiz</h3>
+        if (user) {
+          // Usuário autenticado → dashboard
+          window.location.href = 'dashboard.html';
+        } else {
+          // Não autenticado → login
+          window.location.href = 'auth.html';
+        }
+      } catch (error) {
+        console.error('Erro ao verificar autenticação:', error);
+        // Em caso de erro, redirecionar para login
+        window.location.href = 'auth.html';
+      }
+    }
 
-                    <div class="filter-group">
-                        <label class="filter-label">Modo de Estudo:</label>
-                        <select id="study-mode" class="filter-select">
-                            <option value="all">Todas as Perguntas (219)</option>
-                            <option value="review">Apenas Marcadas para Revisão</option>
-                            <option value="wrong">Apenas Perguntas Erradas Anteriormente</option>
-                            <option value="unanswered">Apenas Não Respondidas</option>
-                        </select>
-                    </div>
-
-                    <div class="filter-group">
-                        <label class="filter-label">Filtrar por Categoria:</label>
-                        <select id="category-filter" class="filter-select">
-                            <option value="all">Todas as Categorias</option>
-                            <option value="Farmacologia">Farmacologia</option>
-                        </select>
-                    </div>
-
-                    <div class="filter-group">
-                        <label class="filter-label">Filtrar por Tipo:</label>
-                        <select id="type-filter" class="filter-select">
-                            <option value="all">Todos os Tipos</option>
-                            <option value="multiple_choice">Múltipla Escolha</option>
-                            <option value="true_false">Verdadeiro/Falso</option>
-                            <option value="clinical_case">Casos Clínicos</option>
-                        </select>
-                    </div>
-
-                    <div class="filter-group">
-                        <label class="filter-label">Filtrar por Dificuldade:</label>
-                        <select id="difficulty-filter" class="filter-select">
-                            <option value="all">Todas as Dificuldades</option>
-                            <option value="baixo">🟢 Baixo</option>
-                            <option value="médio">🟡 Médio</option>
-                            <option value="difícil">🔴 Difícil</option>
-                        </select>
-                    </div>
-                </div>
-
-                <button class="btn btn-primary btn-large" onclick="startQuiz()">
-                    🚀 Começar Quiz
-                </button>
-
-                <!-- Histórico de Tentativas -->
-                <div id="history-container" class="history-container" style="display: none;">
-                    <h3>📈 Histórico de Tentativas</h3>
-                    <div id="history-list"></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tela do Quiz -->
-        <div id="quiz-screen" class="screen">
-            <!-- Botão Toggle Stats (apenas mobile) -->
-            <button class="stats-toggle-btn" onclick="toggleStats()" style="display: none;">
-                <span id="stats-toggle-text">📊 Mostrar Estatísticas</span>
-            </button>
-
-            <!-- Dashboard de Estatísticas em Tempo Real -->
-            <div class="stats-dashboard" id="stats-dashboard">
-                <div class="stat-card">
-                    <div class="stat-icon">✅</div>
-                    <div class="stat-info">
-                        <div class="stat-value" id="accuracy-percent">0%</div>
-                        <div class="stat-label">Taxa de Acerto</div>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">📝</div>
-                    <div class="stat-info">
-                        <div class="stat-value" id="questions-answered">0/219</div>
-                        <div class="stat-label">Respondidas</div>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">🔥</div>
-                    <div class="stat-info">
-                        <div class="stat-value" id="streak-counter">0</div>
-                        <div class="stat-label">Sequência</div>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">⏱️</div>
-                    <div class="stat-info">
-                        <div class="stat-value" id="avg-time">0s</div>
-                        <div class="stat-label">Tempo Médio</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Barra de Progresso -->
-            <div class="progress-bar">
-                <div id="progress-fill" class="progress-fill"></div>
-                <span class="progress-text" id="progress-text">0%</span>
-            </div>
-
-            <!-- Controles do Quiz -->
-            <div class="quiz-controls">
-                <button class="btn btn-outline btn-small" onclick="restartQuiz()">
-                    🔄 Reiniciar
-                </button>
-                <span id="question-counter">Pergunta 1 de 219</span>
-                <button class="btn btn-outline btn-small" onclick="goHome()">
-                    🏠 Início
-                </button>
-            </div>
-
-            <div class="question-container">
-                <div class="question-header">
-                    <div class="badges-container">
-                        <div class="category-badge" id="category-badge">Categoria</div>
-                        <div class="difficulty-badge" id="difficulty-badge">Médio</div>
-                    </div>
-                    <button class="bookmark-btn" id="bookmark-btn" onclick="toggleBookmark()" title="Marcar para revisão">
-                        <span id="bookmark-icon">⭐</span>
-                    </button>
-                </div>
-
-                <h2 id="question-text">Carregando pergunta...</h2>
-
-                <div id="options-container" class="options-container">
-                    <!-- Opções serão inseridas aqui dinamicamente -->
-                </div>
-
-                <div class="hint-container" id="hint-container" style="display: none;">
-                    <div class="hint-icon">💡</div>
-                    <p id="hint-text"></p>
-                </div>
-
-                <div class="feedback-container" id="feedback-container" style="display: none;">
-                    <div class="feedback-icon" id="feedback-icon"></div>
-                    <h3 id="feedback-title"></h3>
-                    <p id="feedback-text"></p>
-                </div>
-
-                <div class="button-group">
-                    <button id="hint-btn" class="btn btn-secondary" onclick="showHint()">
-                        💡 Ver Dica
-                    </button>
-                    <button id="next-btn" class="btn btn-primary" onclick="nextQuestion()" style="display: none;">
-                        Próxima Pergunta →
-                    </button>
-                    <button id="finish-btn" class="btn btn-success" onclick="finishQuiz()" style="display: none;">
-                        🎯 Ver Resultado Final
-                    </button>
-                </div>
-
-                <div class="navigation-buttons">
-                    <button class="btn btn-outline" onclick="previousQuestion()" id="prev-btn">
-                        ← Anterior
-                    </button>
-                    <button class="btn btn-outline" onclick="skipQuestion()">
-                        Pular →
-                    </button>
-                </div>
-
-                <div class="finish-button-container">
-                    <button class="btn btn-success" onclick="finishQuizEarly()" title="Finalizar e ver resultados">
-                        ✓ Finalizar
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tela de Resultado -->
-        <div id="result-screen" class="screen">
-            <div class="result-container">
-                <h1>🎉 Quiz Concluído!</h1>
-
-                <div class="result-score">
-                    <div class="score-circle">
-                        <span id="final-score">0</span>
-                        <span class="score-label">pontos</span>
-                    </div>
-                    <div class="score-percentage">
-                        <span id="final-percentage">0%</span>
-                        <span class="score-label">de acerto</span>
-                    </div>
-                </div>
-
-                <div class="result-stats">
-                    <div class="stat-item">
-                        <span class="stat-value correct" id="correct-answers">0</span>
-                        <span class="stat-label">✅ Corretas</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value incorrect" id="incorrect-answers">0</span>
-                        <span class="stat-label">❌ Incorretas</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value" id="skipped-answers">0</span>
-                        <span class="stat-label">⏭️ Puladas</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value" id="best-streak">0</span>
-                        <span class="stat-label">🔥 Melhor Sequência</span>
-                    </div>
-                </div>
-
-                <!-- Performance por Categoria -->
-                <div class="category-performance" id="category-performance">
-                    <h3>📊 Desempenho por Categoria</h3>
-                    <div id="category-stats"></div>
-                </div>
-
-                <!-- Performance por Dificuldade -->
-                <div class="difficulty-performance" id="difficulty-performance">
-                    <h3>🎯 Desempenho por Dificuldade</h3>
-                    <div id="difficulty-stats"></div>
-                </div>
-
-                <div class="performance-message" id="performance-message"></div>
-
-                <!-- Perguntas Erradas para Revisão -->
-                <div class="review-section" id="review-section" style="display: none;">
-                    <h3>📚 Perguntas para Revisar</h3>
-                    <div id="wrong-questions-list"></div>
-                </div>
-
-                <div class="button-group">
-                    <button class="btn btn-primary" onclick="restartQuiz()">
-                        🔄 Fazer Outro Quiz
-                    </button>
-                    <button class="btn btn-secondary" onclick="reviewWrongQuestions()">
-                        📖 Revisar Erradas
-                    </button>
-                    <button class="btn btn-outline" onclick="shareResults()">
-                        🔗 Compartilhar Resultado
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal de Compartilhamento -->
-    <div id="share-modal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <span class="close" onclick="closeShareModal()">&times;</span>
-            <h2>🔗 Compartilhar Resultado</h2>
-            <div class="share-card" id="share-card">
-                <h3>🎓 Quiz de Farmacologia</h3>
-                <p class="share-score">Pontuação: <strong id="share-score">0</strong></p>
-                <p class="share-accuracy">Taxa de Acerto: <strong id="share-accuracy">0%</strong></p>
-                <p class="share-details"><span id="share-correct">0</span> corretas de <span id="share-total">0</span> perguntas</p>
-            </div>
-            <button class="btn btn-primary" onclick="copyShareLink()">📋 Copiar Link</button>
-            <button class="btn btn-secondary" onclick="downloadResultImage()">📸 Baixar Imagem</button>
-        </div>
-    </div>
-
-    <script src="script.js?v=1.2"></script>
+    // Executar ao carregar
+    checkAuthAndRedirect();
+  </script>
 </body>
 </html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Quiz Interativo</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <h1>📚 Quiz Interativo</h1>
+        </div>
+        <div class="header-actions">
+          <span class="user-info" id="user-email">Carregando...</span>
+          <button class="btn btn-secondary btn-sm" id="logout-btn">Sair</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Page Header -->
+      <div class="page-header">
+        <div>
+          <h2>Minhas Matérias</h2>
+          <p>Gerencie seus conteúdos e crie quizzes personalizados</p>
+        </div>
+        <button class="btn btn-primary" id="new-materia-btn">
+          <span>+</span> Nova Matéria
+        </button>
+      </div>
+
+      <!-- Stats Cards (opcional, para mostrar estatísticas) -->
+      <div class="stats-grid" id="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon">📚</div>
+          <div class="stat-info">
+            <div class="stat-value" id="total-materias">0</div>
+            <div class="stat-label">Matérias</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">📄</div>
+          <div class="stat-info">
+            <div class="stat-value" id="total-arquivos">0</div>
+            <div class="stat-label">Arquivos</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">❓</div>
+          <div class="stat-info">
+            <div class="stat-value" id="total-perguntas">0</div>
+            <div class="stat-label">Perguntas</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Matérias Grid -->
+      <div class="materias-container">
+        <div id="loading-state" class="loading-state">
+          <div class="spinner-circle"></div>
+          <p>Carregando matérias...</p>
+        </div>
+
+        <div id="empty-state" class="empty-state" style="display: none;">
+          <div class="empty-icon">📚</div>
+          <h3>Nenhuma matéria criada ainda</h3>
+          <p>Comece criando sua primeira matéria para gerar quizzes personalizados</p>
+          <button class="btn btn-primary" onclick="showNewMateriaModal()">
+            <span>+</span> Criar Primeira Matéria
+          </button>
+        </div>
+
+        <div id="materias-grid" class="materias-grid" style="display: none;">
+          <!-- Matérias serão inseridas aqui via JavaScript -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal: Nova Matéria -->
+  <div id="new-materia-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Nova Matéria</h3>
+        <button class="modal-close" onclick="hideNewMateriaModal()">×</button>
+      </div>
+
+      <form id="new-materia-form">
+        <div class="form-group">
+          <label for="materia-nome">Nome da Matéria *</label>
+          <input
+            type="text"
+            id="materia-nome"
+            placeholder="Ex: Cardiologia, Dermatologia, Anatomia..."
+            required
+            maxlength="100"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="materia-descricao">Descrição (opcional)</label>
+          <textarea
+            id="materia-descricao"
+            placeholder="Descreva o conteúdo desta matéria..."
+            rows="3"
+            maxlength="500"
+          ></textarea>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="materia-icone">Ícone</label>
+            <select id="materia-icone">
+              <option value="📚">📚 Livro</option>
+              <option value="🧠">🧠 Cérebro</option>
+              <option value="💊">💊 Medicamento</option>
+              <option value="❤️">❤️ Coração</option>
+              <option value="🦴">🦴 Osso</option>
+              <option value="🫁">🫁 Pulmão</option>
+              <option value="🧬">🧬 DNA</option>
+              <option value="🔬">🔬 Microscópio</option>
+              <option value="💉">💉 Seringa</option>
+              <option value="🩺">🩺 Estetoscópio</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="materia-cor">Cor</label>
+            <input type="color" id="materia-cor" value="#3B82F6">
+          </div>
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" class="btn btn-secondary" onclick="hideNewMateriaModal()">
+            Cancelar
+          </button>
+          <button type="submit" class="btn btn-primary" id="create-materia-btn">
+            Criar Matéria
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Confirmar Exclusão -->
+  <div id="delete-modal" class="modal" style="display: none;">
+    <div class="modal-content modal-sm">
+      <div class="modal-header">
+        <h3>Confirmar Exclusão</h3>
+        <button class="modal-close" onclick="hideDeleteModal()">×</button>
+      </div>
+
+      <p>Tem certeza que deseja excluir esta matéria? Esta ação não pode ser desfeita e todos os arquivos e perguntas serão removidos.</p>
+
+      <div class="modal-actions">
+        <button type="button" class="btn btn-secondary" onclick="hideDeleteModal()">
+          Cancelar
+        </button>
+        <button type="button" class="btn btn-danger" id="confirm-delete-btn">
+          Excluir
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Messages -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

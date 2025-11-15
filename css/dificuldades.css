@@ -1,0 +1,383 @@
+/* ============================================
+   DASHBOARD DE DIFICULDADES - ESTILOS
+   ============================================ */
+
+.dificuldades-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ============================================
+   RESUMO GERAL
+   ============================================ */
+
+.dificuldades-resumo {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--border, #E5E7EB);
+}
+
+.dificuldades-resumo h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-primary, #111827);
+}
+
+.nivel-geral {
+  margin-bottom: 20px;
+}
+
+.nivel-barra {
+  width: 100%;
+  height: 12px;
+  background: var(--bg-hover, #F3F4F6);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.nivel-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+.nivel-texto {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary, #6B7280);
+}
+
+.estatisticas-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.stat-mini {
+  text-align: center;
+  padding: 12px;
+  background: var(--bg-hover, #F3F4F6);
+  border-radius: 8px;
+}
+
+.stat-mini .stat-valor {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary, #111827);
+  margin-bottom: 4px;
+}
+
+.stat-mini .stat-label {
+  font-size: 12px;
+  color: var(--text-secondary, #6B7280);
+}
+
+/* ============================================
+   TÓPICOS PROBLEMÁTICOS
+   ============================================ */
+
+.dificuldades-topicos {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--border, #E5E7EB);
+}
+
+.dificuldades-topicos h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-primary, #111827);
+}
+
+.topico-card {
+  background: var(--bg-hover, #F3F4F6);
+  border: 1px solid var(--border, #E5E7EB);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  transition: all 0.2s ease;
+}
+
+.topico-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.topico-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.topico-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.topico-icone {
+  font-size: 24px;
+}
+
+.topico-nome {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+  margin-bottom: 4px;
+}
+
+.topico-meta {
+  font-size: 12px;
+  color: var(--text-secondary, #6B7280);
+}
+
+.btn-expandir {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  color: var(--text-secondary, #6B7280);
+  transition: all 0.2s ease;
+}
+
+.btn-expandir:hover {
+  color: var(--text-primary, #111827);
+  background: var(--bg-hover, #F3F4F6);
+  border-radius: 4px;
+}
+
+.icone-expandir {
+  font-size: 12px;
+}
+
+.topico-barra {
+  width: 100%;
+  height: 6px;
+  background: white;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.topico-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.topico-detalhes {
+  padding-top: 12px;
+  border-top: 1px solid var(--border, #E5E7EB);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.topico-origens {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.origem-tag {
+  display: inline-block;
+  padding: 4px 10px;
+  background: white;
+  border: 1px solid var(--border, #E5E7EB);
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary, #6B7280);
+}
+
+.topico-acoes {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.topico-acoes .btn {
+  flex: 1;
+  min-width: 120px;
+}
+
+/* ============================================
+   AÇÕES RECOMENDADAS
+   ============================================ */
+
+.dificuldades-acoes {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--border, #E5E7EB);
+}
+
+.dificuldades-acoes h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-primary, #111827);
+}
+
+.acoes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.acao-card {
+  background: var(--bg-hover, #F3F4F6);
+  border: 2px solid var(--border, #E5E7EB);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.acao-card:hover {
+  border-color: var(--primary, #3B82F6);
+  background: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+.acao-icone {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.acao-titulo {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+  margin-bottom: 6px;
+}
+
+.acao-desc {
+  font-size: 13px;
+  color: var(--text-secondary, #6B7280);
+  line-height: 1.4;
+}
+
+/* ============================================
+   ESTADOS VAZIOS/ERRO
+   ============================================ */
+
+.dificuldades-vazio,
+.dificuldades-erro {
+  background: white;
+  padding: 60px 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border, #E5E7EB);
+  text-align: center;
+}
+
+.vazio-icone {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.dificuldades-vazio h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+  margin-bottom: 8px;
+}
+
+.dificuldades-vazio p {
+  font-size: 14px;
+  color: var(--text-secondary, #6B7280);
+}
+
+.dificuldades-erro p {
+  font-size: 16px;
+  color: var(--error, #EF4444);
+  margin-bottom: 16px;
+}
+
+/* ============================================
+   BOTÕES
+   ============================================ */
+
+.btn-sm {
+  padding: 6px 14px;
+  font-size: 13px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--border, #E5E7EB);
+  color: var(--text-primary, #111827);
+}
+
+.btn-outline:hover {
+  background: var(--bg-hover, #F3F4F6);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+  .estatisticas-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .acoes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topico-acoes {
+    flex-direction: column;
+  }
+
+  .topico-acoes .btn {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .stat-mini {
+    padding: 8px;
+  }
+
+  .stat-mini .stat-valor {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dificuldades-resumo,
+  .dificuldades-topicos,
+  .dificuldades-acoes {
+    padding: 16px;
+  }
+
+  .topico-card {
+    padding: 12px;
+  }
+
+  .acao-card {
+    padding: 16px;
+  }
+
+  .acao-icone {
+    font-size: 28px;
+  }
+}

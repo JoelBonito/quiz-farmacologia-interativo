@@ -541,6 +541,16 @@ async function initAcoesRapidas() {
     // Mostrar seção
     document.getElementById('acoes-rapidas-section').style.display = 'block';
 
+  // Verificar se há resumos disponíveis (FASE 4)
+  try {
+    const resumos = await getResumos(materiaId);
+    if (resumos.length > 0) {
+      document.getElementById('btn-ver-resumos').style.display = 'flex';
+    }
+  } catch (error) {
+    console.log('Nenhum resumo disponível:', error);
+  }
+
     // Verificar se há dificuldades não resolvidas
     try {
       const dificuldades = await getDificuldades(materiaId, { resolvido: false });
@@ -586,10 +596,17 @@ function iniciarFlashcardsDificuldades() {
 }
 
 /**
- * Gera resumo personalizado (FASE 4-5)
+ * Ver resumos (FASE 4)
+ */
+function verResumos() {
+  window.location.href = `resumos.html?materia=${materiaId}`;
+}
+
+/**
+ * Gera resumo personalizado (FASE 5)
  */
 function gerarResumo() {
-  showToast('Funcionalidade em desenvolvimento (Fase 4-5)', 'warning');
-  // TODO: Implementar na Fase 4/5
+  showToast('Funcionalidade em desenvolvimento (Fase 5)', 'warning');
+  // TODO: Implementar na Fase 5
   // window.location.href = `resumo-personalizado.html?materia=${materiaId}`;
 }

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagnóstico - Quiz Interativo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 32px;
+    }
+
+    h1 {
+      color: #1a202c;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #718096;
+      margin-bottom: 32px;
+    }
+
+    .test-section {
+      margin-bottom: 32px;
+      padding: 20px;
+      background: #f7fafc;
+      border-radius: 8px;
+      border-left: 4px solid #4299e1;
+    }
+
+    .test-section h2 {
+      font-size: 18px;
+      color: #2d3748;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .test-result {
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+    }
+
+    .test-result.success {
+      background: #c6f6d5;
+      border: 1px solid #48bb78;
+      color: #22543d;
+    }
+
+    .test-result.error {
+      background: #fed7d7;
+      border: 1px solid #f56565;
+      color: #742a2a;
+    }
+
+    .test-result.warning {
+      background: #feebc8;
+      border: 1px solid #ed8936;
+      color: #744210;
+    }
+
+    .test-result.info {
+      background: #bee3f8;
+      border: 1px solid #4299e1;
+      color: #2c5282;
+    }
+
+    .code-block {
+      background: #2d3748;
+      color: #e2e8f0;
+      padding: 16px;
+      border-radius: 6px;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      overflow-x: auto;
+      margin-top: 12px;
+    }
+
+    button {
+      background: #4299e1;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 16px;
+    }
+
+    button:hover {
+      background: #3182ce;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    .icon {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔍 Diagnóstico do Sistema</h1>
+    <p class="subtitle">Verificando configurações e conectividade...</p>
+
+    <!-- Teste 1: Config -->
+    <div class="test-section">
+      <h2><span class="icon">⚙️</span> 1. Configurações (CONFIG)</h2>
+      <div id="test-config"></div>
+    </div>
+
+    <!-- Teste 2: Supabase CDN -->
+    <div class="test-section">
+      <h2><span class="icon">📦</span> 2. Supabase CDN</h2>
+      <div id="test-cdn"></div>
+    </div>
+
+    <!-- Teste 3: Cliente Supabase -->
+    <div class="test-section">
+      <h2><span class="icon">🔌</span> 3. Cliente Supabase</h2>
+      <div id="test-client"></div>
+    </div>
+
+    <!-- Teste 4: Autenticação -->
+    <div class="test-section">
+      <h2><span class="icon">🔐</span> 4. Autenticação</h2>
+      <div id="test-auth"></div>
+    </div>
+
+    <!-- Teste 5: Banco de Dados -->
+    <div class="test-section">
+      <h2><span class="icon">💾</span> 5. Banco de Dados (Conexão)</h2>
+      <div id="test-db"></div>
+      <button onclick="testDatabaseConnection()">🔄 Testar Conexão com Banco</button>
+    </div>
+
+    <!-- Teste 6: Funções JavaScript -->
+    <div class="test-section">
+      <h2><span class="icon">⚡</span> 6. Funções JavaScript Carregadas</h2>
+      <div id="test-functions"></div>
+    </div>
+
+    <!-- Logs do Console -->
+    <div class="test-section">
+      <h2><span class="icon">📝</span> Logs do Console</h2>
+      <div id="console-logs" class="code-block">
+        Aguardando logs...
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/dashboard.js"></script>
+
+  <script>
+    // Capturar logs do console
+    const consoleLogs = [];
+    const originalConsoleLog = console.log;
+    const originalConsoleError = console.error;
+    const originalConsoleWarn = console.warn;
+
+    console.log = function(...args) {
+      consoleLogs.push({ type: 'log', message: args.join(' ') });
+      updateConsoleLogs();
+      originalConsoleLog.apply(console, args);
+    };
+
+    console.error = function(...args) {
+      consoleLogs.push({ type: 'error', message: args.join(' ') });
+      updateConsoleLogs();
+      originalConsoleError.apply(console, args);
+    };
+
+    console.warn = function(...args) {
+      consoleLogs.push({ type: 'warn', message: args.join(' ') });
+      updateConsoleLogs();
+      originalConsoleWarn.apply(console, args);
+    };
+
+    function updateConsoleLogs() {
+      const logsDiv = document.getElementById('console-logs');
+      logsDiv.innerHTML = consoleLogs.map(log =>
+        `<div style="margin-bottom: 4px; color: ${log.type === 'error' ? '#fc8181' : log.type === 'warn' ? '#f6ad55' : '#90cdf4'}">[${log.type.toUpperCase()}] ${log.message}</div>`
+      ).join('') || 'Nenhum log capturado.';
+    }
+
+    function addResult(elementId, message, type) {
+      const div = document.getElementById(elementId);
+      const resultDiv = document.createElement('div');
+      resultDiv.className = `test-result ${type}`;
+      resultDiv.textContent = message;
+      div.appendChild(resultDiv);
+    }
+
+    // Executar testes ao carregar
+    document.addEventListener('DOMContentLoaded', runDiagnostics);
+
+    async function runDiagnostics() {
+      // Teste 1: CONFIG
+      if (typeof CONFIG !== 'undefined') {
+        addResult('test-config', '✓ CONFIG carregado com sucesso', 'success');
+        addResult('test-config', `Supabase URL: ${CONFIG.SUPABASE_URL.substring(0, 30)}...`, 'info');
+        addResult('test-config', `Gemini API Key: ${CONFIG.GEMINI_API_KEY ? 'Configurada' : 'NÃO CONFIGURADA'}`, CONFIG.GEMINI_API_KEY ? 'success' : 'error');
+      } else {
+        addResult('test-config', '✗ CONFIG não encontrado! Verifique config/config.js', 'error');
+      }
+
+      // Teste 2: Supabase CDN
+      if (typeof window.supabase !== 'undefined') {
+        addResult('test-cdn', '✓ Supabase CDN carregado com sucesso', 'success');
+        addResult('test-cdn', `Versão: ${window.supabase.version || 'Desconhecida'}`, 'info');
+      } else {
+        addResult('test-cdn', '✗ Supabase CDN NÃO carregado! Verifique conexão com internet.', 'error');
+      }
+
+      // Teste 3: Cliente Supabase
+      if (typeof supabase !== 'undefined' && supabase) {
+        addResult('test-client', '✓ Cliente Supabase inicializado', 'success');
+      } else {
+        addResult('test-client', '✗ Cliente Supabase NÃO inicializado', 'error');
+        addResult('test-client', 'Executando inicialização manual...', 'warning');
+        try {
+          if (typeof initSupabase === 'function') {
+            initSupabase();
+            addResult('test-client', '✓ Inicialização manual bem-sucedida', 'success');
+          }
+        } catch (error) {
+          addResult('test-client', `✗ Erro na inicialização: ${error.message}`, 'error');
+        }
+      }
+
+      // Teste 4: Autenticação
+      try {
+        const user = await getCurrentUser();
+        if (user) {
+          addResult('test-auth', `✓ Usuário autenticado: ${user.email}`, 'success');
+        } else {
+          addResult('test-auth', '⚠ Nenhum usuário autenticado', 'warning');
+          addResult('test-auth', 'Para testar completamente, faça login em auth.html', 'info');
+        }
+      } catch (error) {
+        addResult('test-auth', `✗ Erro ao verificar autenticação: ${error.message}`, 'error');
+      }
+
+      // Teste 6: Funções
+      const functionsToCheck = [
+        'initSupabase',
+        'getCurrentUser',
+        'signIn',
+        'signOut',
+        'getMaterias',
+        'createMateria',
+        'deleteMateria',
+        'showNewMateriaModal',
+        'hideNewMateriaModal'
+      ];
+
+      functionsToCheck.forEach(funcName => {
+        if (typeof window[funcName] === 'function') {
+          addResult('test-functions', `✓ ${funcName}()`, 'success');
+        } else {
+          addResult('test-functions', `✗ ${funcName}() NÃO encontrada`, 'error');
+        }
+      });
+    }
+
+    async function testDatabaseConnection() {
+      const testDbDiv = document.getElementById('test-db');
+      testDbDiv.innerHTML = '<div class="test-result info">⏳ Testando conexão...</div>';
+
+      try {
+        // Testar query simples
+        const { data, error } = await supabase
+          .from('materias')
+          .select('count')
+          .limit(1);
+
+        if (error) {
+          throw error;
+        }
+
+        addResult('test-db', '✓ Conexão com banco de dados OK', 'success');
+        addResult('test-db', 'Tabela "materias" acessível', 'success');
+
+        // Testar outras tabelas
+        const tables = ['perguntas', 'arquivos', 'dificuldades_aluno', 'flashcards', 'resumos'];
+        for (const table of tables) {
+          try {
+            await supabase.from(table).select('count').limit(1);
+            addResult('test-db', `✓ Tabela "${table}" OK`, 'success');
+          } catch (err) {
+            addResult('test-db', `✗ Tabela "${table}" NÃO encontrada`, 'error');
+            addResult('test-db', `Execute o schema SQL para criar a tabela "${table}"`, 'warning');
+          }
+        }
+
+      } catch (error) {
+        addResult('test-db', `✗ Erro de conexão: ${error.message}`, 'error');
+
+        if (error.message.includes('JWT')) {
+          addResult('test-db', 'Possível problema: Credenciais inválidas no config.js', 'warning');
+        } else if (error.message.includes('relation') || error.message.includes('does not exist')) {
+          addResult('test-db', 'Tabelas não criadas! Execute os schemas SQL no Supabase.', 'warning');
+          addResult('test-db', '👉 Veja CHECKLIST-SETUP.md para instruções', 'info');
+        }
+      }
+    }
+  </script>
+</body>
+</html>

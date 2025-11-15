@@ -11,11 +11,19 @@ let supabase;
 
 // Inicializar cliente Supabase
 function initSupabase() {
-  if (typeof supabase !== 'undefined') {
+  if (supabase) {
     return supabase; // Já inicializado
   }
 
   try {
+    if (!window.supabase) {
+      throw new Error('Supabase CDN não carregado. Verifique a conexão com internet.');
+    }
+
+    if (!CONFIG || !CONFIG.SUPABASE_URL || !CONFIG.SUPABASE_ANON_KEY) {
+      throw new Error('Configurações do Supabase não encontradas. Verifique config/config.js');
+    }
+
     supabase = window.supabase.createClient(
       CONFIG.SUPABASE_URL,
       CONFIG.SUPABASE_ANON_KEY
@@ -25,6 +33,15 @@ function initSupabase() {
   } catch (error) {
     console.error('❌ Erro ao inicializar Supabase:', error);
     throw error;
+  }
+}
+
+// Inicializar imediatamente (não esperar DOMContentLoaded)
+if (typeof window !== 'undefined' && typeof CONFIG !== 'undefined') {
+  try {
+    initSupabase();
+  } catch (error) {
+    console.error('Erro na inicialização automática:', error);
   }
 }
 
@@ -747,13 +764,3 @@ async function getFlashcardProgresso(flashcardId) {
   return data;
 }
 
-// Auto-inicializar quando o script carregar
-if (typeof window !== 'undefined') {
-  window.addEventListener('DOMContentLoaded', () => {
-    try {
-      initSupabase();
-    } catch (error) {
-      console.error('Erro ao inicializar Supabase:', error);
-    }
-  });
-}

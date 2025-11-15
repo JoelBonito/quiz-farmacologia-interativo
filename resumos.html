@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumos - Quiz Interativo</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/resumos.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="javascript:history.back()" class="back-btn">← Voltar</a>
+          <h1 id="resumo-titulo">Resumo de Estudo</h1>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-outline btn-sm" id="btn-limpar-marcacoes" onclick="limparMarcacoes()">
+            🗑️ Limpar Marcações
+          </button>
+          <button class="btn btn-primary btn-sm" id="btn-gerar-resumo-personalizado" onclick="gerarResumoPersonalizado()" style="display: none;">
+            🤖 Gerar Resumo Personalizado
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Info Banner -->
+      <div class="info-banner">
+        <div class="info-banner-icon">💡</div>
+        <div class="info-banner-content">
+          <strong>Como usar:</strong> Selecione qualquer texto que você não entendeu e clique em "NÃO ENTENDI" para registrar sua dificuldade.
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="resumo-stats">
+        <div class="stat-item">
+          <span class="stat-icon">📄</span>
+          <span class="stat-value" id="total-paragrafos">0</span>
+          <span class="stat-label">Parágrafos</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-icon">✏️</span>
+          <span class="stat-value" id="total-marcacoes">0</span>
+          <span class="stat-label">Marcações</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-icon">❓</span>
+          <span class="stat-value" id="total-nao-entendi">0</span>
+          <span class="stat-label">Não Entendi</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-icon">📊</span>
+          <span class="stat-value" id="percentual-compreensao">100%</span>
+          <span class="stat-label">Compreensão</span>
+        </div>
+      </div>
+
+      <!-- Resumo Content -->
+      <div class="resumo-container">
+        <div class="resumo-header">
+          <h2 id="resumo-header-titulo">Carregando...</h2>
+          <div class="resumo-meta">
+            <span id="resumo-tipo-badge" class="badge">Resumo Geral</span>
+            <span id="resumo-data">-</span>
+          </div>
+        </div>
+
+        <!-- Conteúdo do Resumo -->
+        <div class="resumo-content" id="resumo-content">
+          <p class="loading-text">Carregando resumo...</p>
+        </div>
+
+        <!-- Marcações Sidebar -->
+        <div class="marcacoes-sidebar" id="marcacoes-sidebar">
+          <h3>📌 Suas Marcações</h3>
+          <div class="marcacoes-list" id="marcacoes-list">
+            <p class="empty-marcacoes">Nenhuma marcação ainda</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal de Seleção -->
+  <div id="selection-modal" class="selection-modal" style="display: none;">
+    <div class="selection-modal-content">
+      <h3>O que deseja fazer com este texto?</h3>
+      <p class="selected-text-preview" id="selected-text-preview"></p>
+
+      <div class="selection-actions">
+        <button class="btn-selection btn-nao-entendi" onclick="marcarNaoEntendi()">
+          <span class="btn-icon">❓</span>
+          <span class="btn-text">NÃO ENTENDI</span>
+          <span class="btn-desc">Registrar dificuldade</span>
+        </button>
+
+        <button class="btn-selection btn-importante" onclick="marcarImportante()">
+          <span class="btn-icon">⭐</span>
+          <span class="btn-text">IMPORTANTE</span>
+          <span class="btn-desc">Marcar como relevante</span>
+        </button>
+
+        <button class="btn-selection btn-duvida" onclick="marcarDuvida()">
+          <span class="btn-icon">🤔</span>
+          <span class="btn-text">DÚVIDA</span>
+          <span class="btn-desc">Tenho uma dúvida</span>
+        </button>
+      </div>
+
+      <div class="nota-container" style="display: none;">
+        <label for="nota-input">Adicionar nota (opcional):</label>
+        <textarea id="nota-input" placeholder="Escreva suas observações..." rows="3"></textarea>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-outline btn-sm" onclick="cancelarSelecao()">Cancelar</button>
+        <button class="btn btn-primary btn-sm" id="btn-confirmar-marcacao" onclick="confirmarMarcacao()" style="display: none;">
+          Confirmar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Resumo Gerado -->
+  <div id="resumo-gerado-modal" class="modal" style="display: none;">
+    <div class="modal-content modal-lg">
+      <div class="modal-header">
+        <h2>✨ Resumo Personalizado Gerado!</h2>
+        <button class="modal-close" onclick="closeResumoGeradoModal()">×</button>
+      </div>
+
+      <div class="resumo-gerado-content">
+        <div class="alert alert-info">
+          <strong>📚 Focado nas suas dificuldades</strong>
+          <p>Este resumo foi criado especialmente para você, focando apenas nos tópicos que você marcou como "não entendi".</p>
+        </div>
+
+        <div id="resumo-personalizado-texto"></div>
+
+        <div class="modal-actions">
+          <button class="btn btn-outline" onclick="closeResumoGeradoModal()">Fechar</button>
+          <button class="btn btn-primary" onclick="verResumoPersonalizado()">📖 Abrir Resumo Completo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay" class="loading-overlay" style="display: none;">
+    <div class="loading-card">
+      <div class="spinner-circle"></div>
+      <h3 id="loading-title">Processando...</h3>
+      <p id="loading-message">Aguarde um momento</p>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/dificuldades.js"></script>
+  <script src="js/resumos-controller.js"></script>
+</body>
+</html>

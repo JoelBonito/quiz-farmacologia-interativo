@@ -175,6 +175,13 @@ async function uploadFile(materiaId, file) {
   const user = await getCurrentUser();
   if (!user) throw new Error('Usuário não autenticado');
 
+  // Validar tamanho do arquivo
+  if (file.size > CONFIG.MAX_FILE_SIZE) {
+    const maxSizeMB = (CONFIG.MAX_FILE_SIZE / (1024 * 1024)).toFixed(1);
+    const fileSizeMB = (file.size / (1024 * 1024)).toFixed(1);
+    throw new Error(`Arquivo muito grande (${fileSizeMB}MB). O tamanho máximo permitido é ${maxSizeMB}MB.`);
+  }
+
   // Gerar nome único para o arquivo
   const fileExt = file.name.split('.').pop();
   const fileName = `${user.id}/${materiaId}/${Date.now()}_${Math.random().toString(36).substring(7)}.${fileExt}`;
@@ -184,7 +191,12 @@ async function uploadFile(materiaId, file) {
     .from(CONFIG.STORAGE_BUCKET)
     .upload(fileName, file);
 
-  if (storageError) throw storageError;
+  if (storageError) {
+    if (storageError.message && storageError.message.includes('maximum allowed size')) {
+      throw new Error('Arquivo muito grande para upload. Reduza o tamanho e tente novamente.');
+    }
+    throw storageError;
+  }
 
   // Salvar metadados no banco
   const { data, error } = await supabase
@@ -316,6 +328,11 @@ async function getPergunta(perguntaId) {
 
   if (error) throw error;
   return data;
+}
+
+// Alias para getPerguntas (compatibilidade)
+async function getPerguntasByMateria(materiaId, filters = {}) {
+  return await getPerguntas(materiaId, filters);
 }
 
 async function deletePergunta(perguntaId) {

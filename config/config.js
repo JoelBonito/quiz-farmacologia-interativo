@@ -15,8 +15,8 @@ const CONFIG = {
   // Storage
   STORAGE_BUCKET: 'materias-arquivos',
 
-  // Limites (para MVP sem limites, deixar valores altos)
-  MAX_FILE_SIZE: 50 * 1024 * 1024, // 50MB
+  // Limites (ajustado para Supabase Storage free tier)
+  MAX_FILE_SIZE: 5 * 1024 * 1024, // 5MB (limite seguro para Supabase free tier)
   MAX_FILES_PER_MATERIA: 100,
   ALLOWED_FILE_TYPES: [
     'application/pdf',

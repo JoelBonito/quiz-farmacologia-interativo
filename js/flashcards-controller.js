@@ -584,3 +584,60 @@ function hideLoadingOverlay() {
     overlay.style.display = 'none';
   }
 }
+
+// ============================================
+// FASE 5: GERAR RESUMO PERSONALIZADO
+// ============================================
+
+/**
+ * Gera resumo personalizado após flashcards (FASE 5)
+ */
+async function gerarResumoPersonalizadoFlashcards() {
+  try {
+    const btn = document.getElementById('btn-gerar-resumo-flashcards');
+    btn.disabled = true;
+    btn.textContent = '⏳ Gerando...';
+
+    // Obter nome da matéria
+    const { data: materia } = await supabase
+      .from('materias')
+      .select('nome')
+      .eq('id', flashcardState.materiaId)
+      .single();
+
+    const materiaNome = materia?.nome || 'esta matéria';
+
+    // Gerar resumo com Gemini
+    const resultado = await generateResumoPersonalizado(flashcardState.materiaId, materiaNome);
+
+    // Salvar no banco de dados
+    const resumoSalvo = await createResumo({
+      materia_id: flashcardState.materiaId,
+      titulo: `Resumo Personalizado - ${materiaNome}`,
+      tipo_resumo: 'personalizado',
+      conteudo: resultado.resumo,
+      conteudo_estruturado: {
+        topicos: resultado.topicos,
+        totalDificuldades: resultado.totalDificuldades
+      },
+      gerado_por: 'ia',
+      baseado_em_dificuldades: true,
+      dificuldades_ids: resultado.dificuldadesIds
+    });
+
+    showToast('✅ Resumo personalizado gerado com sucesso!', 'success');
+
+    // Fechar modal e redirecionar
+    setTimeout(() => {
+      window.location.href = `resumo-personalizado.html?id=${resumoSalvo.id}`;
+    }, 500);
+
+  } catch (error) {
+    console.error('Erro ao gerar resumo:', error);
+    showToast('Erro ao gerar resumo: ' + error.message, 'error');
+
+    const btn = document.getElementById('btn-gerar-resumo-flashcards');
+    btn.disabled = false;
+    btn.textContent = '✨ Gerar Resumo com IA';
+  }
+}

@@ -323,3 +323,139 @@ function formatFileSize(bytes) {
   if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
   return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
 }
+
+// ============================================
+// FASE 5: GERAÇÃO DE RESUMOS PERSONALIZADOS
+// ============================================
+
+/**
+ * Gera resumo personalizado focado nas dificuldades do aluno usando Gemini
+ * @param {string} materiaId - ID da matéria
+ * @param {string} materiaNome - Nome da matéria (ex: "Farmacologia")
+ * @returns {Object} - { resumo, dificuldadesIds }
+ */
+async function generateResumoPersonalizado(materiaId, materiaNome = 'esta matéria') {
+  try {
+    console.log('🤖 Gerando resumo personalizado com Gemini...');
+
+    // 1. Obter dados das dificuldades do aluno
+    const dados = await DificuldadesService.prepararDadosResumoPersonalizado(materiaId);
+
+    if (!dados || dados.topicos.length === 0) {
+      throw new Error('Nenhuma dificuldade encontrada para gerar resumo');
+    }
+
+    // 2. Construir prompt personalizado focado nas dificuldades
+    const topicosFormatados = dados.topicos.map((t, index) => {
+      let descricao = `${index + 1}. **${t.topico}** (Dificuldade: ${t.nivelDificuldade}/5, Frequência: ${t.frequencia}x)`;
+
+      if (t.subtopicos && t.subtopicos.length > 0) {
+        descricao += `\n   - Aspectos específicos: ${t.subtopicos.join(', ')}`;
+      }
+
+      if (t.perguntas && t.perguntas.length > 0) {
+        descricao += `\n   - Perguntas relacionadas:`;
+        t.perguntas.slice(0, 2).forEach(p => {
+          descricao += `\n     • ${p.substring(0, 100)}${p.length > 100 ? '...' : ''}`;
+        });
+      }
+
+      if (t.textosOriginais && t.textosOriginais.length > 0) {
+        descricao += `\n   - Trechos marcados como "não entendi":`;
+        t.textosOriginais.slice(0, 2).forEach(txt => {
+          descricao += `\n     • "${txt.substring(0, 80)}${txt.length > 80 ? '...' : ''}"`;
+        });
+      }
+
+      return descricao;
+    }).join('\n\n');
+
+    const prompt = `Você é um professor especializado em ${materiaNome}, com excelente didática.
+
+Um aluno está com dificuldades em alguns tópicos específicos. Crie um RESUMO DE ESTUDO PERSONALIZADO focado EXCLUSIVAMENTE nos tópicos que ele NÃO entendeu.
+
+📊 ANÁLISE DAS DIFICULDADES DO ALUNO:
+Total de dificuldades registradas: ${dados.totalDificuldades}
+
+🎯 TÓPICOS QUE O ALUNO NÃO ENTENDEU (ordenados por prioridade):
+
+${topicosFormatados}
+
+📝 INSTRUÇÕES PARA O RESUMO:
+
+1. **Foco Total**: Explique APENAS os tópicos listados acima. Não inclua conceitos que o aluno já domina.
+
+2. **Linguagem Didática**:
+   - Use linguagem clara e acessível
+   - Evite jargões sem explicação
+   - Use analogias quando possível
+   - Divida conceitos complexos em partes simples
+
+3. **Estrutura por Tópico**:
+   Para cada tópico de dificuldade, inclua:
+   - **Conceito Fundamental**: O que é? (definição clara)
+   - **Por Que é Importante**: Relevância prática/clínica
+   - **Como Funciona**: Mecanismo/processo explicado passo a passo
+   - **Dica Mnemônica**: Se aplicável, uma forma fácil de lembrar
+   - **Erro Comum**: O que costuma confundir os alunos neste tópico
+
+4. **Formato**:
+   - Use markdown para formatação (títulos ##, listas, negrito)
+   - Seja objetivo mas completo
+   - Máximo de 4000 palavras no total
+   - Priorize os tópicos com maior dificuldade/frequência
+
+5. **Tom Motivacional**:
+   - Seja encorajador
+   - Mostre que o conceito é compreensível com a explicação correta
+   - Evite frases desanimadoras
+
+IMPORTANTE: Retorne APENAS o texto do resumo em markdown, sem introduções como "Aqui está o resumo..." ou conclusões genéricas. Comece direto com o primeiro tópico.`;
+
+    // 3. Chamar Gemini API
+    const response = await fetch(`${GEMINI_API_URL}?key=${CONFIG.GEMINI_API_KEY}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        contents: [{
+          parts: [{ text: prompt }]
+        }],
+        generationConfig: {
+          temperature: 0.4, // Mais determinístico para conteúdo educacional
+          topK: 40,
+          topP: 0.95,
+          maxOutputTokens: 8192,
+        }
+      })
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.error?.message || 'Erro ao gerar resumo personalizado');
+    }
+
+    let resumoTexto = data.candidates[0].content.parts[0].text;
+
+    // 4. Limpar resposta
+    resumoTexto = resumoTexto.trim();
+
+    // 5. Extrair IDs das dificuldades usadas para criar o resumo
+    const dificuldadesIds = dados.topicos.map(t => t.id).filter(Boolean);
+
+    console.log('✅ Resumo personalizado gerado com sucesso!');
+
+    return {
+      resumo: resumoTexto,
+      dificuldadesIds: dificuldadesIds,
+      topicos: dados.topicos.map(t => t.topico),
+      totalDificuldades: dados.totalDificuldades
+    };
+
+  } catch (error) {
+    console.error('❌ Erro ao gerar resumo personalizado:', error);
+    throw new Error('Erro ao gerar resumo personalizado: ' + error.message);
+  }
+}

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumo Personalizado - Quiz Interativo</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/resumos.css">
+  <style>
+    /* Estilos específicos para markdown rendering */
+    .resumo-content h2 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 32px;
+      margin-bottom: 16px;
+      color: #8B5CF6;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #E0E7FF;
+    }
+
+    .resumo-content h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 24px;
+      margin-bottom: 12px;
+      color: #6D28D9;
+    }
+
+    .resumo-content h4 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #7C3AED;
+    }
+
+    .resumo-content strong {
+      font-weight: 700;
+      color: #5B21B6;
+    }
+
+    .resumo-content ul {
+      list-style-type: disc;
+      margin-left: 24px;
+      margin-bottom: 16px;
+    }
+
+    .resumo-content ol {
+      list-style-type: decimal;
+      margin-left: 24px;
+      margin-bottom: 16px;
+    }
+
+    .resumo-content li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    .resumo-content code {
+      background: #F3F4F6;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+    }
+
+    .resumo-content blockquote {
+      border-left: 4px solid #8B5CF6;
+      padding-left: 16px;
+      margin: 16px 0;
+      color: #6B7280;
+      font-style: italic;
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .btn-icon {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .alert-personalizado {
+      background: linear-gradient(135deg, #F5F3FF 0%, #EDE9FE 100%);
+      border: 2px solid #8B5CF6;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: start;
+      gap: 16px;
+    }
+
+    .alert-icon {
+      font-size: 32px;
+      flex-shrink: 0;
+    }
+
+    .alert-content {
+      flex: 1;
+    }
+
+    .alert-content h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #6D28D9;
+      margin: 0 0 8px 0;
+    }
+
+    .alert-content p {
+      font-size: 14px;
+      color: #5B21B6;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    .topicos-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .topico-badge {
+      background: white;
+      color: #7C3AED;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid #C4B5FD;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <button class="back-btn" onclick="voltarMateria()">← Voltar</button>
+          <h1 id="resumo-titulo">Resumo Personalizado</h1>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-secondary" id="btn-imprimir" onclick="imprimirResumo()">
+            🖨️ Imprimir
+          </button>
+          <button class="btn btn-primary" id="btn-estudar" onclick="estudarResumo()">
+            📚 Estudar com Marcações
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Alert Personalizado -->
+      <div class="alert-personalizado">
+        <div class="alert-icon">🎯</div>
+        <div class="alert-content">
+          <h3>Resumo Criado Especialmente para Você</h3>
+          <p>Este resumo foi gerado por IA com base nas suas <strong id="total-dificuldades-text">-</strong> dificuldades registradas.
+          Ele foca EXCLUSIVAMENTE nos tópicos que você marcou como "NÃO SEI" ou "NÃO ENTENDI".</p>
+          <div class="topicos-list" id="topicos-abordados"></div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="resumo-stats">
+        <div class="stat-item">
+          <span class="stat-icon">📊</span>
+          <span class="stat-value" id="total-dificuldades">0</span>
+          <span class="stat-label">Dificuldades</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-icon">🎯</span>
+          <span class="stat-value" id="total-topicos">0</span>
+          <span class="stat-label">Tópicos</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-icon">🤖</span>
+          <span class="stat-value">IA</span>
+          <span class="stat-label">Gerado por</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-icon">📅</span>
+          <span class="stat-value" id="data-geracao">-</span>
+          <span class="stat-label">Gerado em</span>
+        </div>
+      </div>
+
+      <!-- Resumo Content -->
+      <div class="resumo-content" id="resumo-content">
+        <div class="loading-state">
+          <div class="spinner-circle"></div>
+          <p>Carregando resumo...</p>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="action-buttons">
+        <button class="btn btn-primary btn-icon" onclick="estudarResumo()">
+          <span>📖</span>
+          <span>Continuar Estudando (com marcações)</span>
+        </button>
+        <button class="btn btn-secondary btn-icon" onclick="gerarNovo()">
+          <span>🔄</span>
+          <span>Gerar Novo Resumo</span>
+        </button>
+        <button class="btn btn-outline btn-icon" onclick="voltarMateria()">
+          <span>🏠</span>
+          <span>Voltar para Matéria</span>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Toast Messages -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="config/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/dificuldades.js"></script>
+
+  <script>
+    // ============================================
+    // STATE
+    // ============================================
+    let resumoId = null;
+    let materiaId = null;
+    let resumoData = null;
+
+    // ============================================
+    // INIT
+    // ============================================
+    document.addEventListener('DOMContentLoaded', async () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      resumoId = urlParams.get('id');
+
+      if (!resumoId) {
+        showToast('ID do resumo não encontrado', 'error');
+        setTimeout(() => window.location.href = 'dashboard.html', 1500);
+        return;
+      }
+
+      await loadResumo();
+    });
+
+    // ============================================
+    // LOAD RESUMO
+    // ============================================
+    async function loadResumo() {
+      try {
+        const user = await getCurrentUser();
+        if (!user) {
+          window.location.href = 'index.html';
+          return;
+        }
+
+        // Buscar resumo
+        const { data, error } = await supabase
+          .from('resumos')
+          .select('*')
+          .eq('id', resumoId)
+          .single();
+
+        if (error) throw error;
+        if (!data) {
+          showToast('Resumo não encontrado', 'error');
+          return;
+        }
+
+        resumoData = data;
+        materiaId = data.materia_id;
+
+        // Renderizar
+        renderResumo(data);
+
+      } catch (error) {
+        console.error('Erro ao carregar resumo:', error);
+        showToast('Erro ao carregar resumo: ' + error.message, 'error');
+      }
+    }
+
+    // ============================================
+    // RENDER
+    // ============================================
+    function renderResumo(resumo) {
+      // Título
+      document.getElementById('resumo-titulo').textContent = resumo.titulo;
+
+      // Stats
+      const totalDificuldades = resumo.conteudo_estruturado?.totalDificuldades || 0;
+      const topicos = resumo.conteudo_estruturado?.topicos || [];
+
+      document.getElementById('total-dificuldades').textContent = totalDificuldades;
+      document.getElementById('total-topicos').textContent = topicos.length;
+      document.getElementById('total-dificuldades-text').textContent = `${totalDificuldades} ${totalDificuldades === 1 ? 'dificuldade' : 'dificuldades'}`;
+
+      // Data
+      const dataGeracao = new Date(resumo.created_at);
+      document.getElementById('data-geracao').textContent = dataGeracao.toLocaleDateString('pt-BR', {
+        day: '2-digit',
+        month: '2-digit'
+      });
+
+      // Tópicos abordados
+      const topicosContainer = document.getElementById('topicos-abordados');
+      topicos.forEach(topico => {
+        const badge = document.createElement('span');
+        badge.className = 'topico-badge';
+        badge.textContent = topico;
+        topicosContainer.appendChild(badge);
+      });
+
+      // Conteúdo (renderizar markdown)
+      const contentDiv = document.getElementById('resumo-content');
+
+      // Usar marked.js para converter markdown para HTML
+      if (typeof marked !== 'undefined') {
+        marked.setOptions({
+          breaks: true,
+          gfm: true
+        });
+        contentDiv.innerHTML = marked.parse(resumo.conteudo);
+      } else {
+        // Fallback: renderizar texto simples com quebras de linha
+        contentDiv.innerHTML = resumo.conteudo
+          .replace(/\n\n/g, '</p><p>')
+          .replace(/\n/g, '<br>');
+      }
+    }
+
+    // ============================================
+    // ACTIONS
+    // ============================================
+    function voltarMateria() {
+      window.location.href = `materia.html?id=${materiaId}`;
+    }
+
+    function estudarResumo() {
+      // Salvar como resumo "geral" para poder ser marcado
+      // Redirecionar para resumos.html que tem a funcionalidade de marcação
+      window.location.href = `resumos.html?materia=${materiaId}&highlight=${resumoId}`;
+    }
+
+    async function gerarNovo() {
+      const confirma = confirm('Deseja gerar um novo resumo personalizado? Isso criará um novo resumo baseado nas suas dificuldades atuais.');
+      if (confirma) {
+        window.location.href = `materia.html?id=${materiaId}#gerar-resumo`;
+      }
+    }
+
+    function imprimirResumo() {
+      window.print();
+    }
+
+    // ============================================
+    // TOAST
+    // ============================================
+    function showToast(message, type = 'info') {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = `toast toast-${type}`;
+      toast.textContent = message;
+      container.appendChild(toast);
+
+      setTimeout(() => toast.classList.add('show'), 10);
+      setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 300);
+      }, 3000);
+    }
+  </script>
+
+  <style>
+    /* Print styles */
+    @media print {
+      .header, .action-buttons, .btn-estudar, .btn-imprimir {
+        display: none !important;
+      }
+
+      .resumo-content {
+        box-shadow: none !important;
+        border: none !important;
+      }
+    }
+  </style>
+</body>
+</html>

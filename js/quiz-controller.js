@@ -271,6 +271,8 @@ async function registrarDificuldadePergunta(pergunta, tipoResposta) {
     console.log('✅ Dificuldade registrada:', dificuldade);
   } catch (error) {
     console.error('❌ Erro ao registrar dificuldade:', error);
+    // Mostrar aviso mas não bloquear fluxo
+    showToast('Aviso: Não foi possível salvar a dificuldade', 'warning');
   }
 }
 
@@ -398,6 +400,9 @@ async function finishQuiz() {
 
 async function mostrarAnaliseDificuldades() {
   try {
+    // Mostrar loading
+    showToast('Analisando suas dificuldades...', 'info');
+
     // Verificar se deve gerar resumo personalizado
     const deveGerar = await DificuldadesService.deveGerarResumoPersonalizado(quizState.materiaId);
 

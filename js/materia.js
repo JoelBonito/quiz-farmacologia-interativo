@@ -28,6 +28,19 @@ document.addEventListener('DOMContentLoaded', async () => {
   } catch (error) {
     console.log('Nenhuma dificuldade ainda ou erro ao carregar:', error);
   }
+
+  // Inicializar seção de ações rápidas (FASE 2-3)
+  await initAcoesRapidas();
+
+  // Rolar para seção de dificuldades se hash estiver presente
+  if (window.location.hash === '#dificuldades') {
+    setTimeout(() => {
+      const dificuldadesContainer = document.getElementById('dificuldades-container');
+      if (dificuldadesContainer) {
+        dificuldadesContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 500);
+  }
 });
 
 // ============================================
@@ -505,4 +518,78 @@ function showToast(message, type = 'info') {
 async function checkAuth() {
   const user = await getCurrentUser();
   if (!user) window.location.href = 'auth.html';
+}
+
+// ============================================
+// AÇÕES RÁPIDAS (FASE 2-3)
+// ============================================
+
+/**
+ * Inicializa seção de ações rápidas
+ */
+async function initAcoesRapidas() {
+  try {
+    // Verificar se há perguntas
+    const perguntas = await getPerguntasByMateria(materiaId);
+
+    if (perguntas.length === 0) {
+      // Não mostrar seção se não há perguntas
+      document.getElementById('acoes-rapidas-section').style.display = 'none';
+      return;
+    }
+
+    // Mostrar seção
+    document.getElementById('acoes-rapidas-section').style.display = 'block';
+
+    // Verificar se há dificuldades não resolvidas
+    try {
+      const dificuldades = await getDificuldades(materiaId, { resolvido: false });
+
+      if (dificuldades.length >= 3) {
+        // Mostrar botão de flashcards focados e resumo personalizado
+        document.getElementById('btn-flashcards-dificuldades').style.display = 'flex';
+
+        // Verificar se deve gerar resumo
+        const deveGerar = await DificuldadesService.deveGerarResumoPersonalizado(materiaId);
+        if (deveGerar) {
+          document.getElementById('btn-gerar-resumo').style.display = 'flex';
+        }
+      }
+    } catch (error) {
+      console.log('Nenhuma dificuldade registrada ainda:', error);
+    }
+
+  } catch (error) {
+    console.error('Erro ao inicializar ações rápidas:', error);
+  }
+}
+
+/**
+ * Inicia quiz normal
+ */
+function iniciarQuiz() {
+  window.location.href = `quiz.html?materia=${materiaId}`;
+}
+
+/**
+ * Inicia flashcards normais (10 aleatórios)
+ */
+function iniciarFlashcards() {
+  window.location.href = `flashcards.html?materia=${materiaId}`;
+}
+
+/**
+ * Inicia flashcards focados em dificuldades
+ */
+function iniciarFlashcardsDificuldades() {
+  window.location.href = `flashcards.html?materia=${materiaId}&modo=dificuldades`;
+}
+
+/**
+ * Gera resumo personalizado (FASE 4-5)
+ */
+function gerarResumo() {
+  showToast('Funcionalidade em desenvolvimento (Fase 4-5)', 'warning');
+  // TODO: Implementar na Fase 4/5
+  // window.location.href = `resumo-personalizado.html?materia=${materiaId}`;
 }

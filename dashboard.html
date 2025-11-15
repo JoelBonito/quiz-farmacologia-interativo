@@ -3,177 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard - Quiz Interativo</title>
+  <title>Quiz Interativo - Dashboard</title>
   <link rel="stylesheet" href="css/dashboard.css">
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <div class="header-content">
-        <div class="logo">
-          <h1>📚 Quiz Interativo</h1>
-        </div>
-        <div class="header-actions">
-          <span class="user-info" id="user-email">Carregando...</span>
-          <button class="btn btn-secondary btn-sm" id="logout-btn">Sair</button>
-        </div>
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>📚 Quiz Interativo</h2>
       </div>
-    </div>
-  </header>
-
-  <!-- Main Content -->
-  <main class="main-content">
-    <div class="container">
-      <!-- Page Header -->
-      <div class="page-header">
-        <div>
-          <h2>Minhas Matérias</h2>
-          <p>Gerencie seus conteúdos e crie quizzes personalizados</p>
-        </div>
-        <button class="btn btn-primary" id="new-materia-btn">
-          <span>+</span> Nova Matéria
-        </button>
-      </div>
-
-      <!-- Stats Cards (opcional, para mostrar estatísticas) -->
-      <div class="stats-grid" id="stats-grid">
-        <div class="stat-card">
-          <div class="stat-icon">📚</div>
-          <div class="stat-info">
-            <div class="stat-value" id="total-materias">0</div>
-            <div class="stat-label">Matérias</div>
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active">
+          <span>🏠</span> Dashboard
+        </a>
+        <a href="#" class="nav-item">
+          <span>📁</span> Minhas Matérias
+        </a>
+        <a href="#" class="nav-item">
+          <span>📝</span> Quiz
+        </a>
+        <a href="#" class="nav-item">
+          <span>⚙️</span> Configurações
+        </a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="user-info">
+          <div class="user-avatar">👤</div>
+          <div class="user-details">
+            <p class="user-name" id="user-name">Carregando...</p>
+            <p class="user-email" id="user-email"></p>
           </div>
         </div>
-        <div class="stat-card">
-          <div class="stat-icon">📄</div>
-          <div class="stat-info">
-            <div class="stat-value" id="total-arquivos">0</div>
-            <div class="stat-label">Arquivos</div>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">❓</div>
-          <div class="stat-info">
-            <div class="stat-value" id="total-perguntas">0</div>
-            <div class="stat-label">Perguntas</div>
-          </div>
-        </div>
+        <button id="logout-btn" class="btn-logout">Sair</button>
       </div>
+    </aside>
 
-      <!-- Matérias Grid -->
-      <div class="materias-container">
-        <div id="loading-state" class="loading-state">
-          <div class="spinner-circle"></div>
-          <p>Carregando matérias...</p>
-        </div>
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="content-header">
+        <h1>Bem-vindo(a)! 👋</h1>
+        <p>Gerencie suas matérias e quizzes</p>
+      </header>
 
-        <div id="empty-state" class="empty-state" style="display: none;">
-          <div class="empty-icon">📚</div>
-          <h3>Nenhuma matéria criada ainda</h3>
-          <p>Comece criando sua primeira matéria para gerar quizzes personalizados</p>
-          <button class="btn btn-primary" onclick="showNewMateriaModal()">
-            <span>+</span> Criar Primeira Matéria
-          </button>
-        </div>
-
-        <div id="materias-grid" class="materias-grid" style="display: none;">
-          <!-- Matérias serão inseridas aqui via JavaScript -->
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- Modal: Nova Matéria -->
-  <div id="new-materia-modal" class="modal" style="display: none;">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3>Nova Matéria</h3>
-        <button class="modal-close" onclick="hideNewMateriaModal()">×</button>
-      </div>
-
-      <form id="new-materia-form">
-        <div class="form-group">
-          <label for="materia-nome">Nome da Matéria *</label>
-          <input
-            type="text"
-            id="materia-nome"
-            placeholder="Ex: Cardiologia, Dermatologia, Anatomia..."
-            required
-            maxlength="100"
-          >
-        </div>
-
-        <div class="form-group">
-          <label for="materia-descricao">Descrição (opcional)</label>
-          <textarea
-            id="materia-descricao"
-            placeholder="Descreva o conteúdo desta matéria..."
-            rows="3"
-            maxlength="500"
-          ></textarea>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group">
-            <label for="materia-icone">Ícone</label>
-            <select id="materia-icone">
-              <option value="📚">📚 Livro</option>
-              <option value="🧠">🧠 Cérebro</option>
-              <option value="💊">💊 Medicamento</option>
-              <option value="❤️">❤️ Coração</option>
-              <option value="🦴">🦴 Osso</option>
-              <option value="🫁">🫁 Pulmão</option>
-              <option value="🧬">🧬 DNA</option>
-              <option value="🔬">🔬 Microscópio</option>
-              <option value="💉">💉 Seringa</option>
-              <option value="🩺">🩺 Estetoscópio</option>
-            </select>
+      <div class="content-body">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon">📁</div>
+            <div class="stat-info">
+              <h3 id="total-materias">0</h3>
+              <p>Matérias</p>
+            </div>
           </div>
-
-          <div class="form-group">
-            <label for="materia-cor">Cor</label>
-            <input type="color" id="materia-cor" value="#3B82F6">
+          <div class="stat-card">
+            <div class="stat-icon">📝</div>
+            <div class="stat-info">
+              <h3 id="total-perguntas">0</h3>
+              <p>Perguntas</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">✅</div>
+            <div class="stat-info">
+              <h3 id="total-acertos">0</h3>
+              <p>Acertos</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">📊</div>
+            <div class="stat-info">
+              <h3 id="taxa-acerto">0%</h3>
+              <p>Taxa de Acerto</p>
+            </div>
           </div>
         </div>
 
-        <div class="modal-actions">
-          <button type="button" class="btn btn-secondary" onclick="hideNewMateriaModal()">
-            Cancelar
-          </button>
-          <button type="submit" class="btn btn-primary" id="create-materia-btn">
-            Criar Matéria
-          </button>
+        <div class="section">
+          <h2>Sistema em Desenvolvimento</h2>
+          <p>O dashboard completo está em construção. Em breve você terá acesso a:</p>
+          <ul>
+            <li>Gerenciamento de matérias</li>
+            <li>Upload de arquivos PDF</li>
+            <li>Geração de perguntas com IA</li>
+            <li>Quizzes interativos</li>
+            <li>Relatórios de desempenho</li>
+          </ul>
         </div>
-      </form>
-    </div>
+      </div>
+    </main>
   </div>
 
-  <!-- Modal: Confirmar Exclusão -->
-  <div id="delete-modal" class="modal" style="display: none;">
-    <div class="modal-content modal-sm">
-      <div class="modal-header">
-        <h3>Confirmar Exclusão</h3>
-        <button class="modal-close" onclick="hideDeleteModal()">×</button>
-      </div>
-
-      <p>Tem certeza que deseja excluir esta matéria? Esta ação não pode ser desfeita e todos os arquivos e perguntas serão removidos.</p>
-
-      <div class="modal-actions">
-        <button type="button" class="btn btn-secondary" onclick="hideDeleteModal()">
-          Cancelar
-        </button>
-        <button type="button" class="btn btn-danger" id="confirm-delete-btn">
-          Excluir
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Toast Messages -->
-  <div id="toast-container"></div>
-
-  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="config/config.js"></script>
   <script src="js/supabase-client.js"></script>

@@ -75,6 +75,10 @@ async function resetPassword(email) {
 
 // Listener para mudanças de autenticação
 function onAuthStateChange(callback) {
+  // Garantir que o Supabase esteja inicializado
+  if (!supabase) {
+    initSupabase();
+  }
   return supabase.auth.onAuthStateChange((event, session) => {
     callback(event, session);
   });

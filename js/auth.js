@@ -10,6 +10,9 @@ let resetModal;
 
 // Inicializar quando a página carregar
 document.addEventListener('DOMContentLoaded', async () => {
+  // Garantir que o Supabase esteja inicializado primeiro
+  initSupabase();
+
   initializeElements();
   setupEventListeners();
   setupAuthListener();

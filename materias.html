@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Matérias - Quiz Interativo</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>📚 Quiz Interativo</h2>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="dashboard.html" class="nav-item">
+          <span>🏠</span> Dashboard
+        </a>
+        <a href="materias.html" class="nav-item active">
+          <span>📁</span> Minhas Matérias
+        </a>
+        <a href="quiz.html" class="nav-item">
+          <span>📝</span> Quiz
+        </a>
+        <a href="#" class="nav-item" id="config-btn">
+          <span>⚙️</span> Configurações
+        </a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="user-info">
+          <div class="user-avatar">👤</div>
+          <div class="user-details">
+            <p class="user-name" id="user-name">Carregando...</p>
+            <p class="user-email" id="user-email"></p>
+          </div>
+        </div>
+        <button id="logout-btn" class="btn-logout">Sair</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="content-header">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <h1>Minhas Matérias 📁</h1>
+            <p>Gerencie suas matérias e arquivos</p>
+          </div>
+          <button id="nova-materia-btn" class="btn-primary" style="padding: 12px 24px; border: none; border-radius: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; font-weight: 600; cursor: pointer;">➕ Nova Matéria</button>
+        </div>
+      </header>
+
+      <div class="content-body">
+        <div id="materias-grid" class="stats-grid">
+          <!-- Cards de matérias serão inseridos aqui -->
+        </div>
+
+        <div id="empty-state" class="section" style="text-align: center; padding: 60px 32px; display: none;">
+          <div style="font-size: 64px; margin-bottom: 16px;">📚</div>
+          <h2>Nenhuma matéria ainda</h2>
+          <p style="margin-bottom: 24px;">Crie sua primeira matéria para começar a gerar quizzes!</p>
+          <button id="primeira-materia-btn" class="btn-primary" style="padding: 12px 24px; border: none; border-radius: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; font-weight: 600; cursor: pointer;">➕ Criar Primeira Matéria</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal Nova Matéria -->
+  <div id="modal-nova-materia" class="modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); align-items: center; justify-content: center; z-index: 1000;">
+    <div class="modal-content" style="background: white; padding: 32px; border-radius: 16px; max-width: 500px; width: 90%;">
+      <h2 style="margin-bottom: 24px;">Nova Matéria</h2>
+      <form id="form-nova-materia">
+        <div style="margin-bottom: 20px;">
+          <label style="display: block; margin-bottom: 8px; font-weight: 500;">Nome da Matéria</label>
+          <input type="text" id="nome-materia" required style="width: 100%; padding: 12px; border: 2px solid #e5e7eb; border-radius: 8px;" placeholder="Ex: Farmacologia">
+        </div>
+        <div style="margin-bottom: 20px;">
+          <label style="display: block; margin-bottom: 8px; font-weight: 500;">Descrição (opcional)</label>
+          <textarea id="descricao-materia" rows="3" style="width: 100%; padding: 12px; border: 2px solid #e5e7eb; border-radius: 8px;" placeholder="Breve descrição da matéria..."></textarea>
+        </div>
+        <div style="display: flex; gap: 12px; justify-content: flex-end;">
+          <button type="button" id="cancelar-btn" style="padding: 12px 24px; border: 1px solid #e5e7eb; background: white; border-radius: 8px; cursor: pointer;">Cancelar</button>
+          <button type="submit" style="padding: 12px 24px; border: none; border-radius: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; font-weight: 600; cursor: pointer;">Criar Matéria</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/materias.js"></script>
+</body>
+</html>

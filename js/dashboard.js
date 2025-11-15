@@ -72,6 +72,15 @@ async function loadStats(userId) {
   }
 }
 
+// Navegação
+const configBtn = document.getElementById('config-btn');
+if (configBtn) {
+  configBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Configurações em desenvolvimento! Em breve você poderá personalizar seu perfil e preferências.');
+  });
+}
+
 // Logout
 document.getElementById('logout-btn').addEventListener('click', async () => {
   const { error } = await supabase.auth.signOut();

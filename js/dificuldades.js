@@ -39,15 +39,19 @@ async function registrarDificuldadeQuiz(pergunta, materiaId) {
  */
 async function registrarDificuldadeFlashcard(flashcard, materiaId) {
   try {
+    // Suporta tanto objetos flashcard quanto perguntas usadas como flashcards
+    const textoFrente = flashcard.frente || flashcard.pergunta;
+    const topico = flashcard.topico || extrairTopicoTexto(textoFrente);
+
     const dificuldadeData = {
       materia_id: materiaId,
       tipo_origem: 'flashcard',
-      topico: flashcard.topico,
+      topico: topico,
       subtopico: flashcard.subtopico || null,
       conceito_especifico: flashcard.conceitos ? flashcard.conceitos[0] : null,
-      texto_original: flashcard.frente,
-      pergunta_relacionada: flashcard.frente,
-      flashcard_id: flashcard.id
+      texto_original: textoFrente,
+      pergunta_relacionada: textoFrente,
+      pergunta_id: flashcard.id // Para rastrear origem
     };
 
     const dificuldade = await createDificuldade(dificuldadeData);

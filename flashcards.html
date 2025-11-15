@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards - Quiz Interativo</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/flashcards.css">
+  <link rel="stylesheet" href="css/dificuldades.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="javascript:history.back()" class="back-btn">← Voltar</a>
+          <h1 id="materia-nome">Flashcards</h1>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-outline btn-sm" onclick="finishFlashcardsEarly()">✓ Finalizar</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Progress Bar -->
+      <div class="progress-section">
+        <div class="progress-bar-flashcard">
+          <div class="progress-fill-flashcard" id="progress-fill"></div>
+        </div>
+        <div class="progress-info">
+          <span id="card-counter">Flashcard 1 de 10</span>
+          <span id="progress-percent">0%</span>
+        </div>
+      </div>
+
+      <!-- Stats Cards -->
+      <div class="stats-cards">
+        <div class="stat-card-mini">
+          <div class="stat-icon-mini">✅</div>
+          <div class="stat-value-mini" id="lembrei-count">0</div>
+          <div class="stat-label-mini">Lembrei</div>
+        </div>
+        <div class="stat-card-mini">
+          <div class="stat-icon-mini">🟡</div>
+          <div class="stat-value-mini" id="quase-count">0</div>
+          <div class="stat-label-mini">Quase</div>
+        </div>
+        <div class="stat-card-mini">
+          <div class="stat-icon-mini">❓</div>
+          <div class="stat-value-mini" id="nao-sei-count">0</div>
+          <div class="stat-label-mini">Não Sei</div>
+        </div>
+        <div class="stat-card-mini">
+          <div class="stat-icon-mini">⏭️</div>
+          <div class="stat-value-mini" id="skip-count">0</div>
+          <div class="stat-label-mini">Puladas</div>
+        </div>
+      </div>
+
+      <!-- Flashcard Container -->
+      <div class="flashcard-wrapper">
+        <div class="flashcard-card" id="flashcard-card">
+          <!-- Front (Question) -->
+          <div class="flashcard-face flashcard-front">
+            <div class="card-header">
+              <div class="card-badges">
+                <span class="badge-flashcard badge-tipo" id="card-type">Conceito</span>
+                <span class="badge-flashcard badge-dificuldade" id="card-difficulty">Médio</span>
+              </div>
+              <button class="btn-bookmark" id="bookmark-btn" onclick="toggleBookmark()">
+                <span id="bookmark-icon">☆</span>
+              </button>
+            </div>
+
+            <div class="card-content">
+              <div class="card-label">Pergunta:</div>
+              <div class="card-text" id="card-question">
+                Carregando flashcard...
+              </div>
+            </div>
+
+            <div class="card-hint">
+              <p>💡 Pense na resposta antes de virar o card</p>
+            </div>
+
+            <button class="btn-flip" onclick="flipCard()">
+              🔄 Ver Resposta
+            </button>
+          </div>
+
+          <!-- Back (Answer) -->
+          <div class="flashcard-face flashcard-back">
+            <div class="card-header">
+              <div class="card-badges">
+                <span class="badge-flashcard badge-tipo">Resposta</span>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-label">Resposta Correta:</div>
+              <div class="card-text" id="card-answer">
+                Resposta aqui...
+              </div>
+            </div>
+
+            <div class="card-explanation" id="card-explanation" style="display: none;">
+              <div class="explanation-header">
+                <span class="explanation-icon">📚</span>
+                <span class="explanation-title">Explicação</span>
+              </div>
+              <div class="explanation-text" id="explanation-text"></div>
+            </div>
+
+            <button class="btn-flip" onclick="flipCard()">
+              🔄 Ver Pergunta
+            </button>
+          </div>
+        </div>
+
+        <!-- Response Buttons (Appear after flip) -->
+        <div class="response-buttons" id="response-buttons" style="display: none;">
+          <button class="btn-response btn-lembrei" onclick="handleResponse('lembrei')">
+            <span class="response-icon">✅</span>
+            <span class="response-text">LEMBREI</span>
+            <span class="response-desc">Sabia a resposta</span>
+          </button>
+
+          <button class="btn-response btn-quase" onclick="handleResponse('quase')">
+            <span class="response-icon">🟡</span>
+            <span class="response-text">QUASE</span>
+            <span class="response-desc">Lembrei parcialmente</span>
+          </button>
+
+          <button class="btn-response btn-nao-sei" onclick="handleResponse('nao_sei')">
+            <span class="response-icon">❓</span>
+            <span class="response-text">NÃO SEI</span>
+            <span class="response-desc">Preciso estudar isso</span>
+          </button>
+        </div>
+
+        <!-- Skip Button -->
+        <div class="skip-container">
+          <button class="btn btn-outline btn-sm" onclick="skipCard()">
+            ⏭️ Pular Card
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Loading State -->
+  <div id="loading-state" class="loading-overlay" style="display: flex;">
+    <div class="loading-card">
+      <div class="spinner-circle"></div>
+      <h3>Carregando flashcards...</h3>
+      <p>Aguarde um momento</p>
+    </div>
+  </div>
+
+  <!-- Modal de Resultado -->
+  <div id="result-modal" class="modal" style="display: none;">
+    <div class="modal-content modal-lg">
+      <div class="modal-header">
+        <h2>🎉 Sessão de Flashcards Concluída!</h2>
+        <button class="modal-close" onclick="closeResultModal()">×</button>
+      </div>
+
+      <div class="result-content">
+        <!-- Score -->
+        <div class="result-score-section">
+          <div class="score-main">
+            <div class="score-percentage" id="final-percentage">0%</div>
+            <div class="score-label">de retenção</div>
+          </div>
+          <div class="score-details">
+            <div class="score-item score-lembrei">
+              <span class="score-number" id="final-lembrei">0</span>
+              <span class="score-text">Lembrei</span>
+            </div>
+            <div class="score-item score-quase">
+              <span class="score-number" id="final-quase">0</span>
+              <span class="score-text">Quase</span>
+            </div>
+            <div class="score-item score-naosei">
+              <span class="score-number" id="final-naosei">0</span>
+              <span class="score-text">Não Sei</span>
+            </div>
+            <div class="score-item score-skip">
+              <span class="score-number" id="final-skip">0</span>
+              <span class="score-text">Puladas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Análise de Dificuldades (FASE 3) -->
+        <div class="dificuldades-analise" id="dificuldades-analise" style="display: none;">
+          <h3>📊 Análise das Suas Dificuldades</h3>
+          <div id="dificuldades-topicos"></div>
+          <div class="resumo-personalizado-cta">
+            <div class="cta-content">
+              <div class="cta-icon">🤖</div>
+              <div class="cta-text">
+                <h4>Resumo Personalizado Gerado!</h4>
+                <p>Criamos um resumo focado nos conceitos que você marcou como "não sei"</p>
+              </div>
+            </div>
+            <button class="btn btn-primary" onclick="verResumoPersonalizado()">
+              📝 Ver Resumo Personalizado
+            </button>
+          </div>
+        </div>
+
+        <!-- Ações -->
+        <div class="result-actions">
+          <button class="btn btn-outline" onclick="voltarMateria()">
+            🏠 Voltar para Matéria
+          </button>
+          <button class="btn btn-secondary" onclick="refazerFlashcards()">
+            🔄 Refazer Flashcards
+          </button>
+          <button class="btn btn-primary" onclick="estudarDificuldades()">
+            📚 Estudar Dificuldades
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/dificuldades.js"></script>
+  <script src="js/flashcards-controller.js"></script>
+</body>
+</html>

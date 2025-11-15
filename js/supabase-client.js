@@ -376,6 +376,377 @@ async function requireAuth() {
   return true;
 }
 
+// ============================================
+// DIFICULDADES DO ALUNO (FASE 1)
+// ============================================
+
+async function createDificuldade(dificuldadeData) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  const { data, error } = await supabase
+    .from('dificuldades_aluno')
+    .insert([{
+      user_id: user.id,
+      ...dificuldadeData
+    }])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+async function getDificuldades(materiaId, options = {}) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  let query = supabase
+    .from('dificuldades_aluno')
+    .select('*')
+    .eq('user_id', user.id)
+    .eq('materia_id', materiaId);
+
+  // Filtros opcionais
+  if (options.resolvido !== undefined) {
+    query = query.eq('resolvido', options.resolvido);
+  }
+  if (options.tipoOrigem) {
+    query = query.eq('tipo_origem', options.tipoOrigem);
+  }
+  if (options.topico) {
+    query = query.eq('topico', options.topico);
+  }
+
+  // Ordenar por nível de dificuldade e data
+  query = query.order('nivel_dificuldade', { ascending: false })
+               .order('created_at', { ascending: false });
+
+  const { data, error } = await query;
+
+  if (error) throw error;
+  return data;
+}
+
+async function getDificuldadesAgrupadas(materiaId) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  const { data, error } = await supabase
+    .rpc('get_dificuldades_stats', {
+      p_user_id: user.id,
+      p_materia_id: materiaId
+    });
+
+  if (error) throw error;
+  return data;
+}
+
+async function incrementarDificuldade(materiaId, topico, tipoOrigem, detalhes = {}) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  const { data, error } = await supabase
+    .rpc('incrementar_dificuldade', {
+      p_user_id: user.id,
+      p_materia_id: materiaId,
+      p_topico: topico,
+      p_tipo_origem: tipoOrigem
+    });
+
+  if (error) throw error;
+
+  // Se forneceu detalhes adicionais, atualizar o registro
+  if (data && Object.keys(detalhes).length > 0) {
+    await supabase
+      .from('dificuldades_aluno')
+      .update(detalhes)
+      .eq('id', data);
+  }
+
+  return data;
+}
+
+async function resolverDificuldade(dificuldadeId) {
+  const { error } = await supabase
+    .rpc('resolver_dificuldade', {
+      p_dificuldade_id: dificuldadeId
+    });
+
+  if (error) throw error;
+}
+
+async function updateDificuldade(dificuldadeId, updates) {
+  const { data, error } = await supabase
+    .from('dificuldades_aluno')
+    .update(updates)
+    .eq('id', dificuldadeId)
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+// ============================================
+// RESUMOS
+// ============================================
+
+async function createResumo(resumoData) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  const { data, error } = await supabase
+    .from('resumos')
+    .insert([{
+      user_id: resumoData.tipo === 'personalizado' ? user.id : null,
+      ...resumoData
+    }])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+async function getResumos(materiaId, tipo = null) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  let query = supabase
+    .from('resumos')
+    .select('*')
+    .eq('materia_id', materiaId);
+
+  if (tipo) {
+    query = query.eq('tipo', tipo);
+  } else {
+    // Buscar resumos gerais ou personalizados do usuário
+    query = query.or(`user_id.is.null,user_id.eq.${user.id}`);
+  }
+
+  const { data, error } = await query.order('created_at', { ascending: false });
+
+  if (error) throw error;
+  return data;
+}
+
+async function getResumo(resumoId) {
+  const { data, error } = await supabase
+    .from('resumos')
+    .select('*')
+    .eq('id', resumoId)
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+async function updateResumo(resumoId, updates) {
+  const { data, error } = await supabase
+    .from('resumos')
+    .update(updates)
+    .eq('id', resumoId)
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+async function deleteResumo(resumoId) {
+  const { error } = await supabase
+    .from('resumos')
+    .delete()
+    .eq('id', resumoId);
+
+  if (error) throw error;
+}
+
+// ============================================
+// MARCAÇÕES DE RESUMOS
+// ============================================
+
+async function createMarcacao(resumoId, marcacaoData) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  const { data, error } = await supabase
+    .from('resumos_marcacoes')
+    .insert([{
+      user_id: user.id,
+      resumo_id: resumoId,
+      ...marcacaoData
+    }])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+async function getMarcacoes(resumoId) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  const { data, error } = await supabase
+    .from('resumos_marcacoes')
+    .select('*')
+    .eq('user_id', user.id)
+    .eq('resumo_id', resumoId)
+    .order('created_at', { ascending: true });
+
+  if (error) throw error;
+  return data;
+}
+
+async function deleteMarcacao(marcacaoId) {
+  const { error } = await supabase
+    .from('resumos_marcacoes')
+    .delete()
+    .eq('id', marcacaoId);
+
+  if (error) throw error;
+}
+
+// ============================================
+// FLASHCARDS
+// ============================================
+
+async function createFlashcard(flashcardData) {
+  const { data, error } = await supabase
+    .from('flashcards')
+    .insert([flashcardData])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+async function createFlashcards(flashcardsArray) {
+  const { data, error } = await supabase
+    .from('flashcards')
+    .insert(flashcardsArray)
+    .select();
+
+  if (error) throw error;
+  return data;
+}
+
+async function getFlashcards(materiaId, filters = {}) {
+  let query = supabase
+    .from('flashcards')
+    .select('*')
+    .eq('materia_id', materiaId);
+
+  if (filters.topico) query = query.eq('topico', filters.topico);
+  if (filters.dificuldade) query = query.eq('dificuldade', filters.dificuldade);
+
+  const { data, error } = await query.order('created_at', { ascending: false });
+
+  if (error) throw error;
+  return data;
+}
+
+async function getFlashcard(flashcardId) {
+  const { data, error } = await supabase
+    .from('flashcards')
+    .select('*')
+    .eq('id', flashcardId)
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+// ============================================
+// SESSÕES DE FLASHCARDS
+// ============================================
+
+async function createFlashcardSessao(materiaId) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  const { data, error } = await supabase
+    .from('flashcards_sessoes')
+    .insert([{
+      user_id: user.id,
+      materia_id: materiaId
+    }])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+async function updateFlashcardSessao(sessaoId, updates) {
+  const { data, error } = await supabase
+    .from('flashcards_sessoes')
+    .update(updates)
+    .eq('id', sessaoId)
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+async function finalizarFlashcardSessao(sessaoId, stats) {
+  const { data, error } = await supabase
+    .from('flashcards_sessoes')
+    .update({
+      fim: new Date().toISOString(),
+      ...stats
+    })
+    .eq('id', sessaoId)
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+// ============================================
+// PROGRESSO DE FLASHCARDS
+// ============================================
+
+async function saveFlashcardProgresso(flashcardId, sessaoId, resposta, tempoResposta = null) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  const { data, error } = await supabase
+    .from('flashcards_progresso')
+    .insert([{
+      user_id: user.id,
+      flashcard_id: flashcardId,
+      sessao_id: sessaoId,
+      resposta,
+      tempo_resposta: tempoResposta
+    }])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+async function getFlashcardProgresso(flashcardId) {
+  const user = await getCurrentUser();
+  if (!user) throw new Error('Usuário não autenticado');
+
+  const { data, error } = await supabase
+    .from('flashcards_progresso')
+    .select('*')
+    .eq('user_id', user.id)
+    .eq('flashcard_id', flashcardId)
+    .order('created_at', { ascending: false });
+
+  if (error) throw error;
+  return data;
+}
+
 // Auto-inicializar quando o script carregar
 if (typeof window !== 'undefined') {
   window.addEventListener('DOMContentLoaded', () => {

@@ -6,6 +6,7 @@
   <title>Gerenciar Matéria - Quiz Interativo</title>
   <link rel="stylesheet" href="css/dashboard.css">
   <link rel="stylesheet" href="css/materia.css">
+  <link rel="stylesheet" href="css/dificuldades.css">
 </head>
 <body>
   <!-- Header -->
@@ -53,6 +54,9 @@
         </div>
         <p class="info-description" id="materia-descricao">-</p>
       </div>
+
+      <!-- Dificuldades Dashboard (FASE 1) -->
+      <div id="dificuldades-container"></div>
 
       <!-- Upload Section -->
       <div class="section">
@@ -122,6 +126,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="config/config.js"></script>
   <script src="js/supabase-client.js"></script>
+  <script src="js/dificuldades.js"></script>
+  <script src="js/dashboard-dificuldades.js"></script>
   <script src="js/gemini.js"></script>
   <script src="js/materia.js"></script>
 </body>

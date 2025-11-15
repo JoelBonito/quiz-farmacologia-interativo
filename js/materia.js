@@ -21,6 +21,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadMateria();
   await loadArquivos();
   setupEventListeners();
+
+  // Inicializar dashboard de dificuldades (FASE 1)
+  try {
+    await initDashboardDificuldades('dificuldades-container', materiaId);
+  } catch (error) {
+    console.log('Nenhuma dificuldade ainda ou erro ao carregar:', error);
+  }
 });
 
 // ============================================

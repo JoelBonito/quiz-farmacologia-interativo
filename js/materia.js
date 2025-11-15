@@ -603,10 +603,60 @@ function verResumos() {
 }
 
 /**
- * Gera resumo personalizado (FASE 5)
+ * Gera resumo personalizado com IA (FASE 5)
  */
-function gerarResumo() {
-  showToast('Funcionalidade em desenvolvimento (Fase 5)', 'warning');
-  // TODO: Implementar na Fase 5
-  // window.location.href = `resumo-personalizado.html?materia=${materiaId}`;
+async function gerarResumo() {
+  try {
+    // Verificar se há dificuldades suficientes
+    const deveGerar = await DificuldadesService.deveGerarResumoPersonalizado(materiaId);
+
+    if (!deveGerar) {
+      showToast('Você precisa ter pelo menos 3 dificuldades registradas para gerar um resumo personalizado. Continue estudando!', 'warning');
+      return;
+    }
+
+    // Mostrar loading overlay
+    const loadingOverlay = document.getElementById('loading-overlay');
+    const loadingTitle = document.getElementById('loading-title');
+    const loadingMessage = document.getElementById('loading-message');
+
+    loadingOverlay.style.display = 'flex';
+    loadingTitle.textContent = '🤖 Gerando Resumo Personalizado';
+    loadingMessage.textContent = 'A IA está analisando suas dificuldades e criando um resumo focado nos seus pontos fracos...';
+
+    // Obter nome da matéria para contexto
+    const materiaNome = document.getElementById('materia-nome').textContent;
+
+    // Gerar resumo com Gemini
+    const resultado = await generateResumoPersonalizado(materiaId, materiaNome);
+
+    // Salvar no banco de dados
+    const resumoSalvo = await createResumo({
+      materia_id: materiaId,
+      titulo: `Resumo Personalizado - ${materiaNome}`,
+      tipo_resumo: 'personalizado',
+      conteudo: resultado.resumo,
+      conteudo_estruturado: {
+        topicos: resultado.topicos,
+        totalDificuldades: resultado.totalDificuldades
+      },
+      gerado_por: 'ia',
+      baseado_em_dificuldades: true,
+      dificuldades_ids: resultado.dificuldadesIds
+    });
+
+    loadingOverlay.style.display = 'none';
+
+    showToast('✅ Resumo personalizado gerado com sucesso!', 'success');
+
+    // Redirecionar para página de visualização
+    setTimeout(() => {
+      window.location.href = `resumo-personalizado.html?id=${resumoSalvo.id}`;
+    }, 500);
+
+  } catch (error) {
+    console.error('Erro ao gerar resumo:', error);
+    document.getElementById('loading-overlay').style.display = 'none';
+    showToast('Erro ao gerar resumo: ' + error.message, 'error');
+  }
 }

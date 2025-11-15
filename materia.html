@@ -58,6 +58,44 @@
       <!-- Dificuldades Dashboard (FASE 1) -->
       <div id="dificuldades-container"></div>
 
+      <!-- Ações Rápidas (FASE 2-3) -->
+      <div class="section" id="acoes-rapidas-section" style="display: none;">
+        <h2>🎯 Ações Rápidas</h2>
+        <div class="acoes-rapidas-grid">
+          <button class="btn-acao-rapida" id="btn-iniciar-quiz" onclick="iniciarQuiz()">
+            <div class="acao-icon">❓</div>
+            <div class="acao-content">
+              <div class="acao-title">Iniciar Quiz</div>
+              <div class="acao-desc">Teste seus conhecimentos</div>
+            </div>
+          </button>
+
+          <button class="btn-acao-rapida" id="btn-iniciar-flashcards" onclick="iniciarFlashcards()">
+            <div class="acao-icon">🎴</div>
+            <div class="acao-content">
+              <div class="acao-title">Estudar Flashcards</div>
+              <div class="acao-desc">Memorização ativa</div>
+            </div>
+          </button>
+
+          <button class="btn-acao-rapida" id="btn-flashcards-dificuldades" onclick="iniciarFlashcardsDificuldades()" style="display: none;">
+            <div class="acao-icon">🔥</div>
+            <div class="acao-content">
+              <div class="acao-title">Revisar Dificuldades</div>
+              <div class="acao-desc">Foco nos pontos fracos</div>
+            </div>
+          </button>
+
+          <button class="btn-acao-rapida" id="btn-gerar-resumo" onclick="gerarResumo()" style="display: none;">
+            <div class="acao-icon">📝</div>
+            <div class="acao-content">
+              <div class="acao-title">Resumo Personalizado</div>
+              <div class="acao-desc">Baseado em suas dificuldades</div>
+            </div>
+          </button>
+        </div>
+      </div>
+
       <!-- Upload Section -->
       <div class="section">
         <h2>📤 Upload de Arquivos</h2>

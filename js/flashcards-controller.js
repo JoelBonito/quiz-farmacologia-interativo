@@ -282,6 +282,8 @@ async function registrarDificuldadeFlashcard(flashcard) {
 
   } catch (error) {
     console.error('Erro ao registrar dificuldade:', error);
+    // Mostrar aviso mas não bloquear fluxo
+    showToast('Aviso: Não foi possível salvar a dificuldade', 'warning');
   }
 }
 
@@ -401,6 +403,9 @@ async function analisarDificuldadesSessao() {
   }
 
   try {
+    // Mostrar loading (opcional - análise é rápida)
+    showToast('Analisando suas dificuldades...', 'info');
+
     // Buscar análise completa
     const analise = await DificuldadesService.analisarDificuldades(flashcardState.materiaId);
 
@@ -412,6 +417,7 @@ async function analisarDificuldadesSessao() {
 
   } catch (error) {
     console.error('Erro ao analisar dificuldades:', error);
+    showToast('Erro ao analisar dificuldades', 'error');
   }
 }
 
@@ -513,7 +519,7 @@ function refazerFlashcards() {
  * Vai para página de dificuldades
  */
 function estudarDificuldades() {
-  window.location.href = `dificuldades.html?materia=${flashcardState.materiaId}`;
+  window.location.href = `materia.html?id=${flashcardState.materiaId}#dificuldades`;
 }
 
 /**

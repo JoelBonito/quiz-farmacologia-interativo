@@ -13,6 +13,17 @@
  */
 async function registrarDificuldadeQuiz(pergunta, materiaId) {
   try {
+    // Validação de dados
+    if (!pergunta || !pergunta.id) {
+      throw new Error('Pergunta inválida');
+    }
+    if (!materiaId) {
+      throw new Error('ID da matéria é obrigatório');
+    }
+    if (!pergunta.pergunta || pergunta.pergunta.trim().length === 0) {
+      throw new Error('Texto da pergunta está vazio');
+    }
+
     const dificuldadeData = {
       materia_id: materiaId,
       tipo_origem: 'quiz',
@@ -23,6 +34,11 @@ async function registrarDificuldadeQuiz(pergunta, materiaId) {
       pergunta_relacionada: pergunta.pergunta,
       pergunta_id: pergunta.id
     };
+
+    // Validar tópico extraído
+    if (!dificuldadeData.topico || dificuldadeData.topico.trim().length === 0) {
+      dificuldadeData.topico = 'Tópico não identificado';
+    }
 
     const dificuldade = await createDificuldade(dificuldadeData);
     console.log('✅ Dificuldade registrada:', dificuldade);
@@ -39,14 +55,27 @@ async function registrarDificuldadeQuiz(pergunta, materiaId) {
  */
 async function registrarDificuldadeFlashcard(flashcard, materiaId) {
   try {
+    // Validação de dados
+    if (!flashcard || !flashcard.id) {
+      throw new Error('Flashcard inválido');
+    }
+    if (!materiaId) {
+      throw new Error('ID da matéria é obrigatório');
+    }
+
     // Suporta tanto objetos flashcard quanto perguntas usadas como flashcards
     const textoFrente = flashcard.frente || flashcard.pergunta;
+
+    if (!textoFrente || textoFrente.trim().length === 0) {
+      throw new Error('Texto do flashcard está vazio');
+    }
+
     const topico = flashcard.topico || extrairTopicoTexto(textoFrente);
 
     const dificuldadeData = {
       materia_id: materiaId,
       tipo_origem: 'flashcard',
-      topico: topico,
+      topico: topico || 'Tópico não identificado',
       subtopico: flashcard.subtopico || null,
       conceito_especifico: flashcard.conceitos ? flashcard.conceitos[0] : null,
       texto_original: textoFrente,
@@ -69,6 +98,20 @@ async function registrarDificuldadeFlashcard(flashcard, materiaId) {
  */
 async function registrarDificuldadeResumo(resumoId, materiaId, selecao) {
   try {
+    // Validação de dados
+    if (!resumoId) {
+      throw new Error('ID do resumo é obrigatório');
+    }
+    if (!materiaId) {
+      throw new Error('ID da matéria é obrigatório');
+    }
+    if (!selecao || !selecao.texto || selecao.texto.trim().length === 0) {
+      throw new Error('Texto selecionado está vazio');
+    }
+    if (selecao.texto.length < 10) {
+      throw new Error('Texto selecionado muito curto (mínimo 10 caracteres)');
+    }
+
     // Primeiro, criar a marcação no resumo
     const marcacao = await createMarcacao(resumoId, {
       texto_selecionado: selecao.texto,
@@ -85,7 +128,7 @@ async function registrarDificuldadeResumo(resumoId, materiaId, selecao) {
     const dificuldadeData = {
       materia_id: materiaId,
       tipo_origem: 'resumo',
-      topico: topico,
+      topico: topico || 'Tópico não identificado',
       subtopico: null,
       conceito_especifico: null,
       texto_original: selecao.texto,
@@ -305,28 +348,72 @@ async function prepararDadosResumoPersonalizado(materiaId) {
 
 function extrairTopicoTexto(texto) {
   // Extrai tópico provável do texto da pergunta/resumo
-  // Busca por palavras-chave médicas/farmacológicas
+  // Usa palavras-chave farmacológicas expandidas e heurísticas melhoradas
 
-  const palavrasChave = [
-    'agonista', 'antagonista', 'inibidor', 'bloqueador',
-    'receptor', 'enzima', 'farmaco', 'medicamento',
-    'mecanismo', 'ação', 'efeito', 'reação'
-  ];
+  if (!texto || texto.trim().length === 0) {
+    return 'Tópico não identificado';
+  }
 
-  const palavras = texto.toLowerCase().split(' ');
+  // Palavras-chave categorizadas por contexto farmacológico
+  const palavrasChave = {
+    // Mecanismo de ação
+    mecanismo: ['agonista', 'antagonista', 'inibidor', 'bloqueador', 'estimulante', 'depressor'],
+    // Alvos farmacológicos
+    alvos: ['receptor', 'enzima', 'canal', 'transportador', 'proteína'],
+    // Classes e conceitos
+    conceitos: ['fármaco', 'medicamento', 'droga', 'substância', 'princípio ativo'],
+    // Ações e efeitos
+    acoes: ['mecanismo', 'ação', 'efeito', 'reação', 'resposta', 'metabolismo'],
+    // Classes terapêuticas
+    classes: ['analgésico', 'antibiótico', 'anti-inflamatório', 'antihipertensivo', 'antidepressivo'],
+    // Sistemas
+    sistemas: ['cardiovascular', 'respiratório', 'nervoso', 'digestivo', 'renal']
+  };
 
-  // Buscar primeira palavra-chave + palavra anterior/posterior
+  // Flatten todas as palavras-chave
+  const todasPalavrasChave = Object.values(palavrasChave).flat();
+
+  const textoLower = texto.toLowerCase();
+  const palavras = textoLower.split(/\s+/);
+
+  // Filtrar stopwords comuns
+  const stopwords = ['o', 'a', 'de', 'da', 'do', 'em', 'na', 'no', 'para', 'qual', 'que', 'é', 'são'];
+  const palavrasFiltradas = palavras.filter(p => !stopwords.includes(p) && p.length > 2);
+
+  // Estratégia 1: Buscar expressões com palavras-chave (contexto ampliado)
   for (let i = 0; i < palavras.length; i++) {
-    if (palavrasChave.some(pk => palavras[i].includes(pk))) {
-      const inicio = Math.max(0, i - 1);
-      const fim = Math.min(palavras.length, i + 2);
-      return palavras.slice(inicio, fim).join(' ');
+    const palavraAtual = palavras[i];
+
+    for (const pk of todasPalavrasChave) {
+      if (palavraAtual.includes(pk)) {
+        // Capturar contexto: 1 palavra antes e 2 depois
+        const inicio = Math.max(0, i - 1);
+        const fim = Math.min(palavras.length, i + 3);
+        const contexto = palavras.slice(inicio, fim);
+
+        // Filtrar stopwords do contexto
+        const contextoLimpo = contexto.filter(p => !stopwords.includes(p));
+        return contextoLimpo.slice(0, 4).join(' ');
+      }
     }
   }
 
-  // Se não encontrar, retornar primeiras 3-4 palavras significativas
-  const palavrasSignificativas = palavras.filter(p => p.length > 3);
-  return palavrasSignificativas.slice(0, 3).join(' ') || 'Tópico desconhecido';
+  // Estratégia 2: Buscar nomes de medicamentos (geralmente com maiúscula no original)
+  const palavrasOriginais = texto.split(/\s+/);
+  const possivelMedicamento = palavrasOriginais.find(p =>
+    /^[A-Z][a-z]+/.test(p) && p.length > 4 && !stopwords.includes(p.toLowerCase())
+  );
+
+  if (possivelMedicamento) {
+    const index = palavrasOriginais.indexOf(possivelMedicamento);
+    const inicio = Math.max(0, index - 1);
+    const fim = Math.min(palavrasOriginais.length, index + 2);
+    return palavrasOriginais.slice(inicio, fim).join(' ').toLowerCase();
+  }
+
+  // Estratégia 3: Primeiras palavras significativas (fallback)
+  const topico = palavrasFiltradas.slice(0, 3).join(' ');
+  return topico.length > 0 ? topico : 'Tópico não identificado';
 }
 
 function agruparPor(array, chave) {

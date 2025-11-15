@@ -454,6 +454,81 @@
 }
 
 /* ============================================
+   AÇÕES RÁPIDAS (FASE 2-3)
+   ============================================ */
+.acoes-rapidas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.btn-acao-rapida {
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.btn-acao-rapida:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-acao-rapida:active {
+  transform: translateY(0);
+}
+
+.acao-icon {
+  font-size: 36px;
+  flex-shrink: 0;
+}
+
+.acao-content {
+  flex: 1;
+}
+
+.acao-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.acao-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* Variações de cor */
+#btn-iniciar-quiz:hover {
+  border-color: #8B5CF6;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(236, 72, 153, 0.05));
+}
+
+#btn-iniciar-flashcards:hover {
+  border-color: #EC4899;
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.05), rgba(139, 92, 246, 0.05));
+}
+
+#btn-flashcards-dificuldades:hover {
+  border-color: #F59E0B;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.05), rgba(239, 68, 68, 0.05));
+}
+
+#btn-gerar-resumo:hover {
+  border-color: #10B981;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(5, 150, 105, 0.05));
+}
+
+/* ============================================
    RESPONSIVE
    ============================================ */
 @media (max-width: 768px) {

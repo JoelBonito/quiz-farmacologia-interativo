@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Quiz Interativo</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/quiz-new.css">
+  <link rel="stylesheet" href="css/dificuldades.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="javascript:history.back()" class="back-btn">← Voltar</a>
+          <h1 id="materia-nome">Quiz</h1>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-outline btn-sm" onclick="finishQuizEarly()">✓ Finalizar</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Progress Bar -->
+      <div class="progress-section">
+        <div class="progress-bar-quiz">
+          <div class="progress-fill-quiz" id="progress-fill"></div>
+        </div>
+        <div class="progress-info">
+          <span id="question-counter">Pergunta 1 de 10</span>
+          <span id="progress-percent">0%</span>
+        </div>
+      </div>
+
+      <!-- Stats Cards -->
+      <div class="stats-cards">
+        <div class="stat-card-mini">
+          <div class="stat-icon-mini">✅</div>
+          <div class="stat-value-mini" id="correct-count">0</div>
+          <div class="stat-label-mini">Acertos</div>
+        </div>
+        <div class="stat-card-mini">
+          <div class="stat-icon-mini">❌</div>
+          <div class="stat-value-mini" id="incorrect-count">0</div>
+          <div class="stat-label-mini">Erros</div>
+        </div>
+        <div class="stat-card-mini">
+          <div class="stat-icon-mini">❓</div>
+          <div class="stat-value-mini" id="nao-sei-count">0</div>
+          <div class="stat-label-mini">Não Sei</div>
+        </div>
+        <div class="stat-card-mini">
+          <div class="stat-icon-mini">⏭️</div>
+          <div class="stat-value-mini" id="skip-count">0</div>
+          <div class="stat-label-mini">Puladas</div>
+        </div>
+      </div>
+
+      <!-- Question Card -->
+      <div class="question-card" id="question-card">
+        <div class="question-header-quiz">
+          <div class="question-badges">
+            <span class="badge-quiz badge-tipo" id="question-type">Múltipla Escolha</span>
+            <span class="badge-quiz badge-dificuldade" id="question-difficulty">Médio</span>
+          </div>
+          <button class="btn-bookmark" id="bookmark-btn" onclick="toggleBookmark()">
+            <span id="bookmark-icon">☆</span>
+          </button>
+        </div>
+
+        <div class="question-text" id="question-text">
+          Carregando pergunta...
+        </div>
+
+        <div class="options-container-quiz" id="options-container">
+          <!-- Opções serão inseridas aqui -->
+        </div>
+
+        <!-- BOTÃO NÃO SEI (FASE 2) -->
+        <div class="nao-sei-container" id="nao-sei-container">
+          <button class="btn-nao-sei" id="nao-sei-btn" onclick="handleNaoSei()">
+            <span class="btn-nao-sei-icon">❓</span>
+            <span class="btn-nao-sei-text">NÃO SEI</span>
+          </button>
+          <p class="nao-sei-hint">Marque se não souber a resposta. Vamos ajudá-lo a aprender!</p>
+        </div>
+
+        <!-- Dica -->
+        <div class="hint-section" id="hint-section" style="display: none;">
+          <div class="hint-header">
+            <span class="hint-icon">💡</span>
+            <span class="hint-title">Dica</span>
+          </div>
+          <div class="hint-text" id="hint-text"></div>
+        </div>
+
+        <!-- Feedback -->
+        <div class="feedback-section" id="feedback-section" style="display: none;">
+          <div class="feedback-header">
+            <span class="feedback-icon" id="feedback-icon"></span>
+            <span class="feedback-title" id="feedback-title"></span>
+          </div>
+          <div class="feedback-text" id="feedback-text"></div>
+        </div>
+
+        <!-- Ações -->
+        <div class="question-actions">
+          <button class="btn btn-outline" id="hint-btn" onclick="showHint()">
+            💡 Ver Dica
+          </button>
+          <button class="btn btn-primary" id="next-btn" onclick="nextQuestion()" style="display: none;">
+            Próxima →
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Loading State -->
+  <div id="loading-state" class="loading-overlay" style="display: flex;">
+    <div class="loading-card">
+      <div class="spinner-circle"></div>
+      <h3>Carregando perguntas...</h3>
+      <p>Aguarde um momento</p>
+    </div>
+  </div>
+
+  <!-- Modal de Resultado -->
+  <div id="result-modal" class="modal" style="display: none;">
+    <div class="modal-content modal-lg">
+      <div class="modal-header">
+        <h2>🎉 Quiz Concluído!</h2>
+        <button class="modal-close" onclick="closeResultModal()">×</button>
+      </div>
+
+      <div class="result-content">
+        <!-- Score -->
+        <div class="result-score-section">
+          <div class="score-main">
+            <div class="score-percentage" id="final-percentage">0%</div>
+            <div class="score-label">de acerto</div>
+          </div>
+          <div class="score-details">
+            <div class="score-item score-correct">
+              <span class="score-number" id="final-correct">0</span>
+              <span class="score-text">Corretas</span>
+            </div>
+            <div class="score-item score-incorrect">
+              <span class="score-number" id="final-incorrect">0</span>
+              <span class="score-text">Incorretas</span>
+            </div>
+            <div class="score-item score-naosei">
+              <span class="score-number" id="final-naosei">0</span>
+              <span class="score-text">Não Sei</span>
+            </div>
+            <div class="score-item score-skip">
+              <span class="score-number" id="final-skip">0</span>
+              <span class="score-text">Puladas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Análise de Dificuldades (FASE 2) -->
+        <div class="dificuldades-analise" id="dificuldades-analise" style="display: none;">
+          <h3>📊 Análise das Suas Dificuldades</h3>
+          <div id="dificuldades-topicos"></div>
+          <div class="resumo-personalizado-cta">
+            <div class="cta-content">
+              <div class="cta-icon">🤖</div>
+              <div class="cta-text">
+                <h4>Resumo Personalizado Gerado!</h4>
+                <p>Criamos um resumo focado nos tópicos que você marcou como "não sei"</p>
+              </div>
+            </div>
+            <button class="btn btn-primary" onclick="verResumoPersonalizado()">
+              📝 Ver Resumo Personalizado
+            </button>
+          </div>
+        </div>
+
+        <!-- Ações -->
+        <div class="result-actions">
+          <button class="btn btn-outline" onclick="voltarMateria()">
+            🏠 Voltar para Matéria
+          </button>
+          <button class="btn btn-secondary" onclick="refazerQuiz()">
+            🔄 Refazer Quiz
+          </button>
+          <button class="btn btn-primary" onclick="estudarDificuldades()">
+            📚 Estudar Dificuldades
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/dificuldades.js"></script>
+  <script src="js/quiz-controller.js"></script>
+</body>
+</html>

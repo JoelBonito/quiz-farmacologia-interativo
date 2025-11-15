@@ -1,0 +1,673 @@
+/* ============================================
+   FLASHCARDS - ESTILOS (FASE 3)
+   ============================================ */
+
+/* Progress Section */
+.progress-section {
+  margin-bottom: 24px;
+}
+
+.progress-bar-flashcard {
+  width: 100%;
+  height: 8px;
+  background: var(--bg-hover, #F3F4F6);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.progress-fill-flashcard {
+  height: 100%;
+  background: linear-gradient(90deg, #8B5CF6, #EC4899);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+  width: 0%;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: var(--text-secondary, #6B7280);
+}
+
+#progress-percent {
+  font-weight: 600;
+  color: var(--primary, #8B5CF6);
+}
+
+/* Stats Cards */
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.stat-card-mini {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border, #E5E7EB);
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.stat-card-mini:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md, 0 4px 6px rgba(0, 0, 0, 0.1));
+}
+
+.stat-icon-mini {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.stat-value-mini {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary, #111827);
+  margin-bottom: 4px;
+}
+
+.stat-label-mini {
+  font-size: 12px;
+  color: var(--text-secondary, #6B7280);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ============================================
+   FLASHCARD 3D FLIP
+   ============================================ */
+
+.flashcard-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.flashcard-card {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  perspective: 1000px;
+  margin-bottom: 24px;
+}
+
+.flashcard-card.flipped .flashcard-front {
+  transform: rotateY(180deg);
+}
+
+.flashcard-card.flipped .flashcard-back {
+  transform: rotateY(0deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease;
+  background: white;
+  border-radius: 16px;
+  border: 2px solid var(--border, #E5E7EB);
+  box-shadow: var(--shadow-lg, 0 10px 15px rgba(0, 0, 0, 0.1));
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flashcard-front {
+  transform: rotateY(0deg);
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, #FDFCFB 0%, #F7F7FF 100%);
+}
+
+/* Card Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--border, #E5E7EB);
+}
+
+.card-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.badge-flashcard {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-tipo {
+  background: #E0E7FF;
+  color: #4338CA;
+}
+
+.badge-dificuldade {
+  background: #FEF3C7;
+  color: #92400E;
+}
+
+.badge-dificuldade.facil {
+  background: #D1FAE5;
+  color: #065F46;
+}
+
+.badge-dificuldade.dificil {
+  background: #FEE2E2;
+  color: #991B1B;
+}
+
+.btn-bookmark {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn-bookmark:hover {
+  transform: scale(1.2);
+}
+
+/* Card Content */
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary, #6B7280);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--text-primary, #111827);
+  text-align: center;
+}
+
+.card-hint {
+  background: #EFF6FF;
+  border-left: 4px solid #3B82F6;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-hint p {
+  margin: 0;
+  font-size: 14px;
+  color: #1E40AF;
+}
+
+/* Explanation Section */
+.card-explanation {
+  background: #F0FDF4;
+  border-left: 4px solid #10B981;
+  padding: 16px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.explanation-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.explanation-icon {
+  font-size: 20px;
+}
+
+.explanation-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #065F46;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.explanation-text {
+  font-size: 14px;
+  color: #047857;
+  line-height: 1.6;
+}
+
+/* Flip Button */
+.btn-flip {
+  width: 100%;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, #8B5CF6, #EC4899);
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.btn-flip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(139, 92, 246, 0.4);
+}
+
+.btn-flip:active {
+  transform: translateY(0);
+}
+
+/* ============================================
+   RESPONSE BUTTONS (AFTER FLIP)
+   ============================================ */
+
+.response-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+  animation: fadeInUp 0.4s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn-response {
+  padding: 20px 16px;
+  border: 2px solid var(--border, #E5E7EB);
+  border-radius: 12px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-response:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.response-icon {
+  font-size: 32px;
+}
+
+.response-text {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.response-desc {
+  font-size: 12px;
+  color: var(--text-secondary, #6B7280);
+}
+
+/* LEMBREI Button (Green - Positive) */
+.btn-lembrei {
+  border-color: #10B981;
+  background: linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 100%);
+}
+
+.btn-lembrei:hover {
+  border-color: #059669;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.25);
+}
+
+.btn-lembrei .response-text {
+  color: #065F46;
+}
+
+/* QUASE Button (Yellow - Warning) */
+.btn-quase {
+  border-color: #F59E0B;
+  background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+}
+
+.btn-quase:hover {
+  border-color: #D97706;
+  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.25);
+}
+
+.btn-quase .response-text {
+  color: #92400E;
+}
+
+/* NÃO SEI Button (Red - Emphasis) */
+.btn-nao-sei {
+  border-color: #EF4444;
+  background: linear-gradient(135deg, #FEE2E2 0%, #FECACA 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-nao-sei::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(239, 68, 68, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn-nao-sei:hover::before {
+  left: 100%;
+}
+
+.btn-nao-sei:hover {
+  border-color: #DC2626;
+  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.25);
+}
+
+.btn-nao-sei .response-text {
+  color: #991B1B;
+}
+
+.btn-nao-sei .response-icon {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Skip Container */
+.skip-container {
+  text-align: center;
+}
+
+/* ============================================
+   RESULT MODAL
+   ============================================ */
+
+.modal-lg {
+  max-width: 700px;
+}
+
+.result-content {
+  padding: 24px;
+}
+
+.result-score-section {
+  margin-bottom: 32px;
+}
+
+.score-main {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.score-percentage {
+  font-size: 64px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #8B5CF6, #EC4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.score-label {
+  font-size: 16px;
+  color: var(--text-secondary, #6B7280);
+  margin-top: 8px;
+}
+
+.score-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.score-item {
+  text-align: center;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.score-lembrei {
+  background: #D1FAE5;
+}
+
+.score-quase {
+  background: #FEF3C7;
+}
+
+.score-naosei {
+  background: #FEE2E2;
+}
+
+.score-skip {
+  background: var(--bg-hover, #F3F4F6);
+}
+
+.score-number {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.score-lembrei .score-number {
+  color: #10B981;
+}
+
+.score-quase .score-number {
+  color: #F59E0B;
+}
+
+.score-naosei .score-number {
+  color: #EF4444;
+}
+
+.score-skip .score-number {
+  color: var(--text-secondary, #6B7280);
+}
+
+.score-text {
+  font-size: 13px;
+  color: var(--text-secondary, #6B7280);
+}
+
+/* Análise de Dificuldades */
+.dificuldades-analise {
+  background: var(--bg-hover, #F3F4F6);
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.dificuldades-analise h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.resumo-personalizado-cta {
+  background: linear-gradient(135deg, #8B5CF6, #EC4899);
+  color: white;
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.cta-content {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.cta-icon {
+  font-size: 48px;
+}
+
+.cta-text h4 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.cta-text p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.resumo-personalizado-cta .btn {
+  width: 100%;
+  background: white;
+  color: #8B5CF6;
+  font-weight: 700;
+}
+
+.resumo-personalizado-cta .btn:hover {
+  background: #F3F4F6;
+}
+
+/* Result Actions */
+.result-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.result-actions .btn {
+  flex: 1;
+}
+
+/* Tópicos de Dificuldade */
+#dificuldades-topicos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.topico-dificuldade-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+}
+
+.topico-icone {
+  font-size: 24px;
+}
+
+.topico-info {
+  flex: 1;
+}
+
+.topico-nome {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+.topico-meta {
+  font-size: 13px;
+  color: var(--text-secondary, #6B7280);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+  .stats-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .flashcard-card {
+    height: 450px;
+  }
+
+  .flashcard-face {
+    padding: 24px;
+  }
+
+  .card-text {
+    font-size: 18px;
+  }
+
+  .response-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .score-details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .result-actions {
+    flex-direction: column;
+  }
+
+  .score-percentage {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .flashcard-card {
+    height: 400px;
+  }
+
+  .flashcard-face {
+    padding: 20px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+
+  .btn-response {
+    padding: 16px 12px;
+  }
+
+  .response-icon {
+    font-size: 28px;
+  }
+
+  .response-text {
+    font-size: 14px;
+  }
+}

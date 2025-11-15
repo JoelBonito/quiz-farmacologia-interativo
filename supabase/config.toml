@@ -1,0 +1,5 @@
+[project]
+project_id = "tpwkthafekcmhbcxvupd"
+
+[functions.process-with-gemini]
+verify_jwt = true

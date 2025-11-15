@@ -1,6 +1,7 @@
 /* ============================================
    RESET E VARIÁVEIS
    ============================================ */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,51 +9,34 @@
 }
 
 :root {
-  /* Cores principais */
-  --primary: #3B82F6;
-  --primary-dark: #2563EB;
-  --primary-light: #60A5FA;
-
-  --secondary: #6B7280;
-  --success: #10B981;
-  --error: #EF4444;
-  --warning: #F59E0B;
-
-  /* Backgrounds */
-  --bg-main: #F9FAFB;
-  --bg-card: #FFFFFF;
-  --bg-input: #F3F4F6;
-
-  /* Texto */
-  --text-primary: #111827;
-  --text-secondary: #6B7280;
-  --text-muted: #9CA3AF;
-
-  /* Bordas */
-  --border: #E5E7EB;
-  --border-focus: var(--primary);
-
-  /* Sombras */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
-
-  /* Transições */
-  --transition: all 0.2s ease;
+  --primary: #667eea;
+  --primary-dark: #5568d3;
+  --secondary: #764ba2;
+  --success: #10b981;
+  --error: #ef4444;
+  --warning: #f59e0b;
+  --text: #1f2937;
+  --text-light: #6b7280;
+  --bg: #f9fafb;
+  --white: #ffffff;
+  --border: #e5e7eb;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 /* ============================================
-   LAYOUT GERAL
+   BODY E CONTAINER
    ============================================ */
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  color: var(--text-primary);
+  color: var(--text);
 }
 
 .auth-container {
@@ -61,7 +45,7 @@ body {
 }
 
 .auth-card {
-  background: var(--bg-card);
+  background: var(--white);
   border-radius: 16px;
   box-shadow: var(--shadow-lg);
   padding: 40px;
@@ -71,6 +55,7 @@ body {
 /* ============================================
    HEADER
    ============================================ */
+
 .auth-header {
   text-align: center;
   margin-bottom: 32px;
@@ -78,61 +63,63 @@ body {
 
 .auth-header h1 {
   font-size: 28px;
-  font-weight: 700;
-  color: var(--text-primary);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .auth-header p {
+  color: var(--text-light);
   font-size: 14px;
-  color: var(--text-secondary);
 }
 
 /* ============================================
    TABS
    ============================================ */
+
 .auth-tabs {
   display: flex;
   gap: 8px;
-  margin-bottom: 24px;
-  background: var(--bg-input);
+  margin-bottom: 32px;
+  background: var(--bg);
   padding: 4px;
   border-radius: 8px;
 }
 
 .tab-btn {
   flex: 1;
-  padding: 10px 16px;
+  padding: 12px;
   border: none;
   background: transparent;
-  color: var(--text-secondary);
+  color: var(--text-light);
   font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
+  font-weight: 500;
   border-radius: 6px;
-  transition: var(--transition);
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
 .tab-btn:hover {
-  color: var(--text-primary);
+  background: rgba(102, 126, 234, 0.1);
+  color: var(--primary);
 }
 
 .tab-btn.active {
-  background: white;
+  background: var(--white);
   color: var(--primary);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow);
 }
 
 /* ============================================
    TAB CONTENT
    ============================================ */
+
 .tab-content {
   display: none;
 }
 
 .tab-content.active {
   display: block;
-  animation: fadeIn 0.3s ease;
+  animation: fadeIn 0.3s ease-in;
 }
 
 @keyframes fadeIn {
@@ -147,18 +134,19 @@ body {
 }
 
 /* ============================================
-   FORMS
+   FORM
    ============================================ */
+
 .form-group {
   margin-bottom: 20px;
 }
 
 .form-group label {
   display: block;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-primary);
   margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
 }
 
 .form-group input {
@@ -167,24 +155,23 @@ body {
   border: 2px solid var(--border);
   border-radius: 8px;
   font-size: 14px;
-  background: var(--bg-input);
-  color: var(--text-primary);
-  transition: var(--transition);
+  transition: all 0.2s;
+  outline: none;
 }
 
 .form-group input:focus {
-  outline: none;
-  border-color: var(--border-focus);
-  background: white;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
 .form-group input::placeholder {
-  color: var(--text-muted);
+  color: var(--text-light);
 }
 
 /* ============================================
    BUTTONS
    ============================================ */
+
 .btn {
   width: 100%;
   padding: 12px 24px;
@@ -193,22 +180,18 @@ body {
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  transition: var(--transition);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  transition: all 0.2s;
+  margin-top: 8px;
 }
 
 .btn-primary {
-  background: var(--primary);
-  color: white;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: var(--white);
 }
 
 .btn-primary:hover {
-  background: var(--primary-dark);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 .btn-primary:active {
@@ -216,14 +199,14 @@ body {
 }
 
 .btn-primary:disabled {
-  background: var(--secondary);
+  opacity: 0.6;
   cursor: not-allowed;
   transform: none;
 }
 
 .btn-secondary {
-  background: var(--bg-input);
-  color: var(--text-primary);
+  background: var(--bg);
+  color: var(--text);
 }
 
 .btn-secondary:hover {
@@ -233,6 +216,7 @@ body {
 /* ============================================
    FORM FOOTER
    ============================================ */
+
 .form-footer {
   margin-top: 20px;
   text-align: center;
@@ -250,13 +234,14 @@ body {
 }
 
 .form-footer small {
-  color: var(--text-muted);
+  color: var(--text-light);
   font-size: 12px;
 }
 
 /* ============================================
    MODAL
    ============================================ */
+
 .modal {
   position: fixed;
   top: 0;
@@ -272,40 +257,39 @@ body {
 }
 
 .modal-content {
-  background: white;
+  background: var(--white);
   padding: 32px;
-  border-radius: 12px;
+  border-radius: 16px;
   max-width: 400px;
   width: 100%;
   box-shadow: var(--shadow-lg);
 }
 
 .modal-content h3 {
-  font-size: 20px;
-  margin-bottom: 12px;
-  color: var(--text-primary);
+  margin-bottom: 16px;
+  color: var(--text);
 }
 
 .modal-content p {
+  margin-bottom: 24px;
+  color: var(--text-light);
   font-size: 14px;
-  color: var(--text-secondary);
-  margin-bottom: 20px;
 }
 
 .modal-actions {
   display: flex;
   gap: 12px;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .modal-actions .btn {
-  width: auto;
-  flex: 1;
+  margin-top: 0;
 }
 
 /* ============================================
    LOADING SPINNER
    ============================================ */
+
 .spinner {
   position: absolute;
   top: 0;
@@ -317,7 +301,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 16px;
-  z-index: 10;
+  z-index: 100;
 }
 
 .spinner-circle {
@@ -338,29 +322,30 @@ body {
 /* ============================================
    MESSAGES
    ============================================ */
+
 #message-container {
   position: fixed;
   top: 20px;
   right: 20px;
   z-index: 2000;
-  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .message {
-  background: white;
   padding: 16px 20px;
   border-radius: 8px;
   box-shadow: var(--shadow-lg);
-  margin-bottom: 12px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  animation: slideIn 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
+  animation: slideIn 0.3s ease-out;
+  min-width: 300px;
 }
 
 @keyframes slideIn {
   from {
-    transform: translateX(100%);
+    transform: translateX(400px);
     opacity: 0;
   }
   to {
@@ -369,45 +354,30 @@ body {
   }
 }
 
-.message.success {
-  border-left: 4px solid var(--success);
+.message-success {
+  background: var(--success);
+  color: var(--white);
 }
 
-.message.error {
-  border-left: 4px solid var(--error);
+.message-error {
+  background: var(--error);
+  color: var(--white);
 }
 
-.message.warning {
-  border-left: 4px solid var(--warning);
+.message-warning {
+  background: var(--warning);
+  color: var(--white);
 }
 
-.message-icon {
-  font-size: 20px;
-}
-
-.message-text {
-  flex: 1;
-  font-size: 14px;
-  color: var(--text-primary);
-}
-
-.message-close {
-  background: none;
-  border: none;
-  font-size: 20px;
-  color: var(--text-muted);
-  cursor: pointer;
-  padding: 0;
-  line-height: 1;
-}
-
-.message-close:hover {
-  color: var(--text-primary);
+.message-info {
+  background: var(--primary);
+  color: var(--white);
 }
 
 /* ============================================
    RESPONSIVE
    ============================================ */
+
 @media (max-width: 480px) {
   .auth-card {
     padding: 24px;
@@ -420,6 +390,9 @@ body {
   #message-container {
     left: 20px;
     right: 20px;
-    max-width: none;
+  }
+
+  .message {
+    min-width: auto;
   }
 }

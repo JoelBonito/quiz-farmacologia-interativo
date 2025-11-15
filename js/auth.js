@@ -1,133 +1,103 @@
 // ============================================
-// AUTENTICAÇÃO - LÓGICA DA PÁGINA
+// AUTENTICAÇÃO
 // ============================================
 
-// Elementos DOM
-let loginForm, registerForm, resetForm;
-let loginBtn, registerBtn;
-let loadingSpinner, messageContainer;
-let resetModal;
+// DOM Elements
+const loginForm = document.getElementById('login-form');
+const registerForm = document.getElementById('register-form');
+const resetForm = document.getElementById('reset-form');
+const tabBtns = document.querySelectorAll('.tab-btn');
+const forgotPasswordLink = document.getElementById('forgot-password-link');
+const cancelResetBtn = document.getElementById('cancel-reset-btn');
+const resetModal = document.getElementById('reset-modal');
+const loadingSpinner = document.getElementById('loading-spinner');
+const messageContainer = document.getElementById('message-container');
 
-// Inicializar quando a página carregar
-document.addEventListener('DOMContentLoaded', async () => {
-  // Garantir que o Supabase esteja inicializado primeiro
-  initSupabase();
+// ============================================
+// FUNÇÕES AUXILIARES
+// ============================================
 
-  initializeElements();
-  setupEventListeners();
-  setupAuthListener();
-  await checkIfAlreadyLoggedIn();
+function showLoading(show) {
+  loadingSpinner.style.display = show ? 'flex' : 'none';
+}
+
+function showMessage(message, type = 'info') {
+  const messageEl = document.createElement('div');
+  messageEl.className = `message message-${type}`;
+  messageEl.textContent = message;
+  messageContainer.appendChild(messageEl);
+
+  setTimeout(() => {
+    messageEl.remove();
+  }, 5000);
+}
+
+function disableForm(formEl, disabled) {
+  const inputs = formEl.querySelectorAll('input, button');
+  inputs.forEach(input => input.disabled = disabled);
+}
+
+// ============================================
+// TROCA DE ABAS
+// ============================================
+
+tabBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const targetTab = btn.dataset.tab;
+
+    // Atualizar botões
+    tabBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Atualizar conteúdo
+    document.querySelectorAll('.tab-content').forEach(content => {
+      content.classList.remove('active');
+    });
+    document.getElementById(`${targetTab}-tab`).classList.add('active');
+  });
 });
 
 // ============================================
-// INICIALIZAÇÃO
+// LOGIN
 // ============================================
 
-function initializeElements() {
-  // Forms
-  loginForm = document.getElementById('login-form');
-  registerForm = document.getElementById('register-form');
-  resetForm = document.getElementById('reset-form');
-
-  // Buttons
-  loginBtn = document.getElementById('login-btn');
-  registerBtn = document.getElementById('register-btn');
-
-  // UI Elements
-  loadingSpinner = document.getElementById('loading-spinner');
-  messageContainer = document.getElementById('message-container');
-  resetModal = document.getElementById('reset-modal');
-}
-
-function setupEventListeners() {
-  // Tab switching
-  document.querySelectorAll('.tab-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => switchTab(e.target.dataset.tab));
-  });
-
-  // Forms
-  loginForm.addEventListener('submit', handleLogin);
-  registerForm.addEventListener('submit', handleRegister);
-  resetForm.addEventListener('submit', handleResetPassword);
-
-  // Password reset modal
-  document.getElementById('forgot-password-link').addEventListener('click', (e) => {
-    e.preventDefault();
-    showResetModal();
-  });
-
-  document.getElementById('cancel-reset-btn').addEventListener('click', hideResetModal);
-
-  // Click outside modal to close
-  resetModal.addEventListener('click', (e) => {
-    if (e.target === resetModal) hideResetModal();
-  });
-}
-
-// ============================================
-// TAB SWITCHING
-// ============================================
-
-function switchTab(tabName) {
-  // Update tab buttons
-  document.querySelectorAll('.tab-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.tab === tabName);
-  });
-
-  // Update tab content
-  document.querySelectorAll('.tab-content').forEach(content => {
-    content.classList.toggle('active', content.id === `${tabName}-tab`);
-  });
-}
-
-// ============================================
-// AUTHENTICATION HANDLERS
-// ============================================
-
-async function handleLogin(e) {
+loginForm.addEventListener('submit', async (e) => {
   e.preventDefault();
-
+  
   const email = document.getElementById('login-email').value.trim();
   const password = document.getElementById('login-password').value;
 
-  if (!email || !password) {
-    showMessage('Por favor, preencha todos os campos', 'error');
-    return;
-  }
+  showLoading(true);
+  disableForm(loginForm, true);
 
   try {
-    showLoading(true);
-    loginBtn.disabled = true;
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email,
+      password
+    });
 
-    const data = await signIn(email, password);
+    if (error) throw error;
 
-    showMessage('Login realizado com sucesso!', 'success');
-
-    // Redirecionar para dashboard
+    showMessage('Login realizado com sucesso! Redirecionando...', 'success');
+    
     setTimeout(() => {
       window.location.href = 'dashboard.html';
     }, 1000);
 
   } catch (error) {
     console.error('Erro no login:', error);
-
-    let errorMessage = 'Erro ao fazer login. Verifique suas credenciais.';
-
-    if (error.message.includes('Invalid login credentials')) {
-      errorMessage = 'E-mail ou senha incorretos.';
-    } else if (error.message.includes('Email not confirmed')) {
-      errorMessage = 'Por favor, confirme seu e-mail antes de fazer login.';
-    }
-
-    showMessage(errorMessage, 'error');
-
+    showMessage(error.message || 'Erro ao fazer login. Verifique suas credenciais.', 'error');
   } finally {
     showLoading(false);
-    loginBtn.disabled = false;
+    disableForm(loginForm, false);
   }
-}
+});
 
-async function handleRegister(e) {
+// ============================================
+// REGISTRO
+// ============================================
+
+registerForm.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const name = document.getElementById('register-name').value.trim();
@@ -135,155 +105,106 @@ async function handleRegister(e) {
   const password = document.getElementById('register-password').value;
   const passwordConfirm = document.getElementById('register-password-confirm').value;
 
-  // Validações
-  if (!name || !email || !password || !passwordConfirm) {
-    showMessage('Por favor, preencha todos os campos', 'error');
+  // Validação
+  if (password !== passwordConfirm) {
+    showMessage('As senhas não coincidem!', 'error');
     return;
   }
 
   if (password.length < 6) {
-    showMessage('A senha deve ter no mínimo 6 caracteres', 'error');
+    showMessage('A senha deve ter no mínimo 6 caracteres!', 'error');
     return;
   }
 
-  if (password !== passwordConfirm) {
-    showMessage('As senhas não coincidem', 'error');
-    return;
-  }
+  showLoading(true);
+  disableForm(registerForm, true);
 
   try {
-    showLoading(true);
-    registerBtn.disabled = true;
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        data: {
+          name: name
+        }
+      }
+    });
 
-    const data = await signUp(email, password, { full_name: name });
+    if (error) throw error;
 
-    showMessage('Conta criada com sucesso! Verifique seu e-mail para confirmar.', 'success');
-
-    // Limpar formulário
-    registerForm.reset();
-
-    // Trocar para tab de login após 2 segundos
+    showMessage('Conta criada com sucesso! Redirecionando...', 'success');
+    
     setTimeout(() => {
-      switchTab('login');
-    }, 2000);
+      window.location.href = 'dashboard.html';
+    }, 1000);
 
   } catch (error) {
     console.error('Erro no registro:', error);
-
-    let errorMessage = 'Erro ao criar conta. Tente novamente.';
-
-    if (error.message.includes('already registered')) {
-      errorMessage = 'Este e-mail já está cadastrado.';
-    } else if (error.message.includes('Invalid email')) {
-      errorMessage = 'E-mail inválido.';
-    }
-
-    showMessage(errorMessage, 'error');
-
+    showMessage(error.message || 'Erro ao criar conta. Tente novamente.', 'error');
   } finally {
     showLoading(false);
-    registerBtn.disabled = false;
+    disableForm(registerForm, false);
   }
-}
+});
 
-async function handleResetPassword(e) {
+// ============================================
+// RECUPERAÇÃO DE SENHA
+// ============================================
+
+forgotPasswordLink.addEventListener('click', (e) => {
+  e.preventDefault();
+  resetModal.style.display = 'flex';
+});
+
+cancelResetBtn.addEventListener('click', () => {
+  resetModal.style.display = 'none';
+  resetForm.reset();
+});
+
+resetForm.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const email = document.getElementById('reset-email').value.trim();
 
-  if (!email) {
-    showMessage('Por favor, digite seu e-mail', 'error');
-    return;
-  }
+  showLoading(true);
+  disableForm(resetForm, true);
 
   try {
-    showLoading(true);
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}/reset-password.html`
+    });
 
-    await resetPassword(email);
+    if (error) throw error;
 
-    showMessage('E-mail de recuperação enviado! Verifique sua caixa de entrada.', 'success');
-
-    hideResetModal();
+    showMessage('Link de recuperação enviado! Verifique seu e-mail.', 'success');
+    resetModal.style.display = 'none';
     resetForm.reset();
 
   } catch (error) {
-    console.error('Erro ao resetar senha:', error);
-    showMessage('Erro ao enviar e-mail de recuperação. Tente novamente.', 'error');
-
+    console.error('Erro ao recuperar senha:', error);
+    showMessage(error.message || 'Erro ao enviar link de recuperação.', 'error');
   } finally {
     showLoading(false);
+    disableForm(resetForm, false);
   }
-}
+});
+
+// Fechar modal ao clicar fora
+resetModal.addEventListener('click', (e) => {
+  if (e.target === resetModal) {
+    resetModal.style.display = 'none';
+    resetForm.reset();
+  }
+});
 
 // ============================================
 // VERIFICAR SE JÁ ESTÁ LOGADO
 // ============================================
 
-async function checkIfAlreadyLoggedIn() {
-  try {
-    const user = await getCurrentUser();
-
-    if (user) {
-      // Usuário já está logado, redirecionar
-      window.location.href = 'dashboard.html';
-    }
-  } catch (error) {
-    // Não está logado, tudo certo
-    console.log('Usuário não autenticado');
+(async () => {
+  const { data: { user } } = await supabase.auth.getUser();
+  
+  if (user) {
+    window.location.href = 'dashboard.html';
   }
-}
-
-// ============================================
-// UI HELPERS
-// ============================================
-
-function showLoading(show) {
-  loadingSpinner.style.display = show ? 'flex' : 'none';
-}
-
-function showResetModal() {
-  resetModal.style.display = 'flex';
-}
-
-function hideResetModal() {
-  resetModal.style.display = 'none';
-}
-
-function showMessage(text, type = 'info') {
-  const message = document.createElement('div');
-  message.className = `message ${type}`;
-
-  const icon = type === 'success' ? '✓' : type === 'error' ? '✕' : 'ℹ';
-
-  message.innerHTML = `
-    <span class="message-icon">${icon}</span>
-    <span class="message-text">${text}</span>
-    <button class="message-close" onclick="this.parentElement.remove()">×</button>
-  `;
-
-  messageContainer.appendChild(message);
-
-  // Auto-remover após 5 segundos
-  setTimeout(() => {
-    if (message.parentElement) {
-      message.remove();
-    }
-  }, 5000);
-}
-
-// ============================================
-// LISTENER DE ESTADO DE AUTENTICAÇÃO
-// ============================================
-
-function setupAuthListener() {
-  onAuthStateChange((event, session) => {
-    console.log('Auth state changed:', event, session);
-
-    if (event === 'SIGNED_IN') {
-      // Redirecionar para dashboard após login
-      setTimeout(() => {
-        window.location.href = 'dashboard.html';
-      }, 500);
-    }
-  });
-}
+})();

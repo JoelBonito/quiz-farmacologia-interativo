@@ -12,6 +12,7 @@ let resetModal;
 document.addEventListener('DOMContentLoaded', async () => {
   initializeElements();
   setupEventListeners();
+  setupAuthListener();
   await checkIfAlreadyLoggedIn();
 });
 
@@ -271,13 +272,15 @@ function showMessage(text, type = 'info') {
 // LISTENER DE ESTADO DE AUTENTICAÇÃO
 // ============================================
 
-onAuthStateChange((event, session) => {
-  console.log('Auth state changed:', event, session);
+function setupAuthListener() {
+  onAuthStateChange((event, session) => {
+    console.log('Auth state changed:', event, session);
 
-  if (event === 'SIGNED_IN') {
-    // Redirecionar para dashboard após login
-    setTimeout(() => {
-      window.location.href = 'dashboard.html';
-    }, 500);
-  }
-});
+    if (event === 'SIGNED_IN') {
+      // Redirecionar para dashboard após login
+      setTimeout(() => {
+        window.location.href = 'dashboard.html';
+      }, 500);
+    }
+  });
+}

@@ -9,8 +9,8 @@ const CONFIG = {
   SUPABASE_URL: 'https://tpwkthafekcmhbcxvupd.supabase.co',
   SUPABASE_ANON_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwd2t0aGFmZWtjbWhiY3h2dXBkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4MzQ0MzgsImV4cCI6MjA3ODQxMDQzOH0.wDhuSojrGSluGc0eU-Y9isqYtf2J8OtwIccAhiu1TWc',
 
-  // Gemini AI
-  GEMINI_API_KEY: 'AIzaSyDIXaLmfhpN5l2HDi0bCy6EWtRsXkJW-LE',
+  // Edge Functions
+  EDGE_FUNCTION_PROCESS_GEMINI: 'https://tpwkthafekcmhbcxvupd.supabase.co/functions/v1/process-with-gemini',
 
   // Storage
   STORAGE_BUCKET: 'materias-arquivos',
@@ -29,7 +29,6 @@ const CONFIG = {
   ALLOWED_EXTENSIONS: ['pdf', 'txt', 'md', 'jpg', 'jpeg', 'png'],
 
   // IA
-  GEMINI_MODEL: 'gemini-1.5-flash', // Mais rápido e barato para MVP
   MAX_QUESTIONS_PER_FILE: 50, // Quantas perguntas gerar por arquivo
 
   // UI
@@ -44,10 +43,6 @@ const CONFIG = {
 // Validação
 if (!CONFIG.SUPABASE_URL || !CONFIG.SUPABASE_ANON_KEY) {
   console.error('❌ Configurações do Supabase não encontradas!');
-}
-
-if (!CONFIG.GEMINI_API_KEY) {
-  console.warn('⚠️ Chave da API Gemini não configurada. Processamento de IA não funcionará.');
 }
 
 // Exportar configurações
